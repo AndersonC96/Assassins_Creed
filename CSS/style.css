@@ -1,0 +1,36 @@
+body{
+    background-color: #211714;
+    color: #fc9b70;
+    font-family: 'Cinzel', serif;
+}
+.nav-link, .video-control{
+    background-color: #fc9b70;
+    color: #211714;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav-link:hover, .video-control:hover{
+    background-color: #211714;
+    color: #fc9b70;
+}
+.header, .video-container{
+    background: linear-gradient(90deg, #211714 0%, #fc9b70 100%);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #fc9b70;
+}
+.video-container{
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+video{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
