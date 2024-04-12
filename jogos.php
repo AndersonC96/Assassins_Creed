@@ -55,16 +55,15 @@
             <a href="database.php" class="nav-link">Banco de Dados</a>
         </nav>
         <div class="game-list">
-            <?php
-                date_default_timezone_set('UTC');
-                foreach ($games as $game):
-            ?>
-            <div class="game-card">
-                <img src="<?= isset($game['cover']['url']) ? $game['cover']['url'] : 'path/to/default/cover.jpg'; ?>" alt="Game Cover">
-                <h3><b><?= htmlspecialchars($game['name']) ?></b></h3>
-                <p><?= isset($game['summary']) ? htmlspecialchars($game['summary']) : 'No summary available'; ?></p>
-            </div>
-            <?php endforeach; ?>
-        </div>
+    <?php foreach ($games as $game): ?>
+    <div class="game-card">
+        <img src="<?= isset($game['cover']['url']) ? $game['cover']['url'] : 'path/to/default/cover.jpg'; ?>" alt="Game Cover">
+        <h3><?= htmlspecialchars($game['name']) ?></h3>
+        <p><?= isset($game['summary']) ? htmlspecialchars($game['summary']) : 'No summary available'; ?></p>
+        <a href="game_details.php?game_id=<?= $game['id']; ?>" class="exibir-mais-btn">Exibir Mais</a> <!-- Botão Exibir Mais -->
+    </div>
+    <?php endforeach; ?>
+</div>
+
     </body>
 </html>
