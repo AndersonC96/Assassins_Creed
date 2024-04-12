@@ -1,3 +1,13 @@
+@media(max-width: 768px){
+    .game-card{
+        width: calc(50% - 20px);
+    }
+}
+@media(max-width: 480px){
+    .game-card{
+        width: 100%;
+    }
+}
 body{
     background-color: #211714;
     color: #fc9b70;
@@ -36,8 +46,10 @@ video{
 }
 .game-card{
     background: linear-gradient(90deg, #211714 0%, #fc9b70 100%);
-    margin: 10px;
+    width: calc(33.333% - 20px);
+    /*margin: 10px;*/
     padding: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     color: #fc9b70;
@@ -58,4 +70,5 @@ video{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
