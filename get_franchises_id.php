@@ -11,7 +11,7 @@
             "Accept: application/json"
         ],
         CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => "fields name, franchises; where name = \"Assassin's Creed Odyssey\"; limit 1;"
+        CURLOPT_POSTFIELDS => "fields name, franchises, collections, first_release_date, created_at; where name = \"Assassin's Creed Odyssey\"; limit 1;"
     ]);
     $response = curl_exec($curl);
     $err = curl_error($curl);
