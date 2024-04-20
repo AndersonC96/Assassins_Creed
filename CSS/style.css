@@ -59,9 +59,9 @@ video{
     text-align: center;
 }
 .game-card img{
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    max-width: 150%;
+    border-radius: 16px;
+    margin-bottom: 20px;
 }
 .game-card h3{
     color: #ffffff;
@@ -85,4 +85,11 @@ video{
 .exibir-mais-btn:hover{
     background-color: #211714;
     color: #fc9b70;
+}
+.detail-card img{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
 }
