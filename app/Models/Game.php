@@ -21,7 +21,7 @@ class Game
     private array $categories = [
         'principal' => [
             'titulo' => 'Série Principal',
-            'desc' => 'Os títulos principais da saga Assassin\'s Creed',
+            'desc' => 'Os títulos principais da saga',
             'ids' => [128, 127, 113, 537, 1266, 1970, 7570, 5606, 8263, 28540, 103054, 133004, 215060, 300976]
         ],
         'spinoffs' => [

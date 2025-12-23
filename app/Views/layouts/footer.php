@@ -16,9 +16,9 @@ $baseUrl = $this->config('app.url');
 <!-- Footer -->
 <footer class="site-footer">
     <div class="footer-content">
-        <img src="ttps://purepng.com/public/uploads/large/71502582544mhfduaiq0ewor7uzuho0txqimxxjbd5btxseylkm61vnpxcbmcjfhjl606crojnnwwxtfogdtqkmmceyockcjdtv0e8ctxer5dg7.png" alt="AC Logo" class="ac-symbol">
+        <img src="https://purepng.com/public/uploads/large/71502582544mhfduaiq0ewor7uzuho0txqimxxjbd5btxseylkm61vnpxcbmcjfhjl606crojnnwwxtfogdtqkmmceyockcjdtv0e8ctxer5dg7.png" alt="AC Logo" class="footer-ac-logo">
         <div class="footer-logo">Animus <span>Database</span></div>
-        <div class="footer-taglaaaine">"Nothing is true, everything is permitted."</div>
+        <div class="footer-tagline">"Nothing is true, everything is permitted."</div>
         <nav class="footer-nav">
             <a href="<?= $baseUrl ?>/">Home</a>
             <a href="<?= $baseUrl ?>/games">Jogos</a>
@@ -30,7 +30,7 @@ $baseUrl = $this->config('app.url');
             Desenvolvido por <a href="https://www.linkedin.com/in/andersoncavalcante96/" target="_blank">Anderson Cavalcante</a><br>
             Dados via <a href="https://www.igdb.com/" target="_blank">IGDB API</a>. Assassin's Creed © Ubisoft.
         </div>
-        </img>
+    </div>
 </footer>
 
 </div><!-- /.container -->
