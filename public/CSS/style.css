@@ -1224,3 +1224,96 @@ button:focus {
 }
 
 @keyframes blink { 50% { opacity: 0; } }
+
+/* ============ NAVIGATION CARDS FIX ============ */
+a.card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+a.card:hover {
+    border-color: var(--accent-red);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card-icon {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgba(255,255,255,0.9);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    transition: all 0.4s;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.card:hover .card-icon {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.gradient-1 { background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); } /* JOGOS */
+.gradient-2 { background: linear-gradient(135deg, #000428, #004e92); } /* PERSONAGENS */
+.gradient-3 { background: linear-gradient(135deg, #4b6cb7, #182848); } /* TIMELINE */
+.gradient-4 { background: linear-gradient(135deg, #2C3E50, #FD746C); } /* MEDIA */
+
+.card-content {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card h3 {
+    color: var(--accent-red);
+    margin-bottom: 0.5em;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.card p {
+    font-size: 0.85rem;
+    color: #444;
+    margin-bottom: 1.5em;
+    flex-grow: 1;
+    line-height: 1.5;
+}
+
+.btn-text {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 0.1em;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    align-self: flex-start;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.btn-text::after {
+    content: '\F138'; /* bi-chevron-right */
+    font-family: 'bootstrap-icons';
+    font-size: 0.8em;
+}
+
+.card:hover .btn-text {
+    color: var(--accent-red);
+    border-bottom-color: var(--accent-red);
+}
+
+/* Fix CSS grid gap if needed */
+.cards-grid {
+    gap: 2em;
+}
+
