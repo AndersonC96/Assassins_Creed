@@ -89,9 +89,9 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
             
             <div class="controls-spacer"></div>
             
-            <div class="animus-status">
-                <span class="status-dot"></span>
-                SYNC_STABLE
+            <div class="animus-status" id="animusStatus" style="color: #ff0000;">
+                <span class="status-dot" style="background-color: #ff0000; box-shadow: 0 0 5px #ff0000;"></span>
+                SYNC_UNSTABLE
             </div>
             
             <button class="control-btn" id="speedBtn" aria-label="Speed" style="width: auto; min-width: 40px; font-size: 0.8rem; letter-spacing: 0;">
@@ -168,8 +168,20 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
     const overlay = document.getElementById('videoOverlay');
     const progressFill = document.querySelector('.progress-fill');
     const currentTimeEl = document.getElementById('currentTime');
+
     const durationEl = document.getElementById('duration');
     const videoContainer = document.getElementById('videoContainer');
+    const statusEl = document.getElementById('animusStatus');
+    
+    function updateSyncStatus(isStable) {
+        if (isStable) {
+            statusEl.innerHTML = '<span class="status-dot" style="background-color: #00ff00; box-shadow: 0 0 10px #00ff00;"></span> SYNC_STABLE';
+            statusEl.style.color = '#00ff00';
+        } else {
+            statusEl.innerHTML = '<span class="status-dot" style="background-color: #ff0000; box-shadow: 0 0 5px #ff0000;"></span> SYNC_UNSTABLE';
+            statusEl.style.color = '#ff0000';
+        }
+    }
 
     function formatTime(seconds) {
         const min = Math.floor(seconds / 60);
@@ -198,6 +210,7 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
             setTimeout(() => overlay.style.display = 'none', 500);
             video.play();
             playBtn.innerHTML = '<i class="bi bi-pause-fill"></i>';
+            updateSyncStatus(true);
         });
         
         // Controls
@@ -205,9 +218,11 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
             if (video.paused) {
                 video.play();
                 playBtn.innerHTML = '<i class="bi bi-pause-fill"></i>';
+                updateSyncStatus(true);
             } else {
                 video.pause();
                 playBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
+                updateSyncStatus(false);
             }
         });
         
@@ -256,11 +271,17 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
                 overlay.style.opacity = '0';
                 setTimeout(() => overlay.style.display = 'none', 500);
                 player.playVideo();
+                updateSyncStatus(true);
             });
             
             playBtn.addEventListener('click', function() {
-                if (player.getPlayerState() == 1) player.pauseVideo();
-                else player.playVideo();
+                if (player.getPlayerState() == 1) {
+                    player.pauseVideo();
+                    updateSyncStatus(false);
+                } else {
+                    player.playVideo();
+                    updateSyncStatus(true);
+                }
             });
 
             // Speed Control for YouTube
@@ -290,8 +311,10 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
         function onYtStateChange(event) {
             if (event.data == YT.PlayerState.PLAYING) {
                 playBtn.innerHTML = '<i class="bi bi-pause-fill"></i>';
+                updateSyncStatus(true);
             } else {
                 playBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
+                updateSyncStatus(false);
             }
         }
     }
