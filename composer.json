@@ -1,0 +1,13 @@
+{
+    "name": "ac-database/portal",
+    "description": "Assassin's Creed Database - Portal MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
