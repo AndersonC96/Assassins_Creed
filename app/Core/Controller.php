@@ -62,11 +62,11 @@ abstract class Controller
         include $viewPath;
         
         if ($withLayout) {
-            // Close main content
-            echo '</main>';
-            
             // Include footer
             include $this->app->config('paths.views') . 'layouts/footer.php';
+            
+            // Close main content
+            echo '</main>';
         }
     }
 

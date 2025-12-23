@@ -67,7 +67,7 @@
 </div>
 
 <!-- Cards de Navegação -->
-<div class="card-grid">
+<div class="cards-grid">
     <a href="<?= $baseUrl ?>/games" class="card">
         <div class="card-icon gradient-1">
             <i class="bi bi-controller"></i>

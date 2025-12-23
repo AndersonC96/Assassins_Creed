@@ -1071,3 +1071,156 @@ button:focus {
         transform: translateY(0);
     }
 }
+/* ============ ANIMUS PLAYER FIXED ============ */
+.animus-player {
+    position: relative;
+    margin-bottom: 2em;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.animus-player .scanlines {
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.2));
+    background-size: 100% 4px;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.animus-player .vignette {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle, transparent 50%, black 150%);
+    z-index: 11;
+    pointer-events: none;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    transition: opacity 0.5s;
+}
+
+.play-button {
+    width: 60px; height: 60px;
+    background: rgba(112, 0, 0, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.play-button:hover {
+    transform: scale(1.1);
+}
+
+.play-icon {
+    width: 0; height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #fff;
+    margin-left: 5px;
+}
+
+.video-info {
+    position: absolute;
+    bottom: 20px; left: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    z-index: 21;
+    text-align: left;
+}
+
+.animus-text {
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    color: rgba(255,255,255,0.7);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.video-title h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.player-controls {
+    background: #111;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-top: 1px solid #333;
+}
+
+.progress-container {
+    height: 4px;
+    background: #444;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--accent-red);
+    width: 0;
+}
+
+.controls-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.control-btn:hover { color: var(--accent-red); }
+
+.time-display {
+    font-size: 0.8rem;
+    color: #ccc;
+    font-family: monospace;
+}
+
+.controls-spacer { flex: 1; }
+
+.animus-status {
+    font-size: 0.7rem;
+    color: #4CAF50;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    letter-spacing: 0.1em;
+}
+
+.status-dot {
+    width: 6px; height: 6px;
+    background: #4CAF50;
+    border-radius: 50%;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink { 50% { opacity: 0; } }

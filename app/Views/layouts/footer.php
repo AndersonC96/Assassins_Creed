@@ -10,7 +10,7 @@
 
 $baseUrl = $this->config('app.url');
 ?>
-        </main>
+
         
         <!-- Footer -->
         <footer class="site-footer">
