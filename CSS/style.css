@@ -1,95 +1,682 @@
-@media(max-width: 768px){
-    .game-card{
-        width: calc(50% - 20px);
-    }
+/* ============================================
+   ANIMUS DESIGN SYSTEM - Assassin's Creed Portal
+   Baseado no estilo Animus de AC: Brotherhood
+   ============================================ */
+
+/* ============ DESIGN TOKENS ============ */
+:root {
+    /* Cores Primárias Animus */
+    --animus-bg-primary: #0a0a0a;
+    --animus-bg-secondary: #1a1a1a;
+    --animus-bg-tertiary: #282828;
+    
+    /* Cores de Texto */
+    --animus-text-primary: #ffffff;
+    --animus-text-secondary: #bbbbbb;
+    --animus-text-muted: #666666;
+    
+    /* Cores de Destaque */
+    --animus-accent: #a9d3d5;
+    --animus-accent-hover: #c5e4e6;
+    --animus-accent-glow: rgba(169, 211, 213, 0.4);
+    --animus-accent-subtle: rgba(169, 211, 213, 0.1);
+    
+    /* Glassmorphism */
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-blur: 10px;
+    
+    /* Sombras */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 20px var(--animus-accent-glow);
+    
+    /* Tipografia */
+    --font-primary: 'Roboto', 'Segoe UI', sans-serif;
+    --font-display: 'Cinzel', serif;
+    
+    /* Transições */
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Bordas */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
 }
-@media(max-width: 480px){
-    .game-card{
-        width: 100%;
-    }
+
+/* ============ RESET & BASE ============ */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: #211714;
-    color: #fc9b70;
-    font-family: 'Cinzel', serif;
+
+html {
+    scroll-behavior: smooth;
 }
-.nav-link, .video-control{
-    background-color: #fc9b70;
-    color: #211714;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
+
+body {
+    background-color: var(--animus-bg-primary);
+    background-image: 
+        radial-gradient(ellipse at top, rgba(169, 211, 213, 0.03) 0%, transparent 50%),
+        linear-gradient(180deg, var(--animus-bg-primary) 0%, var(--animus-bg-secondary) 100%);
+    background-attachment: fixed;
+    color: var(--animus-text-primary);
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* ============ TIPOGRAFIA ============ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, var(--animus-text-primary) 0%, var(--animus-accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+p {
+    color: var(--animus-text-secondary);
+}
+
+/* ============ NAVBAR ============ */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border-bottom: 1px solid var(--glass-border);
+    padding: 1rem 2rem;
+}
+
+.navbar-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
 }
-.nav-link:hover, .video-control:hover{
-    background-color: #211714;
-    color: #fc9b70;
+
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 0 8px var(--animus-accent-glow));
 }
-.header, .video-container{
-    background: linear-gradient(90deg, #211714 0%, #fc9b70 100%);
-    padding: 20px;
-    text-align: center;
-    border-bottom: 3px solid #fc9b70;
+
+.navbar-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--animus-text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
-.video-container{
-    width: 80%;
-    margin: 20px auto;
+
+.navbar-menu {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    color: var(--animus-text-secondary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: var(--border-radius-sm);
+    border: 1px solid transparent;
+    transition: all var(--transition-normal);
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
 }
-video{
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
     width: 100%;
-    border-radius: 20px;
-    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--animus-accent-subtle), transparent);
+    transition: left var(--transition-normal);
 }
-.game-card{
-    background: linear-gradient(90deg, #211714 0%, #fc9b70 100%);
-    width: calc(33.333% - 20px);
-    /*margin: 10px;*/
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    color: #ffffff;
+
+.nav-link:hover {
+    color: var(--animus-accent);
+    border-color: var(--glass-border);
+    background: var(--glass-bg);
+    text-shadow: 0 0 10px var(--animus-accent-glow);
+}
+
+.nav-link:hover::before {
+    left: 100%;
+}
+
+.nav-link.active {
+    color: var(--animus-accent);
+    background: var(--animus-accent-subtle);
+    border-color: var(--animus-accent);
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background: none;
+    border: none;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 2px;
+    background: var(--animus-text-primary);
+    transition: all var(--transition-normal);
+}
+
+/* ============ HEADER/HERO ============ */
+.header {
+    position: relative;
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(180deg, 
+        rgba(169, 211, 213, 0.05) 0%, 
+        transparent 100%);
+    border-bottom: 1px solid var(--glass-border);
+    overflow: hidden;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        var(--animus-accent) 50%, 
+        transparent 100%);
+    animation: scanline 3s linear infinite;
+}
+
+@keyframes scanline {
+    0% { transform: translateX(-50%) translateY(0); opacity: 1; }
+    100% { transform: translateX(-50%) translateY(300px); opacity: 0; }
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+    animation: fadeInUp 0.8s ease;
+}
+
+.header p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+/* ============ CARDS (GLASSMORPHISM) ============ */
+.card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        var(--animus-accent) 50%, 
+        transparent 100%);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: var(--animus-accent);
+    box-shadow: var(--shadow-glow);
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+/* Game Cards */
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.game-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    transition: all var(--transition-normal);
     display: flex;
     flex-direction: column;
+}
+
+.game-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--animus-accent);
+    box-shadow: var(--shadow-glow);
+}
+
+.game-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--glass-border);
+    transition: all var(--transition-normal);
+}
+
+.game-card:hover img {
+    filter: brightness(1.1);
+}
+
+.game-card-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--animus-text-primary);
+    -webkit-text-fill-color: inherit;
+    background: none;
+}
+
+.game-card p {
+    font-size: 0.9rem;
+    color: var(--animus-text-secondary);
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+/* ============ BOTÕES ============ */
+.btn {
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--animus-accent);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: transparent;
+    color: var(--animus-accent);
+}
+
+.btn-primary:hover {
+    background: var(--animus-accent);
+    color: var(--animus-bg-primary);
+    box-shadow: var(--shadow-glow);
+}
+
+.btn-secondary {
+    background: var(--glass-bg);
+    color: var(--animus-text-secondary);
+    border-color: var(--glass-border);
+}
+
+.btn-secondary:hover {
+    background: var(--glass-border);
+    color: var(--animus-text-primary);
+}
+
+.exibir-mais-btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: transparent;
+    color: var(--animus-accent);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid var(--animus-accent);
+    border-radius: var(--border-radius-sm);
+    transition: all var(--transition-normal);
+    margin-top: auto;
     text-align: center;
 }
-.game-card img{
-    max-width: 150%;
-    border-radius: 16px;
-    margin-bottom: 20px;
+
+.exibir-mais-btn:hover {
+    background: var(--animus-accent);
+    color: var(--animus-bg-primary);
+    box-shadow: var(--shadow-glow);
 }
-.game-card h3{
-    color: #ffffff;
+
+/* ============ VIDEO CONTAINER ============ */
+.video-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    position: relative;
 }
-.game-list{
+
+.video-header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--glass-border);
 }
-.exibir-mais-btn{
-    padding: 10px 20px;
-    background-color: #fc9b70;
-    color: #211714;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    display: inline-block;
+
+.video-title {
+    color: var(--animus-text-primary);
+    font-size: 1rem;
+    font-weight: 500;
 }
-.exibir-mais-btn:hover{
-    background-color: #211714;
-    color: #fc9b70;
+
+.video-control {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: var(--animus-accent);
+    border: 1px solid var(--animus-accent);
+    border-radius: var(--border-radius-sm);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all var(--transition-normal);
 }
-.detail-card img{
+
+.video-control:hover {
+    background: var(--animus-accent);
+    color: var(--animus-bg-primary);
+}
+
+video {
     width: 100%;
-    height: auto;
-    max-height: 300px;
+    display: block;
+}
+
+/* ============ DETAIL PAGE ============ */
+.game-details {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.detail-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+}
+
+.detail-card img {
+    width: 100%;
+    max-height: 400px;
     object-fit: contain;
-    border-radius: 8px;
+    background: var(--animus-bg-secondary);
+    padding: 1rem;
+}
+
+.detail-content {
+    padding: 2rem;
+}
+
+.detail-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.detail-card hr {
+    border: none;
+    border-top: 1px solid var(--glass-border);
+    margin: 1.5rem 0;
+}
+
+.detail-card p {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+.detail-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.detail-info-item {
+    padding: 1rem;
+    background: var(--animus-bg-secondary);
+    border-radius: var(--border-radius-md);
+    border-left: 3px solid var(--animus-accent);
+}
+
+.detail-info-item strong {
+    display: block;
+    color: var(--animus-accent);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.25rem;
+}
+
+/* ============ ANIMAÇÕES ============ */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease;
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.5s ease;
+}
+
+/* ============ RESPONSIVIDADE ============ */
+@media (max-width: 768px) {
+    .navbar-menu {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: var(--animus-bg-secondary);
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0;
+        border-bottom: 1px solid var(--glass-border);
+        transform: translateY(-150%);
+        transition: transform var(--transition-normal);
+    }
+
+    .navbar-menu.active {
+        transform: translateY(0);
+    }
+
+    .navbar-menu .nav-link {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        border-bottom: 1px solid var(--glass-border);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .header {
+        padding: 2rem 1rem;
+    }
+
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+
+    .game-list {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .video-container {
+        width: 95%;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0.75rem 1rem;
+    }
+
+    .navbar-title {
+        font-size: 1rem;
+    }
+
+    .game-card img {
+        height: 150px;
+    }
+}
+
+/* ============ UTILITIES ============ */
+.text-center { text-align: center; }
+.text-accent { color: var(--animus-accent); }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+.p-3 { padding: 1.5rem; }
+
+/* ============ LOADING STATE ============ */
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.loading::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--glass-border);
+    border-top-color: var(--animus-accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ============ ERROR STATE ============ */
+.error-card {
+    text-align: center;
+    padding: 3rem;
+    background: var(--glass-bg);
+    border: 1px solid rgba(255, 100, 100, 0.3);
+    border-radius: var(--border-radius-lg);
+}
+
+.error-card h3 {
+    color: #ff6b6b;
+    -webkit-text-fill-color: #ff6b6b;
+    background: none;
+    margin-bottom: 1rem;
 }
