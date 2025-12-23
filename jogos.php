@@ -300,6 +300,7 @@
                 <li><a href="jogos.php" class="item active">Jogos</a></li>
                 <li><a href="personagens.php" class="item">Personagens</a></li>
                 <li><a href="timeline.php" class="item">Timeline</a></li>
+                <li><a href="livros.php" class="item">Livros & Mídia</a></li>
             </ul>
             
             <!-- Sub-navegação de categorias -->

@@ -388,6 +388,7 @@
                 <li><a href="jogos.php" class="item">Jogos</a></li>
                 <li><a href="personagens.php" class="item">Personagens</a></li>
                 <li><a href="timeline.php" class="item">Timeline</a></li>
+                <li><a href="livros.php" class="item">Livros & Mídia</a></li>
             </ul>
         </nav>
 
@@ -495,8 +496,8 @@
             <!-- Quick Access Cards -->
             <div class="cards-grid">
                 <div class="card">
-                    <div style="height: 120px; background: linear-gradient(135deg, #333 0%, #555 100%); display: flex; align-items: center; justify-content: center;">
-                        <span style="font-size: 3rem;">🎮</span>
+                    <div style="height: 120px; background: linear-gradient(135deg, var(--accent-red) 0%, #333 100%); display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-controller" style="font-size: 3rem; color: #fff;"></i>
                     </div>
                     <div class="card-content">
                         <div class="card-title">Jogos</div>
@@ -506,8 +507,8 @@
                 </div>
 
                 <div class="card">
-                    <div style="height: 120px; background: linear-gradient(135deg, #333 0%, #555 100%); display: flex; align-items: center; justify-content: center;">
-                        <span style="font-size: 3rem;">👤</span>
+                    <div style="height: 120px; background: linear-gradient(135deg, #2563eb 0%, #333 100%); display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-people-fill" style="font-size: 3rem; color: #fff;"></i>
                     </div>
                     <div class="card-content">
                         <div class="card-title">Personagens</div>
@@ -517,8 +518,8 @@
                 </div>
 
                 <div class="card">
-                    <div style="height: 120px; background: linear-gradient(135deg, #333 0%, #555 100%); display: flex; align-items: center; justify-content: center;">
-                        <span style="font-size: 3rem;">📅</span>
+                    <div style="height: 120px; background: linear-gradient(135deg, #059669 0%, #333 100%); display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-hourglass-split" style="font-size: 3rem; color: #fff;"></i>
                     </div>
                     <div class="card-content">
                         <div class="card-title">Timeline</div>
@@ -526,7 +527,38 @@
                         <a href="timeline.php" class="card-btn">Acessar</a>
                     </div>
                 </div>
+
+                <div class="card">
+                    <div style="height: 120px; background: linear-gradient(135deg, #7c3aed 0%, #333 100%); display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-book-fill" style="font-size: 3rem; color: #fff;"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Livros & Mídia</div>
+                        <div class="card-desc">Romances, comics, filmes e materiais expandidos.</div>
+                        <a href="livros.php" class="card-btn">Acessar</a>
+                    </div>
+                </div>
             </div>
+
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="footer-content">
+                    <div class="ac-symbol"></div>
+                    <div class="footer-logo">Animus <span>Database</span></div>
+                    <div class="footer-tagline">"Nothing is true, everything is permitted."</div>
+                    <nav class="footer-nav">
+                        <a href="index.php">Home</a>
+                        <a href="jogos.php">Jogos</a>
+                        <a href="personagens.php">Personagens</a>
+                        <a href="timeline.php">Timeline</a>
+                        <a href="livros.php">Livros</a>
+                    </nav>
+                    <div class="footer-credits">
+                        Desenvolvido com <span style="color: var(--accent-red);">❤</span> para fãs da franquia.<br>
+                        Dados via <a href="https://www.igdb.com/" target="_blank">IGDB API</a>. Assassin's Creed © Ubisoft.
+                    </div>
+                </div>
+            </footer>
         </main>
     </div>
 
