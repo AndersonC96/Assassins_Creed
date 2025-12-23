@@ -112,12 +112,25 @@ class ApiClient
      */
     public function getGameById(int $id): ?array
     {
-        $fields = 'id, name, summary, storyline, cover.url, screenshots.url, videos.video_id, ' .
-                  'release_dates.date, release_dates.platform.abbreviation, platforms.abbreviation, ' .
-                  'platforms.name, genres.name, themes.name, game_modes.name, ' .
+        $fields = 'id, name, summary, storyline, cover.url, ' .
+                  // Screenshots and artworks
+                  'screenshots.url, screenshots.image_id, artworks.url, artworks.image_id, ' .
+                  // Videos
+                  'videos.video_id, videos.name, ' .
+                  // Release dates and platforms
+                  'release_dates.date, release_dates.platform.abbreviation, platforms.abbreviation, platforms.name, ' .
+                  // Genres, themes, game modes
+                  'genres.name, themes.name, game_modes.name, ' .
+                  // Companies
                   'involved_companies.company.name, involved_companies.developer, involved_companies.publisher, ' .
+                  // Ratings
                   'aggregated_rating, aggregated_rating_count, rating, rating_count, ' .
-                  'similar_games.name, similar_games.cover.url, websites.url, websites.category';
+                  // Age ratings - use wildcard to get all fields
+                  'age_ratings.*, ' .
+                  // Similar games
+                  'similar_games.id, similar_games.name, similar_games.cover.url, similar_games.aggregated_rating, ' .
+                  // Websites - use wildcard to get all fields
+                  'websites.*';
         
         $body = "fields {$fields}; where id = {$id};";
         $result = $this->query('games', $body);

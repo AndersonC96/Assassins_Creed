@@ -154,4 +154,73 @@ class Game
         }
         return '#f44336';
     }
+
+    /**
+     * Get age rating organization name (ESRB, PEGI, etc.)
+     * IGDB uses 'organization' field instead of 'category'
+     */
+    public static function getAgeRatingOrganization(int $organization): string
+    {
+        $organizations = [
+            1 => 'ESRB',
+            2 => 'PEGI',
+            3 => 'CERO',
+            4 => 'USK',
+            5 => 'GRAC',
+            6 => 'CLASS_IND',
+            7 => 'ACB'
+        ];
+        return $organizations[$organization] ?? 'Unknown';
+    }
+
+    /**
+     * Get age rating value label
+     * IGDB uses 'rating_category' field instead of 'rating'
+     */
+    public static function getAgeRatingLabel(int $organization, int $ratingCategory): string
+    {
+        // ESRB ratings (rating_category values)
+        $esrb = [
+            6 => 'RP', 7 => 'EC', 8 => 'E', 9 => 'E10+', 
+            10 => 'T', 11 => 'M', 12 => 'AO'
+        ];
+        // PEGI ratings (rating_category values)
+        $pegi = [
+            1 => '3', 2 => '7', 3 => '12', 4 => '16', 5 => '18'
+        ];
+        
+        if ($organization === 1) return $esrb[$ratingCategory] ?? '?';
+        if ($organization === 2) return $pegi[$ratingCategory] ?? '?';
+        return (string) $ratingCategory;
+    }
+
+    /**
+     * Get website type label and icon
+     * IGDB uses 'type' field instead of 'category'
+     */
+    public static function getWebsiteInfo(int $type): array
+    {
+        $sites = [
+            1 => ['label' => 'Oficial', 'icon' => 'bi-globe'],
+            2 => ['label' => 'Wikia', 'icon' => 'bi-book'],
+            3 => ['label' => 'Wikipedia', 'icon' => 'bi-wikipedia'],
+            4 => ['label' => 'Facebook', 'icon' => 'bi-facebook'],
+            5 => ['label' => 'Twitter', 'icon' => 'bi-twitter-x'],
+            6 => ['label' => 'Twitch', 'icon' => 'bi-twitch'],
+            8 => ['label' => 'Instagram', 'icon' => 'bi-instagram'],
+            9 => ['label' => 'YouTube', 'icon' => 'bi-youtube'],
+            10 => ['label' => 'iPhone', 'icon' => 'bi-apple'],
+            11 => ['label' => 'iPad', 'icon' => 'bi-tablet'],
+            12 => ['label' => 'Android', 'icon' => 'bi-android2'],
+            13 => ['label' => 'Steam', 'icon' => 'bi-steam'],
+            14 => ['label' => 'Reddit', 'icon' => 'bi-reddit'],
+            15 => ['label' => 'Itch.io', 'icon' => 'bi-controller'],
+            16 => ['label' => 'Epic Games', 'icon' => 'bi-controller'],
+            17 => ['label' => 'GOG', 'icon' => 'bi-controller'],
+            18 => ['label' => 'Discord', 'icon' => 'bi-discord'],
+            19 => ['label' => 'PlayStation', 'icon' => 'bi-playstation'],
+            20 => ['label' => 'Xbox', 'icon' => 'bi-xbox'],
+        ];
+        return $sites[$type] ?? ['label' => 'Link', 'icon' => 'bi-link-45deg'];
+    }
 }

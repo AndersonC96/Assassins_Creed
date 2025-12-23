@@ -1,0 +1,270 @@
+[
+  {
+    "id": 22815,
+    "age_ratings": [
+      {
+        "id": 10235,
+        "checksum": "6f749072-6f18-854a-d593-c48799f55104",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          5,
+          45,
+          32,
+          17,
+          4
+        ]
+      },
+      {
+        "id": 10236,
+        "checksum": "8ecc13c0-df04-1f2e-d059-eeee52222eb5",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          55,
+          50,
+          51
+        ]
+      }
+    ],
+    "cover": {
+      "id": 199206,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co49pi.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      },
+      {
+        "id": 2,
+        "name": "Multiplayer"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Fighting"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 113078,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed: The Americas Collection",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "rating": 73.3893078458653,
+    "rating_count": 4,
+    "release_dates": [
+      {
+        "id": 61729,
+        "date": 1412294400,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 61727,
+        "date": 1412294400,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 61728,
+        "date": 1412294400,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 34565,
+        "image_id": "he9wkqtcxtj7bszhr8l2",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/he9wkqtcxtj7bszhr8l2.jpg"
+      },
+      {
+        "id": 34564,
+        "image_id": "sn09merwoia0j9s0u91y",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sn09merwoia0j9s0u91y.jpg"
+      },
+      {
+        "id": 34566,
+        "image_id": "shlksmexo5aj7by4r51t",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/shlksmexo5aj7by4r51t.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 25311,
+        "aggregated_rating": 69.75,
+        "cover": {
+          "id": 68395,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/rmzcpsfvnizymkhvd0qg.jpg"
+        },
+        "name": "Star Control: Origins"
+      },
+      {
+        "id": 35994,
+        "cover": {
+          "id": 190184,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co42qw.jpg"
+        },
+        "name": "Survivalist"
+      },
+      {
+        "id": 101608,
+        "aggregated_rating": 68.5,
+        "cover": {
+          "id": 69296,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1hgw.jpg"
+        },
+        "name": "Anima: Gate of Memories - The Nameless Chronicles"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 27092,
+        "aggregated_rating": 70.63636363636364,
+        "cover": {
+          "id": 79980,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ppo.jpg"
+        },
+        "name": "GreedFall"
+      }
+    ],
+    "storyline": "This Bundle Contains three games i.e, Assassin\u0027s Creed III, Assassin\u0027s Creed IV: Black Flag, Assassin\u0027s Creed Liberation HD.",
+    "summary": "Assassin\u0027s Creed: The Americas Collection is a compilation consisting of three games in the Assassin\u0027s Creed series. The Americas Collection includes Assassin\u0027s Creed III, Assassin\u0027s Creed: Liberation HD and Assassin\u0027s Creed IV: Black Flag.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 11129,
+        "name": "Trailer",
+        "video_id": "iCbpCRNsOIU"
+      }
+    ],
+    "websites": [
+      {
+        "id": 10757,
+        "game": 22815,
+        "trusted": false,
+        "url": "http://assassinscreed.ubi.com/en-ca/games/assassins-creed-americas-collection.aspx",
+        "checksum": "689e27be-23d0-563e-c631-4f1ee7081413",
+        "type": 1
+      },
+      {
+        "id": 10758,
+        "game": 22815,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed:_The_Americas_Collection",
+        "checksum": "8d9fc413-70cc-44c1-a55b-f4a40966ee09",
+        "type": 2
+      }
+    ]
+  }
+]

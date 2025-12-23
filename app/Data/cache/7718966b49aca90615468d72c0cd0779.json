@@ -1,0 +1,221 @@
+[
+  {
+    "id": 22754,
+    "age_ratings": [
+      {
+        "id": 9402,
+        "checksum": "87cca04c-e3e1-6d17-d4b8-26fd0e572596",
+        "organization": 1,
+        "rating_category": 6
+      }
+    ],
+    "cover": {
+      "id": 198913,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co49hd.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 38715,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 276544,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Ezio Trilogy",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "rating": 89.93261758903003,
+    "rating_count": 17,
+    "release_dates": [
+      {
+        "id": 55410,
+        "date": 1352764800,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 55409,
+        "date": 1352764800,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 55411,
+        "date": 1331769600,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 416625,
+        "image_id": "sc8xgx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xgx.jpg"
+      },
+      {
+        "id": 416626,
+        "image_id": "sc8xgy",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xgy.jpg"
+      },
+      {
+        "id": 416627,
+        "image_id": "sc8xgz",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xgz.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 55038,
+        "aggregated_rating": 45.33333333333334,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        },
+        "name": "Immortal: Unchained"
+      },
+      {
+        "id": 105269,
+        "aggregated_rating": 20.0,
+        "cover": {
+          "id": 82218,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfu.jpg"
+        },
+        "name": "Gene Rain"
+      },
+      {
+        "id": 25311,
+        "aggregated_rating": 69.75,
+        "cover": {
+          "id": 68395,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/rmzcpsfvnizymkhvd0qg.jpg"
+        },
+        "name": "Star Control: Origins"
+      },
+      {
+        "id": 107318,
+        "aggregated_rating": 74.75,
+        "cover": {
+          "id": 113273,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2feh.jpg"
+        },
+        "name": "Rebel Galaxy Outlaw"
+      },
+      {
+        "id": 103301,
+        "aggregated_rating": 71.25,
+        "cover": {
+          "id": 95038,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21by.jpg"
+        },
+        "name": "Wolfenstein: Youngblood"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 115283,
+        "aggregated_rating": 89.18181818181819,
+        "cover": {
+          "id": 75166,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lzy.jpg"
+        },
+        "name": "Astral Chain"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 28070,
+        "aggregated_rating": 57.66666666666666,
+        "cover": {
+          "id": 81870,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r66.jpg"
+        },
+        "name": "Planet Alpha"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      }
+    ],
+    "summary": "Assassin\u0027s Creed: Ezio Trilogy is a collection of the three main series Assassin\u0027s Creed games that feature Ezio Auditore da Firenze: Assassin\u0027s Creed II, Assassin\u0027s Creed: Brotherhood, and Assassin\u0027s Creed: Revelations. The Bonfire of the Vanities, the Battle of Forlì, and the exclusive black \u0027Bonus Skin\u0027. DLC for Assassin\u0027s Creed II is only available with the PS3 version; The xbox 360 version only includes the original games.\n\nThe Ezio Trilogy was released for PC in German language only.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ]
+  }
+]

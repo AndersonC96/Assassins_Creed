@@ -104,6 +104,126 @@
         </div>
         <?php endif; ?>
 
+        <!-- Game Modes -->
+        <?php if (isset($game['game_modes'])): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Modos de Jogo</h3>
+            <div class="game-modes">
+                <?php foreach ($game['game_modes'] as $mode): ?>
+                <span class="game-mode-badge"><?= htmlspecialchars($mode['name']) ?></span>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- Age Ratings -->
+        <?php if (isset($game['age_ratings']) && count($game['age_ratings']) > 0): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Classificação Etária</h3>
+            <div class="age-ratings">
+                <?php foreach ($game['age_ratings'] as $ageRating): 
+                    if (!isset($ageRating['organization']) || !isset($ageRating['rating_category'])) continue;
+                    $orgName = \App\Models\Game::getAgeRatingOrganization($ageRating['organization']);
+                    $ratingLabel = \App\Models\Game::getAgeRatingLabel($ageRating['organization'], $ageRating['rating_category']);
+                ?>
+                <div class="age-rating-badge">
+                    <span class="age-rating-org"><?= $orgName ?></span>
+                    <span class="age-rating-value"><?= $ratingLabel ?></span>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- Screenshots Gallery -->
+        <?php if (isset($game['screenshots']) && count($game['screenshots']) > 0): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Screenshots</h3>
+            <div class="media-gallery">
+                <?php foreach ($game['screenshots'] as $ss): 
+                    $thumbUrl = 'https:' . str_replace('t_thumb', 't_screenshot_med', $ss['url']);
+                    $fullUrl = 'https:' . str_replace('t_thumb', 't_screenshot_huge', $ss['url']);
+                ?>
+                <a href="<?= $fullUrl ?>" target="_blank" class="gallery-item">
+                    <img src="<?= $thumbUrl ?>" alt="Screenshot" loading="lazy">
+                </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- Artworks Gallery -->
+        <?php if (isset($game['artworks']) && count($game['artworks']) > 0): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Artes Conceituais</h3>
+            <div class="media-gallery">
+                <?php foreach ($game['artworks'] as $art): 
+                    $thumbUrl = 'https:' . str_replace('t_thumb', 't_screenshot_med', $art['url']);
+                    $fullUrl = 'https:' . str_replace('t_thumb', 't_1080p', $art['url']);
+                ?>
+                <a href="<?= $fullUrl ?>" target="_blank" class="gallery-item">
+                    <img src="<?= $thumbUrl ?>" alt="Artwork" loading="lazy">
+                </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- Videos/Trailers -->
+        <?php if (isset($game['videos']) && count($game['videos']) > 0): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Trailers e Vídeos</h3>
+            <div class="videos-grid">
+                <?php foreach (array_slice($game['videos'], 0, 4) as $video): ?>
+                <div class="video-item">
+                    <iframe 
+                        src="https://www.youtube.com/embed/<?= $video['video_id'] ?>" 
+                        title="<?= htmlspecialchars($video['name'] ?? 'Trailer') ?>"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                    <p class="video-title"><?= htmlspecialchars($video['name'] ?? 'Trailer') ?></p>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- Similar Games -->
+        <?php if (isset($game['similar_games']) && count($game['similar_games']) > 0): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Jogos Similares</h3>
+            <div class="similar-games-scroll">
+                <?php foreach (array_slice($game['similar_games'], 0, 8) as $similar): ?>
+                <a href="<?= $baseUrl ?>/games/show/<?= $similar['id'] ?>" class="similar-game-card">
+                    <img src="<?= isset($similar['cover']['url']) ? 'https:' . str_replace('t_thumb', 't_cover_big', $similar['cover']['url']) : $baseUrl . '/IMG/default_cover.png' ?>" 
+                         alt="<?= htmlspecialchars($similar['name']) ?>" loading="lazy">
+                    <span class="similar-game-name"><?= htmlspecialchars($similar['name']) ?></span>
+                </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- Official Links -->
+        <?php if (isset($game['websites']) && count($game['websites']) > 0): ?>
+        <div class="detail-section">
+            <h3 class="section-title">Links Oficiais</h3>
+            <div class="official-links">
+                <?php foreach ($game['websites'] as $website): 
+                    if (!isset($website['type'])) continue;
+                    $info = \App\Models\Game::getWebsiteInfo($website['type']);
+                ?>
+                <a href="<?= htmlspecialchars($website['url']) ?>" target="_blank" class="official-link-btn">
+                    <i class="bi <?= $info['icon'] ?>"></i> <?= $info['label'] ?>
+                </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
         <!-- Share Buttons -->
         <div style="margin-top: 2em; padding-top: 1.5em; border-top: 1px solid rgba(0,0,0,0.1);">
             <h3 style="font-size: 0.85rem; text-transform: uppercase; color: #666; margin-bottom: 1em;">Compartilhar</h3>

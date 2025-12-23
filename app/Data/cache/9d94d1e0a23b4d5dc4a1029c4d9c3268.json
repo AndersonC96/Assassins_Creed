@@ -1,0 +1,279 @@
+[
+  {
+    "id": 216319,
+    "artworks": [
+      {
+        "id": 85777,
+        "image_id": "ar1u6p",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar1u6p.jpg"
+      }
+    ],
+    "cover": {
+      "id": 326043,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6zkr.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 25,
+        "name": "Hack and slash/Beat \u0027em up"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 219510,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      },
+      {
+        "id": 219511,
+        "company": {
+          "id": 39493,
+          "name": "Level Infinite"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed Jade",
+    "platforms": [
+      {
+        "id": 34,
+        "abbreviation": "Android",
+        "name": "Android"
+      },
+      {
+        "id": 39,
+        "abbreviation": "iOS",
+        "name": "iOS"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 848393,
+        "platform": {
+          "id": 34,
+          "abbreviation": "Android"
+        }
+      },
+      {
+        "id": 848394,
+        "platform": {
+          "id": 39,
+          "abbreviation": "iOS"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 1070338,
+        "image_id": "scmxvm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxvm.jpg"
+      },
+      {
+        "id": 1070335,
+        "image_id": "scmxvj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxvj.jpg"
+      },
+      {
+        "id": 1070336,
+        "image_id": "scmxvk",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxvk.jpg"
+      },
+      {
+        "id": 1070337,
+        "image_id": "scmxvl",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxvl.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 103168,
+        "aggregated_rating": 65.375,
+        "cover": {
+          "id": 123801,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nix.jpg"
+        },
+        "name": "Warhammer: Chaosbane"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 54775,
+        "aggregated_rating": 71.25,
+        "cover": {
+          "id": 75809,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mht.jpg"
+        },
+        "name": "Shadows: Awakening"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      }
+    ],
+    "storyline": "As the adopted child of the master Wei Yu, players will set out on a quest for revenge after their close friend is betrayed. But as they delve deeper into their mission, they will uncover secrets about the past and a powerful force that threatens to destroy everything they hold dear.\n\nAssassin’s Creed Codename Jade takes place in 215 B.C., between the events of Assassin’s Creed Odyssey and Assassin’s Creed Origins.",
+    "summary": "Explore the path of Xia in Assassin’s Creed Codename Jade. Set in the third century BC during the time of one of the first unified empires in China, an unprecedented era of trade and cultural exchange between East and West is just beginning, but with this comes new challenges and threats lurking in the shadows.\n\nFrom the Great Wall outside the empire’s borders to the imperial capital of Xianyang, journey through a world filled with ancient history and hidden dangers. Defend against the Xiongnu and work to dismantle conspiracies, taking on greater responsibilities, and facing new challenges.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 91934,
+        "name": "Announcement Trailer",
+        "video_id": "pfJw0zBEyjE"
+      },
+      {
+        "id": 96275,
+        "name": "Gameplay Trailer",
+        "video_id": "snqIRxeukm0"
+      },
+      {
+        "id": 96303,
+        "name": "Dev Diary",
+        "video_id": "l-i5lCjTAD0"
+      }
+    ],
+    "websites": [
+      {
+        "id": 502551,
+        "game": 216319,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin%27s%20Creed:%20Codename%20Jade",
+        "checksum": "0f12d20f-34da-84d9-dc4d-6b65bc4ebfeb",
+        "type": 6
+      },
+      {
+        "id": 558163,
+        "game": 216319,
+        "trusted": false,
+        "url": "https://www.assassinscreedcodenamejade.com/",
+        "checksum": "589a1f79-9d58-08a0-1715-28b22959a18f",
+        "type": 1
+      },
+      {
+        "id": 558164,
+        "game": 216319,
+        "trusted": true,
+        "url": "https://www.youtube.com/@assassinscreedcodenamejade",
+        "checksum": "5fe2313f-28ec-c9f7-55a6-4dcd59515ade",
+        "type": 9
+      },
+      {
+        "id": 558165,
+        "game": 216319,
+        "trusted": true,
+        "url": "https://twitter.com/AC_CodenameJade",
+        "checksum": "620b9f37-32c2-6d47-3c3c-284bf6cb0d62",
+        "type": 5
+      },
+      {
+        "id": 558166,
+        "game": 216319,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreedcodenamejade/",
+        "checksum": "5995b6ee-2012-2c37-8c04-552efdc70e01",
+        "type": 8
+      },
+      {
+        "id": 558167,
+        "game": 216319,
+        "trusted": true,
+        "url": "https://discord.gg/invite/RZwEAUVS8C",
+        "checksum": "dc0943be-a10f-51ea-f75f-89ba3a28290b",
+        "type": 18
+      }
+    ]
+  }
+]

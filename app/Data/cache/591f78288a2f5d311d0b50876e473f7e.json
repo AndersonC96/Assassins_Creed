@@ -1,0 +1,209 @@
+[
+  {
+    "id": 64737,
+    "cover": {
+      "id": 358311,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co7oh3.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 75943,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Project Legacy",
+    "platforms": [
+      {
+        "id": 82,
+        "abbreviation": "browser",
+        "name": "Web browser"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 474050,
+        "date": 1285804800,
+        "platform": {
+          "id": 82,
+          "abbreviation": "browser"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 292868,
+        "image_id": "sc69z8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc69z8.jpg"
+      },
+      {
+        "id": 292867,
+        "image_id": "sc69z7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc69z7.jpg"
+      },
+      {
+        "id": 292866,
+        "image_id": "sc69z6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc69z6.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 55038,
+        "aggregated_rating": 45.33333333333334,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        },
+        "name": "Immortal: Unchained"
+      },
+      {
+        "id": 36198,
+        "aggregated_rating": 83.0,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        },
+        "name": "Children of Morta"
+      },
+      {
+        "id": 78709,
+        "cover": {
+          "id": 77945,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1o55.jpg"
+        },
+        "name": "Assassin\u0027s Creed: Lost Legacy"
+      },
+      {
+        "id": 111187,
+        "cover": {
+          "id": 82405,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rl1.jpg"
+        },
+        "name": "Eve: Echoes"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 28168,
+        "aggregated_rating": 72.9090909090909,
+        "cover": {
+          "id": 81873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r69.jpg"
+        },
+        "name": "Code Vein"
+      },
+      {
+        "id": 47823,
+        "aggregated_rating": 50.0,
+        "cover": {
+          "id": 76951,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ndj.jpg"
+        },
+        "name": "Citadel: Forged With Fire"
+      },
+      {
+        "id": 128,
+        "aggregated_rating": 80.75,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 25300,
+        "aggregated_rating": 65.0,
+        "cover": {
+          "id": 67720,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/vz1tifvufvwi6rd4zmz7.jpg"
+        },
+        "name": "Sky Break"
+      }
+    ],
+    "summary": "Assassin\u0027s Creed: Project Legacy was a Facebook game, which was first made available on 30 September 2010 with the \"Italian Wars\" memory set.\n\nIn it, players were recruits for Abstergo Industries\u0027 Project Legacy, who relived the genetic memories of other individuals through a machine known as the DDS (Data Dump Scanner). Presumably, the DDS was similar to an Animus, but could allow a person to relive the memory of someone who was not their ancestor.\n\nIn all, there were three memory sets available: \"Italian Wars\", \"Rome\" (released 15 November 2010) and \"Holidays\" (released 22 December 2010). The fourth memory set, Divine Science (\"released\" 4 July 2011), was made available outside of the DDS by Erudito, though the DDS interface still mentioned that the pack was \"coming soon.\"\n\nOn 15 May 2013, Facebook removed the game because it no longer complied with their Terms of Service for Facebook applications, as it had not been updated recently. It is unknown if the game will return in the future.",
+    "themes": [
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ],
+    "videos": [
+      {
+        "id": 25646,
+        "name": "Gameplay video",
+        "video_id": "HiMenaoTpqw"
+      }
+    ],
+    "websites": [
+      {
+        "id": 56861,
+        "game": 64737,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed:_Project_Legacy",
+        "checksum": "7cadd80e-db91-1888-756c-a21f82f224bf",
+        "type": 2
+      },
+      {
+        "id": 56862,
+        "game": 64737,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed#Cancelled_and_defunct_games",
+        "checksum": "5a095967-eabe-bd7f-3e8a-7144b8272d47",
+        "type": 3
+      },
+      {
+        "id": 369906,
+        "game": 64737,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%3A%20Project%20Legacy",
+        "checksum": "a63ced5d-2315-69f0-d76d-bbeb0460fa9b",
+        "type": 6
+      }
+    ]
+  }
+]

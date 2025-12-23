@@ -1,0 +1,677 @@
+[
+  {
+    "id": 133004,
+    "age_ratings": [
+      {
+        "id": 31727,
+        "synopsis": "Open-world action-adventure role playing game, with an emphasis on stealth and combat, set in Viking era England.",
+        "checksum": "8f55a77e-9f65-7f13-0b4f-c46a1376f9f8",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          10,
+          50,
+          55
+        ]
+      },
+      {
+        "id": 84946,
+        "checksum": "acf1dd4a-29e9-c4be-4c6c-eb8af7bc8257",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          72,
+          68,
+          73,
+          69,
+          71
+        ]
+      },
+      {
+        "id": 69549,
+        "checksum": "d8003337-adb3-fff7-9a48-1fa175e95eb8",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          61,
+          65
+        ]
+      },
+      {
+        "id": 84947,
+        "checksum": "78a2bfb9-d0ef-976b-3bdc-6e0eaa5cde7e",
+        "organization": 6,
+        "rating_category": 33,
+        "rating_content_descriptions": [
+          77,
+          76,
+          81
+        ]
+      },
+      {
+        "id": 84948,
+        "synopsis": "Strong themes, violence and coarse language, online interactivity and in-game purchases",
+        "checksum": "21912e52-5ade-597d-3dc8-11d0b6a31186",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 68114,
+        "checksum": "b99f0f9c-8325-dc29-814a-6acd67869a68",
+        "organization": 4,
+        "rating_category": 22
+      },
+      {
+        "id": 187935,
+        "checksum": "4368201b-bc93-f110-9ba1-2bcb8ec326ec",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          18,
+          15,
+          21,
+          4,
+          10,
+          34,
+          27,
+          26
+        ]
+      }
+    ],
+    "aggregated_rating": 85.08333333333333,
+    "aggregated_rating_count": 12,
+    "artworks": [
+      {
+        "id": 8773,
+        "image_id": "ar6rp",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar6rp.jpg"
+      },
+      {
+        "id": 9219,
+        "image_id": "ar743",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar743.jpg"
+      },
+      {
+        "id": 9218,
+        "image_id": "ar742",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar742.jpg"
+      },
+      {
+        "id": 9222,
+        "image_id": "ar746",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar746.jpg"
+      },
+      {
+        "id": 9221,
+        "image_id": "ar745",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar745.jpg"
+      },
+      {
+        "id": 9220,
+        "image_id": "ar744",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar744.jpg"
+      }
+    ],
+    "cover": {
+      "id": 111927,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ed3.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 155414,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155418,
+        "company": {
+          "id": 3928,
+          "name": "Ubisoft Chengdu"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 104781,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 202100,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      },
+      {
+        "id": 155416,
+        "company": {
+          "id": 1990,
+          "name": "Ubisoft Barcelona"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155424,
+        "company": {
+          "id": 3655,
+          "name": "Ubisoft Pune"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155425,
+        "company": {
+          "id": 38989,
+          "name": "Ubisoft Saguenay"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155422,
+        "company": {
+          "id": 398,
+          "name": "Ubisoft Shanghai"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155423,
+        "company": {
+          "id": 697,
+          "name": "Ubisoft Bucharest"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 257201,
+        "company": {
+          "id": 46613,
+          "name": "Sweet Baby Inc."
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155413,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155415,
+        "company": {
+          "id": 840,
+          "name": "Ubisoft Sofia"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155417,
+        "company": {
+          "id": 702,
+          "name": "Ubisoft Montpellier"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155420,
+        "company": {
+          "id": 2921,
+          "name": "Ubisoft Kyiv"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155426,
+        "company": {
+          "id": 38990,
+          "name": "Ubisoft Winnipeg"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155427,
+        "company": {
+          "id": 3634,
+          "name": "Sperasoft"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155419,
+        "company": {
+          "id": 17064,
+          "name": "Ubisoft Bordeaux"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155421,
+        "company": {
+          "id": 15260,
+          "name": "Ubisoft Philippines"
+        },
+        "developer": false,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed Valhalla",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 169,
+        "abbreviation": "Series X|S",
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5",
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "rating": 74.38627145750915,
+    "rating_count": 406,
+    "release_dates": [
+      {
+        "id": 209837,
+        "date": 1604966400,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 209838,
+        "date": 1604966400,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 213506,
+        "date": 1605139200,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      },
+      {
+        "id": 213504,
+        "date": 1604966400,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 213505,
+        "date": 1605139200,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      },
+      {
+        "id": 209840,
+        "date": 1604966400,
+        "platform": {
+          "id": 169,
+          "abbreviation": "Series X|S"
+        }
+      },
+      {
+        "id": 209839,
+        "date": 1604966400,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 213507,
+        "date": 1605744000,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 394533,
+        "image_id": "sc8gf9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8gf9.jpg"
+      },
+      {
+        "id": 394534,
+        "image_id": "sc8gfa",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8gfa.jpg"
+      },
+      {
+        "id": 394535,
+        "image_id": "sc8gfb",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8gfb.jpg"
+      },
+      {
+        "id": 394536,
+        "image_id": "sc8gfc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8gfc.jpg"
+      },
+      {
+        "id": 394537,
+        "image_id": "sc8gfd",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8gfd.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      },
+      {
+        "id": 28309,
+        "aggregated_rating": 65.5,
+        "cover": {
+          "id": 67083,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/zlb0ljqmgn8tc8vv3mij.jpg"
+        },
+        "name": "Tanzia"
+      },
+      {
+        "id": 17548,
+        "cover": {
+          "id": 82231,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg7.jpg"
+        },
+        "name": "Savage Lands"
+      }
+    ],
+    "storyline": "Driven from Norway by endless wars and dwindling resources in the ninth century CE, players will lead Eivor\u0027s clan of Norsemen across the icy North Sea to the rich lands of England\u0027s broken kingdoms. Players must carve out a new future for their clan, reliving the ruthless fighting style of Viking warriors with a revamped combat system that includes the ability to dual-wield weapons against a greater variety of enemies than ever before.\n\nTo secure resources players can lead raids to select locations using their longship to earn much-needed riches and resources. As the Vikings begin to settle in their new home, they encounter resistance from the Saxons including King Aelfred of Wessex, who denounces them as heathens and looks to be the sole ruler of a civilized England. Against all odds, Eivor must do what is necessary to keep Valhalla within reach.[4]",
+    "summary": "In Assassin\u0027s Creed Valhalla, become Eivor, a legendary Viking raider on a quest for glory. Explore a dynamic and beautiful open world set against the brutal backdrop of England’s Dark Ages. Raid your enemies, grow your settlement, and build your political power in the quest to earn a place among the gods in Valhalla.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 38967,
+        "name": "Teaser",
+        "video_id": "iylGoWbIeXA"
+      },
+      {
+        "id": 38969,
+        "name": "Gameplay Trailer",
+        "video_id": "SrwKP2iTPb8"
+      },
+      {
+        "id": 50536,
+        "name": "Cinematic Trailer",
+        "video_id": "z-r2AhqxBzw"
+      },
+      {
+        "id": 38968,
+        "name": "Gameplay Video",
+        "video_id": "K2bG_aP6B9c"
+      },
+      {
+        "id": 38970,
+        "name": "Character Trailer",
+        "video_id": "86ytmuoZ-tY"
+      }
+    ],
+    "websites": [
+      {
+        "id": 148419,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/ubisoft",
+        "checksum": "ae34b4d1-c6c8-3611-a2d7-317146d39a34",
+        "type": 9
+      },
+      {
+        "id": 139954,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Valhalla",
+        "checksum": "8de09847-be46-9135-3c47-7f7a6b3a904b",
+        "type": 3
+      },
+      {
+        "id": 772812,
+        "game": 133004,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-valhalla/9P4NJFH17MRT",
+        "checksum": "93674f9d-65f1-af9f-b7f1-79e431ed57af",
+        "type": 22
+      },
+      {
+        "id": 772814,
+        "game": 133004,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/10000237",
+        "checksum": "75f1c4ef-a31f-4743-b550-440f5da0930a",
+        "type": 23
+      },
+      {
+        "id": 139780,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us",
+        "checksum": "3bfb9270-1314-9896-06e4-5117f0f448b5",
+        "type": 8
+      },
+      {
+        "id": 139953,
+        "game": 133004,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla",
+        "checksum": "bbfe02b8-ebba-b1f3-4ef8-2e3840da5ebf",
+        "type": 1
+      },
+      {
+        "id": 139955,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://www.epicgames.com/store/product/assassins-creed-valhalla",
+        "checksum": "faaf8df0-28a3-22a1-8bcc-e988952b8b8a",
+        "type": 16
+      },
+      {
+        "id": 392980,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20Valhalla",
+        "checksum": "5c91a360-0a71-c002-5f3e-bfb20c8ba5b3",
+        "type": 6
+      },
+      {
+        "id": 139779,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "3c5e4e9c-c96c-c2ef-b679-bf3b73b401ba",
+        "type": 5
+      },
+      {
+        "id": 139835,
+        "game": 133004,
+        "trusted": false,
+        "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed:_Valhalla",
+        "checksum": "784f7c2b-675a-fa2c-4337-a22920f54a65",
+        "type": 2
+      },
+      {
+        "id": 139781,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://www.reddit.com/r/assassinscreed",
+        "checksum": "3dda0480-83d0-8a49-9583-d9258a23ce2a",
+        "type": 14
+      },
+      {
+        "id": 148420,
+        "game": 133004,
+        "trusted": false,
+        "url": "https://discord.com/invite/ac",
+        "checksum": "e5d0ad5a-d048-a367-5c95-a4d590f991db",
+        "type": 18
+      },
+      {
+        "id": 148417,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreedUS",
+        "checksum": "5b86a5f1-46c3-1f56-1c77-8a9ed16e187c",
+        "type": 4
+      },
+      {
+        "id": 515966,
+        "game": 133004,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/2208920",
+        "checksum": "eb26d162-1c36-533d-e82d-784e678d3409",
+        "type": 13
+      }
+    ]
+  }
+]

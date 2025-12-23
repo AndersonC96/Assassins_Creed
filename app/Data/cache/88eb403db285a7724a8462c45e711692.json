@@ -1,0 +1,239 @@
+[
+  {
+    "id": 43015,
+    "age_ratings": [
+      {
+        "id": 23138,
+        "checksum": "1ea88cd2-b9bd-53eb-54b1-ce8a44b62856",
+        "organization": 2,
+        "rating_category": 12
+      }
+    ],
+    "cover": {
+      "id": 221585,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qz5.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 69351,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 351749,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Heritage Collection",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 157850,
+        "date": 1383782400,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 157852,
+        "date": 1383782400,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 157851,
+        "date": 1383782400,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 108681,
+        "image_id": "sgj8fljmjnfrsts8ldei",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sgj8fljmjnfrsts8ldei.jpg"
+      },
+      {
+        "id": 416632,
+        "image_id": "sc8xh4",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xh4.jpg"
+      },
+      {
+        "id": 416633,
+        "image_id": "sc8xh5",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xh5.jpg"
+      },
+      {
+        "id": 416634,
+        "image_id": "sc8xh6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xh6.jpg"
+      },
+      {
+        "id": 416635,
+        "image_id": "sc8xh7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xh7.jpg"
+      },
+      {
+        "id": 416636,
+        "image_id": "sc8xh8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8xh8.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        },
+        "name": "Apsulov: End of Gods"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      }
+    ],
+    "summary": "Assassin\u0027s Creed: Heritage Collection is a compilation consisting of the main games in the Assassin\u0027s Creed series, similar to the previous Anthology bundle released in 2012; the Heritage Collection includes Assassin\u0027s Creed, Assassin\u0027s Creed II, Assassin\u0027s Creed: Brotherhood, Assassin\u0027s Creed: Revelations and Assassin\u0027s Creed III.\n\nUnlike the Anthology bundle, the Heritage Collection includes no special packaging, extras or DLC for any of the games, and is sold at a much cheaper price.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ]
+  }
+]

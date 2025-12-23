@@ -1,8 +1,136 @@
 [
   {
     "id": 127,
+    "age_ratings": [
+      {
+        "id": 79322,
+        "checksum": "ee403c29-0fdb-5835-e7f1-53045729fdcc",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          68,
+          69,
+          71,
+          73
+        ]
+      },
+      {
+        "id": 126484,
+        "checksum": "66ef3edf-3c84-02c8-4c4f-2572b0d9fc16",
+        "organization": 6,
+        "rating_category": 33
+      },
+      {
+        "id": 188870,
+        "checksum": "9b889562-4f09-0bb7-59fb-70b8369d8243",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          3,
+          10,
+          18,
+          21,
+          17
+        ]
+      },
+      {
+        "id": 36060,
+        "checksum": "20233406-7674-c70e-f4dc-e67403ff3205",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50,
+          55
+        ]
+      },
+      {
+        "id": 117302,
+        "checksum": "2cc87ece-351f-b321-2df4-91ef6866e8f0",
+        "organization": 4,
+        "rating_category": 21
+      },
+      {
+        "id": 94559,
+        "checksum": "0627aa43-1fdb-2235-f5a3-167dfec31544",
+        "organization": 3,
+        "rating_category": 17
+      },
+      {
+        "id": 108697,
+        "checksum": "240f7ce3-52d6-4dea-16b6-775cc0cf0089",
+        "organization": 7,
+        "rating_category": 37
+      }
+    ],
     "aggregated_rating": 90.25,
     "aggregated_rating_count": 8,
+    "artworks": [
+      {
+        "id": 602,
+        "image_id": "pqj8yesbilonefmtd6rj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pqj8yesbilonefmtd6rj.jpg"
+      },
+      {
+        "id": 608,
+        "image_id": "hazdmjmvhhpki9fxfyfx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hazdmjmvhhpki9fxfyfx.jpg"
+      },
+      {
+        "id": 604,
+        "image_id": "kagcbgwqgewpeufogvvv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kagcbgwqgewpeufogvvv.jpg"
+      },
+      {
+        "id": 609,
+        "image_id": "potsazr5ojxonjwpvjkn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/potsazr5ojxonjwpvjkn.jpg"
+      },
+      {
+        "id": 610,
+        "image_id": "jujznrk9upob1l0bqlem",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jujznrk9upob1l0bqlem.jpg"
+      },
+      {
+        "id": 606,
+        "image_id": "olnrcm5zwyfnbaosrakt",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/olnrcm5zwyfnbaosrakt.jpg"
+      },
+      {
+        "id": 603,
+        "image_id": "c3otxzps8o9bcxsqpcqf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/c3otxzps8o9bcxsqpcqf.jpg"
+      },
+      {
+        "id": 605,
+        "image_id": "islic38nl9ampp3qhvsi",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/islic38nl9ampp3qhvsi.jpg"
+      },
+      {
+        "id": 10156,
+        "image_id": "ar7u4",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar7u4.jpg"
+      },
+      {
+        "id": 607,
+        "image_id": "w3018zvidbv79pblf7w4",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/w3018zvidbv79pblf7w4.jpg"
+      },
+      {
+        "id": 601,
+        "image_id": "twt8iqrsmp8zhvelwy1f",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/twt8iqrsmp8zhvelwy1f.jpg"
+      },
+      {
+        "id": 219500,
+        "image_id": "ar4pd8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar4pd8.jpg"
+      },
+      {
+        "id": 219501,
+        "image_id": "ar4pd9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar4pd9.jpg"
+      }
+    ],
     "cover": {
       "id": 82095,
       "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
@@ -151,28 +279,34 @@
     "screenshots": [
       {
         "id": 8214,
+        "image_id": "jbeteinfgsoxkoxv08i0",
         "url": "//images.igdb.com/igdb/image/upload/t_thumb/jbeteinfgsoxkoxv08i0.jpg"
       },
       {
         "id": 8213,
+        "image_id": "wkagtolikjqalonaaixb",
         "url": "//images.igdb.com/igdb/image/upload/t_thumb/wkagtolikjqalonaaixb.jpg"
       },
       {
         "id": 8217,
+        "image_id": "apxgvdkwwsb1v0fgbn8w",
         "url": "//images.igdb.com/igdb/image/upload/t_thumb/apxgvdkwwsb1v0fgbn8w.jpg"
       },
       {
         "id": 8216,
+        "image_id": "dxb4yiwyhvwehvsisy7a",
         "url": "//images.igdb.com/igdb/image/upload/t_thumb/dxb4yiwyhvwehvsisy7a.jpg"
       },
       {
         "id": 8215,
+        "image_id": "zvhehvzfakxb7aob8j7m",
         "url": "//images.igdb.com/igdb/image/upload/t_thumb/zvhehvzfakxb7aob8j7m.jpg"
       }
     ],
     "similar_games": [
       {
         "id": 1970,
+        "aggregated_rating": 84.57142857142857,
         "cover": {
           "id": 220883,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
@@ -181,6 +315,7 @@
       },
       {
         "id": 113,
+        "aggregated_rating": 83.33333333333333,
         "cover": {
           "id": 317677,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
@@ -189,6 +324,7 @@
       },
       {
         "id": 533,
+        "aggregated_rating": 90.35714285714286,
         "cover": {
           "id": 481422,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/coabgu.jpg"
@@ -197,6 +333,7 @@
       },
       {
         "id": 40,
+        "aggregated_rating": 72.625,
         "cover": {
           "id": 123159,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n13.jpg"
@@ -205,6 +342,7 @@
       },
       {
         "id": 19441,
+        "aggregated_rating": 81.33333333333333,
         "cover": {
           "id": 125839,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
@@ -213,6 +351,7 @@
       },
       {
         "id": 2031,
+        "aggregated_rating": 77.3125,
         "cover": {
           "id": 95040,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
@@ -221,6 +360,7 @@
       },
       {
         "id": 128,
+        "aggregated_rating": 80.75,
         "cover": {
           "id": 82652,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
@@ -229,6 +369,7 @@
       },
       {
         "id": 1164,
+        "aggregated_rating": 84.64285714285714,
         "cover": {
           "id": 82074,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbu.jpg"
@@ -237,6 +378,7 @@
       },
       {
         "id": 499,
+        "aggregated_rating": 96.0,
         "cover": {
           "id": 166770,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3koi.jpg"
@@ -245,6 +387,7 @@
       },
       {
         "id": 538,
+        "aggregated_rating": 93.21428571428571,
         "cover": {
           "id": 123158,
           "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
@@ -287,57 +430,100 @@
     "videos": [
       {
         "id": 3352,
+        "name": "Trailer",
         "video_id": "R20-MOOZPpY"
       },
       {
         "id": 41,
+        "name": "Trailer",
         "video_id": "TcuEqTzRXl4"
       },
       {
         "id": 119457,
+        "name": "Trailer",
         "video_id": "_xkCPNECud8"
       }
     ],
     "websites": [
       {
         "id": 13749,
-        "url": "https://www.facebook.com/assassinscreed"
+        "game": 127,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "75c77993-1512-a6f8-6c9c-5f01a050fa44",
+        "type": 4
       },
       {
         "id": 13748,
-        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_II"
+        "game": 127,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_II",
+        "checksum": "e6672e0c-e07e-cc46-65b2-30b833411b35",
+        "type": 3
       },
       {
         "id": 13752,
-        "url": "https://www.instagram.com/assassinscreed_us"
+        "game": 127,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us",
+        "checksum": "d39414e2-90ca-f068-d756-8b3b49fab287",
+        "type": 8
       },
       {
         "id": 13753,
-        "url": "https://www.youtube.com/user/assassinscreed"
+        "game": 127,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreed",
+        "checksum": "08efc03d-1f31-7757-f952-5345afb72ed6",
+        "type": 9
       },
       {
         "id": 13750,
-        "url": "https://twitter.com/assassinscreed"
+        "game": 127,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "b3a93815-78e1-9288-8596-66b2fe18ac31",
+        "type": 5
       },
       {
         "id": 56797,
-        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_II"
+        "game": 127,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_II",
+        "checksum": "a1230c99-a63b-126e-7439-f1ae9e8c1052",
+        "type": 2
       },
       {
         "id": 221287,
-        "url": "https://www.epicgames.com/store/p/assassins-creed-2"
+        "game": 127,
+        "trusted": true,
+        "url": "https://www.epicgames.com/store/p/assassins-creed-2",
+        "checksum": "37f4dbee-dff1-dad3-88e0-3a0bad61e5ef",
+        "type": 16
       },
       {
         "id": 333824,
-        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20II"
+        "game": 127,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20II",
+        "checksum": "f3d48e43-19e2-0607-9bad-397da18c7998",
+        "type": 6
       },
       {
         "id": 40150,
-        "url": "http://www.assassinscreed.com"
+        "game": 127,
+        "trusted": false,
+        "url": "http://www.assassinscreed.com",
+        "checksum": "e28c003e-72ea-4676-7aee-53760185061f",
+        "type": 1
       },
       {
         "id": 40149,
-        "url": "https://store.steampowered.com/app/33230"
+        "game": 127,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/33230",
+        "checksum": "e8845bfd-2083-43fe-51d1-ff4fa59dbae6",
+        "type": 13
       }
     ]
   }

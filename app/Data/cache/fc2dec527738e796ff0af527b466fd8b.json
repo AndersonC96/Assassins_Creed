@@ -1,0 +1,271 @@
+[
+  {
+    "id": 122236,
+    "age_ratings": [
+      {
+        "id": 95297,
+        "checksum": "90886a6d-83f4-9717-7cf6-8eb948b7f9ec",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          69,
+          71,
+          72,
+          73
+        ]
+      },
+      {
+        "id": 33283,
+        "checksum": "13069935-7c6a-2678-8629-fa95f3f807d7",
+        "organization": 2,
+        "rating_category": 12
+      },
+      {
+        "id": 25791,
+        "checksum": "8a7da4a6-7669-d5e9-247d-165511ad8cc1",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          29,
+          21,
+          3,
+          26,
+          18
+        ]
+      },
+      {
+        "id": 96213,
+        "checksum": "fc35646b-a182-b485-d647-4ebdf2622d5c",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          61,
+          65
+        ]
+      }
+    ],
+    "aggregated_rating": 74.5,
+    "aggregated_rating_count": 4,
+    "artworks": [
+      {
+        "id": 12045,
+        "image_id": "ar9al",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar9al.jpg"
+      }
+    ],
+    "cover": {
+      "id": 81837,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r59.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 207186,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: The Rebel Collection",
+    "platforms": [
+      {
+        "id": 130,
+        "abbreviation": "Switch",
+        "name": "Nintendo Switch"
+      }
+    ],
+    "rating": 81.01771251135516,
+    "rating_count": 6,
+    "release_dates": [
+      {
+        "id": 339833,
+        "date": 1575504000,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      },
+      {
+        "id": 175266,
+        "date": 1575590400,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 325300,
+        "image_id": "sc6z04",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6z04.jpg"
+      },
+      {
+        "id": 325298,
+        "image_id": "sc6z02",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6z02.jpg"
+      },
+      {
+        "id": 325299,
+        "image_id": "sc6z03",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6z03.jpg"
+      },
+      {
+        "id": 325301,
+        "image_id": "sc6z05",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6z05.jpg"
+      },
+      {
+        "id": 325302,
+        "image_id": "sc6z06",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6z06.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      },
+      {
+        "id": 28309,
+        "aggregated_rating": 65.5,
+        "cover": {
+          "id": 67083,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/zlb0ljqmgn8tc8vv3mij.jpg"
+        },
+        "name": "Tanzia"
+      },
+      {
+        "id": 115280,
+        "aggregated_rating": 67.0,
+        "cover": {
+          "id": 75082,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lxm.jpg"
+        },
+        "name": "Oninaki"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 80916,
+        "aggregated_rating": 78.75,
+        "cover": {
+          "id": 398316,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co8jcc.jpg"
+        },
+        "name": "Omensight"
+      },
+      {
+        "id": 30245,
+        "cover": {
+          "id": 70041,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1i1l.jpg"
+        },
+        "name": "Wanderlust Adventures"
+      },
+      {
+        "id": 114290,
+        "cover": {
+          "id": 82412,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rl8.jpg"
+        },
+        "name": "Nine Trials"
+      }
+    ],
+    "summary": "Get two action-packed games and all single-player DLC with Assassin’s Creed: The Rebel Collection.\n\nBecome the most feared pirate in the Caribbean in Assassin’s Creed IV Black Flag and transform into the ultimate assassin hunter in Assassin’s Creed Rogue.\n\nIncludes both Assassin’s Creed IV Black Flag, Assassin’s Creed Rogue, and all past DLC.\nBecome the most feared pirate in the Caribbean in Assassin’s Creed IV Black Flag. Take part in an award-winning naval experience and explore a massive open world.\nBecome the ultimate assassin hunter in Assassin’s Creed Rogue, and play as a Templar for the first time in franchise history.\n\nIncludes all single-player DLC, such as Freedom Cry, Guild of Rogues, the Illustrious Pirate Pack, the Crusader \u0026 Florentine Pack, and the Death Vessel Pack.\nExperience enhanced features like Handheld Mode, HD Rumble, Touch Screen Interface, and Motion Control Aiming.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      }
+    ],
+    "videos": [
+      {
+        "id": 30233,
+        "name": "Trailer",
+        "video_id": "kqm07of4Sbg"
+      }
+    ],
+    "websites": [
+      {
+        "id": 117303,
+        "game": 122236,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_uk",
+        "checksum": "1a8b1fa8-8c57-406f-e756-d785dd03a642",
+        "type": 8
+      },
+      {
+        "id": 775433,
+        "game": 122236,
+        "trusted": false,
+        "url": "https://www.nintendo.com/games/detail/assassins-creed-the-rebel-collection-switch/",
+        "checksum": "382e1817-4b5a-b265-6397-607e192851c8",
+        "type": 24
+      },
+      {
+        "id": 117302,
+        "game": 122236,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "20f85f84-df25-3f8a-0f90-b9cd743ead9f",
+        "type": 4
+      }
+    ]
+  }
+]

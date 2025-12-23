@@ -1,0 +1,360 @@
+[
+  {
+    "id": 23954,
+    "age_ratings": [
+      {
+        "id": 226706,
+        "synopsis": "Strong violence",
+        "checksum": "a0988aeb-5a6b-99bc-224a-83ca1b923c20",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 58109,
+        "checksum": "a9157f9c-400c-1a24-a1f2-b6d7c4317adc",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          3,
+          10,
+          17,
+          21
+        ]
+      },
+      {
+        "id": 118283,
+        "checksum": "f34c979a-44ee-3238-0e90-02c1131f6448",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          68,
+          69,
+          71,
+          73
+        ]
+      },
+      {
+        "id": 14870,
+        "checksum": "025314cb-48e9-6adf-f967-49a500a69cb3",
+        "organization": 2,
+        "rating_category": 12
+      },
+      {
+        "id": 117304,
+        "checksum": "ac6e41c8-edb9-a28f-5266-7fff6b7a4f76",
+        "organization": 4,
+        "rating_category": 21
+      },
+      {
+        "id": 95652,
+        "checksum": "8897cc12-3046-2ede-ffbe-ac827d1c70b7",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          61,
+          65
+        ]
+      }
+    ],
+    "aggregated_rating": 70.66666666666667,
+    "aggregated_rating_count": 9,
+    "artworks": [
+      {
+        "id": 8461,
+        "image_id": "ar6j1",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar6j1.jpg"
+      }
+    ],
+    "cover": {
+      "id": 77467,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1nrv.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 9,
+        "name": "Puzzle"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 191961,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 191962,
+        "company": {
+          "id": 794,
+          "name": "Virtuos"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 276546,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: The Ezio Collection",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch",
+        "name": "Nintendo Switch"
+      }
+    ],
+    "rating": 89.25838334133374,
+    "rating_count": 47,
+    "release_dates": [
+      {
+        "id": 399050,
+        "date": 1645056000,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      },
+      {
+        "id": 107370,
+        "date": 1479168000,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 107369,
+        "date": 1479340800,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 135859,
+        "date": 1479168000,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 115047,
+        "image_id": "isorlzeax7ddrkysix9y",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/isorlzeax7ddrkysix9y.jpg"
+      },
+      {
+        "id": 115044,
+        "image_id": "p5eaz0sgf8wy9jjiin1n",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/p5eaz0sgf8wy9jjiin1n.jpg"
+      },
+      {
+        "id": 115046,
+        "image_id": "sznatxdgl02fly11cpth",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sznatxdgl02fly11cpth.jpg"
+      },
+      {
+        "id": 146143,
+        "image_id": "rwhrjafsx2kisxxcoptb",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rwhrjafsx2kisxxcoptb.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 127,
+        "aggregated_rating": 90.25,
+        "cover": {
+          "id": 82095,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+        },
+        "name": "Assassin\u0027s Creed II"
+      },
+      {
+        "id": 113,
+        "aggregated_rating": 83.33333333333333,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 533,
+        "aggregated_rating": 90.35714285714286,
+        "cover": {
+          "id": 481422,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coabgu.jpg"
+        },
+        "name": "Dishonored"
+      },
+      {
+        "id": 1970,
+        "aggregated_rating": 84.57142857142857,
+        "cover": {
+          "id": 220883,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
+        },
+        "name": "Assassin\u0027s Creed IV Black Flag"
+      },
+      {
+        "id": 2031,
+        "aggregated_rating": 77.3125,
+        "cover": {
+          "id": 95040,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
+        },
+        "name": "Wolfenstein: The New Order"
+      },
+      {
+        "id": 1020,
+        "aggregated_rating": 88.13793103448276,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        },
+        "name": "Grand Theft Auto V"
+      },
+      {
+        "id": 1164,
+        "aggregated_rating": 84.64285714285714,
+        "cover": {
+          "id": 82074,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbu.jpg"
+        },
+        "name": "Tomb Raider"
+      },
+      {
+        "id": 3188,
+        "aggregated_rating": 60.85714285714285,
+        "cover": {
+          "id": 81910,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7a.jpg"
+        },
+        "name": "Murdered: Soul Suspect"
+      },
+      {
+        "id": 1985,
+        "aggregated_rating": 95.73684210526316,
+        "cover": {
+          "id": 87125,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1v85.jpg"
+        },
+        "name": "Metal Gear Solid V: The Phantom Pain"
+      },
+      {
+        "id": 472,
+        "aggregated_rating": 79.91666666666667,
+        "cover": {
+          "id": 85100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnw.jpg"
+        },
+        "name": "The Elder Scrolls V: Skyrim"
+      }
+    ],
+    "storyline": "Live the life of Ezio and learn the ways of the Assassin as he seeks vengeance for the betrayal of his family. Travel through 15th-century Renaissance Italy, including the capital Rome and finally onto 16th-century Constantinople.",
+    "summary": "Make history as the legendary Master Assassin, Ezio Auditore da Firenze, in Assassin’s Creed The Ezio Collection, which includes the acclaimed single-player campaigns and single-player add-on content (no multiplayer content) from Assassin’s Creed II, Assassin’s Creed Brotherhood, and Assassin’s Creed Revelations with enhanced\ngraphics.\n\nLive the life of Ezio and learn the ways of the Assassin as he seeks vengeance for the betrayal of his family. Travel through 15th-century Renaissance Italy, including the capital Rome and finally onto 16th-century Constantinople.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 9875,
+        "name": "Trailer",
+        "video_id": "FDg8makw7HI"
+      },
+      {
+        "id": 76922,
+        "name": "Trailer",
+        "video_id": "vRpAhvsQE6k"
+      }
+    ],
+    "websites": [
+      {
+        "id": 785665,
+        "game": 23954,
+        "trusted": false,
+        "url": "https://www.nintendo.com/games/detail/assassins-creed-the-ezio-collection-switch/",
+        "checksum": "c2574efb-5b19-0042-e60b-9edbe2244c56",
+        "type": 24
+      },
+      {
+        "id": 785666,
+        "game": 23954,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-the-ezio-collection/BQ9S8ZKCT3Q7",
+        "checksum": "5e4a752b-e2a2-a843-a304-ebc6bdffa04c",
+        "type": 22
+      },
+      {
+        "id": 785667,
+        "game": 23954,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/225519",
+        "checksum": "8bc4eb55-6ece-42f0-06c7-aefb860982eb",
+        "type": 23
+      },
+      {
+        "id": 53661,
+        "game": 23954,
+        "trusted": false,
+        "url": "http://assassinscreed.ubi.com/en-US/games/ezio-trilogy/index.aspx",
+        "checksum": "f5b072b7-4adc-5f3b-561e-d718cad6474f",
+        "type": 1
+      }
+    ]
+  }
+]

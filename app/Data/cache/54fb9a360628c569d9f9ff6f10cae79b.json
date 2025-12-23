@@ -1,0 +1,315 @@
+[
+  {
+    "id": 52416,
+    "age_ratings": [
+      {
+        "id": 226692,
+        "synopsis": "Violence",
+        "checksum": "43fbca54-93e6-2a6e-efbb-22d6ef12dc4c",
+        "organization": 7,
+        "rating_category": 36
+      },
+      {
+        "id": 86810,
+        "checksum": "46b46732-272e-ea0b-72be-b623813150d4",
+        "organization": 1,
+        "rating_category": 5,
+        "rating_content_descriptions": [
+          29,
+          18,
+          3,
+          11
+        ]
+      },
+      {
+        "id": 91470,
+        "checksum": "857034ae-3d6a-21b0-503e-fa2864231325",
+        "organization": 5,
+        "rating_category": 26
+      },
+      {
+        "id": 91825,
+        "checksum": "80e00d14-b2cc-64d4-fe5a-6963366208d1",
+        "organization": 3,
+        "rating_category": 15,
+        "rating_content_descriptions": [
+          61,
+          65
+        ]
+      },
+      {
+        "id": 108096,
+        "checksum": "04fe6034-561d-48e4-2e74-5d1ef39a61ea",
+        "organization": 2,
+        "rating_category": 11,
+        "rating_content_descriptions": [
+          50
+        ]
+      }
+    ],
+    "artworks": [
+      {
+        "id": 10155,
+        "image_id": "ar7u3",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar7u3.jpg"
+      }
+    ],
+    "cover": {
+      "id": 136928,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xnk.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 203682,
+        "company": {
+          "id": 163,
+          "name": "Climax Studios"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 203683,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed Chronicles: Trilogy Pack",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 46,
+        "abbreviation": "Vita",
+        "name": "PlayStation Vita"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "rating": 50.79786441232542,
+    "rating_count": 10,
+    "release_dates": [
+      {
+        "id": 176948,
+        "date": 1459900800,
+        "platform": {
+          "id": 46,
+          "abbreviation": "Vita"
+        }
+      },
+      {
+        "id": 324253,
+        "date": 1456358400,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 163074,
+        "date": 1483142400,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 450763,
+        "date": 1455062400,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 304448,
+        "date": 1454976000,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 269803,
+        "image_id": "sc5s6j",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5s6j.jpg"
+      },
+      {
+        "id": 269802,
+        "image_id": "sc5s6i",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5s6i.jpg"
+      },
+      {
+        "id": 269804,
+        "image_id": "sc5s6k",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5s6k.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 14902,
+        "aggregated_rating": 60.22222222222222,
+        "cover": {
+          "id": 81580,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1qy4.jpg"
+        },
+        "name": "Assassin\u0027s Creed Chronicles: India"
+      },
+      {
+        "id": 8223,
+        "aggregated_rating": 70.375,
+        "cover": {
+          "id": 81582,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1qy6.jpg"
+        },
+        "name": "Assassin\u0027s Creed Chronicles: China"
+      },
+      {
+        "id": 14903,
+        "aggregated_rating": 55.5,
+        "cover": {
+          "id": 81581,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1qy5.jpg"
+        },
+        "name": "Assassin\u0027s Creed Chronicles: Russia"
+      },
+      {
+        "id": 127,
+        "aggregated_rating": 90.25,
+        "cover": {
+          "id": 82095,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+        },
+        "name": "Assassin\u0027s Creed II"
+      },
+      {
+        "id": 5606,
+        "aggregated_rating": 70.93333333333334,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 128,
+        "aggregated_rating": 80.75,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 19441,
+        "aggregated_rating": 81.33333333333333,
+        "cover": {
+          "id": 125839,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
+        },
+        "name": "Watch Dogs 2"
+      },
+      {
+        "id": 7213,
+        "aggregated_rating": 55.0,
+        "cover": {
+          "id": 117781,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ivp.jpg"
+        },
+        "name": "Tenchu Z"
+      },
+      {
+        "id": 113,
+        "aggregated_rating": 83.33333333333333,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 533,
+        "aggregated_rating": 90.35714285714286,
+        "cover": {
+          "id": 481422,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coabgu.jpg"
+        },
+        "name": "Dishonored"
+      }
+    ],
+    "summary": "Expand your Assassin’s Creed experience and discover the forgotten stories of three remarkable Assassins in brand-new settings with fresh 2.5D stealth gameplay:\n\n• Play the adventures of three cult Assassins:\nEach chapter comes with a unique hero and a new setting all interconnected through a common plot that will only be revealed at the very end.\n• Stealth in a new dimension:\nExperience the thrill of being a master Assassin in 2.5D. Sneak and hide to avoid detection and fool enemies using whistles and disguises.\n• Experience a fast \u0026 fluid \"assault course\":\nWhether you’re running from danger, negotiating obstacles or stealthily climbing you will truly feel the freedom of moving as an Assassin.\n• Master three different combat styles:\nEach chronicle comes with a different assassin equipped with a distinct range of weapons and gadgets.\n• Navigate multiple planes :\nSwitch between environmental layers and choose the right path according to your needs.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ],
+    "websites": [
+      {
+        "id": 851462,
+        "game": 52416,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/215266",
+        "checksum": "efa32681-84fe-6382-a650-d5c39b6732af",
+        "type": 23
+      },
+      {
+        "id": 851463,
+        "game": 52416,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Chronicles",
+        "checksum": "cc356487-9fb1-1455-6a9f-a60b29abaece",
+        "type": 3
+      },
+      {
+        "id": 743419,
+        "game": 52416,
+        "trusted": true,
+        "url": "https://store.epicgames.com/en-US/p/trilogy",
+        "checksum": "f717aa85-927e-7d6d-8770-16aa35d3bde3",
+        "type": 16
+      }
+    ]
+  }
+]
