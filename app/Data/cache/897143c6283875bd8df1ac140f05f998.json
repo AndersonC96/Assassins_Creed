@@ -1,0 +1,342 @@
+[
+  {
+    "id": 537,
+    "aggregated_rating": 81.71428571428571,
+    "aggregated_rating_count": 7,
+    "cover": {
+      "id": 90089,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xih.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      },
+      {
+        "id": 2,
+        "name": "Multiplayer"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 3672,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 63934,
+        "company": {
+          "id": 39,
+          "name": "Ubisoft Annecy"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63933,
+        "company": {
+          "id": 2921,
+          "name": "Ubisoft Kyiv"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63937,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63938,
+        "company": {
+          "id": 697,
+          "name": "Ubisoft Bucharest"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 75597,
+        "company": {
+          "id": 537,
+          "name": "Massive Entertainment"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 194931,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 202095,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed Revelations",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "rating": 76.92082573259185,
+    "rating_count": 1173,
+    "release_dates": [
+      {
+        "id": 242525,
+        "date": 1321315200,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 242526,
+        "date": 1321315200,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 134438,
+        "date": 1321401600,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 134439,
+        "date": 1322524800,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 134437,
+        "date": 1321228800,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 8221,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/djemthnshqygffcpas1w.jpg"
+      },
+      {
+        "id": 8219,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/y6o09sjwlpotulpkyi8v.jpg"
+      },
+      {
+        "id": 8223,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jhbcpqlsowkfwwsyimnm.jpg"
+      },
+      {
+        "id": 8220,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/taqubzfll3c84co1v0a5.jpg"
+      },
+      {
+        "id": 8222,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/g6l3sr93xngc4b7wddvt.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 1266,
+        "cover": {
+          "id": 90090,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xii.jpg"
+        },
+        "name": "Assassin\u0027s Creed III"
+      },
+      {
+        "id": 128,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 7570,
+        "cover": {
+          "id": 90099,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xir.jpg"
+        },
+        "name": "Assassin\u0027s Creed Rogue"
+      },
+      {
+        "id": 5606,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 28540,
+        "cover": {
+          "id": 82058,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbe.jpg"
+        },
+        "name": "Assassin\u0027s Creed Origins"
+      },
+      {
+        "id": 8263,
+        "cover": {
+          "id": 90100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xis.jpg"
+        },
+        "name": "Assassin\u0027s Creed Syndicate"
+      },
+      {
+        "id": 113,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 4843,
+        "cover": {
+          "id": 200538,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4aqi.jpg"
+        },
+        "name": "Kingdom Come: Deliverance"
+      },
+      {
+        "id": 1970,
+        "cover": {
+          "id": 220883,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
+        },
+        "name": "Assassin\u0027s Creed IV Black Flag"
+      },
+      {
+        "id": 9243,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      }
+    ],
+    "summary": "Assassin\u0027s Creed Revelations presents the most immersive experience available in the series to date and the culmination of Ezio\u0027s adventure. In Assassin\u0027s Creed Revelations, master assassin Ezio Auditore walks in the footsteps of his legendary mentor, Altair, on a journey of discovery and revelation. It is a perilous path - one that will take Ezio to Constantinople, the heart of the Ottoman Empire, where a growing army of Templars threatens to destabilize the region.\n\nIn addition to Ezio\u0027s award-winning story, the acclaimed online multiplayer experience from Assassin\u0027s Creed Brotherhood returns; refined and expanded, with more modes, more maps and more characters that allow players to test their assassin skills against others from around the world. The latest chapter in the Assassin\u0027s Creed saga also includes revolutionary gameplay, allowing players to manipulate the construct of Desmond\u0027s memories and the Animus to decipher the mysteries of his past and gain insight into the future.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 570,
+        "video_id": "4K39UWxdm0U"
+      },
+      {
+        "id": 3351,
+        "video_id": "skWGjgoERtw"
+      }
+    ],
+    "websites": [
+      {
+        "id": 334044,
+        "url": "https://www.twitch.tv/directory/game/Assassin%27s%20Creed%20Revelations"
+      },
+      {
+        "id": 15716,
+        "url": "https://store.steampowered.com/app/201870"
+      },
+      {
+        "id": 15715,
+        "url": "https://www.youtube.com/user/assassinscreed"
+      },
+      {
+        "id": 177027,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed:_Revelations"
+      },
+      {
+        "id": 15714,
+        "url": "https://www.instagram.com/assassinscreed_us"
+      },
+      {
+        "id": 66801,
+        "url": "http://assassinscreed.ubi.com"
+      },
+      {
+        "id": 15709,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed:_Revelations"
+      },
+      {
+        "id": 15711,
+        "url": "https://www.facebook.com/assassinscreed"
+      },
+      {
+        "id": 15712,
+        "url": "https://twitter.com/assassinscreed"
+      }
+    ]
+  }
+]

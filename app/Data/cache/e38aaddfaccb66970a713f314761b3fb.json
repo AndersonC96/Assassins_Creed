@@ -1,0 +1,344 @@
+[
+  {
+    "id": 127,
+    "aggregated_rating": 90.25,
+    "aggregated_rating_count": 8,
+    "cover": {
+      "id": 82095,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 8109,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 202087,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      },
+      {
+        "id": 202088,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed II",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 39,
+        "abbreviation": "iOS",
+        "name": "iOS"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac",
+        "name": "Mac"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "rating": 86.64434031599103,
+    "rating_count": 2975,
+    "release_dates": [
+      {
+        "id": 107336,
+        "date": 1259798400,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 242527,
+        "date": 1258416000,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 107338,
+        "date": 1258416000,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 118282,
+        "date": 1319155200,
+        "platform": {
+          "id": 39,
+          "abbreviation": "iOS"
+        }
+      },
+      {
+        "id": 107337,
+        "date": 1258588800,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 458861,
+        "date": 1300320000,
+        "platform": {
+          "id": 14,
+          "abbreviation": "Mac"
+        }
+      },
+      {
+        "id": 242528,
+        "date": 1283299200,
+        "platform": {
+          "id": 14,
+          "abbreviation": "Mac"
+        }
+      },
+      {
+        "id": 242529,
+        "date": 1268092800,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 8214,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jbeteinfgsoxkoxv08i0.jpg"
+      },
+      {
+        "id": 8213,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wkagtolikjqalonaaixb.jpg"
+      },
+      {
+        "id": 8217,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/apxgvdkwwsb1v0fgbn8w.jpg"
+      },
+      {
+        "id": 8216,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dxb4yiwyhvwehvsisy7a.jpg"
+      },
+      {
+        "id": 8215,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zvhehvzfakxb7aob8j7m.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 1970,
+        "cover": {
+          "id": 220883,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
+        },
+        "name": "Assassin\u0027s Creed IV Black Flag"
+      },
+      {
+        "id": 113,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 481422,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coabgu.jpg"
+        },
+        "name": "Dishonored"
+      },
+      {
+        "id": 40,
+        "cover": {
+          "id": 123159,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n13.jpg"
+        },
+        "name": "Mafia II"
+      },
+      {
+        "id": 19441,
+        "cover": {
+          "id": 125839,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
+        },
+        "name": "Watch Dogs 2"
+      },
+      {
+        "id": 2031,
+        "cover": {
+          "id": 95040,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
+        },
+        "name": "Wolfenstein: The New Order"
+      },
+      {
+        "id": 128,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 1164,
+        "cover": {
+          "id": 82074,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbu.jpg"
+        },
+        "name": "Tomb Raider"
+      },
+      {
+        "id": 499,
+        "cover": {
+          "id": 166770,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3koi.jpg"
+        },
+        "name": "God of War III"
+      },
+      {
+        "id": 538,
+        "cover": {
+          "id": 123158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
+        },
+        "name": "BioShock Infinite"
+      }
+    ],
+    "storyline": "The lineage continues as this new chapter introduces Ezio, inheritor of the talents and creed of the Assassins. His family murdered by rival families, Ezio resolves to learn the ancient art of the Assassin in order to seek revenge. He will not do so alone though, allying with historical figures such as philosopher and writer Niccolò Machiavelli. You will also be able to master the art of the assassin with all new weapons and instruments created by the renowned inventor and genius of the Renaissance, Leonardo Da Vinci himself.",
+    "summary": "Discover an intriguing and epic story of power, revenge and conspiracy set during a pivotal moment in history: the Italian Renaissance.\nExperience the freedom and immersion of an all new open world and mission structure with settings such as the rooftops and canals of beautiful Venice. Your options in combat, assassination and escape are vast, with many new weapons, settings and gameplay elements.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 3352,
+        "video_id": "R20-MOOZPpY"
+      },
+      {
+        "id": 41,
+        "video_id": "TcuEqTzRXl4"
+      },
+      {
+        "id": 119457,
+        "video_id": "_xkCPNECud8"
+      }
+    ],
+    "websites": [
+      {
+        "id": 13749,
+        "url": "https://www.facebook.com/assassinscreed"
+      },
+      {
+        "id": 13748,
+        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_II"
+      },
+      {
+        "id": 13752,
+        "url": "https://www.instagram.com/assassinscreed_us"
+      },
+      {
+        "id": 13753,
+        "url": "https://www.youtube.com/user/assassinscreed"
+      },
+      {
+        "id": 13750,
+        "url": "https://twitter.com/assassinscreed"
+      },
+      {
+        "id": 56797,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_II"
+      },
+      {
+        "id": 221287,
+        "url": "https://www.epicgames.com/store/p/assassins-creed-2"
+      },
+      {
+        "id": 333824,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20II"
+      },
+      {
+        "id": 40150,
+        "url": "http://www.assassinscreed.com"
+      },
+      {
+        "id": 40149,
+        "url": "https://store.steampowered.com/app/33230"
+      }
+    ]
+  }
+]

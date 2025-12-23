@@ -77,9 +77,12 @@ class Router
         $segments = explode('/', $url);
         $path = $segments[0] ?? '';
         
-        // Check for game details route (games/show/ID)
+        // Check for game details route (games/ID or games/show/ID)
         if (count($segments) >= 2 && $segments[0] === 'games' && is_numeric($segments[1])) {
             $_GET['id'] = (int) $segments[1];
+            $path = 'games/show';
+        } elseif (count($segments) >= 3 && $segments[0] === 'games' && $segments[1] === 'show' && is_numeric($segments[2])) {
+            $_GET['id'] = (int) $segments[2];
             $path = 'games/show';
         }
         
