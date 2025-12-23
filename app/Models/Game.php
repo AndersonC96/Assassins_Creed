@@ -22,27 +22,27 @@ class Game
         'principal' => [
             'titulo' => 'Série Principal',
             'desc' => 'Os títulos principais da saga Assassin\'s Creed',
-            'ids' => [128, 127, 125, 126, 7336, 11118, 538, 15, 9364, 533, 7334, 970, 119171, 26845, 217590]
+            'ids' => [128, 127, 113, 537, 1266, 1970, 7570, 5606, 8263, 28540, 103054, 133004, 215060, 300976]
         ],
         'spinoffs' => [
             'titulo' => 'Spin-offs e Portáteis',
             'desc' => 'Jogos derivados e versões para plataformas portáteis',
-            'ids' => [2093, 2094, 4854, 4855, 4856, 9789, 14160, 9608, 11245, 13715, 2464, 217597]
+            'ids' => [68526, 21349, 68527, 10661, 18865, 68528, 68529, 77209, 77265, 3195, 68530, 20077, 3775, 64759, 8223, 14902, 14903, 251353, 41030, 251568, 135506, 133962, 152231, 64737, 26917, 64765]
         ],
         'remastered' => [
             'titulo' => 'Remasters',
             'desc' => 'Versões remasterizadas dos títulos clássicos',
-            'ids' => [19457, 111296, 136393]
+            'ids' => [20864, 81205, 109532]
         ],
         'colecoes' => [
             'titulo' => 'Coletâneas e Relançamentos',
             'desc' => 'Compilações e edições especiais',
-            'ids' => [36829, 25905, 133341, 110554, 132196, 111098]
+            'ids' => [22754, 43015, 22815, 23954, 122236, 52416]
         ],
         'cancelados' => [
             'titulo' => 'Cancelados e Descontinuados',
             'desc' => 'Projetos que não chegaram ao lançamento',
-            'ids' => [27508, 80948, 165182, 165192, 137920]
+            'ids' => [64737, 61278, 17028]
         ],
         'embreve' => [
             'titulo' => 'Em Breve',

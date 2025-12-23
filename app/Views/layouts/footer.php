@@ -16,9 +16,9 @@ $baseUrl = $this->config('app.url');
 <!-- Footer -->
 <footer class="site-footer">
     <div class="footer-content">
-        <img src="https://purepng.com/public/uploads/large/71502582544mhfduaiq0ewor7uzuho0txqimxxjbd5btxseylkm61vnpxcbmcjfhjl606crojnnwwxtfogdtqkmmceyockcjdtv0e8ctxer5dg7.png" alt="AC Logo" class="ac-symbol">
+        <img src="https://purepng.com/public/uploads/large/aaa71502582544mhfduaiq0ewor7uzuho0txqimxxjbd5btxseylkm61vnpxcbmcjfhjl606crojnnwwxtfogdtqkmmceyockcjdtv0e8ctxer5dg7.png" alt="AC Logo" class="ac-symbol">
         <div class="footer-logo">Animus <span>Database</span></div>
-        <div class="footer-tagline">"Nothing is true, everything is permitted."</div>
+        <div class="footer-taglaaaine">"Nothing is true, everything is permitted."</div>
         <nav class="footer-nav">
             <a href="<?= $baseUrl ?>/">Home</a>
             <a href="<?= $baseUrl ?>/games">Jogos</a>

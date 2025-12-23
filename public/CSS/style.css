@@ -371,6 +371,100 @@ video {
     display: block;
 }
 
+/* ============ GAMES PAGE ============ */
+.category-section {
+    margin-bottom: 3em;
+}
+
+.category-header {
+    margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.category-header h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--accent-red);
+    margin: 0 0 0.25em 0;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5em;
+}
+
+.games-grid .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--item-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.games-grid .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image-container img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    display: block;
+}
+
+.card-rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.games-grid .card-content {
+    padding: 1em;
+}
+
+.games-grid .card-content h3 {
+    font-size: 0.95rem;
+    margin: 0 0 0.25em 0;
+    color: #222;
+}
+
+.games-grid .card-content p {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+}
+
+.card-platforms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    margin-top: 0.75em;
+}
+
+.platform-badge {
+    font-size: 0.65rem;
+    padding: 3px 6px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    color: #555;
+}
+
 /* ============ TIMELINE ============ */
 .timeline {
     position: relative;
