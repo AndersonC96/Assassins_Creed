@@ -329,6 +329,101 @@ body {
     color: #fff;
 }
 
+/* ============ RATING CARDS ============ */
+.rating-box {
+    display: flex;
+    gap: 1.5em;
+    margin: 1.5em 0;
+    flex-wrap: wrap;
+}
+
+.rating-item {
+    background: rgba(180, 180, 180, 0.5);
+    border-radius: 8px;
+    padding: 1.5em;
+    min-width: 150px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.rating-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent-red), #cc3333);
+}
+
+.rating-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(112, 0, 0, 0.3);
+    border-color: var(--accent-red);
+}
+
+.rating-score {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.4em;
+}
+
+.rating-label {
+    font-size: 0.8rem;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.rating-count {
+    font-size: 0.75rem;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+}
+
+.rating-count i {
+    font-size: 0.85rem;
+}
+
+/* Rating color variations */
+.rating-score.high {
+    color: #4CAF50;
+}
+
+.rating-score.medium {
+    color: #FFC107;
+}
+
+.rating-score.low {
+    color: #f44336;
+}
+
+/* Responsive ratings */
+@media (max-width: 768px) {
+    .rating-box {
+        justify-content: center;
+    }
+    
+    .rating-item {
+        min-width: 130px;
+        padding: 1.2em;
+    }
+    
+    .rating-score {
+        font-size: 2.2rem;
+    }
+}
+
 /* ============ VIDEO PLAYER ============ */
 .video-container {
     background-color: var(--item-bg);

@@ -34,18 +34,22 @@
         <!-- Ratings -->
         <?php if (isset($game['aggregated_rating']) || isset($game['rating'])): ?>
         <div class="rating-box">
-            <?php if (isset($game['aggregated_rating'])): ?>
+            <?php if (isset($game['aggregated_rating'])): 
+                $criticColor = \App\Models\Game::getRatingColor($game['aggregated_rating']);
+            ?>
             <div class="rating-item">
-                <div class="rating-score" style="color: <?= $ratingColor ?>"><?= round($game['aggregated_rating']) ?></div>
-                <div class="rating-label">Nota da Crítica</div>
-                <div class="rating-count"><?= $game['aggregated_rating_count'] ?? 0 ?> reviews</div>
+                <div class="rating-score" style="color: <?= $criticColor ?>"><?= round($game['aggregated_rating']) ?></div>
+                <div class="rating-label"><i class="bi bi-newspaper"></i> Nota da Crítica</div>
+                <div class="rating-count"><i class="bi bi-chat-quote"></i> <?= $game['aggregated_rating_count'] ?? 0 ?> reviews</div>
             </div>
             <?php endif; ?>
-            <?php if (isset($game['rating'])): ?>
+            <?php if (isset($game['rating'])): 
+                $userColor = \App\Models\Game::getRatingColor($game['rating']);
+            ?>
             <div class="rating-item">
-                <div class="rating-score"><?= round($game['rating']) ?></div>
-                <div class="rating-label">Nota dos Usuários</div>
-                <div class="rating-count"><?= $game['rating_count'] ?? 0 ?> votos</div>
+                <div class="rating-score" style="color: <?= $userColor ?>"><?= round($game['rating']) ?></div>
+                <div class="rating-label"><i class="bi bi-people"></i> Nota dos Usuários</div>
+                <div class="rating-count"><i class="bi bi-hand-thumbs-up"></i> <?= $game['rating_count'] ?? 0 ?> votos</div>
             </div>
             <?php endif; ?>
         </div>
