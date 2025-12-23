@@ -28,14 +28,29 @@ class ApiClient
     }
 
     /**
-     * Make a query to IGDB API
+     * Make a query to IGDB API with Caching
      * 
      * @param string $endpoint API endpoint (e.g., 'games')
      * @param string $body Query body
+     * @param int $ttl Cache time to live in seconds (default 1 hour)
      * @return array|null Response data or null on error
      */
-    public function query(string $endpoint, string $body): ?array
+    public function query(string $endpoint, string $body, int $ttl = 3600): ?array
     {
+        // Check Cache
+        $cacheKey = md5($endpoint . $body);
+        $cacheDir = dirname(__DIR__) . '/Data/cache/';
+        $cacheFile = $cacheDir . $cacheKey . '.json';
+        
+        if (!is_dir($cacheDir)) {
+            mkdir($cacheDir, 0777, true);
+        }
+        
+        if (file_exists($cacheFile) && (time() - filemtime($cacheFile) < $ttl)) {
+            return json_decode(file_get_contents($cacheFile), true);
+        }
+        
+        // Execute Request
         $curl = curl_init();
         
         curl_setopt_array($curl, [
@@ -61,7 +76,13 @@ class ApiClient
         
         $data = json_decode($response, true);
         
-        return is_array($data) ? $data : null;
+        // Save Cache
+        if (is_array($data)) {
+            file_put_contents($cacheFile, $response);
+            return $data;
+        }
+        
+        return null;
     }
 
     /**

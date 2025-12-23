@@ -1,0 +1,334 @@
+{
+    "romances": [
+        {
+            "titulo": "Assassin's Creed: Renaissance",
+            "autor": "Oliver Bowden",
+            "ano": 2009,
+            "jogo": "Assassin's Creed II",
+            "descricao": "A novelização do jogo AC II, seguindo a história de Ezio Auditore da Firenze na Itália renascentista.",
+            "paginas": 496,
+            "isbn": "978-0441019298",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Brotherhood",
+            "autor": "Oliver Bowden",
+            "ano": 2010,
+            "jogo": "Assassin's Creed: Brotherhood",
+            "descricao": "Ezio continua sua jornada em Roma, liderando a Irmandade dos Assassinos contra os Bórgia.",
+            "paginas": 480,
+            "isbn": "978-0441020577",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: The Secret Crusade",
+            "autor": "Oliver Bowden",
+            "ano": 2011,
+            "jogo": "Assassin's Creed",
+            "descricao": "A história completa de Altaïr Ibn-La'Ahad, o Mentor lendário da Irmandade.",
+            "paginas": 464,
+            "isbn": "978-0441020997",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Revelations",
+            "autor": "Oliver Bowden",
+            "ano": 2011,
+            "jogo": "Assassin's Creed: Revelations",
+            "descricao": "Ezio viaja a Constantinopla em busca das chaves da biblioteca de Altaïr.",
+            "paginas": 352,
+            "isbn": "978-0441021529",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Forsaken",
+            "autor": "Oliver Bowden",
+            "ano": 2012,
+            "jogo": "Assassin's Creed III",
+            "descricao": "O diário de Haytham Kenway revela sua verdadeira história e sua relação com Connor.",
+            "paginas": 416,
+            "isbn": "978-0441020799",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Black Flag",
+            "autor": "Oliver Bowden",
+            "ano": 2013,
+            "jogo": "Assassin's Creed IV: Black Flag",
+            "descricao": "A vida de pirata de Edward Kenway no Caribe durante a idade de ouro da pirataria.",
+            "paginas": 416,
+            "isbn": "978-0425262962",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Unity",
+            "autor": "Oliver Bowden",
+            "ano": 2014,
+            "jogo": "Assassin's Creed Unity",
+            "descricao": "Arno Dorian navega pela Paris revolucionária em busca de redenção.",
+            "paginas": 352,
+            "isbn": "978-0425279731",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Underworld",
+            "autor": "Oliver Bowden",
+            "ano": 2015,
+            "jogo": "Assassin's Creed Syndicate",
+            "descricao": "Henry Green e a Irmandade lutam contra os Templários na Londres vitoriana.",
+            "paginas": 384,
+            "isbn": "978-0425279748",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Heresy",
+            "autor": "Christie Golden",
+            "ano": 2016,
+            "jogo": "AC Movie \/ AC Unity",
+            "descricao": "Uma história original conectando o filme com Joana d'Arc.",
+            "paginas": 320,
+            "isbn": "978-1945210013",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Origins - Desert Oath",
+            "autor": "Oliver Bowden",
+            "ano": 2017,
+            "jogo": "Assassin's Creed Origins",
+            "descricao": "A juventude de Bayek no Egito antigo antes dos eventos do jogo.",
+            "paginas": 336,
+            "isbn": "978-1945210327",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Odyssey",
+            "autor": "Gordon Doherty",
+            "ano": 2018,
+            "jogo": "Assassin's Creed Odyssey",
+            "descricao": "A épica jornada de Kassandra na Grécia Antiga durante a Guerra do Peloponeso.",
+            "paginas": 400,
+            "isbn": "978-1984803139",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Valhalla - Geirmund's Saga",
+            "autor": "Matthew J. Kirby",
+            "ano": 2020,
+            "jogo": "Assassin's Creed Valhalla",
+            "descricao": "A saga de Geirmund Hel-hide, um guerreiro viking que viaja à Inglaterra.",
+            "paginas": 416,
+            "isbn": "978-0593156797",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Valhalla - Sword of the White Horse",
+            "autor": "Elsa Sjunneson",
+            "ano": 2022,
+            "jogo": "Assassin's Creed Valhalla",
+            "descricao": "Niamh, uma Assassina irlandesa, embarca em uma missão perigosa na Inglaterra anglo-saxã.",
+            "paginas": 304,
+            "isbn": "978-1839081415",
+            "tipo": "romance"
+        },
+        {
+            "titulo": "Assassin's Creed: Mirage - Daughter of No One",
+            "autor": "Maria Lewis",
+            "ano": 2023,
+            "jogo": "Assassin's Creed Mirage",
+            "descricao": "Uma história prelúdio de Roshan, a mentora de Basim.",
+            "paginas": 368,
+            "isbn": "978-1839082634",
+            "tipo": "romance"
+        }
+    ],
+    "comics": [
+        {
+            "titulo": "Assassin's Creed: The Fall",
+            "autor": "Cameron Stewart & Karl Kerschl",
+            "ano": 2010,
+            "issues": 3,
+            "descricao": "A história de Nikolai Orelov, um Assassino russo durante a Revolução Bolchevique.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: The Chain",
+            "autor": "Cameron Stewart & Karl Kerschl",
+            "ano": 2012,
+            "issues": 3,
+            "descricao": "Continuação de The Fall, seguindo Daniel Cross e sua conexão com os Templários.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Brahman",
+            "autor": "Brenden Fletcher & Cameron Stewart",
+            "ano": 2014,
+            "issues": 1,
+            "descricao": "Uma história ambientada na Índia do século XIX durante o Raj Britânico.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Trial by Fire",
+            "autor": "Anthony Del Col & Conor McCreery",
+            "ano": 2015,
+            "issues": 5,
+            "descricao": "Charlotte de la Cruz descobre seu passado como Assassina.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Setting Sun",
+            "autor": "Anthony Del Col & Conor McCreery",
+            "ano": 2016,
+            "issues": 5,
+            "descricao": "Charlotte explora as memórias de seu ancestral no Egito antigo.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Homecoming",
+            "autor": "Anthony Del Col & Conor McCreery",
+            "ano": 2017,
+            "issues": 4,
+            "descricao": "Charlotte confronta seu destino e a verdade sobre sua linhagem.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Reflections",
+            "autor": "Ian Edginton",
+            "ano": 2017,
+            "issues": 4,
+            "descricao": "Histórias focadas em Ezio, Edward, Connor e Altaïr através dos olhos de seus conhecidos.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Origins",
+            "autor": "Anthony Del Col",
+            "ano": 2018,
+            "issues": 4,
+            "descricao": "Comics acompanhando os eventos de AC Origins com Aya e Bayek.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Valhalla - Blood Brothers",
+            "autor": "Feng Zi Su",
+            "ano": 2020,
+            "issues": 3,
+            "descricao": "A história de Eivor antes dos eventos do jogo Valhalla.",
+            "tipo": "comic"
+        },
+        {
+            "titulo": "Assassin's Creed: Valhalla - Song of Glory",
+            "autor": "Cavan Scott",
+            "ano": 2020,
+            "issues": 3,
+            "descricao": "Prelúdio ao jogo Valhalla, mostrando Eivor, Sigurd e a busca por glória.",
+            "tipo": "comic"
+        }
+    ],
+    "filmes": [
+        {
+            "titulo": "Assassin's Creed (Filme)",
+            "diretor": "Justin Kurzel",
+            "ano": 2016,
+            "tipo": "filme",
+            "duracao": "115 min",
+            "elenco": "Michael Fassbender, Marion Cotillard, Jeremy Irons",
+            "descricao": "Callum Lynch revive as memórias de seu ancestral Aguilar de Nerha na Espanha da Inquisição.",
+            "plataformas": [
+                "Amazon Prime",
+                "Disney+"
+            ]
+        },
+        {
+            "titulo": "Assassin's Creed: Lineage",
+            "diretor": "Yves Simoneau",
+            "ano": 2009,
+            "tipo": "curta",
+            "duracao": "36 min (3 episódios)",
+            "elenco": "Romano Orzari, Devery Jacobs",
+            "descricao": "Curta-metragem mostrando Giovanni Auditore, pai de Ezio, investigando uma conspiração Templária.",
+            "plataformas": [
+                "YouTube"
+            ]
+        },
+        {
+            "titulo": "Assassin's Creed: Embers",
+            "diretor": "UbiWorkshop",
+            "ano": 2011,
+            "tipo": "animação",
+            "duracao": "22 min",
+            "elenco": "Roger Craig Smith (voz)",
+            "descricao": "Curta animado mostrando os últimos dias de Ezio Auditore e seu encontro com Shao Jun.",
+            "plataformas": [
+                "YouTube",
+                "Blu-ray"
+            ]
+        },
+        {
+            "titulo": "Assassin's Creed: Ascendance",
+            "diretor": "UbiWorkshop",
+            "ano": 2010,
+            "tipo": "animação",
+            "duracao": "11 min",
+            "elenco": "N\/A",
+            "descricao": "Curta animado de transição entre AC II e Brotherhood, focando em Cesare Borgia.",
+            "plataformas": [
+                "YouTube"
+            ]
+        },
+        {
+            "titulo": "Assassin's Creed (Série Netflix)",
+            "diretor": "Jeb Stuart (Showrunner)",
+            "ano": "TBA (2025)",
+            "tipo": "série",
+            "duracao": "Em produção",
+            "elenco": "A ser anunciado",
+            "descricao": "Série live-action em desenvolvimento pela Netflix em parceria com a Ubisoft.",
+            "plataformas": [
+                "Netflix"
+            ]
+        },
+        {
+            "titulo": "Assassin's Creed: Black Flag (Série)",
+            "diretor": "Em desenvolvimento",
+            "ano": "TBA",
+            "tipo": "série",
+            "duracao": "Em produção",
+            "elenco": "A ser anunciado",
+            "descricao": "Série focada em Edward Kenway e a era de ouro da pirataria.",
+            "plataformas": [
+                "Netflix"
+            ]
+        }
+    ],
+    "outros": [
+        {
+            "titulo": "The Art of Assassin's Creed",
+            "tipo": "artbook",
+            "ano": 2007,
+            "descricao": "Artbook oficial do primeiro jogo com concept arts e desenvolvimento visual."
+        },
+        {
+            "titulo": "Assassin's Creed: The Complete Visual History",
+            "tipo": "artbook",
+            "ano": 2015,
+            "descricao": "Enciclopédia visual completa da franquia até AC Syndicate."
+        },
+        {
+            "titulo": "Assassin's Creed Encyclopedia",
+            "tipo": "enciclopedia",
+            "ano": 2012,
+            "descricao": "Guia definitivo com informações sobre personagens, locais e eventos."
+        },
+        {
+            "titulo": "Assassin's Creed: The Essential Guide",
+            "tipo": "guia",
+            "ano": 2020,
+            "descricao": "Guia atualizado cobrindo toda a história da franquia."
+        },
+        {
+            "titulo": "Assassin's Creed Atlas",
+            "tipo": "atlas",
+            "ano": 2018,
+            "descricao": "Mapas e geografias de todos os mundos explorados nos jogos."
+        }
+    ]
+}

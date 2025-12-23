@@ -1,0 +1,588 @@
+{
+    "assassinos": {
+        "titulo": "Assassinos & Protagonistas",
+        "desc": "Os heróis que carregam o legado da Irmandade através dos séculos",
+        "icon": "bi-person-badge",
+        "personagens": [
+            {
+                "nome": "Altaïr Ibn-La'Ahad",
+                "era": "Terceira Cruzada (1191)",
+                "jogo": "Assassin's Creed",
+                "game_id": 128,
+                "ano": 1191,
+                "desc": "Mestre Assassino sírio que redesenhou completamente a Irmandade dos Assassinos. Autor do Codex que guiou a Ordem por séculos. Descobriu os segredos da Maçã do Éden e reformou os rituais da Irmandade.",
+                "akas": [
+                    "O Mentor",
+                    "Águia de Masyaf"
+                ],
+                "tipo": "Mentor",
+                "nacionalidade": "Sírio"
+            },
+            {
+                "nome": "Ezio Auditore da Firenze",
+                "era": "Renascimento Italiano (1476-1524)",
+                "jogo": "AC II, Brotherhood, Revelations",
+                "game_id": 127,
+                "ano": 1476,
+                "desc": "Nobre florentino que se tornou o mais célebre Mentor da Irmandade Italiana. Sua história abrange três jogos principais, desde sua vingança pessoal até se tornar o líder supremo dos Assassinos.",
+                "akas": [
+                    "O Profeta",
+                    "Il Mentore"
+                ],
+                "tipo": "Mentor",
+                "nacionalidade": "Italiano"
+            },
+            {
+                "nome": "Connor Kenway",
+                "era": "Revolução Americana (1754-1783)",
+                "jogo": "Assassin's Creed III",
+                "game_id": 1266,
+                "ano": 1754,
+                "desc": "Ratonhnhaké:ton, meio-mohawk e meio-inglês, lutou pela liberdade durante a Revolução Americana. Enfrentou seu próprio pai, o Templário Haytham Kenway, na luta pelo futuro da América.",
+                "akas": [
+                    "Ratonhnhaké:ton"
+                ],
+                "tipo": "Assassino",
+                "nacionalidade": "Mohawk\/Inglês"
+            },
+            {
+                "nome": "Edward Kenway",
+                "era": "Era de Ouro da Pirataria (1715)",
+                "jogo": "AC IV: Black Flag",
+                "game_id": 1970,
+                "ano": 1715,
+                "desc": "Pirata galês que buscava fortuna no Caribe e acabou descobrindo a guerra secreta entre Assassinos e Templários. Avô de Connor Kenway e pai de Haytham Kenway.",
+                "akas": [
+                    "Capitão Kenway",
+                    "O Pirata"
+                ],
+                "tipo": "Pirata\/Assassino",
+                "nacionalidade": "Galês"
+            },
+            {
+                "nome": "Shay Patrick Cormac",
+                "era": "Guerra dos Sete Anos (1752-1760)",
+                "jogo": "AC Rogue",
+                "game_id": 7570,
+                "ano": 1752,
+                "desc": "Ex-Assassino que se tornou Templário após descobrir que a Irmandade causou um terremoto devastador em Lisboa. Caçou e eliminou vários Assassinos, incluindo mentores.",
+                "akas": [
+                    "O Caçador de Assassinos"
+                ],
+                "tipo": "Ex-Assassino\/Templário",
+                "nacionalidade": "Irlandês"
+            },
+            {
+                "nome": "Arno Dorian",
+                "era": "Revolução Francesa (1789)",
+                "jogo": "Assassin's Creed Unity",
+                "game_id": 5606,
+                "ano": 1789,
+                "desc": "Órfão criado pelo Grão-Mestre Templário François de la Serre. Após a morte de seu pai adotivo, juntou-se aos Assassinos buscando redenção, enquanto amava a Templária Élise.",
+                "akas": [
+                    "O Órfão"
+                ],
+                "tipo": "Assassino",
+                "nacionalidade": "Francês"
+            },
+            {
+                "nome": "Jacob Frye",
+                "era": "Era Vitoriana (1868)",
+                "jogo": "AC Syndicate",
+                "game_id": 8263,
+                "ano": 1868,
+                "desc": "Gêmeo impulsivo e carismático que fundou os Rooks, uma gangue para combater a influência Templária em Londres. Prefere ação direta e combate corpo a corpo.",
+                "akas": [
+                    "Líder dos Rooks"
+                ],
+                "tipo": "Assassino",
+                "nacionalidade": "Inglês"
+            },
+            {
+                "nome": "Evie Frye",
+                "era": "Era Vitoriana (1868)",
+                "jogo": "AC Syndicate",
+                "game_id": 8263,
+                "ano": 1868,
+                "desc": "Gêmea calculista e estudiosa de Jacob. Focada em encontrar um Pedaço do Éden enquanto libertava Londres. Especialista em furtividade e infiltração.",
+                "akas": [
+                    "A Sombra"
+                ],
+                "tipo": "Assassina",
+                "nacionalidade": "Inglesa"
+            },
+            {
+                "nome": "Bayek de Siwa",
+                "era": "Egito Ptolemaico (49 a.C.)",
+                "jogo": "AC Origins",
+                "game_id": 28540,
+                "ano": -49,
+                "desc": "Último Medjay do Egito que, junto com sua esposa Aya, fundou a Irmandade dos Ocultos (predecessora dos Assassinos) após a morte de seu filho Khemu.",
+                "akas": [
+                    "O Medjay",
+                    "Fundador dos Ocultos"
+                ],
+                "tipo": "Medjay\/Fundador",
+                "nacionalidade": "Egípcio"
+            },
+            {
+                "nome": "Aya de Alexandria",
+                "era": "Egito Ptolemaico (49 a.C.)",
+                "jogo": "AC Origins",
+                "game_id": 28540,
+                "ano": -49,
+                "desc": "Esposa de Bayek e cofundadora dos Ocultos. Tornou-se Amunet, uma das Assassinas mais lendárias, responsável pela morte de Cleópatra.",
+                "akas": [
+                    "Amunet"
+                ],
+                "tipo": "Fundadora",
+                "nacionalidade": "Egípcia\/Grega"
+            },
+            {
+                "nome": "Kassandra",
+                "era": "Grécia Antiga (431 a.C.)",
+                "jogo": "AC Odyssey",
+                "game_id": 103054,
+                "ano": -431,
+                "desc": "Mercenária espartana, descendente de Leônidas e portadora de sua lança. Graças ao Bastão de Hermes, viveu por mais de 2.400 anos, encontrando Layla Hassan em 2018.",
+                "akas": [
+                    "Misthios",
+                    "Eagle Bearer",
+                    "Guardiã"
+                ],
+                "tipo": "Mercenária\/Imortal",
+                "nacionalidade": "Espartana"
+            },
+            {
+                "nome": "Eivor Varinsdottir",
+                "era": "Era Viking (873)",
+                "jogo": "AC Valhalla",
+                "game_id": 133004,
+                "ano": 873,
+                "desc": "Viking norueguês(a) que liderou o clã do Corvo na conquista da Inglaterra. Tornou-se aliado(a) dos Ocultos e descobriu a verdade sobre a reencarnação de Odin.",
+                "akas": [
+                    "Wolf-Kissed",
+                    "Drengr"
+                ],
+                "tipo": "Viking\/Aliado dos Ocultos",
+                "nacionalidade": "Norueguês(a)"
+            },
+            {
+                "nome": "Basim Ibn Ishaq",
+                "era": "Bagdá Abássida (861)",
+                "jogo": "AC Mirage",
+                "game_id": 215060,
+                "ano": 861,
+                "desc": "Ladrão de rua em Bagdá que se tornou membro dos Ocultos. Esconde um segredo ancestral: é a reencarnação de Loki, o deus nórdico da trapaça.",
+                "akas": [
+                    "O Oculto",
+                    "Loki"
+                ],
+                "tipo": "Oculto",
+                "nacionalidade": "Árabe"
+            },
+            {
+                "nome": "Naoe",
+                "era": "Japão Feudal (1579)",
+                "jogo": "AC Shadows",
+                "game_id": 300976,
+                "ano": 1579,
+                "desc": "Shinobi japonesa e filha de um líder ninja. Especialista em furtividade, infiltração e uso de kunais. Representa o estilo clássico de assassinato da franquia.",
+                "akas": [
+                    "A Shinobi",
+                    "Filha das Sombras"
+                ],
+                "tipo": "Shinobi",
+                "nacionalidade": "Japonesa"
+            },
+            {
+                "nome": "Yasuke",
+                "era": "Japão Feudal (1579)",
+                "jogo": "AC Shadows",
+                "game_id": 300976,
+                "ano": 1579,
+                "desc": "Samurai africano histórico que serviu Oda Nobunaga. Especialista em combate direto e força bruta. Primeiro samurai negro documentado na história do Japão.",
+                "akas": [
+                    "O Samurai Negro",
+                    "Yasuke de Nobunaga"
+                ],
+                "tipo": "Samurai",
+                "nacionalidade": "Africano\/Japonês"
+            },
+            {
+                "nome": "Alexios",
+                "era": "Grécia Antiga (431 a.C.)",
+                "jogo": "AC Odyssey",
+                "game_id": 103054,
+                "ano": -431,
+                "desc": "Irmão de Kassandra e protagonista alternativo de Odyssey. Se não for escolhido como protagonista, torna-se o antagonista Deimos, líder do Culto de Kosmos.",
+                "akas": [
+                    "Deimos",
+                    "O Demigod"
+                ],
+                "tipo": "Mercenário\/Antagonista",
+                "nacionalidade": "Espartano"
+            },
+            {
+                "nome": "Aveline de Grandpré",
+                "era": "Revolução Americana (1765)",
+                "jogo": "AC Liberation, AC III",
+                "game_id": 1266,
+                "ano": 1765,
+                "desc": "Assassina afro-francesa de Nova Orleans. Primeira protagonista feminina da série principal. Lutou contra a escravidão e a influência Templária no sul.",
+                "akas": [
+                    "A Libertadora"
+                ],
+                "tipo": "Assassina",
+                "nacionalidade": "Afro-Francesa"
+            },
+            {
+                "nome": "Adéwalé",
+                "era": "Era da Pirataria (1715-1735)",
+                "jogo": "AC IV, Freedom Cry",
+                "game_id": 1970,
+                "ano": 1715,
+                "desc": "Ex-escravo que se tornou pirata ao lado de Edward Kenway e depois Assassino. Protagonista de Freedom Cry, lutou contra o tráfico de escravos.",
+                "akas": [
+                    "O Libertador"
+                ],
+                "tipo": "Pirata\/Assassino",
+                "nacionalidade": "Trinidadiano"
+            },
+            {
+                "nome": "Roshan",
+                "era": "Bagdá Abássida (861)",
+                "jogo": "AC Mirage",
+                "game_id": 215060,
+                "ano": 861,
+                "desc": "Mentora de Basim e líder dos Ocultos em Bagdá. Uma das Assassinas mais habilidosas de sua era, treinou Basim desde jovem.",
+                "akas": [
+                    "A Mentora"
+                ],
+                "tipo": "Mentora",
+                "nacionalidade": "Persa"
+            },
+            {
+                "nome": "Sigurd Styrbjornsson",
+                "era": "Era Viking (873)",
+                "jogo": "AC Valhalla",
+                "game_id": 133004,
+                "ano": 873,
+                "desc": "Irmão adotivo de Eivor e líder do clã do Corvo. Reencarnação de Tyr, deus nórdico da guerra e justiça.",
+                "akas": [
+                    "Tyr"
+                ],
+                "tipo": "Viking\/Isu",
+                "nacionalidade": "Norueguês"
+            }
+        ]
+    },
+    "templarios": {
+        "titulo": "Templários Notáveis",
+        "desc": "Os antagonistas que buscam ordem através do controle",
+        "icon": "bi-shield-fill",
+        "personagens": [
+            {
+                "nome": "Haytham Kenway",
+                "era": "Revolução Americana (1754)",
+                "jogo": "AC III, Rogue",
+                "game_id": 1266,
+                "ano": 1754,
+                "desc": "Grão-Mestre Templário da Colônia Americana e pai de Connor. Filho de Edward Kenway, foi criado como Templário após a morte de seu pai.",
+                "akas": [
+                    "Grão-Mestre Colonial"
+                ],
+                "tipo": "Grão-Mestre",
+                "nacionalidade": "Inglês"
+            },
+            {
+                "nome": "Rodrigo Borgia",
+                "era": "Renascimento (1492)",
+                "jogo": "AC II",
+                "game_id": 127,
+                "ano": 1492,
+                "desc": "Papa Alexandre VI e Grão-Mestre dos Templários Italianos. Principal antagonista de Ezio, buscou os Pedaços do Éden para conquistar poder absoluto.",
+                "akas": [
+                    "Papa Alexandre VI",
+                    "O Espanhol"
+                ],
+                "tipo": "Grão-Mestre",
+                "nacionalidade": "Espanhol"
+            },
+            {
+                "nome": "Cesare Borgia",
+                "era": "Renascimento (1500)",
+                "jogo": "AC Brotherhood",
+                "game_id": 113,
+                "ano": 1500,
+                "desc": "Filho de Rodrigo Borgia e comandante dos exércitos papais. Conquistou Roma e grande parte da Itália até ser derrotado por Ezio.",
+                "akas": [
+                    "O Príncipe"
+                ],
+                "tipo": "Comandante Templário",
+                "nacionalidade": "Italiano"
+            },
+            {
+                "nome": "Al Mualim",
+                "era": "Terceira Cruzada (1191)",
+                "jogo": "Assassin's Creed",
+                "game_id": 128,
+                "ano": 1191,
+                "desc": "Mentor de Altaïr que secretamente buscava usar a Maçã do Éden para controlar a humanidade. Foi morto por Altaïr após sua traição ser revelada.",
+                "akas": [
+                    "O Velho da Montanha"
+                ],
+                "tipo": "Mentor Traidor",
+                "nacionalidade": "Sírio"
+            },
+            {
+                "nome": "Crawford Starrick",
+                "era": "Era Vitoriana (1868)",
+                "jogo": "AC Syndicate",
+                "game_id": 8263,
+                "ano": 1868,
+                "desc": "Grão-Mestre que controlava Londres através de negócios e política. Sua queda veio pelas mãos dos gêmeos Frye.",
+                "akas": [
+                    "O Magnata"
+                ],
+                "tipo": "Grão-Mestre",
+                "nacionalidade": "Inglês"
+            },
+            {
+                "nome": "Charles Lee",
+                "era": "Revolução Americana (1754)",
+                "jogo": "AC III",
+                "game_id": 1266,
+                "ano": 1754,
+                "desc": "Braço direito de Haytham Kenway e principal antagonista de Connor. Responsável pelo ataque à vila de Connor quando era criança.",
+                "akas": [
+                    "O Perseguidor"
+                ],
+                "tipo": "Templário",
+                "nacionalidade": "Inglês"
+            },
+            {
+                "nome": "Laureano de Torres y Ayala",
+                "era": "Era da Pirataria (1715)",
+                "jogo": "AC IV: Black Flag",
+                "game_id": 1970,
+                "ano": 1715,
+                "desc": "Governador espanhol de Cuba e Grão-Mestre dos Templários do Caribe. Buscava o Observatório para controlar o mundo.",
+                "akas": [
+                    "O Governador"
+                ],
+                "tipo": "Grão-Mestre",
+                "nacionalidade": "Espanhol"
+            },
+            {
+                "nome": "François-Thomas Germain",
+                "era": "Revolução Francesa (1789)",
+                "jogo": "AC Unity",
+                "game_id": 5606,
+                "ano": 1789,
+                "desc": "Grão-Mestre dissidente que usou a Revolução Francesa para destruir a velha Ordem Templária e reconstruí-la sob seus ideais.",
+                "akas": [
+                    "O Artesão"
+                ],
+                "tipo": "Grão-Mestre",
+                "nacionalidade": "Francês"
+            },
+            {
+                "nome": "Flavius Metellus",
+                "era": "Egito Ptolemaico (48 a.C.)",
+                "jogo": "AC Origins",
+                "game_id": 28540,
+                "ano": -48,
+                "desc": "Leão da Ordem dos Antigos e verdadeiro assassino de Khemu, filho de Bayek. Portador da Maçã do Éden.",
+                "akas": [
+                    "O Leão"
+                ],
+                "tipo": "Líder da Ordem",
+                "nacionalidade": "Romano"
+            },
+            {
+                "nome": "Élise de la Serre",
+                "era": "Revolução Francesa (1789)",
+                "jogo": "AC Unity",
+                "game_id": 5606,
+                "ano": 1789,
+                "desc": "Templária francesa e amor de Arno. Filha do Grão-Mestre François de la Serre, buscava vingança pela morte de seu pai.",
+                "akas": [
+                    "A Templária"
+                ],
+                "tipo": "Templária",
+                "nacionalidade": "Francesa"
+            }
+        ]
+    },
+    "historicos": {
+        "titulo": "Personagens Históricos",
+        "desc": "Figuras reais da história que cruzaram caminhos com os Assassinos",
+        "icon": "bi-book",
+        "personagens": [
+            {
+                "nome": "Leonardo da Vinci",
+                "era": "Renascimento (1476)",
+                "jogo": "AC II, Brotherhood",
+                "game_id": 127,
+                "ano": 1476,
+                "desc": "Gênio renascentista e grande amigo de Ezio. Decifrou as páginas do Codex de Altaïr e criou gadgets e armas para os Assassinos.",
+                "akas": [
+                    "O Gênio"
+                ],
+                "tipo": "Aliado",
+                "nacionalidade": "Italiano"
+            },
+            {
+                "nome": "Cleópatra VII",
+                "era": "Egito Ptolemaico (48 a.C.)",
+                "jogo": "AC Origins",
+                "game_id": 28540,
+                "ano": -48,
+                "desc": "Última faraó do Egito. Inicialmente aliada de Bayek e Aya, revelou-se membro da Ordem dos Antigos (Templários).",
+                "akas": [
+                    "A Última Faraó"
+                ],
+                "tipo": "Aliada\/Inimiga",
+                "nacionalidade": "Egípcia"
+            },
+            {
+                "nome": "Júlio César",
+                "era": "Roma Antiga (47 a.C.)",
+                "jogo": "AC Origins",
+                "game_id": 28540,
+                "ano": -47,
+                "desc": "Ditador romano e membro da Ordem dos Antigos. Foi assassinado por Aya\/Amunet nos Idos de Março.",
+                "akas": [
+                    "O Ditador"
+                ],
+                "tipo": "Inimigo",
+                "nacionalidade": "Romano"
+            },
+            {
+                "nome": "Sócrates",
+                "era": "Grécia Antiga (431 a.C.)",
+                "jogo": "AC Odyssey",
+                "game_id": 103054,
+                "ano": -431,
+                "desc": "Filósofo grego que frequentemente ajudava Kassandra\/Alexios com seus questionamentos éticos e debates filosóficos.",
+                "akas": [
+                    "O Filósofo"
+                ],
+                "tipo": "Aliado",
+                "nacionalidade": "Grego"
+            },
+            {
+                "nome": "Barba Negra",
+                "era": "Era da Pirataria (1715)",
+                "jogo": "AC IV: Black Flag",
+                "game_id": 1970,
+                "ano": 1715,
+                "desc": "Edward Thatch, o pirata mais temido do Caribe e amigo de Edward Kenway. Morreu lutando contra a Marinha Britânica.",
+                "akas": [
+                    "Edward Thatch"
+                ],
+                "tipo": "Aliado",
+                "nacionalidade": "Inglês"
+            },
+            {
+                "nome": "Benjamin Franklin",
+                "era": "Revolução Americana (1754)",
+                "jogo": "AC III, Rogue",
+                "game_id": 1266,
+                "ano": 1754,
+                "desc": "Inventor e Pai Fundador americano que auxiliou Connor durante a Revolução Americana.",
+                "akas": [
+                    "O Inventor"
+                ],
+                "tipo": "Aliado",
+                "nacionalidade": "Americano"
+            },
+            {
+                "nome": "Napoleão Bonaparte",
+                "era": "Revolução Francesa (1789)",
+                "jogo": "AC Unity",
+                "game_id": 5606,
+                "ano": 1789,
+                "desc": "Jovem oficial que cruzou caminhos com Arno durante a Revolução Francesa, antes de se tornar Imperador.",
+                "akas": [
+                    "O Pequeno Cabo"
+                ],
+                "tipo": "Neutro",
+                "nacionalidade": "Francês"
+            }
+        ]
+    },
+    "modernos": {
+        "titulo": "Mundo Moderno",
+        "desc": "Os protagonistas contemporâneos que revivem as memórias dos Assassinos",
+        "icon": "bi-cpu",
+        "personagens": [
+            {
+                "nome": "Desmond Miles",
+                "era": "Era Moderna (2012)",
+                "jogo": "AC I-III",
+                "game_id": 128,
+                "ano": 2012,
+                "desc": "Descendente de vários Assassinos lendários. Através do Animus, reviveu as memórias de Altaïr, Ezio e Connor. Sacrificou sua vida para salvar o mundo.",
+                "akas": [
+                    "Sujeito 17"
+                ],
+                "tipo": "Protagonista Moderno",
+                "nacionalidade": "Americano"
+            },
+            {
+                "nome": "Layla Hassan",
+                "era": "Era Moderna (2017-2020)",
+                "jogo": "AC Origins, Odyssey, Valhalla",
+                "game_id": 28540,
+                "ano": 2017,
+                "desc": "Ex-funcionária da Abstergo que desenvolveu seu próprio Animus portátil. Tornou-se a nova Guardiã após eventos em Valhalla.",
+                "akas": [
+                    "A Engenheira"
+                ],
+                "tipo": "Protagonista Moderna",
+                "nacionalidade": "Americana\/Egípcia"
+            },
+            {
+                "nome": "Shaun Hastings",
+                "era": "Era Moderna (2012-presente)",
+                "jogo": "AC II-Valhalla",
+                "game_id": 127,
+                "ano": 2012,
+                "desc": "Historiador britânico e membro da célula de Assassinos. Fornece informações históricas e suporte técnico.",
+                "akas": [
+                    "O Historiador Sarcástico"
+                ],
+                "tipo": "Suporte",
+                "nacionalidade": "Inglês"
+            },
+            {
+                "nome": "Rebecca Crane",
+                "era": "Era Moderna (2012-presente)",
+                "jogo": "AC II-Valhalla",
+                "game_id": 127,
+                "ano": 2012,
+                "desc": "Especialista em tecnologia que criou o Animus 2.0. Trabalha ao lado de Shaun dando suporte aos protagonistas.",
+                "akas": [
+                    "A Técnica"
+                ],
+                "tipo": "Suporte",
+                "nacionalidade": "Americana"
+            },
+            {
+                "nome": "William Miles",
+                "era": "Era Moderna (2012-presente)",
+                "jogo": "AC III-Valhalla",
+                "game_id": 1266,
+                "ano": 2012,
+                "desc": "Pai de Desmond e líder da Irmandade dos Assassinos moderna. Coordena operações globais contra a Abstergo.",
+                "akas": [
+                    "O Mentor Moderno"
+                ],
+                "tipo": "Mentor",
+                "nacionalidade": "Americano"
+            }
+        ]
+    }
+}
