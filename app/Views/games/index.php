@@ -37,24 +37,24 @@
                 </div>
                 <div class="custom-options custom-options-scroll">
                     <div class="custom-option selected" data-value=""><i class="bi bi-controller"></i> Todos</div>
-                    <div class="custom-option" data-value="PS3"><i class="bi bi-playstation"></i> PS3</div>
-                    <div class="custom-option" data-value="PS4"><i class="bi bi-playstation"></i> PS4</div>
-                    <div class="custom-option" data-value="PS5"><i class="bi bi-playstation"></i> PS5</div>
-                    <div class="custom-option" data-value="PSP"><i class="bi bi-playstation"></i> PSP</div>
-                    <div class="custom-option" data-value="Vita"><i class="bi bi-playstation"></i> Vita</div>
-                    <div class="custom-option" data-value="X360"><i class="bi bi-xbox"></i> X360</div>
-                    <div class="custom-option" data-value="XONE"><i class="bi bi-xbox"></i> XONE</div>
-                    <div class="custom-option" data-value="Series X|S"><i class="bi bi-xbox"></i> Series X|S</div>
-                    <div class="custom-option" data-value="Switch"><i class="bi bi-nintendo-switch"></i> Switch</div>
-                    <div class="custom-option" data-value="WiiU"><i class="bi bi-nintendo-switch"></i> WiiU</div>
-                    <div class="custom-option" data-value="NDS"><i class="bi bi-nintendo-switch"></i> NDS</div>
-                    <div class="custom-option" data-value="3DS"><i class="bi bi-nintendo-switch"></i> 3DS</div>
-                    <div class="custom-option" data-value="PC"><i class="bi bi-windows"></i> PC</div>
-                    <div class="custom-option" data-value="MAC"><i class="bi bi-apple"></i> MAC</div>
-                    <div class="custom-option" data-value="Stadia"><i class="bi bi-google"></i> Stadia</div>
-                    <div class="custom-option" data-value="iOS"><i class="bi bi-apple"></i> iOS</div>
                     <div class="custom-option" data-value="Android"><i class="bi bi-android2"></i> Android</div>
-                    <div class="custom-option" data-value="Win Phone"><i class="bi bi-windows"></i> Win Phone</div>
+                    <div class="custom-option" data-value="iOS"><i class="bi bi-apple"></i> iOS</div>
+                    <div class="custom-option" data-value="MAC"><i class="bi bi-apple"></i> MAC</div>
+                    <div class="custom-option" data-value="Switch"><i class="bi bi-nintendo-switch"></i> Nintendo Switch</div>
+                    <div class="custom-option" data-value="WiiU"><i class="bi bi-nintendo-switch"></i> Nintendo WiiU</div>
+                    <div class="custom-option" data-value="NDS"><i class="bi bi-nintendo-switch"></i> Nintendo DS</div>
+                    <div class="custom-option" data-value="3DS"><i class="bi bi-nintendo-switch"></i> Nintendo 3DS</div>
+                    <div class="custom-option" data-value="PC"><i class="bi bi-windows"></i> PC</div>
+                    <div class="custom-option" data-value="PS3"><i class="bi bi-playstation"></i> Playstation 3</div>
+                    <div class="custom-option" data-value="PS4"><i class="bi bi-playstation"></i> Playstation 4</div>
+                    <div class="custom-option" data-value="PS5"><i class="bi bi-playstation"></i> Playstation 5</div>
+                    <div class="custom-option" data-value="PSP"><i class="bi bi-playstation"></i> Playstation Portable</div>
+                    <div class="custom-option" data-value="Vita"><i class="bi bi-playstation"></i> Playstation Vita</div>
+                    <div class="custom-option" data-value="Stadia"><i class="bi bi-google"></i> Stadia</div>
+                    <div class="custom-option" data-value="X360"><i class="bi bi-xbox"></i> Xbox 360</div>
+                    <div class="custom-option" data-value="XONE"><i class="bi bi-xbox"></i> Xbox One</div>
+                    <div class="custom-option" data-value="Series X|S"><i class="bi bi-xbox"></i> Xbox Series X|S</div>
+                    <div class="custom-option" data-value="Win Phone"><i class="bi bi-windows"></i> Windows Phone</div>
                 </div>
                 <input type="hidden" id="consoleFilter" value="">
             </div>
