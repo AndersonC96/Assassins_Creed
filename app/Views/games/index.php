@@ -14,7 +14,7 @@
             <select class="filter-select" id="platformFilter">
                 <option value="">Todas</option>
                 <?php 
-                $platforms = ['PS3', 'PS4', 'PS5', 'X360', 'XONE', 'XSX', 'PC', 'Switch', 'WiiU'];
+                $platforms = ['Android', 'Browser', 'iOS', 'MAC', 'Mobile', 'NDS', 'PC', 'PS3', 'PS4', 'PS5', 'PSP', 'Switch', 'Stadia', 'X360', 'XONE', 'Series X|S', 'Vita', 'WiiU', 'Win Phone'];
                 foreach ($platforms as $p): 
                 ?>
                 <option value="<?= $p ?>"><?= $p ?></option>
