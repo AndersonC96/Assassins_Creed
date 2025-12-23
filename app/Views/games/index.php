@@ -30,31 +30,34 @@
         
         <div class="filter-group">
             <label>Console</label>
-            <select class="filter-select" id="consoleFilter">
-                <option value="">Todos</option>
-                <?php 
-                $consoles = [
-                    'PS3', 'PS4', 'PS5', 'PSP', 'Vita',
-                    'X360', 'XONE', 'Series X|S',
-                    'Switch', 'WiiU', 'NDS', '3DS',
-                    'PC', 'MAC', 'Stadia',
-                    'iOS', 'Android', 'Win Phone'
-                ];
-                foreach ($consoles as $c): 
-                ?>
-                <option value="<?= $c ?>"><?= $c ?></option>
-                <?php endforeach; ?>
-            </select>
-        </div>
-        
-        <div class="filter-group">
-            <label>Ordenar por</label>
-            <select class="filter-select" id="sortFilter">
-                <option value="release_desc">Lançamento (Novo -> Antigo)</option>
-                <option value="release_asc">Lançamento (Antigo -> Novo)</option>
-                <option value="rating_desc">Melhor Avaliados</option>
-                <option value="rating_by_user">Nota dos Usuários</option>
-            </select>
+            <div class="custom-select-wrapper" id="consoleDropdown">
+                <div class="custom-select-trigger">
+                    <span><i class="bi bi-controller"></i> Todos</span>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="custom-options custom-options-scroll">
+                    <div class="custom-option selected" data-value=""><i class="bi bi-controller"></i> Todos</div>
+                    <div class="custom-option" data-value="PS3"><i class="bi bi-playstation"></i> PS3</div>
+                    <div class="custom-option" data-value="PS4"><i class="bi bi-playstation"></i> PS4</div>
+                    <div class="custom-option" data-value="PS5"><i class="bi bi-playstation"></i> PS5</div>
+                    <div class="custom-option" data-value="PSP"><i class="bi bi-playstation"></i> PSP</div>
+                    <div class="custom-option" data-value="Vita"><i class="bi bi-playstation"></i> Vita</div>
+                    <div class="custom-option" data-value="X360"><i class="bi bi-xbox"></i> X360</div>
+                    <div class="custom-option" data-value="XONE"><i class="bi bi-xbox"></i> XONE</div>
+                    <div class="custom-option" data-value="Series X|S"><i class="bi bi-xbox"></i> Series X|S</div>
+                    <div class="custom-option" data-value="Switch"><i class="bi bi-nintendo-switch"></i> Switch</div>
+                    <div class="custom-option" data-value="WiiU"><i class="bi bi-nintendo-switch"></i> WiiU</div>
+                    <div class="custom-option" data-value="NDS"><i class="bi bi-nintendo-switch"></i> NDS</div>
+                    <div class="custom-option" data-value="3DS"><i class="bi bi-nintendo-switch"></i> 3DS</div>
+                    <div class="custom-option" data-value="PC"><i class="bi bi-windows"></i> PC</div>
+                    <div class="custom-option" data-value="MAC"><i class="bi bi-apple"></i> MAC</div>
+                    <div class="custom-option" data-value="Stadia"><i class="bi bi-google"></i> Stadia</div>
+                    <div class="custom-option" data-value="iOS"><i class="bi bi-apple"></i> iOS</div>
+                    <div class="custom-option" data-value="Android"><i class="bi bi-android2"></i> Android</div>
+                    <div class="custom-option" data-value="Win Phone"><i class="bi bi-windows"></i> Win Phone</div>
+                </div>
+                <input type="hidden" id="consoleFilter" value="">
+            </div>
         </div>
     </div>
 </div>
@@ -179,7 +182,9 @@
     const options = platformDropdown.querySelectorAll('.custom-option');
     const triggerText = trigger.querySelector('span');
     
-    trigger.addEventListener('click', () => {
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        consoleDropdown.classList.remove('open');
         platformDropdown.classList.toggle('open');
     });
     
@@ -203,10 +208,36 @@
         });
     });
     
-    // Close dropdown when clicking outside
+    // Console dropdown logic
+    const consoleDropdown = document.getElementById('consoleDropdown');
+    const consoleTrigger = consoleDropdown.querySelector('.custom-select-trigger');
+    const consoleOptions = consoleDropdown.querySelectorAll('.custom-option');
+    const consoleTriggerText = consoleTrigger.querySelector('span');
+    
+    consoleTrigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        platformDropdown.classList.remove('open');
+        consoleDropdown.classList.toggle('open');
+    });
+    
+    consoleOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            consoleOptions.forEach(o => o.classList.remove('selected'));
+            option.classList.add('selected');
+            consoleTriggerText.innerHTML = option.innerHTML;
+            consoleFilter.value = option.dataset.value;
+            consoleDropdown.classList.remove('open');
+            filterGames();
+        });
+    });
+    
+    // Close dropdowns when clicking outside
     document.addEventListener('click', (e) => {
         if (!platformDropdown.contains(e.target)) {
             platformDropdown.classList.remove('open');
+        }
+        if (!consoleDropdown.contains(e.target)) {
+            consoleDropdown.classList.remove('open');
         }
     });
 </script>
