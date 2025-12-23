@@ -1,0 +1,324 @@
+[
+  {
+    "id": 17379,
+    "artworks": [
+      {
+        "id": 19216,
+        "image_id": "arets",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/arets.jpg"
+      }
+    ],
+    "cover": {
+      "id": 182268,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3wn0.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 2,
+        "name": "Multiplayer"
+      },
+      {
+        "id": 5,
+        "name": "Massively Multiplayer Online (MMO)"
+      }
+    ],
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 13,
+        "name": "Simulator"
+      },
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 32106,
+        "company": {
+          "id": 8671,
+          "name": "Entrada Interactive LLC"
+        },
+        "developer": true,
+        "publisher": true
+      }
+    ],
+    "name": "Miscreated",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "rating": 58.61519279390998,
+    "rating_count": 22,
+    "release_dates": [
+      {
+        "id": 181142,
+        "date": 1545091200,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 268274,
+        "image_id": "sc5r02",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5r02.jpg"
+      },
+      {
+        "id": 25811,
+        "image_id": "r71na5wtzcimoaqcx7es",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/r71na5wtzcimoaqcx7es.jpg"
+      },
+      {
+        "id": 25810,
+        "image_id": "nuixritueeof5gzjbj6e",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nuixritueeof5gzjbj6e.jpg"
+      },
+      {
+        "id": 25812,
+        "image_id": "tsdik5cycs2zfvsrieyt",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/tsdik5cycs2zfvsrieyt.jpg"
+      },
+      {
+        "id": 25813,
+        "image_id": "fwdgiwtunqjvxjeyrjtn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fwdgiwtunqjvxjeyrjtn.jpg"
+      },
+      {
+        "id": 25814,
+        "image_id": "xn23wlgavxxe5sbozogf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xn23wlgavxxe5sbozogf.jpg"
+      },
+      {
+        "id": 268275,
+        "image_id": "sc5r03",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5r03.jpg"
+      },
+      {
+        "id": 268276,
+        "image_id": "sc5r04",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5r04.jpg"
+      },
+      {
+        "id": 268277,
+        "image_id": "sc5r05",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5r05.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 10776,
+        "cover": {
+          "id": 85495,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tyv.jpg"
+        },
+        "name": "Rising World"
+      },
+      {
+        "id": 44076,
+        "cover": {
+          "id": 82247,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rgn.jpg"
+        },
+        "name": "Last Day on Earth: Survival"
+      },
+      {
+        "id": 35994,
+        "cover": {
+          "id": 190184,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co42qw.jpg"
+        },
+        "name": "Survivalist"
+      },
+      {
+        "id": 26145,
+        "aggregated_rating": 65.0,
+        "cover": {
+          "id": 82163,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1reb.jpg"
+        },
+        "name": "Impact Winter"
+      },
+      {
+        "id": 47823,
+        "aggregated_rating": 50.0,
+        "cover": {
+          "id": 76951,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ndj.jpg"
+        },
+        "name": "Citadel: Forged With Fire"
+      },
+      {
+        "id": 19561,
+        "aggregated_rating": 74.6875,
+        "cover": {
+          "id": 425507,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co94bn.jpg"
+        },
+        "name": "Days Gone"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 25311,
+        "aggregated_rating": 69.75,
+        "cover": {
+          "id": 68395,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/rmzcpsfvnizymkhvd0qg.jpg"
+        },
+        "name": "Star Control: Origins"
+      },
+      {
+        "id": 109339,
+        "cover": {
+          "id": 68319,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/bo0qs5whlvjqc6bhpfru.jpg"
+        },
+        "name": "Change: A Homeless Survival Experience"
+      }
+    ],
+    "summary": "Miscreated is a multiplayer online hardcore survival game set in a post-apocalyptic future. You will need to survive against mutants, players, and even mother nature herself.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 21,
+        "name": "Survival"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 8802,
+        "name": "Trailer",
+        "video_id": "XLjcn7sYJQY"
+      },
+      {
+        "id": 8800,
+        "name": "Trailer",
+        "video_id": "AHYaqA4N-vQ"
+      },
+      {
+        "id": 8801,
+        "name": "Trailer",
+        "video_id": "wKuwsqhvBOQ"
+      },
+      {
+        "id": 23497,
+        "name": "Trailer",
+        "video_id": "Cd5RaALAGQ0"
+      }
+    ],
+    "websites": [
+      {
+        "id": 44087,
+        "game": 17379,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/299740",
+        "checksum": "1ef0eb2a-3e5f-f37e-a8d5-84bbc55d5113",
+        "type": 13
+      },
+      {
+        "id": 126611,
+        "game": 17379,
+        "trusted": true,
+        "url": "https://www.reddit.com/r/Miscreated",
+        "checksum": "45405345-ab8d-411f-1795-ecaac30fa2cd",
+        "type": 14
+      },
+      {
+        "id": 8113,
+        "game": 17379,
+        "trusted": true,
+        "url": "https://twitter.com/miscreatedgame",
+        "checksum": "d2682e6b-e378-145b-533e-f505d221464e",
+        "type": 5
+      },
+      {
+        "id": 118235,
+        "game": 17379,
+        "trusted": false,
+        "url": "https://miscreated.fandom.com/wiki/Miscreated_Wiki",
+        "checksum": "49a80506-cb02-94f1-fb70-2a09edd54d27",
+        "type": 2
+      },
+      {
+        "id": 44086,
+        "game": 17379,
+        "trusted": false,
+        "url": "http://miscreatedgame.com",
+        "checksum": "b9fb7173-29c9-b766-2a4e-1240b5468808",
+        "type": 1
+      },
+      {
+        "id": 118236,
+        "game": 17379,
+        "trusted": true,
+        "url": "https://www.facebook.com/miscreatedgame",
+        "checksum": "146a5330-e222-4889-64f3-b61a5e77e2e5",
+        "type": 4
+      },
+      {
+        "id": 118238,
+        "game": 17379,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/EntradaInteractive",
+        "checksum": "89da3b16-aaeb-ded9-e25b-90f6568333d0",
+        "type": 9
+      },
+      {
+        "id": 332357,
+        "game": 17379,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Miscreated",
+        "checksum": "6ffe2427-e54a-d2f5-8856-1a67cb41ddbe",
+        "type": 6
+      }
+    ]
+  }
+]

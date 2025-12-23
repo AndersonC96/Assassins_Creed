@@ -220,6 +220,7 @@ class Game
             18 => ['label' => 'Discord', 'icon' => 'bi-discord'],
             19 => ['label' => 'PlayStation', 'icon' => 'bi-playstation'],
             20 => ['label' => 'Xbox', 'icon' => 'bi-xbox'],
+            21 => ['label' => 'Nintendo', 'icon' => 'bi-nintendo-switch'],
         ];
         return $sites[$type] ?? ['label' => 'Link', 'icon' => 'bi-link-45deg'];
     }
@@ -230,17 +231,17 @@ class Game
     public static function getPlatformIcon(string $platformName): string
     {
         $icons = [
-            // Xbox
+            // Xbox - usando joystick
             'Xbox Series X|S' => 'bi-xbox',
             'Xbox One' => 'bi-xbox',
             'Xbox 360' => 'bi-xbox',
-            // PlayStation
+            // PlayStation - usando controller
             'PlayStation 5' => 'bi-playstation',
             'PlayStation 4' => 'bi-playstation',
             'PlayStation 3' => 'bi-playstation',
             'PlayStation Vita' => 'bi-playstation',
             'PlayStation Portable' => 'bi-playstation',
-            // Nintendo
+            // Nintendo - usando joystick
             'Nintendo Switch' => 'bi-nintendo-switch',
             'Nintendo Switch 2' => 'bi-nintendo-switch',
             'Wii U' => 'bi-nintendo-switch',
@@ -257,12 +258,12 @@ class Game
             'Android' => 'bi-android2',
             'Legacy Mobile Device' => 'bi-phone-fill',
             // VR/Meta
-            'Meta Quest 2' => 'bi-meta',
-            'Meta Quest 3' => 'bi-meta',
+            'Meta Quest 2' => 'bi-headset-vr',
+            'Meta Quest 3' => 'bi-headset-vr',
             // Other
             'Google Stadia' => 'bi-google',
-            'Web browser' => 'bi-browser-edge',
-            'Linux' => 'bi-ubuntu',
+            'Web browser' => 'bi-globe',
+            'Linux' => 'bi-terminal',
         ];
         
         return $icons[$platformName] ?? 'bi-controller';
