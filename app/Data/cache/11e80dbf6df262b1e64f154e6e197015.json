@@ -1,0 +1,691 @@
+[
+  {
+    "id": 28540,
+    "age_ratings": [
+      {
+        "id": 226698,
+        "synopsis": "Strong violence, sex and coarse language, online interactivity",
+        "checksum": "95a05de7-4621-a003-dfe8-4ecfcc0335ae",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 62598,
+        "checksum": "067d6048-155a-5605-545f-64d9687d7249",
+        "organization": 4,
+        "rating_category": 21
+      },
+      {
+        "id": 69669,
+        "checksum": "ef9d6d10-450b-5a97-77a8-87bd66245766",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          65,
+          61
+        ]
+      },
+      {
+        "id": 105491,
+        "checksum": "607c045a-e297-830b-35a4-1cbd25ae0f14",
+        "organization": 6,
+        "rating_category": 32,
+        "rating_content_descriptions": [
+          75,
+          77,
+          84
+        ]
+      },
+      {
+        "id": 117125,
+        "checksum": "bb232dcb-d5c5-b0af-af64-66c15472ccd3",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          71,
+          73,
+          68,
+          69
+        ]
+      },
+      {
+        "id": 189209,
+        "checksum": "1b76ec55-3530-e722-c59a-7b15bc390f17",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          17,
+          10,
+          14,
+          4,
+          26,
+          21,
+          8
+        ]
+      },
+      {
+        "id": 21379,
+        "synopsis": "This game is rated PEGI 18 which restricts availability to ADULTS ONLY and is not suitable for anyone below this age. This rating has been given due to depictions of gross violence towards human characters, motiveless killing of multiple innocent humans characters, violence towards vulnerable human characters, depictions of sexual activity with visible genital organs, and use of sexual expletives. Not suitable for persons under 18 years of age.",
+        "checksum": "c8c20e12-8a2c-7643-3018-afd96adaaca1",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          51,
+          55,
+          50
+        ]
+      }
+    ],
+    "aggregated_rating": 85.93333333333334,
+    "aggregated_rating_count": 15,
+    "artworks": [
+      {
+        "id": 652,
+        "image_id": "odjibvslksmko7szxtqm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/odjibvslksmko7szxtqm.jpg"
+      },
+      {
+        "id": 653,
+        "image_id": "zgprzjf0yieuyxcyghuu",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zgprzjf0yieuyxcyghuu.jpg"
+      },
+      {
+        "id": 655,
+        "image_id": "ilpgw3ylfntqqz53vvwc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ilpgw3ylfntqqz53vvwc.jpg"
+      },
+      {
+        "id": 643,
+        "image_id": "nf3xu5ocoaicrujfycpw",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nf3xu5ocoaicrujfycpw.jpg"
+      },
+      {
+        "id": 654,
+        "image_id": "jmicqarbeoi5sv2uqvsl",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jmicqarbeoi5sv2uqvsl.jpg"
+      },
+      {
+        "id": 2058,
+        "image_id": "ztqbpukmtmsxbebtgoyp",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ztqbpukmtmsxbebtgoyp.jpg"
+      },
+      {
+        "id": 2056,
+        "image_id": "pddrzpggmmxdl1znhnrn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pddrzpggmmxdl1znhnrn.jpg"
+      },
+      {
+        "id": 2057,
+        "image_id": "qfki0gsgjtqwrl7sgcqj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qfki0gsgjtqwrl7sgcqj.jpg"
+      },
+      {
+        "id": 10158,
+        "image_id": "ar7u6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar7u6.jpg"
+      },
+      {
+        "id": 658,
+        "image_id": "wdvwfae7csju1m4hctzj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wdvwfae7csju1m4hctzj.jpg"
+      },
+      {
+        "id": 657,
+        "image_id": "kjmvkltpe5douzbnbviw",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kjmvkltpe5douzbnbviw.jpg"
+      },
+      {
+        "id": 656,
+        "image_id": "vqz9mvpetoht25zaumti",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vqz9mvpetoht25zaumti.jpg"
+      }
+    ],
+    "cover": {
+      "id": 82058,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbe.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 63906,
+        "company": {
+          "id": 2921,
+          "name": "Ubisoft Kyiv"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63902,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63905,
+        "company": {
+          "id": 3928,
+          "name": "Ubisoft Chengdu"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63904,
+        "company": {
+          "id": 702,
+          "name": "Ubisoft Montpellier"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63901,
+        "company": {
+          "id": 840,
+          "name": "Ubisoft Sofia"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63908,
+        "company": {
+          "id": 398,
+          "name": "Ubisoft Shanghai"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63940,
+        "company": {
+          "id": 697,
+          "name": "Ubisoft Bucharest"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 50747,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 63909,
+        "company": {
+          "id": 15260,
+          "name": "Ubisoft Philippines"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 202050,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      },
+      {
+        "id": 194933,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": false,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed Origins",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 169,
+        "abbreviation": "Series X|S",
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5",
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "rating": 81.33692063831103,
+    "rating_count": 1018,
+    "release_dates": [
+      {
+        "id": 112816,
+        "date": 1509062400,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 239702,
+        "date": 1607990400,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 419142,
+        "date": 1508976000,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 743554,
+        "date": 1654128000,
+        "platform": {
+          "id": 169,
+          "abbreviation": "Series X|S"
+        }
+      },
+      {
+        "id": 112814,
+        "date": 1509062400,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 743553,
+        "date": 1654128000,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 44272,
+        "image_id": "giqtb8y4awm9ibt942cn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/giqtb8y4awm9ibt942cn.jpg"
+      },
+      {
+        "id": 151403,
+        "image_id": "bdcceejc2e9vaimn0ngn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bdcceejc2e9vaimn0ngn.jpg"
+      },
+      {
+        "id": 151406,
+        "image_id": "gxadfrdicxjlraalvltb",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gxadfrdicxjlraalvltb.jpg"
+      },
+      {
+        "id": 151408,
+        "image_id": "wzltqoi9xgmmgimnxsrq",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wzltqoi9xgmmgimnxsrq.jpg"
+      },
+      {
+        "id": 151404,
+        "image_id": "l1nbqll4r42lqrz1wesv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/l1nbqll4r42lqrz1wesv.jpg"
+      },
+      {
+        "id": 151407,
+        "image_id": "nfwxynqhormtovylykxr",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nfwxynqhormtovylykxr.jpg"
+      },
+      {
+        "id": 151413,
+        "image_id": "oh9o0c3d5eo7qnwkm9q2",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/oh9o0c3d5eo7qnwkm9q2.jpg"
+      },
+      {
+        "id": 151405,
+        "image_id": "uaxy3tjubonooualy5x8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uaxy3tjubonooualy5x8.jpg"
+      },
+      {
+        "id": 151409,
+        "image_id": "efqqm3t15ey0jlkv0xqv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/efqqm3t15ey0jlkv0xqv.jpg"
+      },
+      {
+        "id": 151412,
+        "image_id": "p5fjuotpkdecuturqw1c",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/p5fjuotpkdecuturqw1c.jpg"
+      },
+      {
+        "id": 151410,
+        "image_id": "dxbpxe7xewmvkz8dnrgp",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dxbpxe7xewmvkz8dnrgp.jpg"
+      },
+      {
+        "id": 151411,
+        "image_id": "wq0tjsduutk6jeaqakrh",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wq0tjsduutk6jeaqakrh.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 36198,
+        "aggregated_rating": 83.0,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        },
+        "name": "Children of Morta"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 11156,
+        "aggregated_rating": 88.84615384615384,
+        "cover": {
+          "id": 133030,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2una.jpg"
+        },
+        "name": "Horizon Zero Dawn"
+      },
+      {
+        "id": 28168,
+        "aggregated_rating": 72.9090909090909,
+        "cover": {
+          "id": 81873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r69.jpg"
+        },
+        "name": "Code Vein"
+      },
+      {
+        "id": 19564,
+        "aggregated_rating": 84.41176470588235,
+        "cover": {
+          "id": 274400,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5vq8.jpg"
+        },
+        "name": "Death Stranding"
+      },
+      {
+        "id": 36926,
+        "aggregated_rating": 93.25,
+        "cover": {
+          "id": 82685,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rst.jpg"
+        },
+        "name": "Monster Hunter: World"
+      },
+      {
+        "id": 54842,
+        "aggregated_rating": 73.05263157894737,
+        "cover": {
+          "id": 82670,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rse.jpg"
+        },
+        "name": "Biomutant"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 80916,
+        "aggregated_rating": 78.75,
+        "cover": {
+          "id": 398316,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co8jcc.jpg"
+        },
+        "name": "Omensight"
+      },
+      {
+        "id": 10776,
+        "cover": {
+          "id": 85495,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tyv.jpg"
+        },
+        "name": "Rising World"
+      }
+    ],
+    "storyline": "IT ALL STARTS WITH ONE\n\nAncient Egypt. Once a prosperous and influential empire, now a crumbling civilization.\nDelve into this mysterious part of history and uncover the thrilling and dangerous tale behind the creation of the Assassins’ Brotherhood.",
+    "summary": "For the last four years, the team behind Assassin’s Creed IV Black Flag has been crafting a new beginning for the Assassin’s Creed franchise.\n\nSet in Ancient Egypt, players will journey to the most mysterious place in history, during a crucial period that will shape the world and give rise to the Assassin’s Brotherhood. Plunged into a living, systemic and majestic open world, players are going to discover vibrant ecosystems, made of diverse and exotic landscapes that will provide them with infinite opportunities of pure exploration, adventures and challenges.\n\nPowered by a new fight philosophy, Assassin\u0027s Creed Origins embraces a brand new RPG direction where players level up, loot, and choose abilities to shape and customize their very own skilled Assassin as they grow in power and expertise while exploring the entire country of Ancient Egypt.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 15869,
+        "name": "Order of the Ancient Trailer",
+        "video_id": "gczocLl14_U"
+      },
+      {
+        "id": 16297,
+        "name": "Post-Launch Trailer",
+        "video_id": "mhGr6uyR7Nw"
+      },
+      {
+        "id": 16439,
+        "name": "Launch Trailer",
+        "video_id": "axawOROeB-Y"
+      },
+      {
+        "id": 14645,
+        "name": "E3 2017: World Premiere Gameplay Trailer",
+        "video_id": "L3wlPbf6JKQ"
+      },
+      {
+        "id": 15603,
+        "name": "Gamescom 2017: Game of Power Trailer",
+        "video_id": "7rbsIDwYW3Y"
+      },
+      {
+        "id": 15604,
+        "name": "Gamescom 2017: Cinematic Trailer",
+        "video_id": "oMK0oVxA_TU"
+      },
+      {
+        "id": 16438,
+        "name": "European Launch Trailer",
+        "video_id": "nbdhYTSy9Js"
+      },
+      {
+        "id": 18362,
+        "name": "Discovery Tour Launch Trailer",
+        "video_id": "dVotWlthFUE"
+      },
+      {
+        "id": 16190,
+        "name": "Sand Cinematic Trailer",
+        "video_id": "Q04Cb3A_M2o"
+      },
+      {
+        "id": 16189,
+        "name": "Developer Diary: Video Hieroglyphics Project",
+        "video_id": "Jm93FuJyQXA"
+      },
+      {
+        "id": 120922,
+        "name": "E3 2017 Gameplay Trailer",
+        "video_id": "YX0fd4q0baQ"
+      },
+      {
+        "id": 120943,
+        "name": "Mysteries of Egypt Trailer",
+        "video_id": "Au_NXHJZu00"
+      }
+    ],
+    "websites": [
+      {
+        "id": 829200,
+        "game": 28540,
+        "trusted": false,
+        "url": "https://discord.com/invite/ac",
+        "checksum": "7a1baad7-12b4-6be1-34a7-9e6f7deb17af",
+        "type": 18
+      },
+      {
+        "id": 795072,
+        "game": 28540,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-origins/BZGJRJC1FGF3",
+        "checksum": "688fd24c-dee8-bf7c-1f46-7ede32ca1f7a",
+        "type": 22
+      },
+      {
+        "id": 795073,
+        "game": 28540,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/222066",
+        "checksum": "a81aa731-74a6-d2e5-d6ae-fae3b4727987",
+        "type": 23
+      },
+      {
+        "id": 49864,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us",
+        "checksum": "26177f1d-9ed0-a43b-228e-6e6634e160b1",
+        "type": 8
+      },
+      {
+        "id": 49866,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/582160",
+        "checksum": "9e99555c-caab-5237-4984-ef54b12668aa",
+        "type": 13
+      },
+      {
+        "id": 49859,
+        "game": 28540,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed:_Origins",
+        "checksum": "c7246d44-e0cf-f44f-870b-e4dfe08ac170",
+        "type": 2
+      },
+      {
+        "id": 49861,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "b15c1837-c351-5103-dcc1-7de5c4c64bd2",
+        "type": 4
+      },
+      {
+        "id": 127793,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://www.epicgames.com/store/product/assassins-creed-origins",
+        "checksum": "84689277-f7ae-f399-7130-bc3f3d8a0901",
+        "type": 16
+      },
+      {
+        "id": 338942,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin%27s%20Creed%20Origins",
+        "checksum": "e8adbe3d-2147-ccb7-3ba8-7f0d7e59c01d",
+        "type": 6
+      },
+      {
+        "id": 65707,
+        "game": 28540,
+        "trusted": false,
+        "url": "http://assassinscreed.ubisoft.com",
+        "checksum": "306ebb0f-3600-e256-dac3-72688543ffd1",
+        "type": 1
+      },
+      {
+        "id": 49862,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "b51b90e8-1955-2afc-494e-428f13d43f45",
+        "type": 5
+      },
+      {
+        "id": 49860,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Origins",
+        "checksum": "642f8a7f-4662-31cb-67f7-0b33270305de",
+        "type": 3
+      },
+      {
+        "id": 49865,
+        "game": 28540,
+        "trusted": true,
+        "url": "https://www.youtube.com/ubisoftus",
+        "checksum": "c7420cb1-3352-dc31-2d78-6f6469f0d0cb",
+        "type": 9
+      }
+    ]
+  }
+]

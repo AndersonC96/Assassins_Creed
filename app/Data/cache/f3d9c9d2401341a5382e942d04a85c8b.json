@@ -1,0 +1,331 @@
+[
+  {
+    "id": 81205,
+    "age_ratings": [
+      {
+        "id": 226690,
+        "synopsis": "Strong violence",
+        "checksum": "27f069c3-1314-260a-e6d5-18950c86aa41",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 93240,
+        "checksum": "83796565-56b8-6031-9afa-53a4b5f0e1f8",
+        "organization": 3,
+        "rating_category": 17
+      },
+      {
+        "id": 187779,
+        "checksum": "0470c901-cf70-926a-d7a0-c3ecf1f12721",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          3,
+          21,
+          29
+        ]
+      },
+      {
+        "id": 126123,
+        "checksum": "062734a3-c6be-5e37-5d24-8ff0827ed314",
+        "organization": 6,
+        "rating_category": 32
+      },
+      {
+        "id": 92807,
+        "checksum": "bdd11da8-7a64-f879-b323-00b4d3e9ad28",
+        "organization": 5,
+        "rating_category": 26
+      },
+      {
+        "id": 21474,
+        "synopsis": "This game was rated PEGI 18 for some frequent strong violence. Not suitable for persons below 18 years of age.",
+        "checksum": "06fd0191-5271-f7ae-36fb-f35e53017eda",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          55,
+          50
+        ]
+      }
+    ],
+    "aggregated_rating": 67.5,
+    "aggregated_rating_count": 4,
+    "artworks": [
+      {
+        "id": 47157,
+        "image_id": "ar10dx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar10dx.jpg"
+      },
+      {
+        "id": 47158,
+        "image_id": "ar10dy",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar10dy.jpg"
+      }
+    ],
+    "cover": {
+      "id": 90101,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xit.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 127437,
+        "company": {
+          "id": 840,
+          "name": "Ubisoft Sofia"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 222171,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Rogue Remastered",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "rating": 72.6945017138395,
+    "rating_count": 24,
+    "release_dates": [
+      {
+        "id": 488834,
+        "date": 1633392000,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 488835,
+        "date": 1521504000,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 488836,
+        "date": 1521504000,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 208170,
+        "image_id": "uewvk7eiqevo3hrxhqur",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uewvk7eiqevo3hrxhqur.jpg"
+      },
+      {
+        "id": 151282,
+        "image_id": "hkixmadn22sbkdfi7pbf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hkixmadn22sbkdfi7pbf.jpg"
+      },
+      {
+        "id": 151285,
+        "image_id": "k2d8uxdrt4szwbeorimo",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/k2d8uxdrt4szwbeorimo.jpg"
+      },
+      {
+        "id": 151283,
+        "image_id": "z7cslpnwuidaaywjqil5",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/z7cslpnwuidaaywjqil5.jpg"
+      },
+      {
+        "id": 151284,
+        "image_id": "ctqfggxkrbgld3srpeb1",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ctqfggxkrbgld3srpeb1.jpg"
+      },
+      {
+        "id": 208171,
+        "image_id": "y5sazxz3klikoqxrxyje",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/y5sazxz3klikoqxrxyje.jpg"
+      },
+      {
+        "id": 208172,
+        "image_id": "vqvntvv9gtfv6sqj42uh",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vqvntvv9gtfv6sqj42uh.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        },
+        "name": "Apsulov: End of Gods"
+      },
+      {
+        "id": 118218,
+        "aggregated_rating": 53.38461538461539,
+        "cover": {
+          "id": 90420,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xro.jpg"
+        },
+        "name": "Tom Clancy\u0027s Ghost Recon: Breakpoint"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      }
+    ],
+    "summary": "In addition to running in 4K, Assassin\u0027s Creed Rogue Remastered sports higher-resolution textures and shadows, improved environmental rendering, and new visual effects, making its sprawling wilderness, Arctic icescapes, and bustling version of New York City more striking than ever. The new edition also packs in all of the original\u0027s downloadable content and expansions, including two bonus missions – The Armor of Sir Gunn and The Siege of Fort de Sable – as well as the weapons, outfits, and customization items in the Master Templar and Explorer packs. It also includes a new bonus: Bayek\u0027s legacy outfit from Assassin\u0027s Creed Origins.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 17609,
+        "name": "Teaser",
+        "video_id": "Ut9AomUVkn8"
+      },
+      {
+        "id": 18804,
+        "name": "Launch Trailer",
+        "video_id": "LsY96RXXj60"
+      }
+    ],
+    "websites": [
+      {
+        "id": 754983,
+        "game": 81205,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-rogue-remastered/BWT5L9P3L60X",
+        "checksum": "8009d36a-37c7-c635-bd60-b517265ea7b4",
+        "type": 22
+      },
+      {
+        "id": 754987,
+        "game": 81205,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/230095",
+        "checksum": "9d4cb790-5b38-0d59-7379-617162c67c84",
+        "type": 23
+      },
+      {
+        "id": 452925,
+        "game": 81205,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed:%20Rogue%20Remastered",
+        "checksum": "abaaf50b-abbb-ea85-43ab-d6b4ff3e472e",
+        "type": 6
+      }
+    ]
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "id": 109532,
+    "age_ratings": [
+      {
+        "id": 226689,
+        "synopsis": "Strong violence, Gaming experience may change online",
+        "checksum": "636acf21-6c23-1eb3-228f-101eeb44a5b3",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 110807,
+        "checksum": "45a836a7-c09d-abf8-f6c6-6926c6fd4f7c",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          55,
+          50
+        ]
+      },
+      {
+        "id": 25610,
+        "checksum": "73a99598-5ab7-cca6-d27b-797b48d3c445",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          18,
+          21,
+          3,
+          10
+        ]
+      },
+      {
+        "id": 93290,
+        "checksum": "6ca40a92-5697-ff19-c526-73724b594de9",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          65,
+          61
+        ]
+      },
+      {
+        "id": 91189,
+        "checksum": "4acb4042-5d07-51ec-f463-00781f60c1b5",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          69,
+          71,
+          73
+        ]
+      }
+    ],
+    "aggregated_rating": 80.0,
+    "aggregated_rating_count": 1,
+    "artworks": [
+      {
+        "id": 7381,
+        "image_id": "ar5p1",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar5p1.jpg"
+      }
+    ],
+    "cover": {
+      "id": 114764,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2gjw.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 192021,
+        "company": {
+          "id": 1990,
+          "name": "Ubisoft Barcelona"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 202075,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed III Remastered",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch",
+        "name": "Nintendo Switch"
+      }
+    ],
+    "rating": 78.50849285532601,
+    "rating_count": 95,
+    "release_dates": [
+      {
+        "id": 248591,
+        "date": 1558396800,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      },
+      {
+        "id": 332154,
+        "date": 1639440000,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 164710,
+        "date": 1553817600,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 446122,
+        "date": 1558396800,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      },
+      {
+        "id": 164711,
+        "date": 1553817600,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 164709,
+        "date": 1553817600,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 289073,
+        "image_id": "sc671t",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc671t.jpg"
+      },
+      {
+        "id": 289072,
+        "image_id": "sc671s",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc671s.jpg"
+      },
+      {
+        "id": 289071,
+        "image_id": "sc671r",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc671r.jpg"
+      },
+      {
+        "id": 289068,
+        "image_id": "sc671o",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc671o.jpg"
+      },
+      {
+        "id": 289075,
+        "image_id": "sc671v",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc671v.jpg"
+      },
+      {
+        "id": 289076,
+        "image_id": "sc671w",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc671w.jpg"
+      },
+      {
+        "id": 297513,
+        "image_id": "sc6dk9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6dk9.jpg"
+      },
+      {
+        "id": 297512,
+        "image_id": "sc6dk8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6dk8.jpg"
+      },
+      {
+        "id": 297511,
+        "image_id": "sc6dk7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6dk7.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 113360,
+        "cover": {
+          "id": 81869,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r65.jpg"
+        },
+        "name": "Hytale"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 17548,
+        "cover": {
+          "id": 82231,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg7.jpg"
+        },
+        "name": "Savage Lands"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 10776,
+        "cover": {
+          "id": 85495,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tyv.jpg"
+        },
+        "name": "Rising World"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      }
+    ],
+    "summary": "Relive the American Revolution or experience it for the first time in Assassin\u0027s Creed III Remastered, with enhanced graphics and improved gameplay mechanics.\nAlso includes all the original solo DLC, including The Tyranny of King Washington.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 25996,
+        "name": "Launch Trailer",
+        "video_id": "4rWU9PB-3Ns"
+      }
+    ],
+    "websites": [
+      {
+        "id": 791327,
+        "game": 109532,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/231856/",
+        "checksum": "0b47f688-4cfd-0036-457a-75c0089b544c",
+        "type": 23
+      },
+      {
+        "id": 108987,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/911400",
+        "checksum": "edd14ae2-0bd7-2053-3fda-f10b15a6dcd9",
+        "type": 13
+      },
+      {
+        "id": 127790,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://www.epicgames.com/store/product/assassins-creed-3",
+        "checksum": "cb47213a-c959-6ff6-6b68-25b1baaba26a",
+        "type": 16
+      },
+      {
+        "id": 99736,
+        "game": 109532,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/en-us/game/assassins-creed-3-remastered/",
+        "checksum": "05d0f6a8-3f08-7a13-6f10-efd0b7a7fcf5",
+        "type": 1
+      },
+      {
+        "id": 222179,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "25e95251-7afd-7e85-dbdc-1e4c34124727",
+        "type": 5
+      },
+      {
+        "id": 222175,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://www.twitch.tv/assassinscreed/",
+        "checksum": "65f48e35-dd23-ad4e-083b-5e24af48bdf9",
+        "type": 6
+      },
+      {
+        "id": 222176,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://www.reddit.com/r/assassinscreed/",
+        "checksum": "47e9fdd7-f868-eaf7-d97c-36f5eb8d4099",
+        "type": 14
+      },
+      {
+        "id": 222177,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreedUK/",
+        "checksum": "5c96bf2f-4d5d-dcf8-0e23-49deb71afe50",
+        "type": 9
+      },
+      {
+        "id": 222180,
+        "game": 109532,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "04c18d44-eaac-dbee-3ac6-cc2d5ba29dbd",
+        "type": 4
+      }
+    ]
+  }
+]

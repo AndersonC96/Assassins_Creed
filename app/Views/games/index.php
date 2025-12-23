@@ -38,8 +38,12 @@
                 <div class="custom-options custom-options-scroll">
                     <div class="custom-option selected" data-value=""><i class="bi bi-controller"></i> Todos</div>
                     <div class="custom-option" data-value="Android"><i class="bi bi-android2"></i> Android</div>
+                    <div class="custom-option" data-value="browser"><i class="bi bi-browser-edge"></i> Browser</div>
                     <div class="custom-option" data-value="iOS"><i class="bi bi-apple"></i> iOS</div>
-                    <div class="custom-option" data-value="MAC"><i class="bi bi-apple"></i> MAC</div>
+                    <div class="custom-option" data-value="MAC"><i class="bi bi-apple"></i> Mac</div>
+                    <div class="custom-option" data-value="PC"><i class="bi bi bi-meta"></i> Meta Quest 2</div>
+                    <div class="custom-option" data-value="PC"><i class="bi bi bi-meta"></i> Meta Quest 3</div>
+                    <div class="custom-option" data-value="PC"><i class="bi bi-phone-fill"></i> Mobile</div>
                     <div class="custom-option" data-value="Switch"><i class="bi bi-nintendo-switch"></i> Nintendo Switch</div>
                     <div class="custom-option" data-value="Switch 2"><i class="bi bi-nintendo-switch"></i> Nintendo Switch 2</div>
                     <div class="custom-option" data-value="WiiU"><i class="bi bi-nintendo-switch"></i> Nintendo WiiU</div>
@@ -130,9 +134,9 @@
     
     // Mapping of platform brands to their console abbreviations
     const platformMapping = {
-        'Mobile': ['iOS', 'Android', 'Win Phone'],
+        'Mobile': ['iOS', 'Android', 'Win Phone', 'Mobile'],
         'Nintendo': ['Switch', 'WiiU', 'NDS', '3DS', 'Switch 2'],
-        'PC': ['PC', 'MAC', 'Stadia'],
+        'PC': ['browser', 'PC', 'MAC', 'Meta Quest 2', 'Meta Quest 3', 'Stadia'],
         'PlayStation': ['PS3', 'PS4', 'PS5', 'PSP', 'Vita'],
         'Xbox': ['X360', 'XONE', 'Series X|S', 'XSX']
     };

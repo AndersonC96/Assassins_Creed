@@ -1,0 +1,794 @@
+[
+  {
+    "id": 1970,
+    "age_ratings": [
+      {
+        "id": 226694,
+        "synopsis": "Strong violence, Gaming experience may change online",
+        "checksum": "7b988d13-b93b-3c06-3559-9dc034cf4c07",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 113498,
+        "checksum": "b2975f6e-871e-1c6a-aaa0-73141ecbd97d",
+        "organization": 6,
+        "rating_category": 32,
+        "rating_content_descriptions": [
+          75,
+          84
+        ]
+      },
+      {
+        "id": 21380,
+        "synopsis": "Contains frequent strong violence and strong bad language.",
+        "checksum": "b0dc3f67-3292-53b7-f0aa-efe1b0a42d79",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          55,
+          50
+        ]
+      },
+      {
+        "id": 91356,
+        "checksum": "3bc9b56a-c942-ce2b-49da-71af490ea7bd",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          71,
+          68,
+          69,
+          73
+        ]
+      },
+      {
+        "id": 96211,
+        "checksum": "b05cb409-66a3-023d-efeb-637b54a674d4",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          61,
+          65
+        ]
+      },
+      {
+        "id": 190634,
+        "checksum": "eb92078f-181c-0133-8746-a662de73a687",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          21,
+          18,
+          29,
+          26,
+          3
+        ]
+      }
+    ],
+    "aggregated_rating": 84.57142857142857,
+    "aggregated_rating_count": 21,
+    "artworks": [
+      {
+        "id": 612,
+        "image_id": "xy0shzkwkjucpem0prvp",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xy0shzkwkjucpem0prvp.jpg"
+      },
+      {
+        "id": 619,
+        "image_id": "vhqjxebeeuypagwexnbq",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vhqjxebeeuypagwexnbq.jpg"
+      },
+      {
+        "id": 614,
+        "image_id": "m9xzi6xlwdx7cax9pyqm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/m9xzi6xlwdx7cax9pyqm.jpg"
+      },
+      {
+        "id": 615,
+        "image_id": "yfd6rtqrbi1tgifdotim",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yfd6rtqrbi1tgifdotim.jpg"
+      },
+      {
+        "id": 611,
+        "image_id": "t6flctpualonoipugwqd",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/t6flctpualonoipugwqd.jpg"
+      },
+      {
+        "id": 616,
+        "image_id": "yjtp4lvgyve7eg4a1455",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yjtp4lvgyve7eg4a1455.jpg"
+      },
+      {
+        "id": 621,
+        "image_id": "n2sylbxgqtpaatfpsauy",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/n2sylbxgqtpaatfpsauy.jpg"
+      },
+      {
+        "id": 8457,
+        "image_id": "ar6ix",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar6ix.jpg"
+      },
+      {
+        "id": 613,
+        "image_id": "hko9xr7yp1aara2vlk2f",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hko9xr7yp1aara2vlk2f.jpg"
+      },
+      {
+        "id": 617,
+        "image_id": "encfz4cwzxq6qxygztu8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/encfz4cwzxq6qxygztu8.jpg"
+      },
+      {
+        "id": 620,
+        "image_id": "f2dqigcamkc4jad0i4lj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/f2dqigcamkc4jad0i4lj.jpg"
+      },
+      {
+        "id": 618,
+        "image_id": "djibonehdrtb7hagzbps",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/djibonehdrtb7hagzbps.jpg"
+      }
+    ],
+    "cover": {
+      "id": 220883,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      },
+      {
+        "id": 2,
+        "name": "Multiplayer"
+      },
+      {
+        "id": 3,
+        "name": "Co-operative"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 155590,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 155591,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155592,
+        "company": {
+          "id": 702,
+          "name": "Ubisoft Montpellier"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155593,
+        "company": {
+          "id": 2921,
+          "name": "Ubisoft Kyiv"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155594,
+        "company": {
+          "id": 840,
+          "name": "Ubisoft Sofia"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155595,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155596,
+        "company": {
+          "id": 39,
+          "name": "Ubisoft Annecy"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155598,
+        "company": {
+          "id": 697,
+          "name": "Ubisoft Bucharest"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155600,
+        "company": {
+          "id": 3928,
+          "name": "Ubisoft Chengdu"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155601,
+        "company": {
+          "id": 899,
+          "name": "Ubisoft Milan"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155602,
+        "company": {
+          "id": 398,
+          "name": "Ubisoft Shanghai"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155603,
+        "company": {
+          "id": 3655,
+          "name": "Ubisoft Pune"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155604,
+        "company": {
+          "id": 3262,
+          "name": "Ubisoft North America"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 199476,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed IV Black Flag",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 41,
+        "abbreviation": "WiiU",
+        "name": "Wii U"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch",
+        "name": "Nintendo Switch"
+      }
+    ],
+    "rating": 83.23096759422023,
+    "rating_count": 1683,
+    "release_dates": [
+      {
+        "id": 710454,
+        "date": 1631577600,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 710455,
+        "date": 1575590400,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      },
+      {
+        "id": 710456,
+        "date": 1384819200,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 710460,
+        "date": 1385683200,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 710461,
+        "date": 1384473600,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 710466,
+        "date": 1385078400,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      },
+      {
+        "id": 710463,
+        "date": 1383004800,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      },
+      {
+        "id": 710462,
+        "date": 1385683200,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 710464,
+        "date": 1385424000,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      },
+      {
+        "id": 710457,
+        "date": 1385078400,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 710458,
+        "date": 1384992000,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 710459,
+        "date": 1383004800,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 710465,
+        "date": 1384992000,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      },
+      {
+        "id": 710467,
+        "date": 1383004800,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 710468,
+        "date": 1385078400,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 152253,
+        "image_id": "jejhpngrm1kttpn03lol",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jejhpngrm1kttpn03lol.jpg"
+      },
+      {
+        "id": 152255,
+        "image_id": "uiaywb4ybnqal47xgska",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uiaywb4ybnqal47xgska.jpg"
+      },
+      {
+        "id": 672460,
+        "image_id": "sceevg",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sceevg.jpg"
+      },
+      {
+        "id": 672406,
+        "image_id": "sceety",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sceety.jpg"
+      },
+      {
+        "id": 672405,
+        "image_id": "sceetx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sceetx.jpg"
+      },
+      {
+        "id": 672404,
+        "image_id": "sceetw",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sceetw.jpg"
+      },
+      {
+        "id": 7553,
+        "image_id": "klueeisww1wumxudur9l",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/klueeisww1wumxudur9l.jpg"
+      },
+      {
+        "id": 152250,
+        "image_id": "amoqttuiszhyd6s4tgg5",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/amoqttuiszhyd6s4tgg5.jpg"
+      },
+      {
+        "id": 152251,
+        "image_id": "xcxhhxv4vvevmstzxzz6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xcxhhxv4vvevmstzxzz6.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 127,
+        "aggregated_rating": 90.25,
+        "cover": {
+          "id": 82095,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+        },
+        "name": "Assassin\u0027s Creed II"
+      },
+      {
+        "id": 3025,
+        "aggregated_rating": 83.88888888888889,
+        "cover": {
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
+        },
+        "name": "Middle-earth: Shadow of Mordor"
+      },
+      {
+        "id": 1121,
+        "aggregated_rating": 81.0952380952381,
+        "cover": {
+          "id": 125924,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p5w.jpg"
+        },
+        "name": "Watch Dogs"
+      },
+      {
+        "id": 19441,
+        "aggregated_rating": 81.33333333333333,
+        "cover": {
+          "id": 125839,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
+        },
+        "name": "Watch Dogs 2"
+      },
+      {
+        "id": 5606,
+        "aggregated_rating": 70.93333333333334,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 1020,
+        "aggregated_rating": 88.13793103448276,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        },
+        "name": "Grand Theft Auto V"
+      },
+      {
+        "id": 3042,
+        "aggregated_rating": 72.05882352941177,
+        "cover": {
+          "id": 287666,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co65yq.jpg"
+        },
+        "name": "Dying Light"
+      },
+      {
+        "id": 5647,
+        "aggregated_rating": 33.33333333333334,
+        "cover": {
+          "id": 81896,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6w.jpg"
+        },
+        "name": "Enemy Front"
+      },
+      {
+        "id": 1266,
+        "aggregated_rating": 81.17647058823529,
+        "cover": {
+          "id": 90090,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xii.jpg"
+        },
+        "name": "Assassin\u0027s Creed III"
+      },
+      {
+        "id": 113,
+        "aggregated_rating": 83.33333333333333,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      }
+    ],
+    "storyline": "Into this world sails a young, cocky, and fearsome captain named Edward Kenway. His skill with a sword and disdain for authority earn him the respect of pirate legends like Blackbeard, but thrust him into an ancient conflict that threatens to destroy everything the pirates have built.",
+    "summary": "Assassin’s Creed IV Black Flag begins in 1715, when pirates established a lawless republic in the Caribbean and ruled the land and seas. These outlaws paralyzed navies, halted international trade, and plundered vast fortunes. They threatened the power structures that ruled Europe, inspired the imaginations of millions, and left a legacy that still endures.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 19397,
+        "name": "Stealth Gameplay Walkthrough Video",
+        "video_id": "4Z9wnzlw9hA"
+      },
+      {
+        "id": 19394,
+        "name": "Announcement Trailer",
+        "video_id": "efD7YeX8sl8"
+      },
+      {
+        "id": 19396,
+        "name": "Gamescom 2013 Trailer",
+        "video_id": "g5dH2Sqe93Y"
+      },
+      {
+        "id": 19398,
+        "name": "True Golden Age of Pirates Trailer",
+        "video_id": "A4BcitbkZ5A"
+      },
+      {
+        "id": 19399,
+        "name": "Under the Black Flag Trailer",
+        "video_id": "y2qkjlIdyWE"
+      },
+      {
+        "id": 19402,
+        "name": "E3 2013: Horizon Trailer",
+        "video_id": "FqkmE_PVW3Y"
+      },
+      {
+        "id": 19403,
+        "name": "Characters Trailer",
+        "video_id": "sPYN9crIA38"
+      },
+      {
+        "id": 19400,
+        "name": "Story Trailer",
+        "video_id": "86K_j3ylA5g"
+      },
+      {
+        "id": 19395,
+        "name": "GamesCom 2013 Commented Walkthrough Trailer",
+        "video_id": "tqKyjEUCNG4"
+      },
+      {
+        "id": 19401,
+        "name": "Naval Exploration Gameplay Video",
+        "video_id": "ap4FFmJK7q4"
+      },
+      {
+        "id": 19404,
+        "name": "A Pirate Trained By Assassins Trailer",
+        "video_id": "YIYjoIUxKxw"
+      },
+      {
+        "id": 19405,
+        "name": "E3 2013: Official Commented Gameplay Video",
+        "video_id": "umzvBHbB-tk"
+      },
+      {
+        "id": 120101,
+        "name": "Trailer",
+        "video_id": "Bil2C8Yva8Y"
+      },
+      {
+        "id": 120204,
+        "name": "E3 2013 Gameplay Demo",
+        "video_id": "A37l-y9WRPg"
+      }
+    ],
+    "websites": [
+      {
+        "id": 13792,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "c8bded1e-8204-b29f-3c75-d675106f6a89",
+        "type": 4
+      },
+      {
+        "id": 787422,
+        "game": 1970,
+        "trusted": false,
+        "url": "https://www.nintendo.com/games/detail/assassins-creed-iv-black-flag-wii-u/",
+        "checksum": "7e7a6a76-6499-4d98-bf2c-940a44009a6c",
+        "type": 24
+      },
+      {
+        "id": 787423,
+        "game": 1970,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-iv-black-flag/BRKMHZX1RCF2",
+        "checksum": "3845686a-605f-ed2b-a0be-4cce905541db",
+        "type": 22
+      },
+      {
+        "id": 787424,
+        "game": 1970,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/200089",
+        "checksum": "c881556b-7fa6-bda4-f998-df2b1c3ddaba",
+        "type": 23
+      },
+      {
+        "id": 13795,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us",
+        "checksum": "100567c8-dfef-a193-2fba-f814ff26d61c",
+        "type": 8
+      },
+      {
+        "id": 66600,
+        "game": 1970,
+        "trusted": false,
+        "url": "http://www.assassinscreed.com",
+        "checksum": "25d24cfc-f128-d164-49b3-684cbc58ad5d",
+        "type": 1
+      },
+      {
+        "id": 13790,
+        "game": 1970,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed_IV:_Black_Flag",
+        "checksum": "76fa25c5-d6eb-4653-76df-b1c29882f4cc",
+        "type": 2
+      },
+      {
+        "id": 13791,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_IV:_Black_Flag",
+        "checksum": "3ad3a364-54f4-47e6-9e32-ee9809e98f64",
+        "type": 3
+      },
+      {
+        "id": 13793,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "7ac35fff-e454-880f-f7c4-a27db5c9a463",
+        "type": 5
+      },
+      {
+        "id": 13797,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/242050",
+        "checksum": "da913c6c-1679-cb25-51b4-e2eb572062bf",
+        "type": 13
+      },
+      {
+        "id": 13796,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreed",
+        "checksum": "7bc5bf54-9c52-af1a-1b6c-dd2ca4cc0d55",
+        "type": 9
+      },
+      {
+        "id": 332594,
+        "game": 1970,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin%27s%20Creed%20IV%20Black%20Flag",
+        "checksum": "bb4a20e9-22fa-e253-3303-8f45a73fe64a",
+        "type": 6
+      }
+    ]
+  }
+]

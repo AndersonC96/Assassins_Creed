@@ -1,0 +1,349 @@
+[
+  {
+    "id": 251568,
+    "age_ratings": [
+      {
+        "id": 141476,
+        "checksum": "c8af1563-0870-1cbd-66a2-fc2afd0063c6",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          11,
+          10,
+          3
+        ]
+      },
+      {
+        "id": 161820,
+        "checksum": "ab75d588-5c3f-9335-37a7-be3cba1d7ba7",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50
+        ]
+      }
+    ],
+    "aggregated_rating": 85.0,
+    "aggregated_rating_count": 2,
+    "artworks": [
+      {
+        "id": 108840,
+        "image_id": "ar2bzc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar2bzc.jpg"
+      }
+    ],
+    "cover": {
+      "id": 308696,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6m6w.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 267690,
+        "company": {
+          "id": 19099,
+          "name": "Ubisoft Blue Byte"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 219479,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      },
+      {
+        "id": 219480,
+        "company": {
+          "id": 897,
+          "name": "Ubisoft Red Storm"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219481,
+        "company": {
+          "id": 35788,
+          "name": "Ubisoft Düsseldorf"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219482,
+        "company": {
+          "id": 433,
+          "name": "Ubisoft Reflections"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219483,
+        "company": {
+          "id": 30122,
+          "name": "Ubisoft Mumbai"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219484,
+        "company": {
+          "id": 3655,
+          "name": "Ubisoft Pune"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219485,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219486,
+        "company": {
+          "id": 15463,
+          "name": "Ubisoft Belgrade"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 219487,
+        "company": {
+          "id": 1897,
+          "name": "Ubisoft Berlin"
+        },
+        "developer": true,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed Nexus VR",
+    "platforms": [
+      {
+        "id": 386,
+        "abbreviation": "Meta Quest 2",
+        "name": "Meta Quest 2"
+      },
+      {
+        "id": 471,
+        "abbreviation": "Meta Quest 3",
+        "name": "Meta Quest 3"
+      }
+    ],
+    "rating": 67.17164533257368,
+    "rating_count": 7,
+    "release_dates": [
+      {
+        "id": 524848,
+        "date": 1700092800,
+        "platform": {
+          "id": 386,
+          "abbreviation": "Meta Quest 2"
+        }
+      },
+      {
+        "id": 524849,
+        "date": 1700092800,
+        "platform": {
+          "id": 471,
+          "abbreviation": "Meta Quest 3"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 1069900,
+        "image_id": "scmxjg",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxjg.jpg"
+      },
+      {
+        "id": 1069899,
+        "image_id": "scmxjf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxjf.jpg"
+      },
+      {
+        "id": 1069901,
+        "image_id": "scmxjh",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxjh.jpg"
+      },
+      {
+        "id": 1069902,
+        "image_id": "scmxji",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxji.jpg"
+      },
+      {
+        "id": 1069903,
+        "image_id": "scmxjj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxjj.jpg"
+      },
+      {
+        "id": 1069904,
+        "image_id": "scmxjk",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxjk.jpg"
+      },
+      {
+        "id": 1069905,
+        "image_id": "scmxjl",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scmxjl.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 105269,
+        "aggregated_rating": 20.0,
+        "cover": {
+          "id": 82218,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfu.jpg"
+        },
+        "name": "Gene Rain"
+      },
+      {
+        "id": 55038,
+        "aggregated_rating": 45.33333333333334,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        },
+        "name": "Immortal: Unchained"
+      },
+      {
+        "id": 25311,
+        "aggregated_rating": 69.75,
+        "cover": {
+          "id": 68395,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/rmzcpsfvnizymkhvd0qg.jpg"
+        },
+        "name": "Star Control: Origins"
+      },
+      {
+        "id": 107318,
+        "aggregated_rating": 74.75,
+        "cover": {
+          "id": 113273,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2feh.jpg"
+        },
+        "name": "Rebel Galaxy Outlaw"
+      },
+      {
+        "id": 103301,
+        "aggregated_rating": 71.25,
+        "cover": {
+          "id": 95038,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21by.jpg"
+        },
+        "name": "Wolfenstein: Youngblood"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 115283,
+        "aggregated_rating": 89.18181818181819,
+        "cover": {
+          "id": 75166,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lzy.jpg"
+        },
+        "name": "Astral Chain"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        },
+        "name": "Apsulov: End of Gods"
+      },
+      {
+        "id": 28070,
+        "aggregated_rating": 57.66666666666666,
+        "cover": {
+          "id": 81870,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r66.jpg"
+        },
+        "name": "Planet Alpha"
+      }
+    ],
+    "summary": "Play a pivotal role in history in this new story built only for VR. Thrust your blade in visceral combat as you climb and parkour anywhere throughout the open maps. Stealthily blend into a crowd, interact with civilians, and feel the rush of air assassinations.\n\nAbstergo Industries has found a way to retrieve powerful lost artifacts that can be used to manipulate people\u0027s beliefs. To sabotage their plan, you’ll uncover all-new stories and accomplish new missions as legendary Assassins.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ],
+    "videos": [
+      {
+        "id": 99454,
+        "name": "Trailer",
+        "video_id": "8aQRKkPKoqI"
+      },
+      {
+        "id": 91917,
+        "name": "Announcement Trailer",
+        "video_id": "bSiu7cOqwd8"
+      },
+      {
+        "id": 103064,
+        "name": "Trailer",
+        "video_id": "IQmCQ_5zAZk"
+      }
+    ],
+    "websites": [
+      {
+        "id": 557947,
+        "game": 251568,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/en-gb/game/assassins-creed/nexus-vr",
+        "checksum": "735f568a-f540-1384-2877-e9561f28b0af",
+        "type": 1
+      }
+    ]
+  }
+]

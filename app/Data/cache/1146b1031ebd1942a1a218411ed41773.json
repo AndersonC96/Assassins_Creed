@@ -1,0 +1,264 @@
+[
+  {
+    "id": 109533,
+    "age_ratings": [
+      {
+        "id": 82981,
+        "checksum": "25f327da-4615-9549-5e47-f3ad1baca8c4",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          24,
+          29,
+          3
+        ]
+      },
+      {
+        "id": 24993,
+        "checksum": "edd30db8-7df1-1250-8623-b72ab1cf8518",
+        "organization": 2,
+        "rating_category": 12
+      }
+    ],
+    "cover": {
+      "id": 507635,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/coavoz.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 189573,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": true,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Liberation Remastered",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch",
+        "name": "Nintendo Switch"
+      }
+    ],
+    "rating": 62.48694269086425,
+    "rating_count": 23,
+    "release_dates": [
+      {
+        "id": 168803,
+        "date": 1553817600,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 394082,
+        "date": 1553817600,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 311467,
+        "date": 1558396800,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      },
+      {
+        "id": 168804,
+        "date": 1553817600,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 314721,
+        "image_id": "sc6qu9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6qu9.jpg"
+      },
+      {
+        "id": 314719,
+        "image_id": "sc6qu7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6qu7.jpg"
+      },
+      {
+        "id": 314722,
+        "image_id": "sc6qua",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6qua.jpg"
+      },
+      {
+        "id": 314718,
+        "image_id": "sc6qu6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6qu6.jpg"
+      },
+      {
+        "id": 314720,
+        "image_id": "sc6qu8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6qu8.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      },
+      {
+        "id": 28309,
+        "aggregated_rating": 65.5,
+        "cover": {
+          "id": 67083,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/zlb0ljqmgn8tc8vv3mij.jpg"
+        },
+        "name": "Tanzia"
+      },
+      {
+        "id": 5867,
+        "aggregated_rating": 82.5,
+        "cover": {
+          "id": 95797,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21x1.jpg"
+        },
+        "name": "Jade Empire"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 80916,
+        "aggregated_rating": 78.75,
+        "cover": {
+          "id": 398316,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co8jcc.jpg"
+        },
+        "name": "Omensight"
+      },
+      {
+        "id": 115280,
+        "aggregated_rating": 67.0,
+        "cover": {
+          "id": 75082,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lxm.jpg"
+        },
+        "name": "Oninaki"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 30245,
+        "cover": {
+          "id": 70041,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1i1l.jpg"
+        },
+        "name": "Wanderlust Adventures"
+      },
+      {
+        "id": 113360,
+        "cover": {
+          "id": 81869,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r65.jpg"
+        },
+        "name": "Hytale"
+      }
+    ],
+    "storyline": "Assassin\u0027s Creed III: Liberation Remastered takes place between 1765-1780. The main character of this game is called Aveline de Gandpré. She is fighting for freedom and justice under the guidance of Agate - a former slave and a master of the Assassin Brotherhood in New Orleans. Although the title lacks references to Desmond Miles\u0027 adventures, Connor, the main character of Assassin\u0027s Creed III, appears in it. Moreover, it is worth mentioning that the whole game is stylized on a propaganda product developed by the evil Abstergo corporation.",
+    "summary": "Assassin\u0027s Creed: Liberation Remastered is a remastered version of Assassin\u0027s Creed III: Liberation.\nThe original game, developed by Ubisoft Sofia, made its debut on PlayStation Vita in 2012. Two years later, it received its HD version, released on PC, PlayStation 3, and Xbox 360.\nThis version incluide new character models, polished environment rendering, and more.\nGameplay mechanics have been revamped as well, improving your experience and your immersion.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      }
+    ],
+    "websites": [
+      {
+        "id": 825595,
+        "game": 109533,
+        "trusted": true,
+        "url": "https://en.m.wikipedia.org/wiki/Assassin\u0027s_Creed_III:_Liberation",
+        "checksum": "2361e0af-5a20-c583-6715-2bbe178b7290",
+        "type": 3
+      },
+      {
+        "id": 406254,
+        "game": 109533,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20III%20Liberation%20Remastered",
+        "checksum": "256f738a-88ec-24da-6055-c698f6e0267a",
+        "type": 6
+      },
+      {
+        "id": 314438,
+        "game": 109533,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/911400/Assassins_Creed_III_Remastered",
+        "checksum": "3b9968f6-e188-ae46-716f-0f0b13d89342",
+        "type": 13
+      }
+    ]
+  }
+]

@@ -1,0 +1,379 @@
+[
+  {
+    "id": 152231,
+    "age_ratings": [
+      {
+        "id": 82230,
+        "checksum": "91a02232-186e-87a3-0d12-42ef2ed6f4fa",
+        "organization": 1,
+        "rating_category": 3,
+        "rating_content_descriptions": [
+          1,
+          32
+        ]
+      },
+      {
+        "id": 93855,
+        "checksum": "4257ced9-2549-c0a4-e111-33f3a647738b",
+        "organization": 5,
+        "rating_category": 24,
+        "rating_content_descriptions": [
+          72
+        ]
+      },
+      {
+        "id": 106796,
+        "checksum": "bfdf955b-df3a-32e5-b535-61f91220d185",
+        "organization": 7,
+        "rating_category": 35
+      },
+      {
+        "id": 93289,
+        "checksum": "057f4b4d-65a2-fddf-ab2c-2f9807d269ce",
+        "organization": 3,
+        "rating_category": 13
+      },
+      {
+        "id": 52224,
+        "synopsis": "One storyline allows the player to escape from a monastery that is being raided. Players can hear sounds of fighting and later see the monastery on fire, even though no violence is depicted. The escape from the monastery may be frightening to younger children, not only because of the implied violence but because people have to flee through dark catacombs, in which bats and rats appear. There are also reference to violence throughout the game.",
+        "checksum": "825beea6-4c96-fd69-7ebc-35f62c55ace8",
+        "organization": 2,
+        "rating_category": 9,
+        "rating_content_descriptions": [
+          50,
+          53
+        ]
+      },
+      {
+        "id": 139861,
+        "checksum": "4a8c71dc-b59f-9b49-90d4-bf15bdaad1e8",
+        "organization": 6,
+        "rating_category": 28
+      },
+      {
+        "id": 139862,
+        "checksum": "1cce44bd-c0ab-c931-851b-4de42adf8ced",
+        "organization": 4,
+        "rating_category": 20
+      }
+    ],
+    "artworks": [
+      {
+        "id": 62023,
+        "image_id": "ar1buv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar1buv.jpg"
+      }
+    ],
+    "cover": {
+      "id": 209379,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4hk3.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 13,
+        "name": "Simulator"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 202280,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 202281,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Discovery Tour: Viking Age",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 169,
+        "abbreviation": "Series X|S",
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5",
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 366264,
+        "date": 1655164800,
+        "platform": {
+          "id": 169,
+          "abbreviation": "Series X|S"
+        }
+      },
+      {
+        "id": 367366,
+        "date": 1655164800,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      },
+      {
+        "id": 367783,
+        "date": 1655164800,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 423047,
+        "date": 1655164800,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 329998,
+        "date": 1634601600,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 366263,
+        "date": 1655164800,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 705326,
+        "image_id": "scf48e",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scf48e.jpg"
+      },
+      {
+        "id": 738833,
+        "image_id": "scfu35",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scfu35.jpg"
+      },
+      {
+        "id": 738832,
+        "image_id": "scfu34",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scfu34.jpg"
+      },
+      {
+        "id": 738831,
+        "image_id": "scfu33",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scfu33.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 37419,
+        "cover": {
+          "id": 478361,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coa93t.jpg"
+        },
+        "name": "Dude Simulator"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 105011,
+        "cover": {
+          "id": 478362,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coa93u.jpg"
+        },
+        "name": "Dude Simulator 2"
+      },
+      {
+        "id": 25311,
+        "aggregated_rating": 69.75,
+        "cover": {
+          "id": 68395,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/rmzcpsfvnizymkhvd0qg.jpg"
+        },
+        "name": "Star Control: Origins"
+      },
+      {
+        "id": 35994,
+        "cover": {
+          "id": 190184,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co42qw.jpg"
+        },
+        "name": "Survivalist"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        },
+        "name": "Apsulov: End of Gods"
+      }
+    ],
+    "summary": "Free to all owners of Assassin\u0027s Creed Valhalla, this addon will allow players to explore the game\u0027s world and provide a deeper dive into the history of the Viking age.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 34,
+        "name": "Educational"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "websites": [
+      {
+        "id": 238214,
+        "game": 152231,
+        "trusted": true,
+        "url": "https://www.epicgames.com/store/en-US/p/discovery-tour-viking-age",
+        "checksum": "09fd95c4-1ec5-ceb6-5fc8-a825206ddfb2",
+        "type": 16
+      },
+      {
+        "id": 775007,
+        "game": 152231,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/10003793",
+        "checksum": "cc96b436-6f38-f0e7-e9cc-8abb8361be8f",
+        "type": 23
+      },
+      {
+        "id": 238292,
+        "game": 152231,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/en-us/game/assassins-creed/discovery-tour",
+        "checksum": "0b94bf3b-651b-26a2-0160-7079f449eca9",
+        "type": 1
+      },
+      {
+        "id": 484429,
+        "game": 152231,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Discovery%20Tour:%20Viking%20Age",
+        "checksum": "b18fae67-c9f0-c16e-5078-a728b9371bf7",
+        "type": 6
+      },
+      {
+        "id": 255368,
+        "game": 152231,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us/",
+        "checksum": "645b5af1-9f41-643f-a4e6-f25e2a1a94c2",
+        "type": 8
+      },
+      {
+        "id": 255369,
+        "game": 152231,
+        "trusted": false,
+        "url": "https://discord.com/invite/AC",
+        "checksum": "f4994728-59aa-64de-3c94-81fe05fa9ef3",
+        "type": 18
+      },
+      {
+        "id": 255370,
+        "game": 152231,
+        "trusted": true,
+        "url": "https://www.twitter.com/assassinscreed",
+        "checksum": "60827cf0-6b30-7b22-45be-911cd2041d6c",
+        "type": 5
+      },
+      {
+        "id": 255371,
+        "game": 152231,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "08f29805-be37-a7e6-a99a-a11669021b95",
+        "type": 4
+      }
+    ]
+  }
+]

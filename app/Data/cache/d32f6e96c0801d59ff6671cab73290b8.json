@@ -1,0 +1,445 @@
+[
+  {
+    "id": 3775,
+    "age_ratings": [
+      {
+        "id": 32902,
+        "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Strong language",
+        "checksum": "373d2437-2ef8-7130-aea9-fdd64b43e7bb",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50,
+          55
+        ]
+      },
+      {
+        "id": 93153,
+        "checksum": "7d14f04e-f3f1-dbfa-925f-c0d11bc0aafd",
+        "organization": 3,
+        "rating_category": 17
+      },
+      {
+        "id": 164983,
+        "checksum": "d8a128c8-f4c2-d5ed-8e53-1e056b69960b",
+        "organization": 6,
+        "rating_category": 32
+      },
+      {
+        "id": 164982,
+        "checksum": "67194715-6840-7d77-79fd-98980619a93b",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 94837,
+        "checksum": "8c8d79e7-3335-cf0f-32a2-e57df979f9b2",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          71,
+          73,
+          68,
+          69
+        ]
+      },
+      {
+        "id": 11112,
+        "checksum": "1b8ab68b-37b7-83ed-4a78-e03bd28d6290",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          3,
+          21,
+          29,
+          24
+        ]
+      }
+    ],
+    "aggregated_rating": 75.0,
+    "aggregated_rating_count": 2,
+    "artworks": [
+      {
+        "id": 63012,
+        "image_id": "ar1cmc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar1cmc.jpg"
+      }
+    ],
+    "cover": {
+      "id": 114766,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2gjy.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      },
+      {
+        "id": 2,
+        "name": "Multiplayer"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 293906,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 293907,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": true,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Freedom Cry",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch",
+        "name": "Nintendo Switch"
+      }
+    ],
+    "rating": 70.95205677819456,
+    "rating_count": 222,
+    "release_dates": [
+      {
+        "id": 661405,
+        "date": 1387238400,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 661399,
+        "date": 1631577600,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 661403,
+        "date": 1392681600,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 661400,
+        "date": 1393286400,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 661404,
+        "date": 1392768000,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 661401,
+        "date": 1392681600,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 661402,
+        "date": 1392768000,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 661406,
+        "date": 1387238400,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 779081,
+        "date": 1575504000,
+        "platform": {
+          "id": 130,
+          "abbreviation": "Switch"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 97674,
+        "image_id": "mwgm6pmzaecifyjor7al",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mwgm6pmzaecifyjor7al.jpg"
+      },
+      {
+        "id": 97673,
+        "image_id": "woynapk4iwokzjpeqys0",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/woynapk4iwokzjpeqys0.jpg"
+      },
+      {
+        "id": 97676,
+        "image_id": "umeozyhmwycr5zrmvz2k",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/umeozyhmwycr5zrmvz2k.jpg"
+      },
+      {
+        "id": 97675,
+        "image_id": "zptf3kwd3pdf2mreawqv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zptf3kwd3pdf2mreawqv.jpg"
+      },
+      {
+        "id": 97672,
+        "image_id": "woli2zllnfsnzkoxu8xc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/woli2zllnfsnzkoxu8xc.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 36198,
+        "aggregated_rating": 83.0,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        },
+        "name": "Children of Morta"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 28168,
+        "aggregated_rating": 72.9090909090909,
+        "cover": {
+          "id": 81873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r69.jpg"
+        },
+        "name": "Code Vein"
+      },
+      {
+        "id": 47823,
+        "aggregated_rating": 50.0,
+        "cover": {
+          "id": 76951,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ndj.jpg"
+        },
+        "name": "Citadel: Forged With Fire"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 17548,
+        "cover": {
+          "id": 82231,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg7.jpg"
+        },
+        "name": "Savage Lands"
+      }
+    ],
+    "storyline": "Born a slave, Adéwalé found freedom as a pirate aboard the Jackdaw as Captain Edward Kenway\u0027s Quartermaster. Fifteen years later, Adéwalé has become a trained assassin and finds himself shipwrecked in Saint-Domingue with no weapon and no crew helping him out. So unfolds a new adventure,",
+    "summary": "Born a slave, Adewale found freedom as a pirate aboard Edward Kenway’s ship, the Jackdaw. 15 years later, Adewale has become a trained Assassin who finds himself shipwrecked in Saint-Domingue without weapons or crew. He now has to acquire a ship and gather his own crew to free the slaves and avenge them. Over 3 hours of new single-player gameplay!",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 131932,
+        "name": "Trailer",
+        "video_id": "6Gu3ifv-7Ck"
+      }
+    ],
+    "websites": [
+      {
+        "id": 843878,
+        "game": 3775,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/200098",
+        "checksum": "83e9b19f-520a-a888-a829-52d1864754c1",
+        "type": 23
+      },
+      {
+        "id": 516463,
+        "game": 3775,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed:%20Freedom%20Cry",
+        "checksum": "22f748f0-c145-cc50-c29c-5554c2427fc1",
+        "type": 6
+      },
+      {
+        "id": 13735,
+        "game": 3775,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreed",
+        "checksum": "25e832ae-44bf-16ed-141a-a2a5afc66098",
+        "type": 9
+      },
+      {
+        "id": 13732,
+        "game": 3775,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "e4ae0f54-9cab-0163-0414-45c4d544b1fa",
+        "type": 4
+      },
+      {
+        "id": 66510,
+        "game": 3775,
+        "trusted": false,
+        "url": "http://www.assassinscreed.com",
+        "checksum": "55854f73-5661-692a-e011-5f00a7c2ac3f",
+        "type": 1
+      },
+      {
+        "id": 13730,
+        "game": 3775,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Freedom_Cry",
+        "checksum": "4e405532-9a0b-d0af-e29e-80bf6774b0d4",
+        "type": 2
+      },
+      {
+        "id": 13733,
+        "game": 3775,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "baf0f528-7bd3-906e-87ca-4cf81a4c8ced",
+        "type": 5
+      },
+      {
+        "id": 13731,
+        "game": 3775,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_IV:_Black_Flag#Freedom_Cry",
+        "checksum": "cac359e2-9038-bcc3-bef4-bfc747981521",
+        "type": 3
+      },
+      {
+        "id": 13736,
+        "game": 3775,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/277590",
+        "checksum": "d3569475-0fdb-7e13-be18-97303cc6bc96",
+        "type": 13
+      }
+    ]
+  }
+]

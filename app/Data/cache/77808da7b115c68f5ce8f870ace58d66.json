@@ -1,0 +1,512 @@
+[
+  {
+    "id": 215060,
+    "age_ratings": [
+      {
+        "id": 223385,
+        "synopsis": "Action role-playing game, set in the ninth century, in which an orphan with a tragic past flees Baghdad after an act of retribution and joins an ancient organisation.",
+        "checksum": "f815b262-d72b-304d-038e-a65eb78e7637",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50,
+          55
+        ]
+      },
+      {
+        "id": 155150,
+        "checksum": "089c1861-05e7-b7df-2b38-fe009e124261",
+        "organization": 6,
+        "rating_category": 32
+      },
+      {
+        "id": 153300,
+        "checksum": "879505f4-a303-4f15-638d-671d4ce89fe7",
+        "organization": 4,
+        "rating_category": 21
+      },
+      {
+        "id": 153301,
+        "checksum": "9f5d9fd4-8421-1190-c0d6-1bcf37f38116",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          72,
+          69,
+          71,
+          73
+        ]
+      },
+      {
+        "id": 187853,
+        "checksum": "ead56b6e-753a-289b-15bf-418ad4dc80fe",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          4,
+          8,
+          10,
+          21
+        ]
+      },
+      {
+        "id": 162875,
+        "synopsis": "High Impact Violence, Online Interactivity",
+        "checksum": "aac14f32-929c-8cb8-2e40-e42dc8fd69ec",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 155148,
+        "checksum": "eceafee2-29d6-f0e0-7474-9ac2072561a3",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          65,
+          61
+        ]
+      }
+    ],
+    "aggregated_rating": 75.44444444444444,
+    "aggregated_rating_count": 9,
+    "artworks": [
+      {
+        "id": 85806,
+        "image_id": "ar1u7i",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar1u7i.jpg"
+      }
+    ],
+    "cover": {
+      "id": 243379,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co57sj.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 231046,
+        "company": {
+          "id": 17064,
+          "name": "Ubisoft Bordeaux"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 231045,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed Mirage",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S",
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 39,
+        "abbreviation": "iOS",
+        "name": "iOS"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5",
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "rating": 74.50161503438041,
+    "rating_count": 151,
+    "release_dates": [
+      {
+        "id": 515300,
+        "date": 1696464000,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 515301,
+        "date": 1696464000,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 527083,
+        "date": 1696464000,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 527084,
+        "date": 1696464000,
+        "platform": {
+          "id": 169,
+          "abbreviation": "Series X|S"
+        }
+      },
+      {
+        "id": 515302,
+        "date": 1696464000,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      },
+      {
+        "id": 590002,
+        "date": 1717632000,
+        "platform": {
+          "id": 39,
+          "abbreviation": "iOS"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 866302,
+        "image_id": "scikfy",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scikfy.jpg"
+      },
+      {
+        "id": 873024,
+        "image_id": "scipmo",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scipmo.jpg"
+      },
+      {
+        "id": 873026,
+        "image_id": "scipmq",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scipmq.jpg"
+      },
+      {
+        "id": 873027,
+        "image_id": "scipmr",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scipmr.jpg"
+      },
+      {
+        "id": 873025,
+        "image_id": "scipmp",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scipmp.jpg"
+      },
+      {
+        "id": 873029,
+        "image_id": "scipmt",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scipmt.jpg"
+      },
+      {
+        "id": 873028,
+        "image_id": "scipms",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scipms.jpg"
+      },
+      {
+        "id": 1379419,
+        "image_id": "sctkd7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sctkd7.jpg"
+      },
+      {
+        "id": 1379420,
+        "image_id": "sctkd8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sctkd8.jpg"
+      },
+      {
+        "id": 1379421,
+        "image_id": "sctkd9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sctkd9.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 87622,
+        "cover": {
+          "id": 236311,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co52c7.jpg"
+        },
+        "name": "Garena Free Fire"
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        },
+        "name": "Apsulov: End of Gods"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      }
+    ],
+    "summary": "In the ninth century CE, Baghdad is at its height, leading the world in science, art, innovation, and commerce. Amid its bustling urban landscape, a conflicted young orphan with a tragic past must navigate the streets to survive.\nIn Assassin’s Creed Mirage, you are Basim, a cunning street thief with nightmarish visions, seeking answers and justice. After an act of deadly retribution, Basim flees Baghdad and joins an ancient organization – The Hidden Ones. As he learns their mysterious rituals and powerful tenets, he will hone his unique abilities, discover his true nature, and come to understand a new Creed – one that will change his fate in ways he never could have imagined.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 98778,
+        "name": "Launch Trailer",
+        "video_id": "IRNOoOYVn80"
+      },
+      {
+        "id": 74486,
+        "name": "Cinematic Trailer",
+        "video_id": "x55lAlFtXmw"
+      },
+      {
+        "id": 74487,
+        "name": "Dev Diary",
+        "video_id": "dKox5i_T6XA"
+      },
+      {
+        "id": 90296,
+        "name": "Trailer",
+        "video_id": "G97lx7orMN8"
+      },
+      {
+        "id": 91834,
+        "name": "Trailer",
+        "video_id": "9hjico7nYvo"
+      },
+      {
+        "id": 91835,
+        "name": "Gameplay Trailer",
+        "video_id": "mxpYHW-M_Ac"
+      },
+      {
+        "id": 91853,
+        "name": "Gameplay Trailer",
+        "video_id": "LpeZelBRXW0"
+      },
+      {
+        "id": 96200,
+        "name": "Trailer",
+        "video_id": "yPs-p91hjBI"
+      },
+      {
+        "id": 116076,
+        "name": "Launch Trailer",
+        "video_id": "VjtodH83_I0"
+      }
+    ],
+    "websites": [
+      {
+        "id": 829201,
+        "game": 215060,
+        "trusted": false,
+        "url": "https://discord.com/invite/ac",
+        "checksum": "4e1a37bc-4e76-2dc9-5e59-b0ba245f4567",
+        "type": 18
+      },
+      {
+        "id": 738369,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://x.com/assassinscreed",
+        "checksum": "6f02fbd6-ca08-5c65-ba23-ec3b348bd9d7",
+        "type": 5
+      },
+      {
+        "id": 738370,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://instagram.com/assassinscreed",
+        "checksum": "c75f8703-e556-c826-6866-653eb7ca945b",
+        "type": 8
+      },
+      {
+        "id": 777573,
+        "game": 215060,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-mirage/9NZCJF5VF1NV",
+        "checksum": "88669ed7-4144-d951-d640-7fa0172c4bc1",
+        "type": 22
+      },
+      {
+        "id": 777574,
+        "game": 215060,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/10004865",
+        "checksum": "b6a408e1-469c-bf69-18ff-0ae831f32560",
+        "type": 23
+      },
+      {
+        "id": 683471,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/category/assassins-creed-mirage",
+        "checksum": "111692f6-7f22-9c83-4f8f-be56c144c936",
+        "type": 6
+      },
+      {
+        "id": 683459,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/3035570",
+        "checksum": "79ed2110-ce7b-837e-36a6-d1ecc82f40e9",
+        "type": 13
+      },
+      {
+        "id": 309785,
+        "game": 215060,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/en-us/game/assassins-creed/mirage",
+        "checksum": "ace7aebd-9418-1079-2f2d-18f924acff99",
+        "type": 1
+      },
+      {
+        "id": 605256,
+        "game": 215060,
+        "trusted": false,
+        "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed:_Mirage?so\u003dsearch",
+        "checksum": "120f5660-5bf1-7305-a2d4-0c885a7c5254",
+        "type": 2
+      },
+      {
+        "id": 309922,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://www.epicgames.com/store/p/assassins-creed-mirage",
+        "checksum": "259308f1-6b1c-e69e-d9f1-78fa54d4db91",
+        "type": 16
+      },
+      {
+        "id": 634665,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://apps.apple.com/app/id6472704261",
+        "checksum": "e73409f8-a691-f7f2-b0d5-2fd7a3bea569",
+        "type": 10
+      },
+      {
+        "id": 634666,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://apps.apple.com/app/id6472704261",
+        "checksum": "cc949f0d-869f-19e3-ff60-d553f27c7951",
+        "type": 11
+      },
+      {
+        "id": 605257,
+        "game": 215060,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Mirage",
+        "checksum": "f2fd50a5-3b15-9590-f34f-f0d60cf5c057",
+        "type": 3
+      }
+    ]
+  }
+]

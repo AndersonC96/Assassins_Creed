@@ -1,0 +1,655 @@
+[
+  {
+    "id": 103054,
+    "age_ratings": [
+      {
+        "id": 226696,
+        "synopsis": "Strong violence, online interactivity",
+        "checksum": "32427f85-39d6-05d7-9887-0590354a642a",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 98466,
+        "checksum": "8c0df2c9-727a-b232-6e15-f1a953a7aea4",
+        "organization": 4,
+        "rating_category": 21
+      },
+      {
+        "id": 205969,
+        "synopsis": "Embark on a journey as Alexios or Kassandra to uncover the truth about your mysterious past. Sail to the farthest reaches of the Aegean Sea and engage in naval combat, charge into battles pitting hundreds of soldiers against each other, and unleash your Special Abilities on your enemies.",
+        "checksum": "60321c31-9270-adc0-f8a6-d3e2071178b5",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50,
+          55
+        ]
+      },
+      {
+        "id": 69675,
+        "checksum": "c6d09e26-b8cf-9f4c-a841-761fa614324f",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          61,
+          65
+        ]
+      },
+      {
+        "id": 92001,
+        "checksum": "d2dbdf81-65ec-f686-b3de-8648b8973b2e",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          71,
+          69
+        ]
+      },
+      {
+        "id": 98467,
+        "checksum": "33a28cba-5822-a107-cf7e-6947cafe4eba",
+        "organization": 6,
+        "rating_category": 33,
+        "rating_content_descriptions": [
+          82,
+          77,
+          76
+        ]
+      },
+      {
+        "id": 189207,
+        "checksum": "9f124306-064c-440b-8cf6-f148b9567db1",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          10,
+          4,
+          18,
+          21
+        ]
+      }
+    ],
+    "aggregated_rating": 88.35714285714286,
+    "aggregated_rating_count": 14,
+    "artworks": [
+      {
+        "id": 5048,
+        "image_id": "cvggsmtdobh8pkl8ajhv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cvggsmtdobh8pkl8ajhv.jpg"
+      },
+      {
+        "id": 5049,
+        "image_id": "c6i5jb9ucyec1fak1kni",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/c6i5jb9ucyec1fak1kni.jpg"
+      },
+      {
+        "id": 5829,
+        "image_id": "ar4hx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar4hx.jpg"
+      },
+      {
+        "id": 5830,
+        "image_id": "ar4hy",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar4hy.jpg"
+      },
+      {
+        "id": 5016,
+        "image_id": "ph0f34mny5dc3h2pdidz",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ph0f34mny5dc3h2pdidz.jpg"
+      },
+      {
+        "id": 5015,
+        "image_id": "e9irhuudfu35eddwhxps",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/e9irhuudfu35eddwhxps.jpg"
+      },
+      {
+        "id": 5831,
+        "image_id": "ar4hz",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar4hz.jpg"
+      },
+      {
+        "id": 5017,
+        "image_id": "gk0jam9nmeb5p7ifvvyo",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gk0jam9nmeb5p7ifvvyo.jpg"
+      },
+      {
+        "id": 5065,
+        "image_id": "gaynboyx7mlsgoudkh8a",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gaynboyx7mlsgoudkh8a.jpg"
+      },
+      {
+        "id": 213592,
+        "image_id": "ar4kt4",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar4kt4.jpg"
+      }
+    ],
+    "cover": {
+      "id": 124221,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 72560,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 79867,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 155282,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155284,
+        "company": {
+          "id": 398,
+          "name": "Ubisoft Shanghai"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155285,
+        "company": {
+          "id": 3928,
+          "name": "Ubisoft Chengdu"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155286,
+        "company": {
+          "id": 2921,
+          "name": "Ubisoft Kyiv"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155287,
+        "company": {
+          "id": 15260,
+          "name": "Ubisoft Philippines"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155283,
+        "company": {
+          "id": 697,
+          "name": "Ubisoft Bucharest"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 155288,
+        "company": {
+          "id": 3634,
+          "name": "Sperasoft"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 266660,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed Odyssey",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia",
+        "name": "Google Stadia"
+      },
+      {
+        "id": 169,
+        "abbreviation": "Series X|S",
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4",
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5",
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE",
+        "name": "Xbox One"
+      }
+    ],
+    "rating": 81.25817773109263,
+    "rating_count": 892,
+    "release_dates": [
+      {
+        "id": 153846,
+        "date": 1538697600,
+        "platform": {
+          "id": 49,
+          "abbreviation": "XONE"
+        }
+      },
+      {
+        "id": 178547,
+        "date": 1574121600,
+        "platform": {
+          "id": 170,
+          "abbreviation": "Stadia"
+        }
+      },
+      {
+        "id": 153845,
+        "date": 1538697600,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 153847,
+        "date": 1538697600,
+        "platform": {
+          "id": 48,
+          "abbreviation": "PS4"
+        }
+      },
+      {
+        "id": 743551,
+        "date": 1629763200,
+        "platform": {
+          "id": 167,
+          "abbreviation": "PS5"
+        }
+      },
+      {
+        "id": 743552,
+        "date": 1629763200,
+        "platform": {
+          "id": 169,
+          "abbreviation": "Series X|S"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 256069,
+        "image_id": "uhbwqvqyzd9z28moax4v",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uhbwqvqyzd9z28moax4v.jpg"
+      },
+      {
+        "id": 256070,
+        "image_id": "kacwihapdvs1bnvpdv5g",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kacwihapdvs1bnvpdv5g.jpg"
+      },
+      {
+        "id": 256072,
+        "image_id": "kpnxx0mtm8iv1041h67t",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kpnxx0mtm8iv1041h67t.jpg"
+      },
+      {
+        "id": 213985,
+        "image_id": "bxpsd9akgwqbcdusdjwf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bxpsd9akgwqbcdusdjwf.jpg"
+      },
+      {
+        "id": 213994,
+        "image_id": "uomt842usvkcn08bygrm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uomt842usvkcn08bygrm.jpg"
+      },
+      {
+        "id": 213995,
+        "image_id": "wg3k2ccwua6aca2cvx5j",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wg3k2ccwua6aca2cvx5j.jpg"
+      },
+      {
+        "id": 213992,
+        "image_id": "gcfut0wzdwzr2lt7zhog",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gcfut0wzdwzr2lt7zhog.jpg"
+      },
+      {
+        "id": 213986,
+        "image_id": "gfpbnk9unsxba7swao0v",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gfpbnk9unsxba7swao0v.jpg"
+      },
+      {
+        "id": 213987,
+        "image_id": "ofewauwsnqfcvar9fcho",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ofewauwsnqfcvar9fcho.jpg"
+      },
+      {
+        "id": 213988,
+        "image_id": "tri64r5ppxjjwbc0jny9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/tri64r5ppxjjwbc0jny9.jpg"
+      },
+      {
+        "id": 213989,
+        "image_id": "oy3sblbvvxpaatmhis6n",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/oy3sblbvvxpaatmhis6n.jpg"
+      },
+      {
+        "id": 213991,
+        "image_id": "zkk4g8kigrrgfuswdvyl",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zkk4g8kigrrgfuswdvyl.jpg"
+      },
+      {
+        "id": 213993,
+        "image_id": "gapzclh3mulnucw0ytti",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gapzclh3mulnucw0ytti.jpg"
+      },
+      {
+        "id": 213990,
+        "image_id": "wmrvnumhfxku1hvpq7m6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wmrvnumhfxku1hvpq7m6.jpg"
+      },
+      {
+        "id": 256071,
+        "image_id": "fkkiiyjtcu7os0fpvhe0",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fkkiiyjtcu7os0fpvhe0.jpg"
+      },
+      {
+        "id": 1384444,
+        "image_id": "scto8s",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scto8s.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        },
+        "name": "The Black Death"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 106987,
+        "aggregated_rating": 66.11111111111111,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        },
+        "name": "Torchlight III"
+      },
+      {
+        "id": 28309,
+        "aggregated_rating": 65.5,
+        "cover": {
+          "id": 67083,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/zlb0ljqmgn8tc8vv3mij.jpg"
+        },
+        "name": "Tanzia"
+      },
+      {
+        "id": 17548,
+        "cover": {
+          "id": 82231,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg7.jpg"
+        },
+        "name": "Savage Lands"
+      },
+      {
+        "id": 115653,
+        "aggregated_rating": 67.5,
+        "cover": {
+          "id": 92737,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1zk1.jpg"
+        },
+        "name": "Pokémon Shield"
+      }
+    ],
+    "summary": "Write your own epic odyssey and become a legendary Spartan hero in Assassin\u0027s Creed Odyssey, an inspiring adventure where you must forge your destiny and define your own path in a world on the brink of tearing itself apart. Influence how history unfolds as you experience a rich and ever-changing world shaped by your decisions.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 22876,
+        "name": "Trailer",
+        "video_id": "_ddQqzwH__4"
+      },
+      {
+        "id": 22877,
+        "name": "Trailer",
+        "video_id": "Md-uL6opUFY"
+      },
+      {
+        "id": 20628,
+        "name": "E3 2018 Reveal Trailer",
+        "video_id": "Hoal4MgPmMo"
+      },
+      {
+        "id": 20629,
+        "name": "E3 2018 Walkthrough Trailer",
+        "video_id": "vAxc0c5de0c"
+      },
+      {
+        "id": 121356,
+        "name": "E3 2019 Story Creator Mode Launch Trailer",
+        "video_id": "uLJGDiATv_s"
+      }
+    ],
+    "websites": [
+      {
+        "id": 80501,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey",
+        "checksum": "c89ebc60-cf0c-db10-7e4d-dbc03eb95adf",
+        "type": 3
+      },
+      {
+        "id": 795070,
+        "game": 103054,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed-odyssey/BW9TWC8L4JCS",
+        "checksum": "4a4c8c19-5b5b-d5c6-677b-f4fcb1ccfff3",
+        "type": 22
+      },
+      {
+        "id": 795071,
+        "game": 103054,
+        "trusted": false,
+        "url": "https://store.playstation.com/en-us/concept/229601",
+        "checksum": "49788f80-61d0-6379-cd5f-1903b58a098d",
+        "type": 23
+      },
+      {
+        "id": 805582,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://store.epicgames.com/en-US/p/assassins-creed-odyssey",
+        "checksum": "2ce33974-528d-86da-e673-cbd53352d60d",
+        "type": 16
+      },
+      {
+        "id": 805583,
+        "game": 103054,
+        "trusted": false,
+        "url": "https://assassinscreed.ubisoft.com/",
+        "checksum": "7d21634c-710e-b5fd-e5a0-f648661b6678",
+        "type": 1
+      },
+      {
+        "id": 805585,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed",
+        "checksum": "cbd22530-7f93-cfc3-b0e1-ecb3dd875870",
+        "type": 8
+      },
+      {
+        "id": 805586,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://www.youtube.com/@Ubisoft",
+        "checksum": "dd7329cb-2b60-d229-7e4a-c4830766bdf9",
+        "type": 9
+      },
+      {
+        "id": 805589,
+        "game": 103054,
+        "trusted": false,
+        "url": "https://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed:_Odyssey",
+        "checksum": "829e102d-d215-2acd-c995-7d4bdc279007",
+        "type": 2
+      },
+      {
+        "id": 805590,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://discordapp.com/invite/ac",
+        "checksum": "3512e58b-a353-d3b4-bb51-fba5e51adcc9",
+        "type": 18
+      },
+      {
+        "id": 746198,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/812140",
+        "checksum": "d6ed18ea-d617-d90a-b936-32e836930c83",
+        "type": 13
+      },
+      {
+        "id": 746200,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://x.com/assassinscreed",
+        "checksum": "b05b7be1-46e9-8a0d-867c-6c95218a12fb",
+        "type": 5
+      },
+      {
+        "id": 827670,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/category/assassins-creed-odyssey",
+        "checksum": "e0b143c5-0427-96c6-9d4d-ff7092d039e4",
+        "type": 6
+      },
+      {
+        "id": 79810,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://www.reddit.com/r/assassinscreed",
+        "checksum": "d12bf3d4-f2c7-67a2-b7eb-d4bf716ad828",
+        "type": 14
+      },
+      {
+        "id": 79805,
+        "game": 103054,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "60ff8ded-2194-f8d5-a0e0-029eee148f3d",
+        "type": 4
+      }
+    ]
+  }
+]
