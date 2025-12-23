@@ -372,6 +372,82 @@ video {
 }
 
 /* ============ GAMES PAGE ============ */
+
+/* Search and Filters */
+.search-filters-container {
+    background: linear-gradient(135deg, rgba(80, 10, 10, 0.95) 0%, rgba(50, 5, 5, 0.98) 100%);
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border: 1px solid rgba(180, 50, 50, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(100, 0, 0, 0.4);
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.8em 1.2em;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    transition: all 0.3s ease;
+    margin-bottom: 1em;
+}
+
+.search-input::placeholder {
+    color: rgba(255,255,255,0.4);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-red);
+    box-shadow: 0 0 15px rgba(139, 0, 0, 0.3);
+}
+
+.filters-row {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.filter-group label {
+    color: rgba(255,255,255,0.6);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.filter-select {
+    padding: 0.5em 2em 0.5em 0.8em;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.85rem;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.6em center;
+    transition: all 0.3s ease;
+}
+
+.filter-select:hover {
+    border-color: rgba(255,255,255,0.3);
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: var(--accent-red);
+}
 .category-section {
     margin-bottom: 3em;
 }
