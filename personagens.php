@@ -86,6 +86,50 @@
                  'desc' => 'Ladrão de rua em Bagdá que se tornou membro dos Ocultos. Esconde um segredo ancestral: é a reencarnação de Loki, o deus nórdico da trapaça.',
                  'akas' => ['O Oculto', 'Loki'],
                  'tipo' => 'Oculto', 'nacionalidade' => 'Árabe'],
+                 
+                // AC Shadows (2024)
+                ['nome' => 'Naoe', 'era' => 'Japão Feudal (1579)', 
+                 'jogo' => 'AC Shadows', 'game_id' => 300976, 'ano' => 1579,
+                 'desc' => 'Shinobi japonesa e filha de um líder ninja. Especialista em furtividade, infiltração e uso de kunais. Representa o estilo clássico de assassinato da franquia.',
+                 'akas' => ['A Shinobi', 'Filha das Sombras'],
+                 'tipo' => 'Shinobi', 'nacionalidade' => 'Japonesa'],
+                 
+                ['nome' => 'Yasuke', 'era' => 'Japão Feudal (1579)', 
+                 'jogo' => 'AC Shadows', 'game_id' => 300976, 'ano' => 1579,
+                 'desc' => 'Samurai africano histórico que serviu Oda Nobunaga. Especialista em combate direto e força bruta. Primeiro samurai negro documentado na história do Japão.',
+                 'akas' => ['O Samurai Negro', 'Yasuke de Nobunaga'],
+                 'tipo' => 'Samurai', 'nacionalidade' => 'Africano/Japonês'],
+                 
+                // Outros protagonistas importantes
+                ['nome' => 'Alexios', 'era' => 'Grécia Antiga (431 a.C.)', 
+                 'jogo' => 'AC Odyssey', 'game_id' => 103054, 'ano' => -431,
+                 'desc' => 'Irmão de Kassandra e protagonista alternativo de Odyssey. Se não for escolhido como protagonista, torna-se o antagonista Deimos, líder do Culto de Kosmos.',
+                 'akas' => ['Deimos', 'O Demigod'],
+                 'tipo' => 'Mercenário/Antagonista', 'nacionalidade' => 'Espartano'],
+                 
+                ['nome' => 'Aveline de Grandpré', 'era' => 'Revolução Americana (1765)', 
+                 'jogo' => 'AC Liberation, AC III', 'game_id' => 1266, 'ano' => 1765,
+                 'desc' => 'Assassina afro-francesa de Nova Orleans. Primeira protagonista feminina da série principal. Lutou contra a escravidão e a influência Templária no sul.',
+                 'akas' => ['A Libertadora'],
+                 'tipo' => 'Assassina', 'nacionalidade' => 'Afro-Francesa'],
+                 
+                ['nome' => 'Adéwalé', 'era' => 'Era da Pirataria (1715-1735)', 
+                 'jogo' => 'AC IV, Freedom Cry', 'game_id' => 1970, 'ano' => 1715,
+                 'desc' => 'Ex-escravo que se tornou pirata ao lado de Edward Kenway e depois Assassino. Protagonista de Freedom Cry, lutou contra o tráfico de escravos.',
+                 'akas' => ['O Libertador'],
+                 'tipo' => 'Pirata/Assassino', 'nacionalidade' => 'Trinidadiano'],
+                 
+                ['nome' => 'Roshan', 'era' => 'Bagdá Abássida (861)', 
+                 'jogo' => 'AC Mirage', 'game_id' => 215060, 'ano' => 861,
+                 'desc' => 'Mentora de Basim e líder dos Ocultos em Bagdá. Uma das Assassinas mais habilidosas de sua era, treinou Basim desde jovem.',
+                 'akas' => ['A Mentora'],
+                 'tipo' => 'Mentora', 'nacionalidade' => 'Persa'],
+                 
+                ['nome' => 'Sigurd Styrbjornsson', 'era' => 'Era Viking (873)', 
+                 'jogo' => 'AC Valhalla', 'game_id' => 133004, 'ano' => 873,
+                 'desc' => 'Irmão adotivo de Eivor e líder do clã do Corvo. Reencarnação de Tyr, deus nórdico da guerra e justiça.',
+                 'akas' => ['Tyr'],
+                 'tipo' => 'Viking/Isu', 'nacionalidade' => 'Norueguês'],
             ]
         ],
         
@@ -123,6 +167,36 @@
                  'desc' => 'Grão-Mestre que controlava Londres através de negócios e política. Sua queda veio pelas mãos dos gêmeos Frye.',
                  'akas' => ['O Magnata'],
                  'tipo' => 'Grão-Mestre', 'nacionalidade' => 'Inglês'],
+                 
+                ['nome' => 'Charles Lee', 'era' => 'Revolução Americana (1754)', 
+                 'jogo' => 'AC III', 'game_id' => 1266, 'ano' => 1754,
+                 'desc' => 'Braço direito de Haytham Kenway e principal antagonista de Connor. Responsável pelo ataque à vila de Connor quando era criança.',
+                 'akas' => ['O Perseguidor'],
+                 'tipo' => 'Templário', 'nacionalidade' => 'Inglês'],
+                 
+                ['nome' => 'Laureano de Torres y Ayala', 'era' => 'Era da Pirataria (1715)', 
+                 'jogo' => 'AC IV: Black Flag', 'game_id' => 1970, 'ano' => 1715,
+                 'desc' => 'Governador espanhol de Cuba e Grão-Mestre dos Templários do Caribe. Buscava o Observatório para controlar o mundo.',
+                 'akas' => ['O Governador'],
+                 'tipo' => 'Grão-Mestre', 'nacionalidade' => 'Espanhol'],
+                 
+                ['nome' => 'François-Thomas Germain', 'era' => 'Revolução Francesa (1789)', 
+                 'jogo' => 'AC Unity', 'game_id' => 5606, 'ano' => 1789,
+                 'desc' => 'Grão-Mestre dissidente que usou a Revolução Francesa para destruir a velha Ordem Templária e reconstruí-la sob seus ideais.',
+                 'akas' => ['O Artesão'],
+                 'tipo' => 'Grão-Mestre', 'nacionalidade' => 'Francês'],
+                 
+                ['nome' => 'Flavius Metellus', 'era' => 'Egito Ptolemaico (48 a.C.)', 
+                 'jogo' => 'AC Origins', 'game_id' => 28540, 'ano' => -48,
+                 'desc' => 'Leão da Ordem dos Antigos e verdadeiro assassino de Khemu, filho de Bayek. Portador da Maçã do Éden.',
+                 'akas' => ['O Leão'],
+                 'tipo' => 'Líder da Ordem', 'nacionalidade' => 'Romano'],
+                 
+                ['nome' => 'Élise de la Serre', 'era' => 'Revolução Francesa (1789)', 
+                 'jogo' => 'AC Unity', 'game_id' => 5606, 'ano' => 1789,
+                 'desc' => 'Templária francesa e amor de Arno. Filha do Grão-Mestre François de la Serre, buscava vingança pela morte de seu pai.',
+                 'akas' => ['A Templária'],
+                 'tipo' => 'Templária', 'nacionalidade' => 'Francesa'],
             ]
         ],
         
