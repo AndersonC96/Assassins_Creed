@@ -1054,5 +1054,6 @@ $totalEventos = count(array_filter($timelineHistorica, fn($i) => $i['tipo'] === 
             });
         });
     </script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>

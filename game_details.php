@@ -257,7 +257,26 @@ function detectPlatformFromUrl($url) {
                 >
                 
                 <div class="detail-content">
-                    <h2><?= htmlspecialchars($game['name']) ?></h2>
+                    <div style="display: flex; align-items: center; gap: 1em; margin-bottom: 0.5em;">
+                        <h2 style="margin: 0;"><?= htmlspecialchars($game['name']) ?></h2>
+                        <button class="favorite-btn" 
+                            data-favorite-id="<?= $game['id'] ?>" 
+                            data-favorite-type="game" 
+                            data-favorite-name="<?= htmlspecialchars($game['name']) ?>"
+                            data-favorite-image="<?= isset($game['cover']['url']) ? 'https:' . str_replace('t_thumb', 't_cover_big', $game['cover']['url']) : '' ?>"
+                            title="Adicionar aos favoritos">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Breadcrumbs -->
+                    <div class="breadcrumbs">
+                        <a href="index.php" class="breadcrumb-link">Home</a>
+                        <i class="bi bi-chevron-right breadcrumb-separator"></i>
+                        <a href="jogos.php" class="breadcrumb-link">Jogos</a>
+                        <i class="bi bi-chevron-right breadcrumb-separator"></i>
+                        <span class="breadcrumb-current"><?= htmlspecialchars($game['name']) ?></span>
+                    </div>
                     
                     <!-- Ratings -->
                     <?php if (isset($game['aggregated_rating']) || isset($game['rating'])): ?>
@@ -457,6 +476,28 @@ function detectPlatformFromUrl($url) {
                     </div>
                     <?php endif; ?>
                     
+                    <!-- Share Buttons -->
+                    <div style="margin-top: 2em; padding-top: 1.5em; border-top: 1px solid rgba(0,0,0,0.1);">
+                        <h3 style="font-size: 0.85rem; text-transform: uppercase; color: #666; margin-bottom: 1em;">Compartilhar</h3>
+                        <div class="share-buttons">
+                            <button class="share-btn twitter" onclick="Share.open('twitter', null, 'Confira <?= addslashes($game['name']) ?> no AC Database!')" title="Twitter">
+                                <i class="bi bi-twitter-x"></i>
+                            </button>
+                            <button class="share-btn facebook" onclick="Share.open('facebook')" title="Facebook">
+                                <i class="bi bi-facebook"></i>
+                            </button>
+                            <button class="share-btn whatsapp" onclick="Share.open('whatsapp', null, 'Confira <?= addslashes($game['name']) ?> no AC Database!')" title="WhatsApp">
+                                <i class="bi bi-whatsapp"></i>
+                            </button>
+                            <button class="share-btn telegram" onclick="Share.open('telegram', null, '<?= addslashes($game['name']) ?>')" title="Telegram">
+                                <i class="bi bi-telegram"></i>
+                            </button>
+                            <button class="share-btn copy" onclick="Share.copyLink()" title="Copiar Link">
+                                <i class="bi bi-link-45deg"></i>
+                            </button>
+                        </div>
+                    </div>
+
                     <a href="jogos.php" class="back-btn">← Voltar para Jogos</a>
                 </div>
             </div>
@@ -468,5 +509,6 @@ function detectPlatformFromUrl($url) {
             <?php endif; ?>
         </main>
     </div>
+    <script src="./JS/main.js"></script>
 </body>
 </html>

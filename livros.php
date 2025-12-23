@@ -905,5 +905,6 @@ $totalOutros = count($outrosMateriais);
             });
         });
     </script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>
