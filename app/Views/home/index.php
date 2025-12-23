@@ -94,6 +94,10 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
                 SYNC_STABLE
             </div>
             
+            <button class="control-btn" id="speedBtn" aria-label="Speed" style="width: auto; min-width: 40px; font-size: 0.8rem; letter-spacing: 0;">
+                1x
+            </button>
+            
             <button class="control-btn" id="muteBtn" aria-label="Mute/Unmute">
                 <i class="bi bi-volume-up-fill"></i>
             </button>
@@ -160,6 +164,7 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
     const playBtn = document.getElementById('playPauseBtn');
     const muteBtn = document.getElementById('muteBtn');
     const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const speedBtn = document.getElementById('speedBtn');
     const overlay = document.getElementById('videoOverlay');
     const progressFill = document.querySelector('.progress-fill');
     const currentTimeEl = document.getElementById('currentTime');
@@ -210,6 +215,17 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
             video.muted = !video.muted;
             muteBtn.innerHTML = video.muted ? '<i class="bi bi-volume-mute-fill"></i>' : '<i class="bi bi-volume-up-fill"></i>';
         });
+
+        // Speed Control
+        const speeds = [0.5, 1, 1.5, 2];
+        let currentSpeedIdx = 1;
+
+        speedBtn.addEventListener('click', () => {
+            currentSpeedIdx = (currentSpeedIdx + 1) % speeds.length;
+            const newSpeed = speeds[currentSpeedIdx];
+            video.playbackRate = newSpeed;
+            speedBtn.innerText = newSpeed + 'x';
+        });
         
         fullscreenBtn.addEventListener('click', () => {
             if (video.requestFullscreen) video.requestFullscreen();
@@ -246,6 +262,16 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
                 if (player.getPlayerState() == 1) player.pauseVideo();
                 else player.playVideo();
             });
+
+            // Speed Control for YouTube
+            const speeds = [0.5, 1, 1.5, 2];
+            let currentSpeedIdx = 1;
+            speedBtn.addEventListener('click', () => {
+                currentSpeedIdx = (currentSpeedIdx + 1) % speeds.length;
+                const newSpeed = speeds[currentSpeedIdx];
+                player.setPlaybackRate(newSpeed);
+                speedBtn.innerText = newSpeed + 'x';
+            });
             
             // Sync Loop
             setInterval(() => {
@@ -267,43 +293,6 @@ if (isset($featuredVideo) && !empty($featuredVideo)) {
             } else {
                 playBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
             }
-        }
-    }
-</script>
-
-    // Player Logic (Simplified for View)
-    function onPlayerReady(event) {
-        // Elements
-        const playBtn = document.getElementById('playPauseBtn');
-        const muteBtn = document.getElementById('muteBtn');
-        const fullscreenBtn = document.getElementById('fullscreenBtn');
-        const overlay = document.getElementById('videoOverlay');
-        const fill = document.querySelector('.progress-fill');
-        
-        // Duration
-        // ... (standard player logic)
-        
-        overlay.addEventListener('click', function() {
-            overlay.style.opacity = '0';
-            setTimeout(() => overlay.style.display = 'none', 500);
-            player.playVideo();
-        });
-        
-        playBtn.addEventListener('click', function() {
-            if (player.getPlayerState() == 1) {
-                player.pauseVideo();
-            } else {
-                player.playVideo();
-            }
-        });
-    }
-
-    function onPlayerStateChange(event) {
-        const playBtn = document.getElementById('playPauseBtn');
-        if (event.data == YT.PlayerState.PLAYING) {
-            playBtn.innerHTML = '<i class="bi bi-pause-fill"></i>';
-        } else {
-            playBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
         }
     }
 </script>

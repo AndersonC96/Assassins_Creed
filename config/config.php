@@ -17,9 +17,11 @@ if (file_exists($envPath)) {
     }
 }
 
-function env($key, $default = null) {
-    global $env;
-    return $env[$key] ?? $default;
+if (!function_exists('env')) {
+    function env($key, $default = null) {
+        global $env;
+        return $env[$key] ?? $default;
+    }
 }
 
 return [
