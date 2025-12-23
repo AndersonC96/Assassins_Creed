@@ -287,12 +287,76 @@
         ],
     ];
     
+    // Buscar personagens adicionais da API IGDB
+    $allGameIds = [
+        // Principal
+        128, 127, 113, 537, 1266, 1970, 7570, 5606, 8263, 28540, 103054, 133004, 215060, 300976,
+        // Spin-offs
+        68526, 21349, 68527, 10661, 18865, 68528, 68529, 77209, 77265, 3195, 68530, 20077, 3775, 64759, 8223, 14902, 14903, 251353, 41030, 251568, 135506, 133962, 152231, 26917, 64765,
+        // Remastered, Coleções, etc
+        20864, 81205, 109532, 109533, 22754, 43015, 22815, 23954, 122236, 64737, 61278, 17028, 216319, 216321
+    ];
+    $idsString = implode(',', $allGameIds);
+    
+    $curl = curl_init();
+    curl_setopt_array($curl, [
+        CURLOPT_URL => "https://api.igdb.com/v4/characters",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => [
+            "Client-ID: $clientID",
+            "Authorization: Bearer $accessToken",
+            "Accept: application/json"
+        ],
+        CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => "fields name, description, mug_shot.url, games.name, games.id; where games = ($idsString); sort name asc; limit 500;"
+    ]);
+    $response = curl_exec($curl);
+    curl_close($curl);
+    $apiCharacters = json_decode($response, true);
+    
+    // Nomes dos personagens manuais para evitar duplicatas
+    $manualNames = [];
+    foreach ($categorias as $cat) {
+        foreach ($cat['personagens'] as $p) {
+            $manualNames[] = strtolower($p['nome']);
+        }
+    }
+    
+    // Filtrar personagens da API (remover duplicatas)
+    $filteredApiChars = [];
+    if (is_array($apiCharacters) && !isset($apiCharacters['message'])) {
+        foreach ($apiCharacters as $char) {
+            $nameLower = strtolower($char['name'] ?? '');
+            // Verificar se não é duplicata e tem nome válido
+            $isDuplicate = false;
+            foreach ($manualNames as $manualName) {
+                if (strpos($manualName, $nameLower) !== false || strpos($nameLower, $manualName) !== false) {
+                    $isDuplicate = true;
+                    break;
+                }
+            }
+            if (!$isDuplicate && !empty($char['name'])) {
+                $filteredApiChars[] = $char;
+            }
+        }
+    }
+    
     // Coletar todos os jogos únicos para o filtro
     $jogosUnicos = [];
     foreach ($categorias as $cat) {
         foreach ($cat['personagens'] as $p) {
             if (!isset($jogosUnicos[$p['game_id']])) {
                 $jogosUnicos[$p['game_id']] = $p['jogo'];
+            }
+        }
+    }
+    // Adicionar jogos dos personagens da API
+    foreach ($filteredApiChars as $char) {
+        if (isset($char['games']) && !empty($char['games'])) {
+            foreach ($char['games'] as $game) {
+                if (!isset($jogosUnicos[$game['id']])) {
+                    $jogosUnicos[$game['id']] = $game['name'];
+                }
             }
         }
     }
@@ -407,11 +471,12 @@
             color: var(--accent-red);
         }
         .section-header h2 {
-            color: var(--title-color);
+            color: #fff;
             font-size: 1.1rem;
             text-transform: uppercase;
             margin: 0;
             flex: 1;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
         .section-header .count {
             background: var(--accent-red);
@@ -421,8 +486,9 @@
         }
         .section-desc {
             font-size: 0.8rem;
-            color: #888;
+            color: rgba(255,255,255,0.85);
             margin-top: 0.25em;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
         /* Cards de Personagem */
@@ -711,6 +777,57 @@
                 <?php endforeach; ?>
             </section>
             <?php endforeach; ?>
+            
+            <!-- Personagens da API IGDB -->
+            <?php if (!empty($filteredApiChars)): ?>
+            <section class="character-section" id="api_personagens" data-category="api_personagens">
+                <div class="section-header">
+                    <i class="bi bi-cloud-download"></i>
+                    <div>
+                        <h2>Outros Personagens (via IGDB)</h2>
+                        <div class="section-desc">Personagens adicionais encontrados na base de dados IGDB</div>
+                    </div>
+                    <span class="count"><?= count($filteredApiChars) ?></span>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1em;">
+                    <?php foreach ($filteredApiChars as $char): 
+                        $gameName = isset($char['games'][0]['name']) ? $char['games'][0]['name'] : 'AC';
+                        $gameId = isset($char['games'][0]['id']) ? $char['games'][0]['id'] : 0;
+                    ?>
+                    <div class="character-card" 
+                         data-name="<?= htmlspecialchars(strtolower($char['name'])) ?>"
+                         data-game-id="<?= $gameId ?>"
+                         data-year="0"
+                         data-category="api_personagens"
+                         style="flex-direction: column; padding: 1em;">
+                        <div style="display: flex; gap: 1em; align-items: center;">
+                            <?php if (isset($char['mug_shot']['url'])): ?>
+                            <img src="https:<?= str_replace('t_thumb', 't_micro', $char['mug_shot']['url']) ?>" 
+                                 alt="<?= htmlspecialchars($char['name']) ?>"
+                                 style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+                            <?php else: ?>
+                            <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #555, #333); display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-person-fill" style="font-size: 1.5rem; color: rgba(255,255,255,0.3);"></i>
+                            </div>
+                            <?php endif; ?>
+                            <div style="flex: 1;">
+                                <div class="character-name" style="font-size: 1rem;"><?= htmlspecialchars($char['name']) ?></div>
+                                <div style="font-size: 0.75rem; color: #888;">
+                                    <i class="bi bi-controller"></i> <?= htmlspecialchars($gameName) ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php if (!empty($char['description'])): ?>
+                        <div class="character-desc" style="font-size: 0.8rem; margin-top: 0.75em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                            <?= htmlspecialchars(substr($char['description'], 0, 200)) ?><?= strlen($char['description']) > 200 ? '...' : '' ?>
+                        </div>
+                        <?php endif; ?>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </section>
+            <?php endif; ?>
         </main>
     </div>
     
