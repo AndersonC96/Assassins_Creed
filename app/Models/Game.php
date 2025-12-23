@@ -223,4 +223,48 @@ class Game
         ];
         return $sites[$type] ?? ['label' => 'Link', 'icon' => 'bi-link-45deg'];
     }
+
+    /**
+     * Get platform icon class based on platform name
+     */
+    public static function getPlatformIcon(string $platformName): string
+    {
+        $icons = [
+            // Xbox
+            'Xbox Series X|S' => 'bi-xbox',
+            'Xbox One' => 'bi-xbox',
+            'Xbox 360' => 'bi-xbox',
+            // PlayStation
+            'PlayStation 5' => 'bi-playstation',
+            'PlayStation 4' => 'bi-playstation',
+            'PlayStation 3' => 'bi-playstation',
+            'PlayStation Vita' => 'bi-playstation',
+            'PlayStation Portable' => 'bi-playstation',
+            // Nintendo
+            'Nintendo Switch' => 'bi-nintendo-switch',
+            'Nintendo Switch 2' => 'bi-nintendo-switch',
+            'Wii U' => 'bi-nintendo-switch',
+            'Nintendo DS' => 'bi-nintendo-switch',
+            'Nintendo DSi' => 'bi-nintendo-switch',
+            'Nintendo 3DS' => 'bi-nintendo-switch',
+            // PC/Windows
+            'PC (Microsoft Windows)' => 'bi-windows',
+            'Windows Phone' => 'bi-windows',
+            // Apple
+            'Mac' => 'bi-apple',
+            'iOS' => 'bi-apple',
+            // Mobile/Android
+            'Android' => 'bi-android2',
+            'Legacy Mobile Device' => 'bi-phone-fill',
+            // VR/Meta
+            'Meta Quest 2' => 'bi-meta',
+            'Meta Quest 3' => 'bi-meta',
+            // Other
+            'Google Stadia' => 'bi-google',
+            'Web browser' => 'bi-browser-edge',
+            'Linux' => 'bi-ubuntu',
+        ];
+        
+        return $icons[$platformName] ?? 'bi-controller';
+    }
 }

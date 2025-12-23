@@ -1,0 +1,209 @@
+[
+  {
+    "id": 68526,
+    "cover": {
+      "id": 30241,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/abrotbbko8iessyborjv.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 140585,
+        "company": {
+          "id": 61,
+          "name": "Gameloft"
+        },
+        "developer": true,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed Mobile",
+    "platforms": [
+      {
+        "id": 55,
+        "abbreviation": "Mobile",
+        "name": "Legacy Mobile Device"
+      }
+    ],
+    "rating": 71.10078323286247,
+    "rating_count": 10,
+    "release_dates": [
+      {
+        "id": 114318,
+        "date": 1191801600,
+        "platform": {
+          "id": 55,
+          "abbreviation": "Mobile"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 125746,
+        "image_id": "xieludo3odre3zqlxahi",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xieludo3odre3zqlxahi.jpg"
+      },
+      {
+        "id": 125747,
+        "image_id": "mqf4dawrycus63nvh06r",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mqf4dawrycus63nvh06r.jpg"
+      },
+      {
+        "id": 502910,
+        "image_id": "scas1q",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scas1q.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 28070,
+        "aggregated_rating": 57.66666666666666,
+        "cover": {
+          "id": 81870,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r66.jpg"
+        },
+        "name": "Planet Alpha"
+      },
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 55038,
+        "aggregated_rating": 45.33333333333334,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        },
+        "name": "Immortal: Unchained"
+      },
+      {
+        "id": 17548,
+        "cover": {
+          "id": 82231,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg7.jpg"
+        },
+        "name": "Savage Lands"
+      },
+      {
+        "id": 113360,
+        "cover": {
+          "id": 81869,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r65.jpg"
+        },
+        "name": "Hytale"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 24426,
+        "aggregated_rating": 80.0,
+        "cover": {
+          "id": 478799,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coa9fz.jpg"
+        },
+        "name": "Forgotton Anne"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      }
+    ],
+    "summary": "Assassin\u0027s Creed is a mobile game made by Gameloft, a sister company of Ubisoft, that was released in 2007, alongside the main game. The game featured Altaïr Ibn-La\u0027Ahad in the Third Crusade as he tried to redeem his honor.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 101392,
+        "name": "Trailer",
+        "video_id": "PQTw0Cph7i4"
+      }
+    ],
+    "websites": [
+      {
+        "id": 57793,
+        "game": 68526,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_(mobile_game)",
+        "checksum": "f0ba1e25-28d3-8403-75e5-2a2bfe497186",
+        "type": 2
+      }
+    ]
+  }
+]

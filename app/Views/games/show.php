@@ -80,28 +80,36 @@
         
         <!-- Plataformas -->
         <?php if (isset($game['platforms'])): ?>
-        <h3 style="font-size: 0.9rem; text-transform: uppercase; color: #666; margin-top: 1.5em;">Plataformas</h3>
-        <div class="card-platforms" style="margin-top: 0.5em;">
-            <?php foreach ($game['platforms'] as $platform): ?>
-            <span class="platform-badge"><?= $platform['name'] ?></span>
-            <?php endforeach; ?>
-        </div>
+            <div class="detail-section">
+                <h3 class="section-title">Plataformas</h3>
+                <div class="card-platforms">
+                    <?php foreach ($game['platforms'] as $platform): 
+                        $iconClass = \App\Models\Game::getPlatformIcon($platform['name']);
+                    ?>
+                    <span class="platform-badge"><i class="bi <?= $iconClass ?>"></i> <?= $platform['name'] ?></span>
+                    <?php endforeach; ?>
+                </div>
+            </div>
         <?php endif; ?>
         
         <!-- Sinopse -->
         <?php if (isset($game['summary'])): ?>
-        <div style="margin-top: 2em;">
-            <h3 style="font-size: 1rem; border-left: 3px solid var(--accent-red); padding-left: 0.5em; margin-bottom: 0.5em;">Sinopse</h3>
-            <p style="line-height: 1.6; color: #444;"><?= nl2br(htmlspecialchars($game['summary'])) ?></p>
-        </div>
+            <div class="detail-section">
+                <h3 class="section-title">Sinopse</h3>
+                <div class="card-platforms">
+                    <p style="line-height: 1.6; color: #444;"><?= nl2br(htmlspecialchars($game['summary'])) ?></p>
+                </div>
+            </div>
         <?php endif; ?>
         
         <!-- Enredo -->
         <?php if (isset($game['storyline'])): ?>
-        <div style="margin-top: 2em;">
-            <h3 style="font-size: 1rem; border-left: 3px solid var(--accent-red); padding-left: 0.5em; margin-bottom: 0.5em;">Enredo</h3>
-            <p style="line-height: 1.6; color: #444;"><?= nl2br(htmlspecialchars($game['storyline'])) ?></p>
-        </div>
+            <div class="detail-section">
+                <h3 class="section-title">Enredo</h3>
+                <div class="card-platforms">
+                    <p style="line-height: 1.6; color: #444;"><?= nl2br(htmlspecialchars($game['storyline'])) ?></p>
+                </div>  
+            </div>
         <?php endif; ?>
 
         <!-- Game Modes -->
@@ -135,38 +143,137 @@
         </div>
         <?php endif; ?>
 
-        <!-- Screenshots Gallery -->
-        <?php if (isset($game['screenshots']) && count($game['screenshots']) > 0): ?>
+        <!-- Screenshots Carousel -->
+        <?php if (isset($game['screenshots']) && count($game['screenshots']) > 0): 
+            $screenshots = $game['screenshots'];
+            $totalScreenshots = count($screenshots);
+        ?>
         <div class="detail-section">
-            <h3 class="section-title">Screenshots</h3>
-            <div class="media-gallery">
-                <?php foreach ($game['screenshots'] as $ss): 
-                    $thumbUrl = 'https:' . str_replace('t_thumb', 't_screenshot_med', $ss['url']);
-                    $fullUrl = 'https:' . str_replace('t_thumb', 't_screenshot_huge', $ss['url']);
-                ?>
-                <a href="<?= $fullUrl ?>" target="_blank" class="gallery-item">
-                    <img src="<?= $thumbUrl ?>" alt="Screenshot" loading="lazy">
-                </a>
-                <?php endforeach; ?>
+            <h3 class="section-title">Screenshots <span class="media-counter" id="ss-counter">(1/<?= $totalScreenshots ?>)</span></h3>
+            <div class="image-carousel" id="screenshots-carousel">
+                <button class="carousel-btn carousel-prev" onclick="changeImage('screenshots', -1)" aria-label="Anterior">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-container image-carousel-container">
+                    <?php foreach ($screenshots as $index => $ss): 
+                        $thumbUrl = 'https:' . str_replace('t_thumb', 't_screenshot_big', $ss['url']);
+                        $fullUrl = 'https:' . str_replace('t_thumb', 't_screenshot_huge', $ss['url']);
+                    ?>
+                    <div class="carousel-slide image-slide <?= $index === 0 ? 'active' : '' ?>" data-index="<?= $index ?>">
+                        <a href="<?= $fullUrl ?>" target="_blank" class="image-zoom-link">
+                            <img src="<?= $index === 0 ? $thumbUrl : '' ?>" data-src="<?= $thumbUrl ?>" alt="Screenshot <?= $index + 1 ?>" loading="lazy">
+                            <span class="zoom-icon"><i class="bi bi-zoom-in"></i></span>
+                        </a>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                
+                <button class="carousel-btn carousel-next" onclick="changeImage('screenshots', 1)" aria-label="Próximo">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
             </div>
+            
+            <?php if ($totalScreenshots > 1): ?>
+            <div class="carousel-indicators" id="ss-indicators">
+                <?php for ($i = 0; $i < $totalScreenshots; $i++): ?>
+                <button class="indicator <?= $i === 0 ? 'active' : '' ?>" onclick="goToImage('screenshots', <?= $i ?>)"></button>
+                <?php endfor; ?>
+            </div>
+            <?php endif; ?>
         </div>
         <?php endif; ?>
 
-        <!-- Artworks Gallery -->
-        <?php if (isset($game['artworks']) && count($game['artworks']) > 0): ?>
+        <!-- Artworks Carousel -->
+        <?php if (isset($game['artworks']) && count($game['artworks']) > 0): 
+            $artworks = $game['artworks'];
+            $totalArtworks = count($artworks);
+        ?>
         <div class="detail-section">
-            <h3 class="section-title">Artes Conceituais</h3>
-            <div class="media-gallery">
-                <?php foreach ($game['artworks'] as $art): 
-                    $thumbUrl = 'https:' . str_replace('t_thumb', 't_screenshot_med', $art['url']);
-                    $fullUrl = 'https:' . str_replace('t_thumb', 't_1080p', $art['url']);
-                ?>
-                <a href="<?= $fullUrl ?>" target="_blank" class="gallery-item">
-                    <img src="<?= $thumbUrl ?>" alt="Artwork" loading="lazy">
-                </a>
-                <?php endforeach; ?>
+            <h3 class="section-title">Artes Conceituais <span class="media-counter" id="art-counter">(1/<?= $totalArtworks ?>)</span></h3>
+            <div class="image-carousel" id="artworks-carousel">
+                <button class="carousel-btn carousel-prev" onclick="changeImage('artworks', -1)" aria-label="Anterior">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-container image-carousel-container">
+                    <?php foreach ($artworks as $index => $art): 
+                        $thumbUrl = 'https:' . str_replace('t_thumb', 't_screenshot_big', $art['url']);
+                        $fullUrl = 'https:' . str_replace('t_thumb', 't_1080p', $art['url']);
+                    ?>
+                    <div class="carousel-slide image-slide <?= $index === 0 ? 'active' : '' ?>" data-index="<?= $index ?>">
+                        <a href="<?= $fullUrl ?>" target="_blank" class="image-zoom-link">
+                            <img src="<?= $index === 0 ? $thumbUrl : '' ?>" data-src="<?= $thumbUrl ?>" alt="Artwork <?= $index + 1 ?>" loading="lazy">
+                            <span class="zoom-icon"><i class="bi bi-zoom-in"></i></span>
+                        </a>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                
+                <button class="carousel-btn carousel-next" onclick="changeImage('artworks', 1)" aria-label="Próximo">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
             </div>
+            
+            <?php if ($totalArtworks > 1): ?>
+            <div class="carousel-indicators" id="art-indicators">
+                <?php for ($i = 0; $i < $totalArtworks; $i++): ?>
+                <button class="indicator <?= $i === 0 ? 'active' : '' ?>" onclick="goToImage('artworks', <?= $i ?>)"></button>
+                <?php endfor; ?>
+            </div>
+            <?php endif; ?>
         </div>
+        
+        <script>
+        const imageCarousels = {
+            screenshots: { current: 0, total: <?= $totalArtworks ?? 0 ?> },
+            artworks: { current: 0, total: <?= $totalArtworks ?? 0 ?> }
+        };
+        <?php if (isset($totalScreenshots)): ?>
+        imageCarousels.screenshots.total = <?= $totalScreenshots ?>;
+        <?php endif; ?>
+        <?php if (isset($totalArtworks)): ?>
+        imageCarousels.artworks.total = <?= $totalArtworks ?>;
+        <?php endif; ?>
+        
+        function changeImage(type, direction) {
+            const carousel = imageCarousels[type];
+            const newIndex = (carousel.current + direction + carousel.total) % carousel.total;
+            goToImage(type, newIndex);
+        }
+        
+        function goToImage(type, index) {
+            const carousel = imageCarousels[type];
+            const containerId = type === 'screenshots' ? 'screenshots-carousel' : 'artworks-carousel';
+            const counterId = type === 'screenshots' ? 'ss-counter' : 'art-counter';
+            const indicatorsId = type === 'screenshots' ? 'ss-indicators' : 'art-indicators';
+            
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            
+            const slides = container.querySelectorAll('.image-slide');
+            const indicators = document.querySelectorAll('#' + indicatorsId + ' .indicator');
+            const counter = document.getElementById(counterId);
+            
+            // Hide current
+            slides[carousel.current].classList.remove('active');
+            if (indicators[carousel.current]) indicators[carousel.current].classList.remove('active');
+            
+            // Show new
+            carousel.current = index;
+            slides[carousel.current].classList.add('active');
+            if (indicators[carousel.current]) indicators[carousel.current].classList.add('active');
+            
+            // Lazy load image - check if image hasn't been loaded yet
+            const img = slides[carousel.current].querySelector('img');
+            if (img && img.dataset.src && !img.src.includes(img.dataset.src.split('//')[1])) {
+                img.src = img.dataset.src;
+            }
+            
+            // Update counter
+            if (counter) counter.textContent = `(${carousel.current + 1}/${carousel.total})`;
+        }
+        </script>
         <?php endif; ?>
 
         <!-- Videos/Trailers Carousel -->

@@ -1,0 +1,475 @@
+[
+  {
+    "id": 128,
+    "age_ratings": [
+      {
+        "id": 226697,
+        "synopsis": "Strong violence",
+        "checksum": "40387857-ab97-8e6f-45c3-a5b78b14a039",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 1225,
+        "checksum": "247aaee2-c566-5a31-b19b-288ca5efacf3",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          29,
+          3,
+          21
+        ]
+      },
+      {
+        "id": 81620,
+        "checksum": "ecc87180-7331-cf93-b2f7-8a4826a4d360",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          69,
+          71,
+          73
+        ]
+      },
+      {
+        "id": 91906,
+        "checksum": "382435c8-50bc-4750-e5f7-3d14610382ad",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          65,
+          61
+        ]
+      },
+      {
+        "id": 34079,
+        "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Violence towards defenceless people",
+        "checksum": "02cfc4fb-f455-85b2-296d-e09d967377b6",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50
+        ]
+      }
+    ],
+    "aggregated_rating": 80.75,
+    "aggregated_rating_count": 4,
+    "artworks": [
+      {
+        "id": 169202,
+        "image_id": "ar3mk2",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk2.jpg"
+      },
+      {
+        "id": 169203,
+        "image_id": "ar3mk3",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk3.jpg"
+      },
+      {
+        "id": 169204,
+        "image_id": "ar3mk4",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk4.jpg"
+      },
+      {
+        "id": 169205,
+        "image_id": "ar3mk5",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk5.jpg"
+      },
+      {
+        "id": 169206,
+        "image_id": "ar3mk6",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk6.jpg"
+      },
+      {
+        "id": 169207,
+        "image_id": "ar3mk7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk7.jpg"
+      },
+      {
+        "id": 169208,
+        "image_id": "ar3mk8",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk8.jpg"
+      },
+      {
+        "id": 169210,
+        "image_id": "ar3mka",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mka.jpg"
+      },
+      {
+        "id": 169211,
+        "image_id": "ar3mkb",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mkb.jpg"
+      },
+      {
+        "id": 169212,
+        "image_id": "ar3mkc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mkc.jpg"
+      },
+      {
+        "id": 169213,
+        "image_id": "ar3mkd",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mkd.jpg"
+      },
+      {
+        "id": 169214,
+        "image_id": "ar3mke",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mke.jpg"
+      },
+      {
+        "id": 169215,
+        "image_id": "ar3mkf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mkf.jpg"
+      },
+      {
+        "id": 169209,
+        "image_id": "ar3mk9",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ar3mk9.jpg"
+      }
+    ],
+    "cover": {
+      "id": 82652,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 282607,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 282608,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "rating": 73.21439457741263,
+    "rating_count": 1714,
+    "release_dates": [
+      {
+        "id": 107329,
+        "date": 1195171200,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 107328,
+        "date": 1196294400,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 169191,
+        "date": 1195603200,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 169190,
+        "date": 1195603200,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 165493,
+        "date": 1194912000,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 165492,
+        "date": 1194912000,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 169188,
+        "date": 1195171200,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 3952,
+        "image_id": "vc7aart1lh126zay0bht",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vc7aart1lh126zay0bht.jpg"
+      },
+      {
+        "id": 3953,
+        "image_id": "yzvxp1kl4cyyepaip8rq",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yzvxp1kl4cyyepaip8rq.jpg"
+      },
+      {
+        "id": 3955,
+        "image_id": "dzl38kiyengi9xykvjvm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dzl38kiyengi9xykvjvm.jpg"
+      },
+      {
+        "id": 3954,
+        "image_id": "vk3hdbmtvtvp4n49y0zb",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vk3hdbmtvtvp4n49y0zb.jpg"
+      },
+      {
+        "id": 39,
+        "image_id": "ystcwk7tz9vbywph3bqk",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ystcwk7tz9vbywph3bqk.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 1266,
+        "aggregated_rating": 81.17647058823529,
+        "cover": {
+          "id": 90090,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xii.jpg"
+        },
+        "name": "Assassin\u0027s Creed III"
+      },
+      {
+        "id": 537,
+        "aggregated_rating": 81.71428571428571,
+        "cover": {
+          "id": 90089,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xih.jpg"
+        },
+        "name": "Assassin\u0027s Creed Revelations"
+      },
+      {
+        "id": 7570,
+        "aggregated_rating": 70.91666666666667,
+        "cover": {
+          "id": 90099,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xir.jpg"
+        },
+        "name": "Assassin\u0027s Creed Rogue"
+      },
+      {
+        "id": 5606,
+        "aggregated_rating": 70.93333333333334,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 8263,
+        "aggregated_rating": 72.15789473684211,
+        "cover": {
+          "id": 90100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xis.jpg"
+        },
+        "name": "Assassin\u0027s Creed Syndicate"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 113,
+        "aggregated_rating": 83.33333333333333,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 127,
+        "aggregated_rating": 90.25,
+        "cover": {
+          "id": 82095,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+        },
+        "name": "Assassin\u0027s Creed II"
+      },
+      {
+        "id": 28540,
+        "aggregated_rating": 85.93333333333334,
+        "cover": {
+          "id": 82058,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbe.jpg"
+        },
+        "name": "Assassin\u0027s Creed Origins"
+      },
+      {
+        "id": 4843,
+        "aggregated_rating": 73.72727272727273,
+        "cover": {
+          "id": 200538,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4aqi.jpg"
+        },
+        "name": "Kingdom Come: Deliverance"
+      }
+    ],
+    "storyline": "Desmond Miles, a bartender, is kidnapped by the company Abstergo Industries for use as a test subject in the \"Animus,\" a device that can simulate genetic memory. Abstergo intends to put Desmond in the device to recall the memories of his ancestor, Altaïr Ibn-La\u0027Ahad, a member of the Assassin Brotherhood in the year 1191, who lived during the Third Crusade in the Holy Land. Initially, Desmond has trouble adjusting to the device, but eventually relives Altaïr\u0027s exploits over the next several days. The game then primarily changes to Altaïr\u0027s point-of-view, with occasional transitions to Desmond, due to problems with the Animus or onset of the Bleeding Effect.\n\nThe game opens with Desmond entering Altaïr\u0027s memory, but he soon faces synchronization problems. On this, Lucy Stillman and Warren Vidic\u0027s voices can be heard, arguing over Desmond\u0027s safety within the Animus. After experiencing a few problems, Desmond exits the virtual machine and Vidic briefs him about the Animus\u0027 inner workings, before initializing the machine\u0027s tutorial program. After Desmond is done with the tutorial, he enters the closest synchronizable memory of Altaïr; Lucy adds that Desmond has to relive key moments of Altaïr\u0027s life to increase his synchronization, before reaching the final memory which holds the information that Abstergo is seeking.\n\nAltaïr is first shown attempting to retrieve one of a series of artifacts known as the \"Pieces of Eden\" from Solomon\u0027s Temple with the help of Malik Al-Sayf, and his brother Kadar, but they are stopped by Robert de Sablé, Grand Master of the Knights Templar and sworn enemy of the Assassins. While retrieving the treasure, Altaïr breaks all three tenets of the Assassins\u0027 Creed in an attempt to kill Robert, but he ultimately fails. In the following commotion, Malik\u0027s brother is killed, and Malik\u0027s left arm is crippled and later amputated. When Altaïr returns to the Assassins\u0027 stronghold at Masyaf with apologies, Malik, who survived de Sablé, comes back with the artifact and disparages Altaïr because of his arrogance.\n\nAfter narrowly defeating a retaliatory attack by the Templars, Al Mualim, leader of the Assassins, demotes Altaïr to a novice but gives him another chance to rise through the ranks of the Brotherhood. Al Mualim assigns Altaïr the task of assassinating nine key figures across the Holy Land in Jerusalem, Acre and Damascus, aiming to bring peace between the Crusader and Saracen forces. Each target is based on an actual historical figure from the Third Crusade, including Majd Addin, Garnier de Naplouse, Jubair al Hakim, Abu\u0027l Nuqoud, Sibrand, William of Montferrat, and Robert de Sablé.\n\nAltaïr completes each task, learning how each target is connected to Robert and the Templars and how together they aim to end the Crusades and place the Holy Land under their own control. With men on both sides killed, he discovers that Robert\u0027s last plot is to attempt to unite the Christian and Muslim forces against their new common enemy, the Assassins themselves. Altaïr defeats de Sablé before Richard the Lionheart, failing to convince the King that an end to the war would be welcome to both sides, but ending Robert\u0027s plot. From de Sablé, Altaïr discovers that Al Mualim was himself a member of the Templars and used the Assassin to kill the other members who held the secret to the treasure\u0027s power, so that he could selfishly keep the artifact for himself.\n\nAltaïr quickly returns to Masyaf and approaches his master, who reveals the truth to him: the Piece of Eden, which he had recovered through the help of Altaïr directly before his transgression, creates illusions. He denounces religion and other seemingly supernatural events (e.g. the Ten Plagues of Egypt, the parting of the Red Sea, and the presence of the Greek Gods in the Trojan War) as illusions caused by the Piece, and then states his intention to use the artifact to compel mankind into a brainwashed state, and in doing so, bringing an end to all conflict; Altaïr is eventually able to see through the deceptions created by the artifact to kill Al Mualim. When Altaïr recovers the artifact, the Piece of Eden activates, showing a holographic view of the world with numerous locations of other Pieces of Eden marked across the globe.\n\nWhen the process is complete, Desmond learns that Abstergo is a modern-day front of the Templars, and they are already seeking other artifacts at locations identified in Altaïr\u0027s memories. Further, he learns that the modern-day Assassins had tried to rescue him before the memory had completed but had failed. Following this, Desmond was to be killed after an order from a high-ranking Templar, Alan Rikkin, but Lucy Stillman saves him from death and, at one point, tucks her ring finger into her palm, referring to the Assassins\u0027 tradition of cutting off the finger.\n\nThough Desmond remains trapped in the Abstergo laboratory, his experience in the Animus has created a Bleeding Effect of Altaïr\u0027s life in his own, allowing Desmond to use Altaïr\u0027s Eagle Vision, which, in turn, allows him to see strange messages painted on the walls of his room and the floor of the lab. The messages all deal with various forms of the end of the world from different cultures, including several references to 21 December 2012, the date that Abstergo plans to launch a satellite that will \"permanently end the war.\" It is hinted that this method would be by the same method that Al Mualim hypnotized Masyaf, only on a larger scale. Finally, the game ends with Desmond wondering what the images all mean and who could have drawn them.",
+    "summary": "Assassin\u0027s Creed is a non-linear action-adventure video game, during which the player controls a 12th-century Levantine Assassin named Altaïr Ibn-La\u0027Ahad during the Third Crusade, whose life is experienced through the Animus by his 21st century descendant, Desmond Miles.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 12426,
+        "name": "Trailer",
+        "video_id": "RjQ6ZtyXoA0"
+      }
+    ],
+    "websites": [
+      {
+        "id": 802097,
+        "game": 128,
+        "trusted": false,
+        "url": "https://www.xbox.com/en-us/games/store/assassin\u0027s-creed/BZC8PXK6S00G",
+        "checksum": "bc72c4bb-e449-bd35-27c4-d82bc9af8a40",
+        "type": 22
+      },
+      {
+        "id": 56796,
+        "game": 128,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed",
+        "checksum": "57736e2d-8173-5acd-1383-d6ab2e7a104c",
+        "type": 2
+      },
+      {
+        "id": 13724,
+        "game": 128,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "9379c631-0dd2-165a-bfbf-d29872de73a5",
+        "type": 4
+      },
+      {
+        "id": 131521,
+        "game": 128,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)",
+        "checksum": "1f61eceb-efd2-b1b0-ed80-23d22e082d16",
+        "type": 3
+      },
+      {
+        "id": 333911,
+        "game": 128,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed",
+        "checksum": "8617b608-40b0-10ce-a7a4-ad4d85dd8101",
+        "type": 6
+      },
+      {
+        "id": 106858,
+        "game": 128,
+        "trusted": true,
+        "url": "https://www.reddit.com/r/assassinscreed",
+        "checksum": "d248a5ad-4aa7-c784-467e-58575c7052cb",
+        "type": 14
+      },
+      {
+        "id": 287301,
+        "game": 128,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/en-us/game/assassins-creed/assassins-creed",
+        "checksum": "80ced5ee-43c0-0bab-052d-e8aad8b50fe3",
+        "type": 1
+      },
+      {
+        "id": 13725,
+        "game": 128,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "9b9949e3-d0a5-e0df-a46e-e664f86ae5f2",
+        "type": 5
+      },
+      {
+        "id": 13727,
+        "game": 128,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreed",
+        "checksum": "6ea7669b-bcb1-1acf-f520-0b7112a9db36",
+        "type": 9
+      }
+    ]
+  }
+]

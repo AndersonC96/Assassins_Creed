@@ -1,0 +1,624 @@
+[
+  {
+    "id": 1266,
+    "age_ratings": [
+      {
+        "id": 105499,
+        "checksum": "15c36753-50b2-3dd3-24a6-f57efdc42023",
+        "organization": 6,
+        "rating_category": 32,
+        "rating_content_descriptions": [
+          75
+        ]
+      },
+      {
+        "id": 105500,
+        "synopsis": "Strong violence, Gaming experience may change online",
+        "checksum": "ccab2dde-11ef-f66c-24c4-033be381fc49",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 188352,
+        "checksum": "d413fb88-c76b-07df-f0be-bb399c457ef6",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          3,
+          10,
+          18,
+          21
+        ]
+      },
+      {
+        "id": 101929,
+        "checksum": "aa35ebb0-bf77-c356-3740-273c43b55e6c",
+        "organization": 3,
+        "rating_category": 17,
+        "rating_content_descriptions": [
+          65,
+          61
+        ]
+      },
+      {
+        "id": 105498,
+        "checksum": "82901c84-cfa4-4e25-0301-c3c51311b875",
+        "organization": 4,
+        "rating_category": 21
+      },
+      {
+        "id": 36147,
+        "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Strong language This game allows the player to interact with other players ONLINE",
+        "checksum": "e9aba38a-b23b-d8ac-b93f-8314a19482d2",
+        "organization": 2,
+        "rating_category": 12,
+        "rating_content_descriptions": [
+          50,
+          55,
+          58
+        ]
+      }
+    ],
+    "aggregated_rating": 81.17647058823529,
+    "aggregated_rating_count": 17,
+    "artworks": [
+      {
+        "id": 472,
+        "image_id": "dwtbwaka5sy3oy90keix",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dwtbwaka5sy3oy90keix.jpg"
+      },
+      {
+        "id": 473,
+        "image_id": "jeynexxfhqxztwy2mtnp",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jeynexxfhqxztwy2mtnp.jpg"
+      },
+      {
+        "id": 469,
+        "image_id": "axadnolswhopo8glmhza",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/axadnolswhopo8glmhza.jpg"
+      },
+      {
+        "id": 470,
+        "image_id": "moahusorqmcgfupuhmoj",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/moahusorqmcgfupuhmoj.jpg"
+      },
+      {
+        "id": 476,
+        "image_id": "ibmoujxztsbk1vi0uutk",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ibmoujxztsbk1vi0uutk.jpg"
+      },
+      {
+        "id": 475,
+        "image_id": "cprxhpyyyksqoonjitmu",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cprxhpyyyksqoonjitmu.jpg"
+      },
+      {
+        "id": 474,
+        "image_id": "alayeyzjkhqxlmn1ypeq",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/alayeyzjkhqxlmn1ypeq.jpg"
+      },
+      {
+        "id": 478,
+        "image_id": "nl8cteiookvfx563sp7j",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nl8cteiookvfx563sp7j.jpg"
+      },
+      {
+        "id": 479,
+        "image_id": "cvexkutoaaqxoqcet0fx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cvexkutoaaqxoqcet0fx.jpg"
+      },
+      {
+        "id": 477,
+        "image_id": "nb726pkoyidit16h1dom",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nb726pkoyidit16h1dom.jpg"
+      },
+      {
+        "id": 471,
+        "image_id": "jt4r3rtlhnyd2oupgctx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jt4r3rtlhnyd2oupgctx.jpg"
+      },
+      {
+        "id": 480,
+        "image_id": "dfkc92zatjxf7ageqdsv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dfkc92zatjxf7ageqdsv.jpg"
+      }
+    ],
+    "cover": {
+      "id": 90090,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xii.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      },
+      {
+        "id": 2,
+        "name": "Multiplayer"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 46281,
+        "company": {
+          "id": 39,
+          "name": "Ubisoft Annecy"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 46280,
+        "company": {
+          "id": 822,
+          "name": "Ubisoft Singapore"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63941,
+        "company": {
+          "id": 697,
+          "name": "Ubisoft Bucharest"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 63942,
+        "company": {
+          "id": 2921,
+          "name": "Ubisoft Kyiv"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 9853,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 194927,
+        "company": {
+          "id": 15790,
+          "name": "Ubisoft Québec"
+        },
+        "developer": false,
+        "publisher": false
+      },
+      {
+        "id": 202074,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed III",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3",
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC",
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 41,
+        "abbreviation": "WiiU",
+        "name": "Wii U"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360",
+        "name": "Xbox 360"
+      }
+    ],
+    "rating": 73.47028645021057,
+    "rating_count": 1419,
+    "release_dates": [
+      {
+        "id": 405866,
+        "date": 1353369600,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 68639,
+        "date": 1351555200,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 68640,
+        "date": 1353196800,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      },
+      {
+        "id": 68642,
+        "date": 1354233600,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      },
+      {
+        "id": 68645,
+        "date": 1352937600,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 68646,
+        "date": 1351641600,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 68647,
+        "date": 1352937600,
+        "platform": {
+          "id": 12,
+          "abbreviation": "X360"
+        }
+      },
+      {
+        "id": 68648,
+        "date": 1353628800,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 68649,
+        "date": 1356048000,
+        "platform": {
+          "id": 6,
+          "abbreviation": "PC"
+        }
+      },
+      {
+        "id": 107340,
+        "date": 1351641600,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 107339,
+        "date": 1351555200,
+        "platform": {
+          "id": 9,
+          "abbreviation": "PS3"
+        }
+      },
+      {
+        "id": 68643,
+        "date": 1354924800,
+        "platform": {
+          "id": 41,
+          "abbreviation": "WiiU"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 1336,
+        "image_id": "mazwxafpn4trr1egmj7j",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mazwxafpn4trr1egmj7j.jpg"
+      },
+      {
+        "id": 1335,
+        "image_id": "fjsea0ufemtie04czf9m",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fjsea0ufemtie04czf9m.jpg"
+      },
+      {
+        "id": 1337,
+        "image_id": "nyy6injtxg9grtmuoa1m",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nyy6injtxg9grtmuoa1m.jpg"
+      },
+      {
+        "id": 1339,
+        "image_id": "ccfvfvn8w5ucmtaw9uu2",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ccfvfvn8w5ucmtaw9uu2.jpg"
+      },
+      {
+        "id": 5358,
+        "image_id": "lwbc2mifimzfmyxt6r56",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/lwbc2mifimzfmyxt6r56.jpg"
+      },
+      {
+        "id": 152242,
+        "image_id": "okyz7qmbwrbqr7s3yxsh",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/okyz7qmbwrbqr7s3yxsh.jpg"
+      },
+      {
+        "id": 152245,
+        "image_id": "tjocflec2doowuhlgt3b",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/tjocflec2doowuhlgt3b.jpg"
+      },
+      {
+        "id": 152248,
+        "image_id": "umu9a0ptzj84rdzc5wa0",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/umu9a0ptzj84rdzc5wa0.jpg"
+      },
+      {
+        "id": 152244,
+        "image_id": "aghxxmr2mpygyq5ftldb",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/aghxxmr2mpygyq5ftldb.jpg"
+      },
+      {
+        "id": 152247,
+        "image_id": "mlynnq49vemvljigsx79",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mlynnq49vemvljigsx79.jpg"
+      },
+      {
+        "id": 152246,
+        "image_id": "jmyedumbxkdyfudgzaay",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jmyedumbxkdyfudgzaay.jpg"
+      },
+      {
+        "id": 152243,
+        "image_id": "ok2u0qqlarohz7rx8eo7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ok2u0qqlarohz7rx8eo7.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 128,
+        "aggregated_rating": 80.75,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 7570,
+        "aggregated_rating": 70.91666666666667,
+        "cover": {
+          "id": 90099,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xir.jpg"
+        },
+        "name": "Assassin\u0027s Creed Rogue"
+      },
+      {
+        "id": 537,
+        "aggregated_rating": 81.71428571428571,
+        "cover": {
+          "id": 90089,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xih.jpg"
+        },
+        "name": "Assassin\u0027s Creed Revelations"
+      },
+      {
+        "id": 8263,
+        "aggregated_rating": 72.15789473684211,
+        "cover": {
+          "id": 90100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xis.jpg"
+        },
+        "name": "Assassin\u0027s Creed Syndicate"
+      },
+      {
+        "id": 5606,
+        "aggregated_rating": 70.93333333333334,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 113,
+        "aggregated_rating": 83.33333333333333,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 1970,
+        "aggregated_rating": 84.57142857142857,
+        "cover": {
+          "id": 220883,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
+        },
+        "name": "Assassin\u0027s Creed IV Black Flag"
+      },
+      {
+        "id": 471,
+        "aggregated_rating": 86.5,
+        "cover": {
+          "id": 125246,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2on2.jpg"
+        },
+        "name": "Crysis 2"
+      },
+      {
+        "id": 501,
+        "aggregated_rating": 91.2,
+        "cover": {
+          "id": 87713,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1voh.jpg"
+        },
+        "name": "Batman: Arkham City"
+      },
+      {
+        "id": 36198,
+        "aggregated_rating": 83.0,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        },
+        "name": "Children of Morta"
+      }
+    ],
+    "summary": "The American Colonies, 1775. A brave young warrior fights to save his homeland. But what begins as a struggle over territory turns into an extraordinary journey that will transform him into a Master Assassin—and will forever change the destiny of a nation.\n\nYou are Connor, warrior son of a Native American mother and British father. As the colonies draw closer to revolution, you will dedicate your life to the freedom of your clan –becoming the spark that ignites the revolution into full blaze. Your crusade will take you through blood-soaked battlefields to crowded city streets, to perilous wilderness and beyond. You will not only witness history—you will make it.\nWelcome to an entirely new chapter in the Assassin’s Creed saga.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 3084,
+        "name": "Connor Story Trailer",
+        "video_id": "ls-J1pbTKyQ"
+      },
+      {
+        "id": 3085,
+        "name": "E3 Trailer",
+        "video_id": "GdSmH0CxJ4o"
+      },
+      {
+        "id": 3086,
+        "name": "Launch Trailer",
+        "video_id": "19rfT-6aI8k"
+      },
+      {
+        "id": 119990,
+        "name": "Gameplay Demo",
+        "video_id": "TpBL-g9-Ss4"
+      }
+    ],
+    "websites": [
+      {
+        "id": 13758,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "c863dcd0-8951-8b63-8bad-5cd914b5e2cc",
+        "type": 4
+      },
+      {
+        "id": 760608,
+        "game": 1266,
+        "trusted": false,
+        "url": "https://www.nintendo.com/games/detail/assassins-creed-iii-wii-u/",
+        "checksum": "6b01f14b-f112-af37-41d2-1a14c8ecf55c",
+        "type": 24
+      },
+      {
+        "id": 13761,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us",
+        "checksum": "dc93aec9-cfe9-3add-434f-90de98e41ec6",
+        "type": 8
+      },
+      {
+        "id": 66749,
+        "game": 1266,
+        "trusted": false,
+        "url": "https://www.ubisoft.com/",
+        "checksum": "84e12075-d437-28fe-df17-796252435331",
+        "type": 1
+      },
+      {
+        "id": 332773,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20III",
+        "checksum": "fbafd33b-2844-0e24-e48e-acb548fe7a21",
+        "type": 6
+      },
+      {
+        "id": 13757,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_III",
+        "checksum": "e6d508d9-eb54-d96f-2c61-26fde7caffb1",
+        "type": 3
+      },
+      {
+        "id": 13759,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "9870e805-2f44-01bf-3222-a2f4942447bf",
+        "type": 5
+      },
+      {
+        "id": 13763,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/208480",
+        "checksum": "7e97a98f-73a3-676b-ccd4-d519ee7acaed",
+        "type": 13
+      },
+      {
+        "id": 13762,
+        "game": 1266,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreed",
+        "checksum": "3263e6a0-253d-48da-aff9-6cbb2a35503d",
+        "type": 9
+      },
+      {
+        "id": 13756,
+        "game": 1266,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed_III",
+        "checksum": "cee1a0cb-e0b2-8e41-e452-0281d022cfe4",
+        "type": 2
+      }
+    ]
+  }
+]

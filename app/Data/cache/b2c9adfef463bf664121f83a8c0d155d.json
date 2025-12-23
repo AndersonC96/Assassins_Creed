@@ -1,0 +1,411 @@
+[
+  {
+    "id": 3195,
+    "age_ratings": [
+      {
+        "id": 226705,
+        "synopsis": "Violence",
+        "checksum": "6852c46d-54fd-e976-08f1-b65842a643eb",
+        "organization": 7,
+        "rating_category": 36
+      },
+      {
+        "id": 4674,
+        "checksum": "04eb5295-f6ec-00ef-07cc-8e265145f109",
+        "organization": 2,
+        "rating_category": 12
+      },
+      {
+        "id": 114689,
+        "checksum": "7e497c5a-751b-2744-634b-022a7ad7b62f",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          24,
+          11,
+          3,
+          10,
+          4,
+          29,
+          7
+        ]
+      },
+      {
+        "id": 166475,
+        "checksum": "a5660a27-3bf3-d8c6-29f3-7d7ba4b501e3",
+        "organization": 4,
+        "rating_category": 21
+      }
+    ],
+    "aggregated_rating": 69.16666666666667,
+    "aggregated_rating_count": 6,
+    "artworks": [
+      {
+        "id": 468,
+        "image_id": "i2l7joa6pkr7syytammm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/i2l7joa6pkr7syytammm.jpg"
+      },
+      {
+        "id": 638,
+        "image_id": "wcihl7ddia5a9gm479gh",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wcihl7ddia5a9gm479gh.jpg"
+      },
+      {
+        "id": 636,
+        "image_id": "jnw9lkdjp090lmhwcrem",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jnw9lkdjp090lmhwcrem.jpg"
+      },
+      {
+        "id": 639,
+        "image_id": "idfi7egedx1hayqrx4b7",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/idfi7egedx1hayqrx4b7.jpg"
+      },
+      {
+        "id": 640,
+        "image_id": "ft6oxo4nasgmlxucghtk",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ft6oxo4nasgmlxucghtk.jpg"
+      },
+      {
+        "id": 637,
+        "image_id": "dnkrlxwlvax93mye7lqi",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dnkrlxwlvax93mye7lqi.jpg"
+      },
+      {
+        "id": 641,
+        "image_id": "lfhwitmk3xxwuruaas1m",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/lfhwitmk3xxwuruaas1m.jpg"
+      },
+      {
+        "id": 635,
+        "image_id": "f9ty5bqunyp0tc0idnxk",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/f9ty5bqunyp0tc0idnxk.jpg"
+      }
+    ],
+    "cover": {
+      "id": 90094,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xim.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 25,
+        "name": "Hack and slash/Beat \u0027em up"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 119421,
+        "company": {
+          "id": 899,
+          "name": "Ubisoft Milan"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 202080,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      },
+      {
+        "id": 119420,
+        "company": {
+          "id": 840,
+          "name": "Ubisoft Sofia"
+        },
+        "developer": true,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed III: Liberation",
+    "platforms": [
+      {
+        "id": 46,
+        "abbreviation": "Vita",
+        "name": "PlayStation Vita"
+      }
+    ],
+    "rating": 61.27962678593822,
+    "rating_count": 184,
+    "release_dates": [
+      {
+        "id": 789099,
+        "date": 1351555200,
+        "platform": {
+          "id": 46,
+          "abbreviation": "Vita"
+        }
+      },
+      {
+        "id": 789100,
+        "date": 1351555200,
+        "platform": {
+          "id": 46,
+          "abbreviation": "Vita"
+        }
+      },
+      {
+        "id": 789101,
+        "date": 1352937600,
+        "platform": {
+          "id": 46,
+          "abbreviation": "Vita"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 99161,
+        "image_id": "yzo58fgkr60gz5akb5wl",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yzo58fgkr60gz5akb5wl.jpg"
+      },
+      {
+        "id": 99163,
+        "image_id": "crukkq1dgsmndvdnwnqf",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/crukkq1dgsmndvdnwnqf.jpg"
+      },
+      {
+        "id": 99160,
+        "image_id": "jobc1yiypprnmitzqnuc",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jobc1yiypprnmitzqnuc.jpg"
+      },
+      {
+        "id": 99162,
+        "image_id": "obhhugssfxi9i5xgdssi",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/obhhugssfxi9i5xgdssi.jpg"
+      },
+      {
+        "id": 99164,
+        "image_id": "rluawvezl8w38f9d0ngd",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rluawvezl8w38f9d0ngd.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 1266,
+        "aggregated_rating": 81.17647058823529,
+        "cover": {
+          "id": 90090,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xii.jpg"
+        },
+        "name": "Assassin\u0027s Creed III"
+      },
+      {
+        "id": 128,
+        "aggregated_rating": 80.75,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 5606,
+        "aggregated_rating": 70.93333333333334,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 1970,
+        "aggregated_rating": 84.57142857142857,
+        "cover": {
+          "id": 220883,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4qfn.jpg"
+        },
+        "name": "Assassin\u0027s Creed IV Black Flag"
+      },
+      {
+        "id": 8263,
+        "aggregated_rating": 72.15789473684211,
+        "cover": {
+          "id": 90100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xis.jpg"
+        },
+        "name": "Assassin\u0027s Creed Syndicate"
+      },
+      {
+        "id": 3025,
+        "aggregated_rating": 83.88888888888889,
+        "cover": {
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
+        },
+        "name": "Middle-earth: Shadow of Mordor"
+      },
+      {
+        "id": 19441,
+        "aggregated_rating": 81.33333333333333,
+        "cover": {
+          "id": 125839,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
+        },
+        "name": "Watch Dogs 2"
+      },
+      {
+        "id": 113,
+        "aggregated_rating": 83.33333333333333,
+        "cover": {
+          "id": 317677,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6t4d.jpg"
+        },
+        "name": "Assassin\u0027s Creed Brotherhood"
+      },
+      {
+        "id": 127,
+        "aggregated_rating": 90.25,
+        "cover": {
+          "id": 82095,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+        },
+        "name": "Assassin\u0027s Creed II"
+      },
+      {
+        "id": 537,
+        "aggregated_rating": 81.71428571428571,
+        "cover": {
+          "id": 90089,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xih.jpg"
+        },
+        "name": "Assassin\u0027s Creed Revelations"
+      }
+    ],
+    "storyline": "The year is 1765. As the events leading up to the American Revolution heat up in the north, Spanish forces plan to take control of Louisiana in the south – but they have yet to reckon with Aveline, a deadly Assassin who will use every weapon and ability in her arsenal on her quest for freedom. . Whether eliminating her enemies with her multiple assassinations technique or luring them into deadly traps using her tools, Aveline strikes mortal fear into the hearts of those who stand in her way.\n\nAs an Assassin, Aveline soon finds herself on an unforgettable journey that will take her from the crowded streets of New Orleans to voodoo-haunted swamps and ancient Mayan ruins. She will play a pivotal role in the turbulent New Orleans revolution and the beginning of a new nation. As she fights for freedom, not for herself, but for those whose life and hopes have been squashed.",
+    "summary": "Assassin\u0027s Creed III: Liberation is a PlayStation Vita game released on October 30, 2012. Set in 1765 Louisiana, featuring Aveline de Grandpré, a mixed-race female Assassin. The game takes place during the lead-up to the American Revolution, with Aveline navigating the complex social and political landscape of New Orleans. She uses three distinct personas (Assassin, Lady, and Slave) to pursue her missions, fighting against Spanish forces and colonial powers.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1742,
+        "name": "Trailer",
+        "video_id": "7A06me5gbWc"
+      },
+      {
+        "id": 119991,
+        "name": "E3 2012 Trailer",
+        "video_id": "A1rizB4vF18"
+      }
+    ],
+    "websites": [
+      {
+        "id": 13771,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://www.youtube.com/user/assassinscreed",
+        "checksum": "219eaa2e-05e3-8850-72c3-cecc4c5cbb4a",
+        "type": 9
+      },
+      {
+        "id": 13766,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin\u0027s_Creed_III:_Liberation",
+        "checksum": "640775c8-ebec-a7b8-1810-53842a53c66c",
+        "type": 3
+      },
+      {
+        "id": 47534,
+        "game": 3195,
+        "trusted": false,
+        "url": "http://www.assassinscreed.com/liberationhd",
+        "checksum": "33ec3288-75ba-52ee-07b7-4716e111f318",
+        "type": 1
+      },
+      {
+        "id": 939364,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://store.steampowered.com/app/260210",
+        "checksum": "8c3897f5-526f-24a5-32a9-3fce0c61c035",
+        "type": 13
+      },
+      {
+        "id": 13768,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://twitter.com/assassinscreed",
+        "checksum": "29cdc3bd-b900-0314-e8ba-2ec9b08649e6",
+        "type": 5
+      },
+      {
+        "id": 516634,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20III:%20Liberation",
+        "checksum": "4a57d0f4-09d9-b31d-ed18-fb46637409f2",
+        "type": 6
+      },
+      {
+        "id": 13767,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://www.facebook.com/assassinscreed",
+        "checksum": "c527ada4-af58-ca07-5fa6-52e36f71a33b",
+        "type": 4
+      },
+      {
+        "id": 13770,
+        "game": 3195,
+        "trusted": true,
+        "url": "https://www.instagram.com/assassinscreed_us",
+        "checksum": "a242a421-0b3e-9718-2115-32714658a35f",
+        "type": 8
+      },
+      {
+        "id": 13765,
+        "game": 3195,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed_III:_Liberation",
+        "checksum": "f11f4c1e-d533-d306-74a2-5621b27b671b",
+        "type": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "id": 10661,
+    "age_ratings": [
+      {
+        "id": 226699,
+        "synopsis": "Strong violence",
+        "checksum": "cf9c29a4-836f-f343-ef89-4399a90cbfb6",
+        "organization": 7,
+        "rating_category": 37
+      },
+      {
+        "id": 6837,
+        "checksum": "1161de38-46b6-ce26-a116-b33bc9d21e89",
+        "organization": 2,
+        "rating_category": 11
+      },
+      {
+        "id": 61294,
+        "checksum": "47e35cd5-966d-6183-78bd-ff955b3defcc",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          3,
+          29
+        ]
+      },
+      {
+        "id": 79472,
+        "checksum": "b6bd6e84-2fd1-67a5-d7f9-364ba365ecb2",
+        "organization": 5,
+        "rating_category": 26,
+        "rating_content_descriptions": [
+          69,
+          73
+        ]
+      }
+    ],
+    "aggregated_rating": 45.0,
+    "aggregated_rating_count": 2,
+    "cover": {
+      "id": 90082,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xia.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 40211,
+        "company": {
+          "id": 38,
+          "name": "Ubisoft Montreal"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 40210,
+        "company": {
+          "id": 62,
+          "name": "Griptonite Games"
+        },
+        "developer": true,
+        "publisher": false
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Bloodlines",
+    "platforms": [
+      {
+        "id": 38,
+        "abbreviation": "PSP",
+        "name": "PlayStation Portable"
+      }
+    ],
+    "rating": 58.72314422970474,
+    "rating_count": 102,
+    "release_dates": [
+      {
+        "id": 107361,
+        "date": 1258675200,
+        "platform": {
+          "id": 38,
+          "abbreviation": "PSP"
+        }
+      },
+      {
+        "id": 30026,
+        "date": 1258416000,
+        "platform": {
+          "id": 38,
+          "abbreviation": "PSP"
+        }
+      },
+      {
+        "id": 107362,
+        "date": 1258416000,
+        "platform": {
+          "id": 38,
+          "abbreviation": "PSP"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 105729,
+        "image_id": "kberalhlpdd3d1eoj91q",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kberalhlpdd3d1eoj91q.jpg"
+      },
+      {
+        "id": 105732,
+        "image_id": "qsmarnpsqchtwv7gl7oo",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qsmarnpsqchtwv7gl7oo.jpg"
+      },
+      {
+        "id": 105731,
+        "image_id": "oy3nx5wnlrqf1i0nhm45",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/oy3nx5wnlrqf1i0nhm45.jpg"
+      },
+      {
+        "id": 105730,
+        "image_id": "t0rzjxtkyulekyc57rdq",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/t0rzjxtkyulekyc57rdq.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 128,
+        "aggregated_rating": 80.75,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 1266,
+        "aggregated_rating": 81.17647058823529,
+        "cover": {
+          "id": 90090,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xii.jpg"
+        },
+        "name": "Assassin\u0027s Creed III"
+      },
+      {
+        "id": 537,
+        "aggregated_rating": 81.71428571428571,
+        "cover": {
+          "id": 90089,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xih.jpg"
+        },
+        "name": "Assassin\u0027s Creed Revelations"
+      },
+      {
+        "id": 5606,
+        "aggregated_rating": 70.93333333333334,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        },
+        "name": "Assassin\u0027s Creed Unity"
+      },
+      {
+        "id": 7570,
+        "aggregated_rating": 70.91666666666667,
+        "cover": {
+          "id": 90099,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xir.jpg"
+        },
+        "name": "Assassin\u0027s Creed Rogue"
+      },
+      {
+        "id": 8263,
+        "aggregated_rating": 72.15789473684211,
+        "cover": {
+          "id": 90100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xis.jpg"
+        },
+        "name": "Assassin\u0027s Creed Syndicate"
+      },
+      {
+        "id": 19441,
+        "aggregated_rating": 81.33333333333333,
+        "cover": {
+          "id": 125839,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
+        },
+        "name": "Watch Dogs 2"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 127,
+        "aggregated_rating": 90.25,
+        "cover": {
+          "id": 82095,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+        },
+        "name": "Assassin\u0027s Creed II"
+      },
+      {
+        "id": 5647,
+        "aggregated_rating": 33.33333333333334,
+        "cover": {
+          "id": 81896,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6w.jpg"
+        },
+        "name": "Enemy Front"
+      }
+    ],
+    "storyline": "Beginning shortly after the end of the first game, Altaïr Ibn-La\u0027Ahad learns of a plan of the remaining Templars to escape to Cyprus, and so infiltrates one of their strongholds in Acre to stop them from doing so. Although he does not succeed in this regard, he does defeat and capture Maria Thorpe, who attempted to avenge her former master, Robert de Sablé, who died at Altaïr\u0027s hands. Managing to charter a ship, Altaïr also heads to Cyprus in pursuit of the apple, with Maria in tow.\n\nOnce there, he learns of the presence of Armand Bouchart, who has succeeded Robert de Sablé, as Grand Master of the Templar Order. Altaïr also learns, and gains the assistance, of a resistance movement in the city opposed to the presence of the Templars, who, after purchasing the island from King Richard, have formed a repressive government to control the land and its people. He also learns of a Templar \"archive\", a trove of Templar knowledge and artifacts, hidden somewhere on the island. True to the way of the Assassins, Altaïr makes to both locate the archive and free Cyprus from Bouchart\u0027s grip, firstly by slaying his underlings: Frederick \"the Red\"; Moloch \"the Bull\"; Shalim and Shahar \"the Twins\", and the Dark Oracle \"the Witch,\" eventually confronting and defeating Bouchart at the archive, whose contents have been evacuated and relocated by Templar soldiers. Following Bouchart\u0027s death, the archive begins to collapse, but Altaïr manages to escape.\n\nThe game also details the relationship between Altaïr and Maria. At first, Maria is hostile and sarcastic towards Altaïr (in her own words, \"the man who spared my neck but ruined my life\"), but as the story develops, she gradually warms to the assassin who, despite her repeated escape attempts, repeatedly rescues her from harm and does not punish her. Eventually, she decides to assist Altaïr by killing a Templar mole in the resistance when he attempts to kill Altaïr and confronting Bouchart alongside him in the final battle, at this point having fallen in love with the assassin. After their escape from the Templar archive, the two of them decide to head east towards India.",
+    "summary": "Assassin’s Creed: Bloodlines on PSP is the first Assassin’s Creed game on the PSP system. It follows the story of Altair right after the events of Assassin’s Creed as Altair tracks down the last Templars who fled the Holy Land and retreated to the Island of Cyprus.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 14655,
+        "name": "Trailer",
+        "video_id": "jCPUd9vMmkc"
+      },
+      {
+        "id": 118709,
+        "name": "Gameplay Video",
+        "video_id": "JuxYGLdgt-8"
+      }
+    ],
+    "websites": [
+      {
+        "id": 337000,
+        "game": 10661,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed:%20Bloodlines",
+        "checksum": "b3ac3a6b-e31c-075e-a8ec-6136b6868170",
+        "type": 6
+      },
+      {
+        "id": 49846,
+        "game": 10661,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed%3A_Bloodlines",
+        "checksum": "415cbe57-30f6-1f16-a088-8748bac552a5",
+        "type": 2
+      },
+      {
+        "id": 49845,
+        "game": 10661,
+        "trusted": false,
+        "url": "https://store.playstation.com/#!/games/assassin\u0027s-creed-bloodlines-psp/cid\u003dEP0001-NPEH00029_00-0000111122223333",
+        "checksum": "e628ec4e-8ada-045b-2321-6eb817a3f04c",
+        "type": 1
+      },
+      {
+        "id": 49847,
+        "game": 10661,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed:_Bloodlines",
+        "checksum": "595367db-2986-ac8b-c0f1-733f76efa1b9",
+        "type": 3
+      }
+    ]
+  }
+]

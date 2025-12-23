@@ -1,0 +1,330 @@
+[
+  {
+    "id": 21349,
+    "age_ratings": [
+      {
+        "id": 189096,
+        "checksum": "bc8cb510-c5a5-8d54-8147-f42d1626791f",
+        "organization": 1,
+        "rating_category": 5,
+        "rating_content_descriptions": [
+          3,
+          29
+        ]
+      }
+    ],
+    "aggregated_rating": 60.0,
+    "aggregated_rating_count": 1,
+    "cover": {
+      "id": 418459,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co8yvv.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 308767,
+        "company": {
+          "id": 61,
+          "name": "Gameloft"
+        },
+        "developer": true,
+        "publisher": true
+      },
+      {
+        "id": 308769,
+        "company": {
+          "id": 61,
+          "name": "Gameloft"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 308768,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed: Altair\u0027s Chronicles",
+    "platforms": [
+      {
+        "id": 74,
+        "abbreviation": "Win Phone",
+        "name": "Windows Phone"
+      },
+      {
+        "id": 39,
+        "abbreviation": "iOS",
+        "name": "iOS"
+      },
+      {
+        "id": 20,
+        "abbreviation": "NDS",
+        "name": "Nintendo DS"
+      }
+    ],
+    "rating": 59.92050304657867,
+    "rating_count": 36,
+    "release_dates": [
+      {
+        "id": 56054,
+        "date": 1289433600,
+        "platform": {
+          "id": 74,
+          "abbreviation": "Win Phone"
+        }
+      },
+      {
+        "id": 56055,
+        "date": 1202169600,
+        "platform": {
+          "id": 20,
+          "abbreviation": "NDS"
+        }
+      },
+      {
+        "id": 56053,
+        "date": 1240444800,
+        "platform": {
+          "id": 39,
+          "abbreviation": "iOS"
+        }
+      },
+      {
+        "id": 56056,
+        "date": 1207180800,
+        "platform": {
+          "id": 20,
+          "abbreviation": "NDS"
+        }
+      },
+      {
+        "id": 56057,
+        "date": 1207872000,
+        "platform": {
+          "id": 20,
+          "abbreviation": "NDS"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 372521,
+        "image_id": "sc7zft",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zft.jpg"
+      },
+      {
+        "id": 372524,
+        "image_id": "sc7zfw",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfw.jpg"
+      },
+      {
+        "id": 372526,
+        "image_id": "sc7zfy",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfy.jpg"
+      },
+      {
+        "id": 372527,
+        "image_id": "sc7zfz",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfz.jpg"
+      },
+      {
+        "id": 372528,
+        "image_id": "sc7zg0",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zg0.jpg"
+      },
+      {
+        "id": 372519,
+        "image_id": "sc7zfr",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfr.jpg"
+      },
+      {
+        "id": 372520,
+        "image_id": "sc7zfs",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfs.jpg"
+      },
+      {
+        "id": 372522,
+        "image_id": "sc7zfu",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfu.jpg"
+      },
+      {
+        "id": 372523,
+        "image_id": "sc7zfv",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfv.jpg"
+      },
+      {
+        "id": 372525,
+        "image_id": "sc7zfx",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc7zfx.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 128,
+        "aggregated_rating": 80.75,
+        "cover": {
+          "id": 82652,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+        },
+        "name": "Assassin\u0027s Creed"
+      },
+      {
+        "id": 35371,
+        "cover": {
+          "id": 102289,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co26xd.jpg"
+        },
+        "name": "Colony Survival"
+      },
+      {
+        "id": 36198,
+        "aggregated_rating": 83.0,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        },
+        "name": "Children of Morta"
+      },
+      {
+        "id": 537,
+        "aggregated_rating": 81.71428571428571,
+        "cover": {
+          "id": 90089,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xih.jpg"
+        },
+        "name": "Assassin\u0027s Creed Revelations"
+      },
+      {
+        "id": 7213,
+        "aggregated_rating": 55.0,
+        "cover": {
+          "id": 117781,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ivp.jpg"
+        },
+        "name": "Tenchu Z"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 2918,
+        "aggregated_rating": 83.5,
+        "cover": {
+          "id": 76330,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mwa.jpg"
+        },
+        "name": "Crusader Kings II"
+      },
+      {
+        "id": 24426,
+        "aggregated_rating": 80.0,
+        "cover": {
+          "id": 478799,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/coa9fz.jpg"
+        },
+        "name": "Forgotton Anne"
+      },
+      {
+        "id": 28168,
+        "aggregated_rating": 72.9090909090909,
+        "cover": {
+          "id": 81873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r69.jpg"
+        },
+        "name": "Code Vein"
+      },
+      {
+        "id": 14394,
+        "aggregated_rating": 80.25,
+        "cover": {
+          "id": 70873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iop.jpg"
+        },
+        "name": "Battle Brothers"
+      }
+    ],
+    "storyline": "In the year 1190, the wars of the Third Crusade engulfed the Holy Land, and Crusaders clashed with Saracens for the control of the Holy City, Jerusalem.\n\nAltaïr Ibn-La\u0027Ahad, a renowned Master Assassin of the Assassin Order, arrived at Alep from an arduous journey and found it under attack by the sworn enemies of the Assassins, the Knights Templar. Left with no choice but to repel the attack, the Assassin defeated many of them, even killing a low-ranking captain before the attack was halted.\n\nAfterwards, tasked by Rashid ad-Din Sinan, the Mentor of the Levantine Assassins, Altaïr was sent to find and retrieve a sacred object known as the Chalice, which was said to have the power to unite all the factions under one flag of whichever side possessed it, ending the Third Crusade in victory for either the Crusaders or the Saracens. Setting off immediately, Altaïr embarked on his new quest.",
+    "summary": "As the direct prequel of the critically acclaimed console title Assassin’s Creed, discover more of the story of Altaïr as he must find “the chalice,” an object of such power that whoever is in possession of it can end the Crusades.\n\nAltair will explore a fully realized 3D world traveling through four cities of the Crusade’s Middle East. The game will feature acrobatic moves and exhilarating combo attacks that mix both sword skills and kicks.\n\nThe setting is 1190 AD. The Third Crusade is tearing the Holy Land apart. You, Altaïr, intend to stop the hostilities by suppressing both sides of the conflict.\n\n• Be an Assassin\n\nMaster the skills, tactics, and weapons of history’s deadliest and most secretive clan of warriors.\n\n• Action-platforming Gameplay\n\nFast-paced action features swordfights, combo attacks and acrobatic moves that journey through historical 3D environments\n\n• Choose Your Weapon\n\nLearn and master 11 weapons for both close combat and long-range attacks, featuring five swords, varying types of daggers, explosives and a grappling hook\n\n• Immersive Storyline\n\nA deep and compelling storyline that will appeal to those who have both played the console title or are new to the franchise\n\n• Touch-Screen Mini-games\n\nPlayers will be able to use the Stylus to perform pickpocket maneuvers to carefully steal precious items from the crowd and make informants speak\n\n• Upgrade and Rank Up\n\nCollecting orbs will upgrade Altair’s health and weapons\n\nThe game is no longer available for iOS and Android.",
+    "themes": [
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ],
+    "videos": [
+      {
+        "id": 14654,
+        "name": "Trailer",
+        "video_id": "GwBikiPWwws"
+      }
+    ],
+    "websites": [
+      {
+        "id": 56860,
+        "game": 21349,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed:_Alta%C3%AFr%27s_Chronicles",
+        "checksum": "ca37d3ca-7c8b-4e03-e294-854f26177474",
+        "type": 3
+      },
+      {
+        "id": 49843,
+        "game": 21349,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed:_Alta%C3%AFr%27s_Chronicles",
+        "checksum": "c776fe64-c052-2648-f6d2-0e13c6159e23",
+        "type": 2
+      },
+      {
+        "id": 49842,
+        "game": 21349,
+        "trusted": false,
+        "url": "http://www.nintendo.com/games/detail/IMxU8LdqWQnbYEIsGGjc9oBHhQcO2meh",
+        "checksum": "1546cfe0-4c47-a3e5-cf72-27b644bcc90b",
+        "type": 1
+      },
+      {
+        "id": 336470,
+        "game": 21349,
+        "trusted": false,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed:%20Altaïr\u0027s%20Chronicles",
+        "checksum": "77675681-6221-df35-c8f0-ecba30fc8c96",
+        "type": 6
+      }
+    ]
+  }
+]

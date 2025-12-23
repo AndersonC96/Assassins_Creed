@@ -1,0 +1,292 @@
+[
+  {
+    "id": 18865,
+    "age_ratings": [
+      {
+        "id": 226704,
+        "synopsis": "Violence",
+        "checksum": "68456c1b-f8c2-11ea-547d-6c696798b253",
+        "organization": 7,
+        "rating_category": 36
+      },
+      {
+        "id": 188350,
+        "checksum": "d1f6b3e2-797f-257a-ce2f-37b69126e32c",
+        "organization": 1,
+        "rating_category": 5,
+        "rating_content_descriptions": [
+          29
+        ]
+      }
+    ],
+    "aggregated_rating": 60.0,
+    "aggregated_rating_count": 1,
+    "cover": {
+      "id": 90084,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xic.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 51231,
+        "company": {
+          "id": 62,
+          "name": "Griptonite Games"
+        },
+        "developer": true,
+        "publisher": false
+      },
+      {
+        "id": 306128,
+        "company": {
+          "id": 104,
+          "name": "Ubisoft Entertainment"
+        },
+        "developer": false,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed II: Discovery",
+    "platforms": [
+      {
+        "id": 39,
+        "abbreviation": "iOS",
+        "name": "iOS"
+      },
+      {
+        "id": 159,
+        "name": "Nintendo DSi"
+      },
+      {
+        "id": 20,
+        "abbreviation": "NDS",
+        "name": "Nintendo DS"
+      }
+    ],
+    "rating": 59.20424234504261,
+    "rating_count": 19,
+    "release_dates": [
+      {
+        "id": 49993,
+        "date": 1258416000,
+        "platform": {
+          "id": 20,
+          "abbreviation": "NDS"
+        }
+      },
+      {
+        "id": 49994,
+        "date": 1258588800,
+        "platform": {
+          "id": 20,
+          "abbreviation": "NDS"
+        }
+      },
+      {
+        "id": 49995,
+        "date": 1258675200,
+        "platform": {
+          "id": 20,
+          "abbreviation": "NDS"
+        }
+      },
+      {
+        "id": 49996,
+        "date": 1262822400,
+        "platform": {
+          "id": 39,
+          "abbreviation": "iOS"
+        }
+      },
+      {
+        "id": 501384,
+        "date": 1258675200,
+        "platform": {
+          "id": 159
+        }
+      },
+      {
+        "id": 501385,
+        "date": 1258588800,
+        "platform": {
+          "id": 159
+        }
+      },
+      {
+        "id": 501386,
+        "date": 1258416000,
+        "platform": {
+          "id": 159
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 28059,
+        "image_id": "s2r6dev8iyacufkld4yl",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/s2r6dev8iyacufkld4yl.jpg"
+      },
+      {
+        "id": 105734,
+        "image_id": "pvjvnhtgfbre2wlvbwgn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pvjvnhtgfbre2wlvbwgn.jpg"
+      },
+      {
+        "id": 105733,
+        "image_id": "atgnu4cccddtsntnt6pw",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/atgnu4cccddtsntnt6pw.jpg"
+      },
+      {
+        "id": 105735,
+        "image_id": "uihxalhtek0kkqgnj7yn",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uihxalhtek0kkqgnj7yn.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 28309,
+        "aggregated_rating": 65.5,
+        "cover": {
+          "id": 67083,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/zlb0ljqmgn8tc8vv3mij.jpg"
+        },
+        "name": "Tanzia"
+      },
+      {
+        "id": 80916,
+        "aggregated_rating": 78.75,
+        "cover": {
+          "id": 398316,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co8jcc.jpg"
+        },
+        "name": "Omensight"
+      },
+      {
+        "id": 10776,
+        "cover": {
+          "id": 85495,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tyv.jpg"
+        },
+        "name": "Rising World"
+      },
+      {
+        "id": 36198,
+        "aggregated_rating": 83.0,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        },
+        "name": "Children of Morta"
+      },
+      {
+        "id": 30245,
+        "cover": {
+          "id": 70041,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1i1l.jpg"
+        },
+        "name": "Wanderlust Adventures"
+      },
+      {
+        "id": 103054,
+        "aggregated_rating": 88.35714285714286,
+        "cover": {
+          "id": 124221,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nul.jpg"
+        },
+        "name": "Assassin\u0027s Creed Odyssey"
+      },
+      {
+        "id": 28168,
+        "aggregated_rating": 72.9090909090909,
+        "cover": {
+          "id": 81873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r69.jpg"
+        },
+        "name": "Code Vein"
+      },
+      {
+        "id": 47823,
+        "aggregated_rating": 50.0,
+        "cover": {
+          "id": 76951,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ndj.jpg"
+        },
+        "name": "Citadel: Forged With Fire"
+      },
+      {
+        "id": 25300,
+        "aggregated_rating": 65.0,
+        "cover": {
+          "id": 67720,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/vz1tifvufvwi6rd4zmz7.jpg"
+        },
+        "name": "Sky Break"
+      },
+      {
+        "id": 26950,
+        "aggregated_rating": 72.76923076923077,
+        "cover": {
+          "id": 111950,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2edq.jpg"
+        },
+        "name": "Marvel\u0027s Avengers"
+      }
+    ],
+    "summary": "Discover an untold chapter from the Assassin’s Creed II storyline\n\nDiscover an untold chapter from the Assassin’s Creed II storyline. Follow Ezio as he travels to 15th century Spain to rescue fellow assassins being held under the guise of the Inquisition, only to uncover a Templar plot to sail west and discover the New World.\n\nFeatures\n\n• Momentum-Based Gameplay: Combine breathtaking speed and aerial kills to become the ultimate master assassin.\n• Untold Story: Learn about Ezio’s mission to Spain and his untold story.\n• Variety of Mission Types: Choose between stealth, assassination, escape, chase, and freeform to accomplish the task at hand.\n• Nintendo DSi Functionality: Take a picture with the Nintendo DSi camera and put yourself in the ‘WANTED!’ posters in-game!",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ],
+    "websites": [
+      {
+        "id": 49850,
+        "game": 18865,
+        "trusted": true,
+        "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_II:_Discovery",
+        "checksum": "c5fc0ff0-f31f-9f26-855b-c83c038d4e52",
+        "type": 3
+      },
+      {
+        "id": 49849,
+        "game": 18865,
+        "trusted": false,
+        "url": "http://assassinscreed.wikia.com/wiki/Assassin\u0027s_Creed_II%3A_Discovery",
+        "checksum": "7e800ece-8c7e-65be-d3ac-ecef3c0a7473",
+        "type": 2
+      },
+      {
+        "id": 49848,
+        "game": 18865,
+        "trusted": false,
+        "url": "http://www.nintendo.com/games/detail/_cAJlCnyih3HAxu-vKqD1-ljWP85Hl-6",
+        "checksum": "1f24313e-7ae8-bf76-cd0b-f1d8ebac846e",
+        "type": 1
+      },
+      {
+        "id": 335676,
+        "game": 18865,
+        "trusted": true,
+        "url": "https://www.twitch.tv/directory/game/Assassin\u0027s%20Creed%20II:%20Discovery",
+        "checksum": "1d541660-22ec-5f69-abef-d62637ddc934",
+        "type": 6
+      }
+    ]
+  }
+]

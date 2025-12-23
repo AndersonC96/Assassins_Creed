@@ -1,0 +1,244 @@
+[
+  {
+    "id": 68530,
+    "age_ratings": [
+      {
+        "id": 98455,
+        "checksum": "a49257fd-8c4e-9d25-9b32-dc95a9a5ed4e",
+        "organization": 1,
+        "rating_category": 6,
+        "rating_content_descriptions": [
+          29,
+          3
+        ]
+      }
+    ],
+    "cover": {
+      "id": 358309,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co7oh1.jpg"
+    },
+    "game_modes": [
+      {
+        "id": 1,
+        "name": "Single player"
+      }
+    ],
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 191103,
+        "company": {
+          "id": 61,
+          "name": "Gameloft"
+        },
+        "developer": true,
+        "publisher": true
+      }
+    ],
+    "name": "Assassin\u0027s Creed III Mobile",
+    "platforms": [
+      {
+        "id": 34,
+        "abbreviation": "Android",
+        "name": "Android"
+      },
+      {
+        "id": 55,
+        "abbreviation": "Mobile",
+        "name": "Legacy Mobile Device"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 397185,
+        "date": 1353024000,
+        "platform": {
+          "id": 55,
+          "abbreviation": "Mobile"
+        }
+      },
+      {
+        "id": 397186,
+        "date": 1353024000,
+        "platform": {
+          "id": 34,
+          "abbreviation": "Android"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 125759,
+        "image_id": "iqpflfte3obl71a92itw",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/iqpflfte3obl71a92itw.jpg"
+      },
+      {
+        "id": 125758,
+        "image_id": "dywfbh0wcmpptpgytc3k",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dywfbh0wcmpptpgytc3k.jpg"
+      },
+      {
+        "id": 125757,
+        "image_id": "xwmtiubwoc3smizihikm",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xwmtiubwoc3smizihikm.jpg"
+      },
+      {
+        "id": 904904,
+        "image_id": "scje88",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scje88.jpg"
+      },
+      {
+        "id": 904907,
+        "image_id": "scje8b",
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scje8b.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 81249,
+        "cover": {
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
+        },
+        "name": "The Elder Scrolls VI"
+      },
+      {
+        "id": 103303,
+        "aggregated_rating": 30.0,
+        "cover": {
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+        },
+        "name": "The Elder Scrolls: Blades"
+      },
+      {
+        "id": 19164,
+        "aggregated_rating": 81.0,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        },
+        "name": "Borderlands 3"
+      },
+      {
+        "id": 55038,
+        "aggregated_rating": 45.33333333333334,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        },
+        "name": "Immortal: Unchained"
+      },
+      {
+        "id": 113360,
+        "cover": {
+          "id": 81869,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r65.jpg"
+        },
+        "name": "Hytale"
+      },
+      {
+        "id": 17548,
+        "cover": {
+          "id": 82231,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg7.jpg"
+        },
+        "name": "Savage Lands"
+      },
+      {
+        "id": 9243,
+        "aggregated_rating": 76.0,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        },
+        "name": "Life is Feudal: Your Own"
+      },
+      {
+        "id": 96217,
+        "aggregated_rating": 54.0,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        },
+        "name": "Eternity: The Last Unicorn"
+      },
+      {
+        "id": 26574,
+        "cover": {
+          "id": 82161,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re9.jpg"
+        },
+        "name": "Force of Nature"
+      },
+      {
+        "id": 28070,
+        "aggregated_rating": 57.66666666666666,
+        "cover": {
+          "id": 81870,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r66.jpg"
+        },
+        "name": "Planet Alpha"
+      }
+    ],
+    "storyline": "Connor kills a group of British soldiers under orders from Samuel Adams in the forest frontier. After he kills their leader, the others give chase, with Connor managing to escape. Charles Lee suddenly appears and Connor falls onto a nearby lake. While he is unconscious, he recalls the time when Lee burned down his village. After he wakes up, he proceeds to assassinate Templars for years, including Johnson and John Pitcairn, and helps George Washington in the Battle of Bunker Hill. He later rescues Washington by killing Thomas Hickey during the Great Fire of New York, and assists Benjamin Franklin in escaping from a group of Redcoats. Haytham Kenway is discovered to be traitor to the Americans, and Connor pretends to be captured by the Redcoats and kills him. After the war is over, Adams informs Connor of Lee\u0027s location, and he chases and catches the Templar, who then orders a series of Redcoats to kill Connor. Connor manages to kill all of them and Lee summons a Templar tougher than the Redcoats. Connor kills this Templar as well and chases Lee into a nearby bar. After the Templar says that the Americans are not loyal to Connor anymore, Lee dies presumably due to poison. Connor says \"Goodbye, Charles.\" and leaves.",
+    "summary": "Assassin\u0027s Creed III is a game for the mobile platform developed by Gameloft and released alongside the main game in 2012. The game features the Mohawk Assassin Connor and is set during the events of the American Revolutionary War.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ],
+    "videos": [
+      {
+        "id": 16095,
+        "name": "Gameplay video",
+        "video_id": "Tif5YG3EEEM"
+      },
+      {
+        "id": 76481,
+        "name": "Gameplay Video",
+        "video_id": "qh3rqynt4po"
+      }
+    ],
+    "websites": [
+      {
+        "id": 318266,
+        "game": 68530,
+        "trusted": false,
+        "url": "https://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_III_(mobile_game)",
+        "checksum": "88b896e0-c126-b5cc-1ab6-7023b058b8d1",
+        "type": 2
+      }
+    ]
+  }
+]
