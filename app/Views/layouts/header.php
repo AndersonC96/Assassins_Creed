@@ -13,7 +13,6 @@
 
 $pageTitle = $pageTitle ?? 'AC Database';
 $pageDescription = $pageDescription ?? 'Portal dedicado ao universo Assassin\'s Creed no estilo Animus.';
-$baseUrl = $this->config('app.url');
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -42,4 +41,4 @@ $baseUrl = $this->config('app.url');
     <link rel="stylesheet" href="<?= $baseUrl ?>/CSS/style.css">
 </head>
 <body>
-    <div class="container clearfix">
+    <div class="container">

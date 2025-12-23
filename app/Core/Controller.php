@@ -40,6 +40,9 @@ abstract class Controller
         $pageTitle = $pageTitle ?? 'AC Database';
         $activePage = $activePage ?? '';
         
+        // Pass baseUrl to views (needed for CSS/JS/IMG paths)
+        $baseUrl = $this->app->config('app.url');
+        
         // Build view path
         $viewPath = $this->app->config('paths.views') . $view . '.php';
         
