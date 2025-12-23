@@ -34,7 +34,7 @@
     $allIds = array_unique($allIds);
     $idsString = implode(',', $allIds);
     
-    // Requisição à API
+    // Requisição à API com campos extras
     $curl = curl_init();
     curl_setopt_array($curl, [
         CURLOPT_URL => "https://api.igdb.com/v4/games",
@@ -45,7 +45,7 @@
             "Accept: application/json"
         ],
         CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => "fields name, cover.url, summary, first_release_date; where id = ($idsString); limit 500;"
+        CURLOPT_POSTFIELDS => "fields name, cover.url, summary, first_release_date, aggregated_rating, rating, platforms.abbreviation, themes.name; where id = ($idsString); limit 500;"
     ]);
     $response = curl_exec($curl);
     $err = curl_error($curl);
@@ -65,6 +65,13 @@
         $dateA = $a['first_release_date'] ?? PHP_INT_MAX;
         $dateB = $b['first_release_date'] ?? PHP_INT_MAX;
         return $dateA - $dateB;
+    }
+    
+    // Função para cor da nota
+    function getRatingColor($rating) {
+        if ($rating >= 75) return '#4CAF50';
+        if ($rating >= 50) return '#FFC107';
+        return '#f44336';
     }
 ?>
 <!DOCTYPE html>
@@ -107,6 +114,49 @@
             margin-left: 0.5em;
             vertical-align: middle;
         }
+        .card-rating {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        .card-image-container {
+            position: relative;
+        }
+        .card-platforms {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25em;
+            margin-top: 0.5em;
+        }
+        .platform-badge {
+            background: rgba(0,0,0,0.1);
+            padding: 0.15em 0.4em;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+        }
+        .card-themes {
+            display: flex;
+            gap: 0.25em;
+            margin-top: 0.5em;
+            flex-wrap: wrap;
+        }
+        .theme-tag {
+            background: var(--accent-red);
+            color: #fff;
+            padding: 0.1em 0.4em;
+            font-size: 0.6rem;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body>
@@ -136,8 +186,7 @@
             <div class="title">Jogos da Saga</div>
             
             <div class="description">
-                <p>Explore todos os títulos da franquia <em>Assassin's Creed</em> organizados por categoria.</p>
-                <p><strong>Clique</strong> em uma categoria no menu lateral para navegar rapidamente.</p>
+                <p>Explore todos os títulos da franquia <em>Assassin's Creed</em>. As notas exibidas são da <strong>crítica especializada</strong> (Metacritic/OpenCritic).</p>
             </div>
 
             <?php if (empty($gamesById)): ?>
@@ -169,13 +218,22 @@
                             usort($categoryGames, 'sortByDate');
                             
                             foreach ($categoryGames as $game): 
+                                $rating = $game['aggregated_rating'] ?? $game['rating'] ?? null;
+                                $ratingColor = $rating ? getRatingColor($rating) : '#666';
                             ?>
                             <div class="card">
-                                <img 
-                                    src="<?= isset($game['cover']['url']) ? 'https:' . str_replace('t_thumb', 't_cover_big', $game['cover']['url']) : './IMG/default_cover.png'; ?>" 
-                                    alt="<?= htmlspecialchars($game['name'] ?? 'Game Cover') ?>"
-                                    loading="lazy"
-                                >
+                                <div class="card-image-container">
+                                    <img 
+                                        src="<?= isset($game['cover']['url']) ? 'https:' . str_replace('t_thumb', 't_cover_big', $game['cover']['url']) : './IMG/default_cover.png'; ?>" 
+                                        alt="<?= htmlspecialchars($game['name'] ?? 'Game Cover') ?>"
+                                        loading="lazy"
+                                    >
+                                    <?php if ($rating): ?>
+                                    <div class="card-rating" style="background: <?= $ratingColor ?>;">
+                                        <?= round($rating) ?>
+                                    </div>
+                                    <?php endif; ?>
+                                </div>
                                 <div class="card-content">
                                     <div class="card-title"><?= htmlspecialchars($game['name'] ?? 'Nome não disponível') ?></div>
                                     <?php if (isset($game['first_release_date'])): ?>
@@ -183,7 +241,18 @@
                                     <?php else: ?>
                                         <div class="card-year">TBA</div>
                                     <?php endif; ?>
-                                    <div class="card-desc"><?= isset($game['summary']) ? htmlspecialchars(mb_strimwidth($game['summary'], 0, 100, '...')) : 'Sem descrição'; ?></div>
+                                    
+                                    <?php if (isset($game['platforms'])): ?>
+                                    <div class="card-platforms">
+                                        <?php foreach (array_slice($game['platforms'], 0, 4) as $platform): ?>
+                                        <span class="platform-badge"><?= htmlspecialchars($platform['abbreviation'] ?? $platform['name'] ?? '?') ?></span>
+                                        <?php endforeach; ?>
+                                        <?php if (count($game['platforms']) > 4): ?>
+                                        <span class="platform-badge">+<?= count($game['platforms']) - 4 ?></span>
+                                        <?php endif; ?>
+                                    </div>
+                                    <?php endif; ?>
+                                    
                                     <a href="game_details.php?game_id=<?= $game['id']; ?>" class="card-btn">Ver Detalhes</a>
                                 </div>
                             </div>
