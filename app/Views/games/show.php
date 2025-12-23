@@ -169,26 +169,83 @@
         </div>
         <?php endif; ?>
 
-        <!-- Videos/Trailers -->
-        <?php if (isset($game['videos']) && count($game['videos']) > 0): ?>
+        <!-- Videos/Trailers Carousel -->
+        <?php if (isset($game['videos']) && count($game['videos']) > 0): 
+            $videos = $game['videos'];
+            $totalVideos = count($videos);
+        ?>
         <div class="detail-section">
-            <h3 class="section-title">Trailers e Vídeos</h3>
-            <div class="videos-grid">
-                <?php foreach (array_slice($game['videos'], 0, 4) as $video): ?>
-                <div class="video-item">
-                    <iframe 
-                        src="https://www.youtube.com/embed/<?= $video['video_id'] ?>" 
-                        title="<?= htmlspecialchars($video['name'] ?? 'Trailer') ?>"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen
-                        loading="lazy">
-                    </iframe>
-                    <p class="video-title"><?= htmlspecialchars($video['name'] ?? 'Trailer') ?></p>
+            <h3 class="section-title">Trailers e Vídeos <span class="video-counter">(1/<?= $totalVideos ?>)</span></h3>
+            <div class="video-carousel">
+                <button class="carousel-btn carousel-prev" onclick="changeVideo(-1)" aria-label="Vídeo anterior">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-container">
+                    <?php foreach ($videos as $index => $video): ?>
+                    <div class="carousel-slide <?= $index === 0 ? 'active' : '' ?>" data-index="<?= $index ?>">
+                        <iframe 
+                            src="<?= $index === 0 ? 'https://www.youtube.com/embed/' . $video['video_id'] : '' ?>" 
+                            data-src="https://www.youtube.com/embed/<?= $video['video_id'] ?>"
+                            title="<?= htmlspecialchars($video['name'] ?? 'Trailer') ?>"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                        <p class="video-title"><?= htmlspecialchars($video['name'] ?? 'Trailer') ?></p>
+                    </div>
+                    <?php endforeach; ?>
                 </div>
-                <?php endforeach; ?>
+                
+                <button class="carousel-btn carousel-next" onclick="changeVideo(1)" aria-label="Próximo vídeo">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
             </div>
+            
+            <?php if ($totalVideos > 1): ?>
+            <div class="carousel-indicators">
+                <?php for ($i = 0; $i < $totalVideos; $i++): ?>
+                <button class="indicator <?= $i === 0 ? 'active' : '' ?>" onclick="goToVideo(<?= $i ?>)" aria-label="Ir para vídeo <?= $i + 1 ?>"></button>
+                <?php endfor; ?>
+            </div>
+            <?php endif; ?>
         </div>
+        
+        <script>
+        let currentVideoIndex = 0;
+        const totalVideos = <?= $totalVideos ?>;
+        
+        function changeVideo(direction) {
+            const newIndex = (currentVideoIndex + direction + totalVideos) % totalVideos;
+            goToVideo(newIndex);
+        }
+        
+        function goToVideo(index) {
+            const slides = document.querySelectorAll('.carousel-slide');
+            const indicators = document.querySelectorAll('.carousel-indicators .indicator');
+            const counter = document.querySelector('.video-counter');
+            
+            // Stop current video by clearing src
+            const currentIframe = slides[currentVideoIndex].querySelector('iframe');
+            currentIframe.src = '';
+            
+            // Hide current slide
+            slides[currentVideoIndex].classList.remove('active');
+            if (indicators[currentVideoIndex]) indicators[currentVideoIndex].classList.remove('active');
+            
+            // Show new slide
+            currentVideoIndex = index;
+            slides[currentVideoIndex].classList.add('active');
+            if (indicators[currentVideoIndex]) indicators[currentVideoIndex].classList.add('active');
+            
+            // Load new video
+            const newIframe = slides[currentVideoIndex].querySelector('iframe');
+            newIframe.src = newIframe.dataset.src;
+            
+            // Update counter
+            if (counter) counter.textContent = `(${currentVideoIndex + 1}/${totalVideos})`;
+        }
+        </script>
         <?php endif; ?>
 
         <!-- Similar Games -->
