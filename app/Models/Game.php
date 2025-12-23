@@ -32,7 +32,7 @@ class Game
         'remastered' => [
             'titulo' => 'Remasters',
             'desc' => 'Versões remasterizadas dos títulos clássicos',
-            'ids' => [20864, 81205, 109532]
+            'ids' => [20864, 81205, 109532, 109533]
         ],
         'colecoes' => [
             'titulo' => 'Coletâneas e Relançamentos',

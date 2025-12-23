@@ -41,6 +41,7 @@
                     <div class="custom-option" data-value="iOS"><i class="bi bi-apple"></i> iOS</div>
                     <div class="custom-option" data-value="MAC"><i class="bi bi-apple"></i> MAC</div>
                     <div class="custom-option" data-value="Switch"><i class="bi bi-nintendo-switch"></i> Nintendo Switch</div>
+                    <div class="custom-option" data-value="Switch 2"><i class="bi bi-nintendo-switch"></i> Nintendo Switch 2</div>
                     <div class="custom-option" data-value="WiiU"><i class="bi bi-nintendo-switch"></i> Nintendo WiiU</div>
                     <div class="custom-option" data-value="NDS"><i class="bi bi-nintendo-switch"></i> Nintendo DS</div>
                     <div class="custom-option" data-value="3DS"><i class="bi bi-nintendo-switch"></i> Nintendo 3DS</div>
@@ -130,7 +131,7 @@
     // Mapping of platform brands to their console abbreviations
     const platformMapping = {
         'Mobile': ['iOS', 'Android', 'Win Phone'],
-        'Nintendo': ['Switch', 'WiiU', 'NDS', '3DS'],
+        'Nintendo': ['Switch', 'WiiU', 'NDS', '3DS', 'Switch 2'],
         'PC': ['PC', 'MAC', 'Stadia'],
         'PlayStation': ['PS3', 'PS4', 'PS5', 'PSP', 'Vita'],
         'Xbox': ['X360', 'XONE', 'Series X|S', 'XSX']

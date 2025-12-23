@@ -1705,5 +1705,124 @@
         "video_id": "wbMh3PFPCDM"
       }
     ]
+  },
+  {
+    "id": 251353,
+    "cover": {
+      "id": 358342,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co7ohy.jpg"
+    },
+    "first_release_date": 1496275200,
+    "name": "Assassin\u0027s Creed Unity: Arno\u0027s Chronicles",
+    "platforms": [
+      {
+        "id": 34,
+        "abbreviation": "Android"
+      }
+    ]
+  },
+  {
+    "id": 251568,
+    "aggregated_rating": 85.0,
+    "cover": {
+      "id": 308696,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6m6w.jpg"
+    },
+    "first_release_date": 1700092800,
+    "name": "Assassin\u0027s Creed Nexus VR",
+    "platforms": [
+      {
+        "id": 386,
+        "abbreviation": "Meta Quest 2"
+      },
+      {
+        "id": 471,
+        "abbreviation": "Meta Quest 3"
+      }
+    ],
+    "videos": [
+      {
+        "id": 99454,
+        "video_id": "8aQRKkPKoqI"
+      },
+      {
+        "id": 91917,
+        "video_id": "bSiu7cOqwd8"
+      },
+      {
+        "id": 103064,
+        "video_id": "IQmCQ_5zAZk"
+      }
+    ]
+  },
+  {
+    "id": 300976,
+    "aggregated_rating": 85.83333333333333,
+    "cover": {
+      "id": 382782,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co87cu.jpg"
+    },
+    "first_release_date": 1742428800,
+    "name": "Assassin\u0027s Creed Shadows",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 508,
+        "abbreviation": "Switch 2"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      }
+    ],
+    "videos": [
+      {
+        "id": 113685,
+        "video_id": "vovkzbtYBC8"
+      },
+      {
+        "id": 113670,
+        "video_id": "Nszrx939ZVA"
+      },
+      {
+        "id": 113934,
+        "video_id": "gD_DemeUuy8"
+      },
+      {
+        "id": 115711,
+        "video_id": "jx8WN9fY22M"
+      },
+      {
+        "id": 116078,
+        "video_id": "FjAzNpMYTxw"
+      },
+      {
+        "id": 138649,
+        "video_id": "SHaN4MIGqpo"
+      },
+      {
+        "id": 143662,
+        "video_id": "X_g7I2sNGio"
+      },
+      {
+        "id": 162430,
+        "video_id": "zxtJFdnMo7k"
+      },
+      {
+        "id": 162431,
+        "video_id": "_JzywR97gUs"
+      }
+    ]
   }
 ]

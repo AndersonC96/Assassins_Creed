@@ -99,7 +99,7 @@ class ApiClient
         }
         
         $idsString = implode(',', $ids);
-        $body = "fields {$fields}; where id = ({$idsString}); limit 50;";
+        $body = "fields {$fields}; where id = ({$idsString}); limit 100;";
         
         return $this->query('games', $body) ?? [];
     }
