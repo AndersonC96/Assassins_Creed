@@ -1,5 +1,5 @@
 <?php
-    $accessToken = 'j11t1w7bvlfvv98265bcldopqt33v3';
+    $accessToken = 'l6p3tnk3677zj5qdtlz095pngs48jn';
     $clientID = 'dytp463ksb6k09r6e4nqkhp6u8gt62';
     //$franchiseID = 571;
     $collections = 18;
@@ -55,14 +55,22 @@
             <a href="database.php" class="nav-link">Banco de Dados</a>
         </nav>
         <div class="game-list">
-            <?php foreach ($games as $game): ?>
-            <div class="game-card">
-                <img src="<?= isset($game['cover']['url']) ? $game['cover']['url'] : 'path/to/default/cover.jpg'; ?>" alt="Game Cover">
-                <h3><b><?= htmlspecialchars($game['name']) ?></b></h3>
-                <p><?= isset($game['summary']) ? htmlspecialchars($game['summary']) : 'Nenhum resumo disponível'; ?></p>
-                <a href="game_details.php?game_id=<?= $game['id']; ?>" class="exibir-mais-btn">Exibir Mais</a>
-            </div>
-            <?php endforeach; ?>
+            <?php if (is_array($games) && !empty($games) && !isset($games['message'])): ?>
+                <?php foreach ($games as $game): ?>
+                <div class="game-card">
+                    <img src="<?= isset($game['cover']['url']) ? 'https:' . $game['cover']['url'] : './IMG/default_cover.png'; ?>" alt="Game Cover">
+                    <h3><b><?= htmlspecialchars($game['name'] ?? 'Nome não disponível') ?></b></h3>
+                    <p><?= isset($game['summary']) ? htmlspecialchars($game['summary']) : 'Nenhum resumo disponível'; ?></p>
+                    <a href="game_details.php?game_id=<?= $game['id']; ?>" class="exibir-mais-btn">Exibir Mais</a>
+                </div>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <div class="game-card" style="text-align: center; max-width: 600px; margin: 0 auto;">
+                    <h3>⚠️ Erro ao carregar jogos</h3>
+                    <p>Não foi possível carregar os jogos da API IGDB. O token de acesso pode ter expirado.</p>
+                    <p style="font-size: 0.9em; opacity: 0.8;">Para obter um novo token, acesse: <a href="https://api-docs.igdb.com/#authentication" target="_blank" style="color: #d4af37;">IGDB Authentication</a></p>
+                </div>
+            <?php endif; ?>
         </div>
     </body>
 </html>

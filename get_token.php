@@ -1,6 +1,6 @@
 <?php
     $client_id = 'dytp463ksb6k09r6e4nqkhp6u8gt62';
-    $client_secret = 'y228ys2g967elwh834wfxo491lzjp7';
+    $client_secret = '96jjy0evbequ6u4n34vhg6rvt5xe6k';
     $token_url = 'https://id.twitch.tv/oauth2/token';
     $data = array(
         'client_id' => $client_id,

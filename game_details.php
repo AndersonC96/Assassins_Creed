@@ -7,7 +7,7 @@ if (!$gameId) {
     exit;
 }
 
-$accessToken = 'j11t1w7bvlfvv98265bcldopqt33v3';
+$accessToken = 'l6p3tnk3677zj5qdtlz095pngs48jn';
 $clientID = 'dytp463ksb6k09r6e4nqkhp6u8gt62';
 
 $curl = curl_init();
@@ -20,7 +20,7 @@ curl_setopt_array($curl, [
         "Accept: application/json"
     ],
     CURLOPT_POST => true,
-    CURLOPT_POSTFIELDS => "fields name, cover.url, summary, genres.name, platforms.name, release_dates.date, screenshots.url; where category = 0 & id = $gameId;"
+    CURLOPT_POSTFIELDS => "fields name, cover.url, summary, genres.name, platforms.name, release_dates.date, screenshots.url; where id = $gameId;"
 ]);
 
 $response = curl_exec($curl);
@@ -61,22 +61,32 @@ if ($err) {
             <a href="database.php" class="nav-link">Banco de Dados</a>
         </nav>
     <div class="game-details">
-        <?php if (!empty($gameDetails)): ?>
+        <?php if (is_array($gameDetails) && !empty($gameDetails) && !isset($gameDetails['message'])): ?>
             <?php foreach ($gameDetails as $detail): ?>
                 <div class="detail-card">
-                    <img src="<?= $detail['cover']['url'] ?? 'path/to/default/cover.jpg'; ?>" alt="Cover Image">
-                    <h3><?= htmlspecialchars($detail['name']) ?></h3>
+                    <img src="<?= isset($detail['cover']['url']) ? 'https:' . $detail['cover']['url'] : './IMG/default_cover.png'; ?>" alt="Cover Image">
+                    <h3><?= htmlspecialchars($detail['name'] ?? 'Nome não disponível') ?></h3>
                     <hr>
-                    <p>Data de lançamento: <?= date('d/m/Y', $detail['release_dates'][0]['date']) ?></p>
-                    <p>Plataformas: <?= implode(', ', array_column($detail['platforms'], 'name')) ?></p>
-                    <p>Gêneros: <?= implode(', ', array_column($detail['genres'], 'name')) ?></p>
+                    <?php if (isset($detail['release_dates'][0]['date'])): ?>
+                        <p>Data de lançamento: <?= date('d/m/Y', $detail['release_dates'][0]['date']) ?></p>
+                    <?php endif; ?>
+                    <?php if (isset($detail['platforms'])): ?>
+                        <p>Plataformas: <?= implode(', ', array_column($detail['platforms'], 'name')) ?></p>
+                    <?php endif; ?>
+                    <?php if (isset($detail['genres'])): ?>
+                        <p>Gêneros: <?= implode(', ', array_column($detail['genres'], 'name')) ?></p>
+                    <?php endif; ?>
                     <hr>
-                    <p><?= htmlspecialchars($detail['summary']) ?></p>
+                    <p><?= htmlspecialchars($detail['summary'] ?? 'Descrição não disponível.') ?></p>
                     <hr>
                 </div>
             <?php endforeach; ?>
         <?php else: ?>
-            <p>No details found for this game.</p>
+            <div class="detail-card" style="text-align: center;">
+                <h3>⚠️ Detalhes não encontrados</h3>
+                <p>Não foi possível carregar os detalhes deste jogo.</p>
+                <a href="jogos.php" class="exibir-mais-btn" style="display: inline-block; margin-top: 20px;">Voltar para Jogos</a>
+            </div>
         <?php endif; ?>
     </div>
 </body>
