@@ -88,7 +88,7 @@ class Game
     public function getAllByCategory(): array
     {
         $allIds = $this->getAllIds();
-        $fields = 'id, name, cover.url, first_release_date, platforms.abbreviation, aggregated_rating';
+        $fields = 'id, name, cover.url, first_release_date, platforms.abbreviation, aggregated_rating, videos.video_id';
         
         $games = $this->api->getGamesByIds($allIds, $fields);
         

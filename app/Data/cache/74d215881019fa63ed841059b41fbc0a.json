@@ -1,0 +1,1368 @@
+[
+  {
+    "id": 15,
+    "aggregated_rating": 89.1,
+    "cover": {
+      "id": 91184,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycw.jpg"
+    },
+    "first_release_date": 1225152000,
+    "name": "Fallout 3",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360"
+      }
+    ],
+    "videos": [
+      {
+        "id": 2362,
+        "video_id": "H5h-Q5RNzNU"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "cover": {
+      "id": 161304,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3ggo.jpg"
+    },
+    "first_release_date": 851990400,
+    "name": "Diablo",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      },
+      {
+        "id": 7,
+        "abbreviation": "PS1"
+      }
+    ],
+    "videos": [
+      {
+        "id": 35839,
+        "video_id": "xUpdTubgqmY"
+      },
+      {
+        "id": 76802,
+        "video_id": "BOAmHwNTpQo"
+      },
+      {
+        "id": 131401,
+        "video_id": "o_Kr5i5F43U"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "aggregated_rating": 90.0,
+    "cover": {
+      "id": 161270,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3gfq.jpg"
+    },
+    "first_release_date": 962236800,
+    "name": "Diablo II",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      }
+    ],
+    "videos": [
+      {
+        "id": 38,
+        "video_id": "ybHAb0VoFT4"
+      },
+      {
+        "id": 131500,
+        "video_id": "KxnWjyvmpnI"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "aggregated_rating": 90.25,
+    "cover": {
+      "id": 82095,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rcf.jpg"
+    },
+    "first_release_date": 1258416000,
+    "name": "Assassin\u0027s Creed II",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 39,
+        "abbreviation": "iOS"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360"
+      }
+    ],
+    "videos": [
+      {
+        "id": 3352,
+        "video_id": "R20-MOOZPpY"
+      },
+      {
+        "id": 41,
+        "video_id": "TcuEqTzRXl4"
+      },
+      {
+        "id": 119457,
+        "video_id": "_xkCPNECud8"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "aggregated_rating": 80.75,
+    "cover": {
+      "id": 82652,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrw.jpg"
+    },
+    "first_release_date": 1194912000,
+    "name": "Assassin\u0027s Creed",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360"
+      }
+    ],
+    "videos": [
+      {
+        "id": 12426,
+        "video_id": "RjQ6ZtyXoA0"
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "aggregated_rating": 90.35714285714286,
+    "cover": {
+      "id": 481422,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/coabgu.jpg"
+    },
+    "first_release_date": 1349740800,
+    "name": "Dishonored",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1058,
+        "video_id": "TeQDBBi8MdU"
+      },
+      {
+        "id": 77253,
+        "video_id": "E1HlYTukh9A"
+      },
+      {
+        "id": 77254,
+        "video_id": "JZDYq6HufNs"
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "aggregated_rating": 93.21428571428571,
+    "cover": {
+      "id": 123158,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
+    },
+    "first_release_date": 1364169600,
+    "name": "BioShock Infinite",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3"
+      },
+      {
+        "id": 3,
+        "abbreviation": "Linux"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      },
+      {
+        "id": 12,
+        "abbreviation": "X360"
+      }
+    ],
+    "videos": [
+      {
+        "id": 51639,
+        "video_id": "5gBVZj6ROV0"
+      },
+      {
+        "id": 119811,
+        "video_id": "GGuLMJ5JsUQ"
+      },
+      {
+        "id": 141730,
+        "video_id": "EiCd_F5Vcx0"
+      },
+      {
+        "id": 141714,
+        "video_id": "0-Gnh6gL2fI"
+      }
+    ]
+  },
+  {
+    "id": 970,
+    "aggregated_rating": 70.0,
+    "cover": {
+      "id": 134924,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2w3w.jpg"
+    },
+    "first_release_date": 1037059200,
+    "name": "Resident Evil Zero",
+    "platforms": [
+      {
+        "id": 21,
+        "abbreviation": "NGC"
+      }
+    ],
+    "videos": [
+      {
+        "id": 74345,
+        "video_id": "d68v7MMiXEs"
+      }
+    ]
+  },
+  {
+    "id": 2464,
+    "cover": {
+      "id": 454295,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co9qjb.jpg"
+    },
+    "first_release_date": 725760000,
+    "name": "The Dark Queen of Krynn",
+    "platforms": [
+      {
+        "id": 3,
+        "abbreviation": "Linux"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      },
+      {
+        "id": 13,
+        "abbreviation": "DOS"
+      },
+      {
+        "id": 16,
+        "abbreviation": "Amiga"
+      }
+    ]
+  },
+  {
+    "id": 4854,
+    "aggregated_rating": 36.66666666666666,
+    "cover": {
+      "id": 89946,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xei.jpg"
+    },
+    "first_release_date": 1165881600,
+    "name": "Far Cry Vengeance",
+    "platforms": [
+      {
+        "id": 5,
+        "abbreviation": "Wii"
+      }
+    ]
+  },
+  {
+    "id": 4855,
+    "aggregated_rating": 67.5,
+    "cover": {
+      "id": 434942,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co9blq.jpg"
+    },
+    "first_release_date": 1215129600,
+    "name": "Ferrari Challenge: Trofeo Pirelli",
+    "platforms": [
+      {
+        "id": 9,
+        "abbreviation": "PS3"
+      }
+    ]
+  },
+  {
+    "id": 4856,
+    "aggregated_rating": 66.33333333333333,
+    "cover": {
+      "id": 307692,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6lf0.jpg"
+    },
+    "first_release_date": 1289088000,
+    "name": "FlingSmash",
+    "platforms": [
+      {
+        "id": 5,
+        "abbreviation": "Wii"
+      }
+    ]
+  },
+  {
+    "id": 7334,
+    "aggregated_rating": 91.11111111111111,
+    "cover": {
+      "id": 82054,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rba.jpg"
+    },
+    "first_release_date": 1427155200,
+    "name": "Bloodborne",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      }
+    ],
+    "videos": [
+      {
+        "id": 3244,
+        "video_id": "2UJxaWZoK6Y"
+      },
+      {
+        "id": 6106,
+        "video_id": "Ga98zSE9Q3Y"
+      },
+      {
+        "id": 3648,
+        "video_id": "AXiUYQ8eunw"
+      },
+      {
+        "id": 2830,
+        "video_id": "rMxEpPCSH5A"
+      },
+      {
+        "id": 141419,
+        "video_id": "QEv7ZHytVAk"
+      }
+    ]
+  },
+  {
+    "id": 7336,
+    "aggregated_rating": 72.75,
+    "cover": {
+      "id": 35964,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/jfojp19iirdczgg9ayem.jpg"
+    },
+    "first_release_date": 1501545600,
+    "name": "Dreadnought",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ],
+    "videos": [
+      {
+        "id": 19251,
+        "video_id": "dZW04lRXSgA"
+      },
+      {
+        "id": 16445,
+        "video_id": "bvU5Lu0pOLk"
+      },
+      {
+        "id": 4821,
+        "video_id": "rP85tPPY49U"
+      },
+      {
+        "id": 6109,
+        "video_id": "Yi7sjzGZn1g"
+      },
+      {
+        "id": 16444,
+        "video_id": "mSdYeYx-p3I"
+      },
+      {
+        "id": 13833,
+        "video_id": "ljezqAjwMG8"
+      },
+      {
+        "id": 17078,
+        "video_id": "oYoqVrLtK88"
+      },
+      {
+        "id": 2665,
+        "video_id": "92RtWrkjZP0"
+      },
+      {
+        "id": 6108,
+        "video_id": "_4I_hWAHLS4"
+      },
+      {
+        "id": 14209,
+        "video_id": "ExPp4eL4bFs"
+      },
+      {
+        "id": 4368,
+        "video_id": "WFQvAmGC-ts"
+      },
+      {
+        "id": 141556,
+        "video_id": "7aNxv15050Y"
+      }
+    ]
+  },
+  {
+    "id": 9364,
+    "cover": {
+      "id": 22788,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/tqpjokht5j2o63osmd95.jpg"
+    },
+    "first_release_date": 1410825600,
+    "name": "World Truck Racing",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ]
+  },
+  {
+    "id": 9608,
+    "aggregated_rating": 80.0,
+    "cover": {
+      "id": 480496,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/coaar4.jpg"
+    },
+    "first_release_date": 1585526400,
+    "name": "Mount \u0026 Blade II: Bannerlord",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      }
+    ],
+    "videos": [
+      {
+        "id": 3785,
+        "video_id": "XLB9PlqkONo"
+      },
+      {
+        "id": 9405,
+        "video_id": "pv2qb66PbUg"
+      },
+      {
+        "id": 15606,
+        "video_id": "CHEARGN7uZ4"
+      },
+      {
+        "id": 14518,
+        "video_id": "LmX5DFgRBXk"
+      },
+      {
+        "id": 15605,
+        "video_id": "oIMXTRwFA60"
+      },
+      {
+        "id": 120736,
+        "video_id": "M_PSRDwORDQ"
+      }
+    ]
+  },
+  {
+    "id": 9789,
+    "aggregated_rating": 74.5,
+    "cover": {
+      "id": 480475,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/coaaqj.jpg"
+    },
+    "first_release_date": 1539734400,
+    "name": "RimWorld",
+    "platforms": [
+      {
+        "id": 3,
+        "abbreviation": "Linux"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      }
+    ],
+    "videos": [
+      {
+        "id": 4873,
+        "video_id": "f5JjfGMZ1rQ"
+      },
+      {
+        "id": 22839,
+        "video_id": "3tDrxOASUog"
+      }
+    ]
+  },
+  {
+    "id": 11118,
+    "aggregated_rating": 85.85,
+    "cover": {
+      "id": 438129,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co9e29.jpg"
+    },
+    "first_release_date": 1478822400,
+    "name": "Dishonored 2",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      }
+    ],
+    "videos": [
+      {
+        "id": 9562,
+        "video_id": "54BXBd2bTDE"
+      },
+      {
+        "id": 8640,
+        "video_id": "Hlc6sE5jJHQ"
+      },
+      {
+        "id": 150607,
+        "video_id": "7bLNC8VDTlQ"
+      },
+      {
+        "id": 150601,
+        "video_id": "UnsDyv-TtJg"
+      },
+      {
+        "id": 150602,
+        "video_id": "KrBJom2VZis"
+      },
+      {
+        "id": 150603,
+        "video_id": "sDF8O6zymeY"
+      },
+      {
+        "id": 150604,
+        "video_id": "Q5l-Bh65KHE"
+      },
+      {
+        "id": 150605,
+        "video_id": "0URZ5J4C-x0"
+      },
+      {
+        "id": 150606,
+        "video_id": "mdJL0qTXPJU"
+      }
+    ]
+  },
+  {
+    "id": 11245,
+    "cover": {
+      "id": 316396,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6s4s.jpg"
+    },
+    "first_release_date": 57801600,
+    "name": "Computer Space",
+    "platforms": [
+      {
+        "id": 52,
+        "abbreviation": "Arcade"
+      }
+    ],
+    "videos": [
+      {
+        "id": 13578,
+        "video_id": "j-KRmLy_Ig8"
+      }
+    ]
+  },
+  {
+    "id": 13715,
+    "cover": {
+      "id": 17646,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/m7xgyxy0afmy1wrtfxk5.jpg"
+    },
+    "first_release_date": 441676800,
+    "name": "Fortress",
+    "platforms": [
+      {
+        "id": 65,
+        "abbreviation": "Atari8bit"
+      },
+      {
+        "id": 149
+      },
+      {
+        "id": 125
+      },
+      {
+        "id": 15,
+        "abbreviation": "C64"
+      },
+      {
+        "id": 75,
+        "abbreviation": "Apple]["
+      }
+    ],
+    "videos": [
+      {
+        "id": 110588,
+        "video_id": "k76bJi95O4g"
+      }
+    ]
+  },
+  {
+    "id": 14160,
+    "cover": {
+      "id": 297380,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6dgk.jpg"
+    },
+    "first_release_date": 897523200,
+    "name": "Hellnight",
+    "platforms": [
+      {
+        "id": 7,
+        "abbreviation": "PS1"
+      }
+    ],
+    "videos": [
+      {
+        "id": 87900,
+        "video_id": "CheV_hI2-xE"
+      }
+    ]
+  },
+  {
+    "id": 19457,
+    "aggregated_rating": 81.6842105263158,
+    "cover": {
+      "id": 87288,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1vco.jpg"
+    },
+    "first_release_date": 1477526400,
+    "name": "The Elder Scrolls V: Skyrim - Special Edition",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch"
+      }
+    ],
+    "videos": [
+      {
+        "id": 17850,
+        "video_id": "NAN8FEGtaic"
+      },
+      {
+        "id": 17849,
+        "video_id": "EAJGxAQGDWI"
+      }
+    ]
+  },
+  {
+    "id": 25905,
+    "cover": {
+      "id": 82692,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
+    },
+    "first_release_date": 1479081600,
+    "name": "Winds of Revenge",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ]
+  },
+  {
+    "id": 26845,
+    "aggregated_rating": 92.77777777777777,
+    "cover": {
+      "id": 76781,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1n8t.jpg"
+    },
+    "first_release_date": 1564099200,
+    "name": "Fire Emblem: Three Houses",
+    "platforms": [
+      {
+        "id": 130,
+        "abbreviation": "Switch"
+      }
+    ],
+    "videos": [
+      {
+        "id": 20659,
+        "video_id": "rkux5h0PeXo"
+      },
+      {
+        "id": 28487,
+        "video_id": "vGgka2FOjpA"
+      },
+      {
+        "id": 24912,
+        "video_id": "8OwUB8gf5Ac"
+      },
+      {
+        "id": 119175,
+        "video_id": "ADaRsEhTB70"
+      }
+    ]
+  },
+  {
+    "id": 27508,
+    "aggregated_rating": 65.0,
+    "cover": {
+      "id": 99287,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co24lz.jpg"
+    },
+    "first_release_date": 1489622400,
+    "name": "Turok 2: Seeds of Evil",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 3,
+        "abbreviation": "Linux"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch"
+      }
+    ],
+    "videos": [
+      {
+        "id": 12448,
+        "video_id": "gUOrDli_HXs"
+      },
+      {
+        "id": 121330,
+        "video_id": "UdaxHX3eHjE"
+      },
+      {
+        "id": 166836,
+        "video_id": "I-DS15_dg8o"
+      }
+    ]
+  },
+  {
+    "id": 36829,
+    "cover": {
+      "id": 106085,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co29ut.jpg"
+    },
+    "first_release_date": 1498089600,
+    "name": "Avatar of the Wolf",
+    "platforms": [
+      {
+        "id": 3,
+        "abbreviation": "Linux"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      }
+    ]
+  },
+  {
+    "id": 80948,
+    "cover": {
+      "id": 58767,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/zvbk3wlkxhffba7qd30e.jpg"
+    },
+    "first_release_date": 1515110400,
+    "name": "Cosmic Buddies Town",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ]
+  },
+  {
+    "id": 110554,
+    "cover": {
+      "id": 120803,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2l7n.jpg"
+    },
+    "first_release_date": 1539216000,
+    "name": "I love the money",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      }
+    ]
+  },
+  {
+    "id": 111098,
+    "first_release_date": 1541376000,
+    "name": "Backyard Brawl",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ]
+  },
+  {
+    "id": 111296,
+    "cover": {
+      "id": 224490,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4t7u.jpg"
+    },
+    "first_release_date": 1539648000,
+    "name": "For Honor: Marching Fire Edition",
+    "platforms": [
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      }
+    ],
+    "videos": [
+      {
+        "id": 68859,
+        "video_id": "ANXugnEyVYI"
+      }
+    ]
+  },
+  {
+    "id": 119171,
+    "aggregated_rating": 94.5,
+    "cover": {
+      "id": 289025,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co670h.jpg"
+    },
+    "first_release_date": 1691020800,
+    "name": "Baldur\u0027s Gate III",
+    "platforms": [
+      {
+        "id": 170,
+        "abbreviation": "Stadia"
+      },
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 14,
+        "abbreviation": "Mac"
+      }
+    ],
+    "videos": [
+      {
+        "id": 34304,
+        "video_id": "jNY7AEQ59-8"
+      },
+      {
+        "id": 37259,
+        "video_id": "o5xpbAsly48"
+      },
+      {
+        "id": 80611,
+        "video_id": "tavPnYeFrV4"
+      },
+      {
+        "id": 91735,
+        "video_id": "zTX79cgruXE"
+      },
+      {
+        "id": 91736,
+        "video_id": "t0uYhTLPGLQ"
+      },
+      {
+        "id": 95037,
+        "video_id": "XuCfkgaaa08"
+      },
+      {
+        "id": 153814,
+        "video_id": "OcP0WdH7rTs"
+      },
+      {
+        "id": 153815,
+        "video_id": "Ks-KF9iueE0"
+      }
+    ]
+  },
+  {
+    "id": 132196,
+    "cover": {
+      "id": 97864,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co23ig.jpg"
+    },
+    "first_release_date": 1587340800,
+    "name": "The Narrator is a Dick: Longer, Harder, and Uncut",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ]
+  },
+  {
+    "id": 133341,
+    "aggregated_rating": 80.0,
+    "cover": {
+      "id": 338913,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co79i9.jpg"
+    },
+    "first_release_date": 1724889600,
+    "name": "Gori: Cuddly Carnage",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch"
+      }
+    ],
+    "videos": [
+      {
+        "id": 69612,
+        "video_id": "vTbRSBUQKs4"
+      },
+      {
+        "id": 37303,
+        "video_id": "QFJ4Iz6EeBU"
+      },
+      {
+        "id": 69440,
+        "video_id": "msUuqs9A6Bo"
+      },
+      {
+        "id": 75072,
+        "video_id": "6roRGMTjkko"
+      },
+      {
+        "id": 91211,
+        "video_id": "V4xJO18xzk4"
+      },
+      {
+        "id": 100123,
+        "video_id": "z1tX6QTdTL4"
+      },
+      {
+        "id": 94782,
+        "video_id": "YIH8LuzOLTM"
+      },
+      {
+        "id": 97414,
+        "video_id": "wb-GZdoUY6c"
+      },
+      {
+        "id": 112238,
+        "video_id": "XcO--iRzx0o"
+      },
+      {
+        "id": 130728,
+        "video_id": "4n8ugJVFYkA"
+      },
+      {
+        "id": 124705,
+        "video_id": "UQ9intjn61k"
+      }
+    ]
+  },
+  {
+    "id": 136393,
+    "cover": {
+      "id": 111895,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ec7.jpg"
+    },
+    "name": "Commando Jack Respawn",
+    "platforms": [
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      }
+    ],
+    "videos": [
+      {
+        "id": 38929,
+        "video_id": "OhB6I-b5Fpg"
+      }
+    ]
+  },
+  {
+    "id": 137920,
+    "name": "Blupimania"
+  },
+  {
+    "id": 165182,
+    "cover": {
+      "id": 168418,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3lya.jpg"
+    },
+    "first_release_date": 1635724800,
+    "name": "Illvelo Swamp",
+    "platforms": [
+      {
+        "id": 130,
+        "abbreviation": "Switch"
+      }
+    ]
+  },
+  {
+    "id": 165192,
+    "aggregated_rating": 100.0,
+    "cover": {
+      "id": 479294,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/coa9tq.jpg"
+    },
+    "first_release_date": 1636588800,
+    "name": "The Elder Scrolls V: Skyrim - Anniversary Edition",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 508,
+        "abbreviation": "Switch 2"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      },
+      {
+        "id": 130,
+        "abbreviation": "Switch"
+      }
+    ],
+    "videos": [
+      {
+        "id": 60232,
+        "video_id": "t-_56Ouy8II"
+      },
+      {
+        "id": 60233,
+        "video_id": "0kQjFqkeOTQ"
+      }
+    ]
+  },
+  {
+    "id": 216319,
+    "cover": {
+      "id": 326043,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co6zkr.jpg"
+    },
+    "name": "Assassin\u0027s Creed Jade",
+    "platforms": [
+      {
+        "id": 34,
+        "abbreviation": "Android"
+      },
+      {
+        "id": 39,
+        "abbreviation": "iOS"
+      }
+    ],
+    "videos": [
+      {
+        "id": 91934,
+        "video_id": "pfJw0zBEyjE"
+      },
+      {
+        "id": 96275,
+        "video_id": "snqIRxeukm0"
+      },
+      {
+        "id": 96303,
+        "video_id": "l-i5lCjTAD0"
+      }
+    ]
+  },
+  {
+    "id": 216321,
+    "cover": {
+      "id": 388129,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co8bhd.jpg"
+    },
+    "name": "Assassin\u0027s Creed: Codename Hexe",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      }
+    ],
+    "videos": [
+      {
+        "id": 74495,
+        "video_id": "wbMh3PFPCDM"
+      }
+    ]
+  },
+  {
+    "id": 217590,
+    "aggregated_rating": 88.16666666666667,
+    "cover": {
+      "id": 354215,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co7lbb.jpg"
+    },
+    "first_release_date": 1706227200,
+    "name": "Tekken 8",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      }
+    ],
+    "videos": [
+      {
+        "id": 74933,
+        "video_id": "07FdDRbdurg"
+      },
+      {
+        "id": 74934,
+        "video_id": "2hPuRQz6IlM"
+      },
+      {
+        "id": 80613,
+        "video_id": "jGQBmSsunT4"
+      },
+      {
+        "id": 96191,
+        "video_id": "457g-rjA_cY"
+      }
+    ]
+  },
+  {
+    "id": 217597,
+    "aggregated_rating": 79.83333333333333,
+    "cover": {
+      "id": 246185,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co59yh.jpg"
+    },
+    "first_release_date": 1676937600,
+    "name": "Like a Dragon: Ishin!",
+    "platforms": [
+      {
+        "id": 169,
+        "abbreviation": "Series X|S"
+      },
+      {
+        "id": 48,
+        "abbreviation": "PS4"
+      },
+      {
+        "id": 6,
+        "abbreviation": "PC"
+      },
+      {
+        "id": 167,
+        "abbreviation": "PS5"
+      },
+      {
+        "id": 49,
+        "abbreviation": "XONE"
+      }
+    ],
+    "videos": [
+      {
+        "id": 74677,
+        "video_id": "jE8eEa6eY-s"
+      },
+      {
+        "id": 74710,
+        "video_id": "4wVSyxsUQHU"
+      },
+      {
+        "id": 74863,
+        "video_id": "uLUabduLOqg"
+      },
+      {
+        "id": 80401,
+        "video_id": "Ut1WgOZNVw8"
+      },
+      {
+        "id": 134604,
+        "video_id": "kyIbxAUH9VU"
+      }
+    ]
+  }
+]
