@@ -13,11 +13,29 @@
             <label>Plataforma</label>
             <select class="filter-select" id="platformFilter">
                 <option value="">Todas</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Nintendo">Nintendo</option>
+                <option value="PC">PC</option>
+                <option value="PlayStation">PlayStation</option>
+                <option value="Xbox">Xbox</option>
+            </select>
+        </div>
+        
+        <div class="filter-group">
+            <label>Console</label>
+            <select class="filter-select" id="consoleFilter">
+                <option value="">Todos</option>
                 <?php 
-                $platforms = ['Android', 'Browser', 'iOS', 'MAC', 'Mobile', 'NDS', 'PC', 'PS3', 'PS4', 'PS5', 'PSP', 'Switch', 'Stadia', 'X360', 'XONE', 'Series X|S', 'Vita', 'WiiU', 'Win Phone'];
-                foreach ($platforms as $p): 
+                $consoles = [
+                    'PS3', 'PS4', 'PS5', 'PSP', 'Vita',
+                    'X360', 'XONE', 'Series X|S',
+                    'Switch', 'WiiU', 'NDS', '3DS',
+                    'PC', 'MAC', 'Stadia',
+                    'iOS', 'Android', 'Win Phone'
+                ];
+                foreach ($consoles as $c): 
                 ?>
-                <option value="<?= $p ?>"><?= $p ?></option>
+                <option value="<?= $c ?>"><?= $c ?></option>
                 <?php endforeach; ?>
             </select>
         </div>
@@ -93,14 +111,25 @@
 </div>
 
 <script>
-    // Simple filter logic for view
+    // Filter logic with Platform (brand) and Console (generation)
     const searchInput = document.getElementById('searchInput');
     const platformFilter = document.getElementById('platformFilter');
+    const consoleFilter = document.getElementById('consoleFilter');
     const sections = document.querySelectorAll('.category-section');
+    
+    // Mapping of platform brands to their console abbreviations
+    const platformMapping = {
+        'Mobile': ['iOS', 'Android', 'Win Phone'],
+        'Nintendo': ['Switch', 'WiiU', 'NDS', '3DS'],
+        'PC': ['PC', 'MAC', 'Stadia'],
+        'PlayStation': ['PS3', 'PS4', 'PS5', 'PSP', 'Vita'],
+        'Xbox': ['X360', 'XONE', 'Series X|S', 'XSX']
+    };
     
     function filterGames() {
         const query = searchInput.value.toLowerCase();
         const platform = platformFilter.value;
+        const console = consoleFilter.value;
         
         sections.forEach(section => {
             const cards = section.querySelectorAll('.card');
@@ -111,9 +140,18 @@
                 const cardPlatforms = card.dataset.platforms;
                 
                 const matchesSearch = name.includes(query);
-                const matchesPlatform = platform === '' || cardPlatforms.includes(platform);
                 
-                if (matchesSearch && matchesPlatform) {
+                // Platform (brand) filter
+                let matchesPlatform = true;
+                if (platform !== '') {
+                    const brandConsoles = platformMapping[platform] || [];
+                    matchesPlatform = brandConsoles.some(c => cardPlatforms.includes(c));
+                }
+                
+                // Console (specific) filter
+                const matchesConsole = console === '' || cardPlatforms.includes(console);
+                
+                if (matchesSearch && matchesPlatform && matchesConsole) {
                     card.style.display = '';
                     hasVisibleCards = true;
                 } else {
@@ -127,4 +165,5 @@
     
     searchInput.addEventListener('input', filterGames);
     platformFilter.addEventListener('change', filterGames);
+    consoleFilter.addEventListener('change', filterGames);
 </script>
