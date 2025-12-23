@@ -12,12 +12,22 @@
         'spinoffs' => [
             'titulo' => 'Spin-offs',
             'desc' => 'Jogos derivados e expansões do universo AC',
-            'ids' => [68526, 21349, 68527, 10661, 18865, 68528, 68529, 64737, 77209, 77265, 3195, 68530, 20077, 3775, 64759, 8223, 14902, 14903, 17028, 251353, 41030, 251568, 135506, 133962, 152231, 26917, 64765]
+            'ids' => [68526, 21349, 68527, 10661, 18865, 68528, 68529, 77209, 77265, 3195, 68530, 20077, 3775, 64759, 8223, 14902, 14903, 251353, 41030, 251568, 135506, 133962, 152231, 26917, 64765]
         ],
         'remastered' => [
             'titulo' => 'Remastered',
             'desc' => 'Versões remasterizadas dos clássicos',
-            'ids' => [20864, 81205, 109532]
+            'ids' => [20864, 81205, 109532, 109533]
+        ],
+        'colecoes' => [
+            'titulo' => 'Coletâneas e Relançamentos',
+            'desc' => 'Compilações da saga',
+            'ids' => [22754, 43015, 22815, 23954, 122236]
+        ],
+        'cancelados' => [
+            'titulo' => 'Cancelados e descontinuados',
+            'desc' => 'Jogos cancelados e descontinuados',
+            'ids' => [64737, 61278, 17028]
         ],
         'embreve' => [
             'titulo' => 'Em Breve',
@@ -177,6 +187,8 @@
                 <li><a href="#principal" class="item">Série Principal</a></li>
                 <li><a href="#spinoffs" class="item">Spin-offs</a></li>
                 <li><a href="#remastered" class="item">Remastered</a></li>
+                <li><a href="#colecoes" class="item">Coletâneas e Relançamentos</a></li>
+                <li><a href="#cancelados" class="item">Cancelados e Descontinuados</a></li>
                 <li><a href="#embreve" class="item">Em Breve</a></li>
             </ul>
         </nav>

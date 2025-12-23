@@ -31,7 +31,7 @@ curl_setopt_array($curl, [
         aggregated_rating, aggregated_rating_count,
         rating, rating_count,
         similar_games.name, similar_games.cover.url,
-        websites.url, websites.category,
+        websites.url, websites.type,
         age_ratings.rating, age_ratings.category;
         where id = $gameId;"
 ]);
@@ -41,26 +41,53 @@ curl_close($curl);
 $gameDetails = json_decode($response, true);
 $game = (is_array($gameDetails) && !empty($gameDetails)) ? $gameDetails[0] : null;
 
-// Categorias de websites
+// Categorias de websites IGDB com Bootstrap Icons
+// Documentação: https://api-docs.igdb.com/#website-enums
 $websiteCategories = [
-    1 => ['name' => 'Oficial', 'icon' => '🌐'],
-    2 => ['name' => 'Wikia', 'icon' => '📖'],
-    3 => ['name' => 'Wikipedia', 'icon' => '📚'],
-    4 => ['name' => 'Facebook', 'icon' => '👤'],
-    5 => ['name' => 'Twitter', 'icon' => '🐦'],
-    6 => ['name' => 'Twitch', 'icon' => '🎮'],
-    8 => ['name' => 'Instagram', 'icon' => '📷'],
-    9 => ['name' => 'YouTube', 'icon' => '▶️'],
-    10 => ['name' => 'iPhone', 'icon' => '📱'],
-    11 => ['name' => 'iPad', 'icon' => '📱'],
-    12 => ['name' => 'Android', 'icon' => '🤖'],
-    13 => ['name' => 'Steam', 'icon' => '🎮'],
-    14 => ['name' => 'Reddit', 'icon' => '🔴'],
-    15 => ['name' => 'Itch', 'icon' => '🎮'],
-    16 => ['name' => 'Epic Games', 'icon' => '🎮'],
-    17 => ['name' => 'GOG', 'icon' => '🎮'],
-    18 => ['name' => 'Discord', 'icon' => '💬'],
+    1 => ['name' => 'Oficial', 'icon' => 'bi-globe2'],
+    2 => ['name' => 'Wikia', 'icon' => 'bi-book'],
+    3 => ['name' => 'Wikipedia', 'icon' => 'bi-wikipedia'],
+    4 => ['name' => 'Facebook', 'icon' => 'bi-facebook'],
+    5 => ['name' => 'Twitter', 'icon' => 'bi-twitter-x'],
+    6 => ['name' => 'Twitch', 'icon' => 'bi-twitch'],
+    8 => ['name' => 'Instagram', 'icon' => 'bi-instagram'],
+    9 => ['name' => 'YouTube', 'icon' => 'bi-youtube'],
+    10 => ['name' => 'App Store', 'icon' => 'bi-apple'],
+    11 => ['name' => 'iPad', 'icon' => 'bi-tablet'],
+    12 => ['name' => 'Android', 'icon' => 'bi-google-play'],
+    13 => ['name' => 'Steam', 'icon' => 'bi-steam'],
+    14 => ['name' => 'Reddit', 'icon' => 'bi-reddit'],
+    15 => ['name' => 'Itch.io', 'icon' => 'bi-controller'],
+    16 => ['name' => 'Epic Games', 'icon' => 'bi-controller'],
+    17 => ['name' => 'GOG', 'icon' => 'bi-controller'],
+    18 => ['name' => 'Discord', 'icon' => 'bi-discord'],
+    // Fallback para IDs desconhecidos
+    0 => ['name' => 'Link', 'icon' => 'bi-link-45deg'],
 ];
+
+// Função para detectar plataforma pela URL quando o type não é específico
+function detectPlatformFromUrl($url) {
+    $url = strtolower($url);
+    if (strpos($url, 'xbox.com') !== false || strpos($url, 'microsoft.com') !== false) {
+        return ['name' => 'Xbox', 'icon' => 'bi-xbox'];
+    }
+    if (strpos($url, 'playstation.com') !== false || strpos($url, 'store.playstation') !== false) {
+        return ['name' => 'PlayStation', 'icon' => 'bi-playstation'];
+    }
+    if (strpos($url, 'nintendo.com') !== false || strpos($url, 'nintendo.co') !== false) {
+        return ['name' => 'Nintendo', 'icon' => 'bi-nintendo-switch'];
+    }
+    if (strpos($url, 'gog.com') !== false) {
+        return ['name' => 'GOG', 'icon' => 'bi-controller'];
+    }
+    if (strpos($url, 'epicgames.com') !== false) {
+        return ['name' => 'Epic Games', 'icon' => 'bi-controller'];
+    }
+    if (strpos($url, 'ubisoft.com') !== false) {
+        return ['name' => 'Ubisoft', 'icon' => 'bi-controller'];
+    }
+    return null;
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -69,6 +96,7 @@ $websiteCategories = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $game ? htmlspecialchars($game['name']) : 'Detalhes' ?> - AC Database</title>
     <link rel="icon" href="./IMG/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <style>
         .rating-box {
@@ -390,11 +418,21 @@ $websiteCategories = [
                         <h3>Links</h3>
                         <div class="links-container">
                             <?php foreach ($game['websites'] as $website): 
-                                $catId = $website['category'] ?? 0;
-                                $cat = $websiteCategories[$catId] ?? ['name' => 'Link', 'icon' => '🔗'];
+                                $catId = (int)($website['type'] ?? 0);
+                                $cat = $websiteCategories[$catId] ?? null;
+                                
+                                // Se não encontrou ou é genérico, tenta detectar pela URL
+                                if (!$cat || $catId === 0) {
+                                    $urlDetected = detectPlatformFromUrl($website['url'] ?? '');
+                                    if ($urlDetected) {
+                                        $cat = $urlDetected;
+                                    } else {
+                                        $cat = ['name' => 'Link', 'icon' => 'bi-link-45deg'];
+                                    }
+                                }
                             ?>
                             <a href="<?= htmlspecialchars($website['url']) ?>" class="link-btn" target="_blank" rel="noopener">
-                                <?= $cat['icon'] ?> <?= $cat['name'] ?>
+                                <i class="bi <?= $cat['icon'] ?>"></i> <?= $cat['name'] ?>
                             </a>
                             <?php endforeach; ?>
                         </div>
