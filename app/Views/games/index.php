@@ -11,14 +11,21 @@
     <div class="filters-row">
         <div class="filter-group">
             <label>Plataforma</label>
-            <select class="filter-select" id="platformFilter">
-                <option value="">Todas</option>
-                <option value="Mobile">Mobile</option>
-                <option value="Nintendo">Nintendo</option>
-                <option value="PC">PC</option>
-                <option value="PlayStation">PlayStation</option>
-                <option value="Xbox">Xbox</option>
-            </select>
+            <div class="custom-select-wrapper" id="platformDropdown">
+                <div class="custom-select-trigger">
+                    <span><i class="bi bi-grid-fill"></i> Todas</span>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="custom-options">
+                    <div class="custom-option selected" data-value=""><i class="bi bi-grid-fill"></i> Todas</div>
+                    <div class="custom-option" data-value="Mobile"><i class="bi bi-phone-fill"></i> Mobile</div>
+                    <div class="custom-option" data-value="Nintendo"><i class="bi bi-nintendo-switch"></i> Nintendo</div>
+                    <div class="custom-option" data-value="PC"><i class="bi bi-pc-display"></i> PC</div>
+                    <div class="custom-option" data-value="PlayStation"><i class="bi bi-playstation"></i> PlayStation</div>
+                    <div class="custom-option" data-value="Xbox"><i class="bi bi-xbox"></i> Xbox</div>
+                </div>
+                <input type="hidden" id="platformFilter" value="">
+            </div>
         </div>
         
         <div class="filter-group">
@@ -164,6 +171,42 @@
     }
     
     searchInput.addEventListener('input', filterGames);
-    platformFilter.addEventListener('change', filterGames);
     consoleFilter.addEventListener('change', filterGames);
+    
+    // Custom dropdown logic
+    const platformDropdown = document.getElementById('platformDropdown');
+    const trigger = platformDropdown.querySelector('.custom-select-trigger');
+    const options = platformDropdown.querySelectorAll('.custom-option');
+    const triggerText = trigger.querySelector('span');
+    
+    trigger.addEventListener('click', () => {
+        platformDropdown.classList.toggle('open');
+    });
+    
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            // Update selected
+            options.forEach(o => o.classList.remove('selected'));
+            option.classList.add('selected');
+            
+            // Update trigger display
+            triggerText.innerHTML = option.innerHTML;
+            
+            // Update hidden input
+            platformFilter.value = option.dataset.value;
+            
+            // Close dropdown
+            platformDropdown.classList.remove('open');
+            
+            // Trigger filter
+            filterGames();
+        });
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!platformDropdown.contains(e.target)) {
+            platformDropdown.classList.remove('open');
+        }
+    });
 </script>
