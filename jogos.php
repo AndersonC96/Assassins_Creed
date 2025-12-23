@@ -14,7 +14,7 @@
             "Accept: application/json"
         ],
         CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => "fields name, cover.url, summary, storyline, first_release_date; where id = ($specificGameIds) & collections = ($collections); sort first_release_date asc; limit 100;"
+        CURLOPT_POSTFIELDS => "fields name, cover.url, summary, first_release_date; where id = ($specificGameIds) & collections = ($collections); sort first_release_date asc; limit 100;"
     ]);
     $response = curl_exec($curl);
     $err = curl_error($curl);
@@ -26,77 +26,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos - Assassin's Creed Portal</title>
-    <meta name="description" content="Lista completa de todos os jogos da franquia Assassin's Creed, de 2007 até hoje.">
+    <title>Jogos - Assassin's Creed Database</title>
+    <meta name="description" content="Lista completa de todos os jogos da franquia Assassin's Creed.">
     <link rel="icon" href="./IMG/favicon.png" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <a href="index.php" class="navbar-brand">
-                <img src="./IMG/favicon.png" alt="AC Logo" class="navbar-logo">
-                <span class="navbar-title">Animus</span>
-            </a>
-            <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="navbar-menu" id="navMenu">
-                <li><a href="index.php" class="nav-link">Home</a></li>
-                <li><a href="jogos.php" class="nav-link active">Jogos</a></li>
-                <li><a href="personagens.php" class="nav-link">Personagens</a></li>
-                <li><a href="timeline.php" class="nav-link">Timeline</a></li>
+    <div class="container clearfix">
+        <!-- Menu Lateral -->
+        <nav id="menu">
+            <div class="title">Database</div>
+            <ul class="items">
+                <li><a href="index.php" class="item">Home</a></li>
+                <li><a href="jogos.php" class="item active">Jogos</a></li>
+                <li><a href="personagens.php" class="item">Personagens</a></li>
+                <li><a href="timeline.php" class="item">Timeline</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Header -->
-    <header class="header">
-        <h1>Jogos da Saga</h1>
-        <p>Explore todos os títulos da franquia Assassin's Creed através de diferentes épocas e histórias.</p>
-    </header>
+        <!-- Conteúdo Principal -->
+        <main id="content">
+            <div class="title">Jogos da Saga</div>
+            
+            <div class="description">
+                <p>Explore todos os títulos da franquia <em>Assassin's Creed</em> através de diferentes épocas e histórias.</p>
+                <p><strong>Passe o mouse</strong> sobre um jogo para ver o efeito de seleção.</p>
+            </div>
 
-    <!-- Games Grid -->
-    <div class="game-list">
-        <?php if (is_array($games) && !empty($games) && !isset($games['message'])): ?>
-            <?php foreach ($games as $index => $game): ?>
-            <div class="game-card animate-fadeInUp" style="animation-delay: <?= $index * 0.05 ?>s;">
-                <img 
-                    src="<?= isset($game['cover']['url']) ? 'https:' . str_replace('t_thumb', 't_cover_big', $game['cover']['url']) : './IMG/default_cover.png'; ?>" 
-                    alt="<?= htmlspecialchars($game['name'] ?? 'Game Cover') ?>"
-                    loading="lazy"
-                >
-                <div class="game-card-content">
-                    <h3><?= htmlspecialchars($game['name'] ?? 'Nome não disponível') ?></h3>
-                    <?php if (isset($game['first_release_date'])): ?>
-                        <p style="color: var(--animus-accent); font-size: 0.8rem; margin-bottom: 0.5rem;">
-                            📅 <?= date('Y', $game['first_release_date']) ?>
-                        </p>
-                    <?php endif; ?>
-                    <p><?= isset($game['summary']) ? htmlspecialchars(mb_strimwidth($game['summary'], 0, 150, '...')) : 'Nenhum resumo disponível'; ?></p>
-                    <a href="game_details.php?game_id=<?= $game['id']; ?>" class="exibir-mais-btn">Ver Detalhes</a>
-                </div>
+            <!-- Games Grid -->
+            <div class="cards-grid">
+                <?php if (is_array($games) && !empty($games) && !isset($games['message'])): ?>
+                    <?php foreach ($games as $game): ?>
+                    <div class="card">
+                        <img 
+                            src="<?= isset($game['cover']['url']) ? 'https:' . str_replace('t_thumb', 't_cover_big', $game['cover']['url']) : './IMG/default_cover.png'; ?>" 
+                            alt="<?= htmlspecialchars($game['name'] ?? 'Game Cover') ?>"
+                            loading="lazy"
+                        >
+                        <div class="card-content">
+                            <div class="card-title"><?= htmlspecialchars($game['name'] ?? 'Nome não disponível') ?></div>
+                            <?php if (isset($game['first_release_date'])): ?>
+                                <div class="card-year"><?= date('Y', $game['first_release_date']) ?></div>
+                            <?php endif; ?>
+                            <div class="card-desc"><?= isset($game['summary']) ? htmlspecialchars(mb_strimwidth($game['summary'], 0, 120, '...')) : 'Nenhum resumo disponível'; ?></div>
+                            <a href="game_details.php?game_id=<?= $game['id']; ?>" class="card-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <div class="description" style="grid-column: 1 / -1;">
+                        <p><strong>Erro ao carregar jogos.</strong></p>
+                        <p>O token de acesso pode ter expirado. <a href="get_token.php">Clique aqui</a> para gerar um novo.</p>
+                    </div>
+                <?php endif; ?>
             </div>
-            <?php endforeach; ?>
-        <?php else: ?>
-            <div class="error-card" style="grid-column: 1 / -1; max-width: 600px; margin: 0 auto;">
-                <h3>⚠️ Erro ao carregar jogos</h3>
-                <p>Não foi possível carregar os jogos da API IGDB. O token de acesso pode ter expirado.</p>
-                <p style="margin-top: 1rem;">
-                    <a href="get_token.php" class="btn btn-primary">Gerar Novo Token</a>
-                </p>
-            </div>
-        <?php endif; ?>
+        </main>
     </div>
-
-    <script>
-        function toggleMenu() {
-            document.getElementById('navMenu').classList.toggle('active');
-        }
-    </script>
 </body>
 </html>
