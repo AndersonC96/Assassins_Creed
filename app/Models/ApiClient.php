@@ -137,4 +137,61 @@ class ApiClient
         
         return $result[0] ?? null;
     }
+
+    /**
+     * Get characters by game IDs
+     * 
+     * Fetches all characters associated with the given game IDs.
+     * 
+     * @param array $gameIds Game IDs to fetch characters for
+     * @return array Characters data
+     */
+    public function getCharactersByGameIds(array $gameIds): array
+    {
+        if (empty($gameIds)) {
+            return [];
+        }
+        
+        $idsString = implode(',', $gameIds);
+        $fields = 'id, name, description, akas, country_name, gender, species, slug, url, games, mug_shot.url, mug_shot.image_id';
+        
+        // Characters endpoint uses 'games' field to filter by game
+        $body = "fields {$fields}; where games = ({$idsString}); limit 500;";
+        
+        return $this->query('characters', $body) ?? [];
+    }
+
+    /**
+     * Get single character by ID
+     * 
+     * @param int $id Character ID
+     * @return array|null Character data
+     */
+    public function getCharacterById(int $id): ?array
+    {
+        $fields = 'id, name, description, akas, country_name, gender, species, slug, url, games.id, games.name, mug_shot.url, mug_shot.image_id';
+        
+        $body = "fields {$fields}; where id = {$id};";
+        $result = $this->query('characters', $body);
+        
+        return $result[0] ?? null;
+    }
+
+    /**
+     * Search characters by name
+     * 
+     * @param string $name Character name to search
+     * @param int $limit Result limit
+     * @return array Characters matching the search
+     */
+    public function searchCharacters(string $name, int $limit = 50): array
+    {
+        $fields = 'id, name, description, akas, country_name, gender, games.id, games.name, mug_shot.url';
+        $escapedName = addslashes($name);
+        
+        $body = "search \"{$escapedName}\"; fields {$fields}; limit {$limit};";
+        
+        return $this->query('characters', $body) ?? [];
+    }
 }
+

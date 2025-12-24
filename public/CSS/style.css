@@ -858,6 +858,254 @@ video {
     line-height: 1.5;
 }
 
+/* ============ CHARACTERS PAGE STYLED ============ */
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5em;
+}
+
+.character-card-styled {
+    background: var(--item-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+.character-card-styled:hover {
+    background: var(--active-bg);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Avatar Section */
+.character-card-styled .char-avatar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.character-card-styled .char-avatar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.5;
+}
+
+.char-initials {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1em;
+    z-index: 1;
+}
+
+.char-type-badge {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 0.3em 0.8em;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+/* Avatar with Image (from API) */
+.char-avatar-image {
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+.char-avatar-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.character-card-styled:hover .char-avatar-image img {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.char-avatar-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+    pointer-events: none;
+}
+
+/* Content Section */
+.character-card-styled .char-content {
+    padding: 1.25em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-card-styled .char-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222;
+    margin: 0 0 0.75em 0;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
+}
+
+/* Meta Tags */
+.char-meta-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.meta-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.meta-tag i {
+    font-size: 0.75rem;
+}
+
+.meta-tag.era {
+    background: linear-gradient(135deg, rgba(139, 0, 0, 0.15), rgba(139, 0, 0, 0.25));
+    color: #8B0000;
+    border: 1px solid rgba(139, 0, 0, 0.3);
+}
+
+.meta-tag.location {
+    background: linear-gradient(135deg, rgba(26, 82, 118, 0.15), rgba(26, 82, 118, 0.25));
+    color: #1a5276;
+    border: 1px solid rgba(26, 82, 118, 0.3);
+}
+
+.meta-tag.game {
+    background: linear-gradient(135deg, rgba(30, 132, 73, 0.15), rgba(30, 132, 73, 0.25));
+    color: #1e8449;
+    border: 1px solid rgba(30, 132, 73, 0.3);
+}
+
+/* Description */
+.char-description {
+    font-size: 0.85rem;
+    color: #444;
+    line-height: 1.6;
+    margin: 0 0 1em 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+}
+
+/* Aliases */
+.char-aliases {
+    font-size: 0.75rem;
+    color: #666;
+    padding: 0.75em;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin-bottom: 1em;
+    border-left: 3px solid var(--accent-red);
+}
+
+.char-aliases strong {
+    color: #444;
+}
+
+/* Actions */
+.character-card-styled .char-actions {
+    margin-top: auto;
+    padding-top: 0.75em;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.character-card-styled .favorite-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.6em 1.2em;
+    background: transparent;
+    border: 2px solid var(--accent-red);
+    color: var(--accent-red);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.character-card-styled .favorite-btn:hover {
+    background: var(--accent-red);
+    color: #fff;
+}
+
+.character-card-styled .favorite-btn.is-favorite {
+    background: var(--accent-red);
+    color: #fff;
+}
+
+/* Staggered animations */
+.character-card-styled:nth-child(1) { animation-delay: 0.05s; }
+.character-card-styled:nth-child(2) { animation-delay: 0.1s; }
+.character-card-styled:nth-child(3) { animation-delay: 0.15s; }
+.character-card-styled:nth-child(4) { animation-delay: 0.2s; }
+.character-card-styled:nth-child(5) { animation-delay: 0.25s; }
+.character-card-styled:nth-child(6) { animation-delay: 0.3s; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .characters-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .character-card-styled .char-avatar {
+        height: 100px;
+    }
+    
+    .char-initials {
+        font-size: 2.5rem;
+    }
+    
+    .char-meta-tags {
+        flex-direction: column;
+    }
+}
+
 /* ============ RESPONSIVO ============ */
 @media (max-width: 900px) {
     .container {
