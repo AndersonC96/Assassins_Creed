@@ -182,12 +182,21 @@ $typeColors = [
                     </div>
                     <?php endif; ?>
                     
+                    <?php 
+                    // Build character URL using igdb_id if available, otherwise use name
+                    $charId = isset($char['igdb_id']) ? $char['igdb_id'] : urlencode($char['nome']);
+                    $charUrl = $this->config('app.url') . '/characters/' . $charId;
+                    ?>
+                    
                     <div class="char-actions">
+                        <a href="<?= $charUrl ?>" class="view-details-btn">
+                            <i class="bi bi-eye"></i> Ver Detalhes
+                        </a>
                         <button class="favorite-btn" 
                                 data-favorite-id="char_<?= isset($char['igdb_id']) ? $char['igdb_id'] : md5($char['nome']) ?>" 
                                 data-favorite-type="character" 
                                 data-favorite-name="<?= htmlspecialchars($char['nome']) ?>">
-                            <i class="bi bi-heart"></i> Favoritar
+                            <i class="bi bi-heart"></i>
                         </button>
                     </div>
                 </div>

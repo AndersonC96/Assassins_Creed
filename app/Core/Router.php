@@ -35,6 +35,7 @@ class Router
         
         // Characters
         $this->addRoute('characters', 'CharactersController', 'index');
+        $this->addRoute('characters/show', 'CharactersController', 'show');
         
         // Timeline
         $this->addRoute('timeline', 'TimelineController', 'index');
@@ -84,6 +85,15 @@ class Router
         } elseif (count($segments) >= 3 && $segments[0] === 'games' && $segments[1] === 'show' && is_numeric($segments[2])) {
             $_GET['id'] = (int) $segments[2];
             $path = 'games/show';
+        }
+        
+        // Check for character details route (characters/ID or characters/show/ID)
+        if (count($segments) >= 2 && $segments[0] === 'characters' && !empty($segments[1]) && $segments[1] !== 'show') {
+            $_GET['id'] = $segments[1];
+            $path = 'characters/show';
+        } elseif (count($segments) >= 3 && $segments[0] === 'characters' && $segments[1] === 'show' && !empty($segments[2])) {
+            $_GET['id'] = $segments[2];
+            $path = 'characters/show';
         }
         
         // Find matching route

@@ -215,14 +215,54 @@ class Character
     }
 
     /**
-     * Get character by ID (from API)
+     * Get character by ID or name
      * 
-     * @param int $id Character ID
+     * @param string|int $id Character ID or name
      * @return array|null Character data
      */
-    public function find(int $id): ?array
+    public function find(string|int $id): ?array
     {
-        return $this->api->getCharacterById($id);
+        // Try numeric ID first (from API)
+        if (is_numeric($id)) {
+            $apiChar = $this->api->getCharacterById((int)$id);
+            if ($apiChar) {
+                return [
+                    'id' => $apiChar['id'],
+                    'nome' => $apiChar['name'],
+                    'descricao' => $apiChar['description'] ?? '',
+                    'description' => $apiChar['description'] ?? '',
+                    'tipo' => $this->inferType($apiChar),
+                    'nacionalidade' => $apiChar['country_name'] ?? 'Desconhecida',
+                    'gender' => isset($apiChar['gender']) ? self::getGenderLabel($apiChar['gender']) : null,
+                    'image' => isset($apiChar['mug_shot']['url']) 
+                        ? 'https:' . str_replace('t_thumb', 't_720p', $apiChar['mug_shot']['url']) 
+                        : null,
+                    'image_thumb' => isset($apiChar['mug_shot']['url']) 
+                        ? 'https:' . str_replace('t_thumb', 't_cover_big', $apiChar['mug_shot']['url']) 
+                        : null,
+                ];
+            }
+        }
+        
+        // Search in local data by name or ID
+        $allByCategory = $this->getAllByCategory();
+        foreach ($allByCategory as $catKey => $category) {
+            foreach ($category['personagens'] as $person) {
+                // Match by name (URL-encoded or exact)
+                $personId = $person['igdb_id'] ?? urlencode($person['nome']);
+                if ($personId == $id || 
+                    urlencode($person['nome']) === $id || 
+                    strtolower($person['nome']) === strtolower(urldecode((string)$id))) {
+                    return array_merge($person, [
+                        'id' => $personId,
+                        'categoria' => $catKey,
+                        'descricao' => $person['desc'] ?? $person['descricao'] ?? '',
+                    ]);
+                }
+            }
+        }
+        
+        return null;
     }
 
     /**
