@@ -18,36 +18,40 @@
 ## 📸 Screenshots
 
 <div align="center">
-<table>
-<tr>
-<td width="50%">
 
 ### 🏠 Home - Animus Player
 Interface imersiva com player de vídeo estilo Animus e cards de navegação.
 
-</td>
-<td width="50%">
+![Home Page](public/IMG/screenshots/home.png)
+
+---
 
 ### 🎮 Jogos
 Catálogo completo com dados da IGDB API, filtros e categorização.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+![Games Page](public/IMG/screenshots/games.png)
+
+---
 
 ### 👤 Personagens
 Galeria de personagens com imagens da API e dados curados manualmente.
 
-</td>
-<td width="50%">
+![Characters Page](public/IMG/screenshots/characters.png)
 
-### 📚 Timeline
+---
+
+### � Timeline
 Cronologia histórica e ordem de lançamento interativa.
 
-</td>
-</tr>
-</table>
+![Timeline Page](public/IMG/screenshots/timeline.png)
+
+---
+
+### 📚 Livros & Mídia
+Romances, comics, filmes e artbooks da franquia.
+
+![Media Page](public/IMG/screenshots/media.png)
+
 </div>
 
 ---
